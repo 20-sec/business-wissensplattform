@@ -1,0 +1,14 @@
+{
+  "id": "eindeutiger-video-slug",
+  "title": "Titel aus dem Video",
+  "sourceUrl": null,
+  "channel": null,
+  "publishedAt": null,
+  "categories": [
+    "KI & Automation"
+  ],
+  "tags": [],
+  "topicIds": [],
+  "summary": "Hier die tatsächliche Zusammenfassung eintragen.",
+  "sourceAssessment": null
+}
