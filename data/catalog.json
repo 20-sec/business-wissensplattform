@@ -2140,6 +2140,16 @@
             }
           ]
         }
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Strategie"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Produktion"
+        }
       ]
     },
     {
@@ -2555,6 +2565,12 @@
               "conclusion": "Primärquellen nachgelesen, Rechenkontrolle vorgenommen. Markus bestätigt die sachliche Prüfung, korrigiert die persönliche Umsetzungsannahme. Fünfter Punkt entsprechend als Wissenstransfer formuliert."
             }
           ]
+        }
+      ],
+      "sections": [
+        {
+          "category": "Business-Ideen / Sidehustles",
+          "section": "Strategie"
         }
       ]
     },
@@ -3110,6 +3126,12 @@
               "conclusion": "Zusatzrecherche Mai/August/Juli: Pflege, Deutschland, Margen und Varianten aufgenommen. Selbstberichte nicht als unabhängige Bestätigung gezählt."
             }
           ]
+        }
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Strategie"
         }
       ]
     },
@@ -4066,6 +4088,12 @@
             }
           ]
         }
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Marketing"
+        }
       ]
     },
     {
@@ -4390,6 +4418,16 @@
               "conclusion": "Zehn deutsche Konzepte als ungeprüfte Ideen dokumentiert; keine Erfolgsempfehlung an Markus."
             }
           ]
+        }
+      ],
+      "sections": [
+        {
+          "category": "Business-Ideen / Sidehustles",
+          "section": "Strategie"
+        },
+        {
+          "category": "Business-Ideen / Sidehustles",
+          "section": "Konkrete Anleitungen"
         }
       ]
     },
@@ -4810,6 +4848,20 @@
               "conclusion": "Technik, Plattformregeln und Produktivitätshypothesen getrennt; fünf Punkte durch Markus bestätigt."
             }
           ]
+        }
+      ],
+      "sections": [
+        {
+          "category": "KI & Automation",
+          "section": "Marketing"
+        },
+        {
+          "category": "KI & Automation",
+          "section": "Tools und Werkzeuge"
+        },
+        {
+          "category": "KI & Automation",
+          "section": "Konkrete Anleitungen"
         }
       ]
     }
