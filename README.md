@@ -1,3 +1,11 @@
+## GitHub Pages – öffentliche Testversion
+
+URL: https://20-sec.github.io/business-wissensplattform/
+
+Die Startseite fragt das bisherige Passwort ab. Diese Browser-Abfrage ist kein Zugriffsschutz für das öffentliche Repository oder direkte Dateien. Diese Einschränkung wurde für den Test ausdrücklich akzeptiert. Plattformseiten haben noindex; Suchmaschinen müssen diese Bitte beachten, sie ist keine Zugriffsbarriere. Originaldateien bleiben bytegleich.
+
+Aktualisieren: lokalen Server starten, Build ausführen, `node scripts/export-pages.mjs`, prüfen, committen und pushen. Der Workflow veröffentlicht nur `pages-export/`. Keine Server-Geheimnisse gelangen in den Export; er enthält lediglich einen gesalzenen Passwort-Prüfwert. Die bisherige Sites-Adresse wird nicht mehr aktualisiert; ihre Löschung ist mangels Löschfunktion noch offen.
+
 # Business-Wissensplattform
 
 Private Wissensdatenbank für analysierte Business-Videos von Markus Coenen: Modelle validieren, Erkenntnisse verdichten und Tools sowie Anleitungen für spätere Projekte oder das Netzwerk sammeln. Ein Import ist keine persönliche Umsetzungsabsicht. Stand: lokaler erster Prototyp mit importierten und gegengeprüften HTML-Analysen; ohne Onlineveröffentlichung.

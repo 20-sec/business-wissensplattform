@@ -35,3 +35,6 @@ Fünf Balance-Points behandeln Modelllogik, Evidenz, wirtschaftliche Voraussetzu
 
 ## Key Facts über dem Original (Markus, 10.09.2026)
 Neue verbindliche Reihenfolge: fünf wichtigste Erkenntnisse → unverändertes Original-HTML → hellgraue Kurzprüfung → vollständige Prüfung über „Mehr“. Key Facts verdichten Original, Recherche und spätere Zusatzinformationen; jeweils konkrete Information plus Handlungsthese für die Bewertung des Modells, kein persönlicher Umsetzungsauftrag. Unsicherheit und Quellen sichtbar halten. Als keyFacts mit Quellenreferenzen am Prüfstand speichern; neue Erkenntnisse versionieren. Begleitartikel aktiv auf Zusatzwissen prüfen, Veröffentlichungen desselben Urhebers als gemeinsame Quellenfamilie behandeln.
+
+## GitHub Pages statt Sites (Markus, verbindlich)
+Online-Testversion ausschließlich im bestehenden öffentlichen GitHub-Repo über GitHub Pages. Markus akzeptiert öffentlich lesbare Originale und Berichte. Passwortabfrage im Browser ist nur eine Einstiegshürde; kein serverseitiger Schutz. noindex auf allen Plattformseiten, Originalbytes bleiben unverändert. Keine weiteren Sites-Veröffentlichungen. Nach Inhaltsänderungen bei laufendem lokalen Server und aktuellem Build `node scripts/export-pages.mjs` ausführen, Export prüfen und mit push veröffentlichen. Geheimnisse aus .dev.vars niemals committen.
