@@ -21,3 +21,7 @@ Kein autonomer Hintergrundmonitor, kein automatischer Recherche-API-Aufruf und k
 
 ## Originalansicht hat Vorrang (Markus, 10.09.2026)
 Nach Auswahl in der Bibliothek zuerst die unveränderte Original-HTML zeigen, mit ihrem eigenen Layout und Inhalt. Keine neu formatierte Textfassung als Ersatz verwenden. Unsere Gegenprüfung ist eine separate Ansicht auf Klick. Original separat und als Download zugänglich halten. Die Originalbytes bleiben unverändert; Plattformgestaltung nicht in das Original injizieren.
+
+## Dialog und Kurzprüfung (Markus, 10.09.2026)
+Unter dem unveränderten Original fünf knappe Balance-Points anzeigen; „Mehr“ öffnet die vollständige Prüfung. Kurzfassung als compactSummary an den jeweiligen Prüfstand binden. Inhaltlich priorisieren: tragfähige Idee, zentraler Vorbehalt, wirtschaftliche Bedingung, konkrete Korrektur und sinnvoller nächster Schritt — keine künstliche Gleichverteilung von Lob und Kritik.
+Bei jedem neuen HTML zuerst Sichtung/Recherche/Gegenprüfung durchführen und Markus als erste inhaltliche Rückmeldung diese fünf Punkte geben. Noch keinen Praxistest oder Geschäftsentscheid daraus ableiten. Dann Markus' Ergänzungen aufnehmen: Fakten recherchieren, Annahmen prüfen, persönliche Erfahrung als solche dokumentieren. Wenn sich die Einschätzung ändert, neue Revision mit Anlass und angepasster Kurzfassung anhängen; alte Fassung erhalten. Keine Zustimmung oder persönliche Passung aus Schweigen ableiten.
