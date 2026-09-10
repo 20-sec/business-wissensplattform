@@ -18,3 +18,6 @@ Private Recherche- und Entscheidungsplattform für Markus. Zuerst lokales Repo u
 
 ## Grenzen der ersten Version
 Kein autonomer Hintergrundmonitor, kein automatischer Recherche-API-Aufruf und kein Browserupload. Markus lädt Dateien im Codex-Task hoch; Codex bearbeitet sie aktiv und importiert sie. Passwort lokal in `.dev.vars`, kein Passwort im Repo. Vor Onlinebetrieb HTTPS, Hosting-Zugriff, persistente Datenhaltung und verteiltes Login-Limit klären. Aktueller Belegindex nach Methodik 1.0 ist keine Wahrheitswahrscheinlichkeit.
+
+## Originalansicht hat Vorrang (Markus, 10.09.2026)
+Nach Auswahl in der Bibliothek zuerst die unveränderte Original-HTML zeigen, mit ihrem eigenen Layout und Inhalt. Keine neu formatierte Textfassung als Ersatz verwenden. Unsere Gegenprüfung ist eine separate Ansicht auf Klick. Original separat und als Download zugänglich halten. Die Originalbytes bleiben unverändert; Plattformgestaltung nicht in das Original injizieren.
