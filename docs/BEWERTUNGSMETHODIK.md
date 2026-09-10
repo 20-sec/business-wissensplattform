@@ -25,3 +25,6 @@ Gleiche Tags oder Themen erzeugen zunächst nur einen Prüfauftrag. Zusätzlich 
 
 ## Kategorien
 Business-Ideen / Sidehustles (außer Bücher/KDP), Sportwetten, KDP-Buchbusiness, KI & Automation. Mehrfachzuordnung erlaubt, Schwerpunkt zuerst. Wiederkehrende Themen als topicIds, Tools/Sportarten/Marketing/Formate als Tags. Anleitung ist ein Format; als getestet nur mit belegtem eigenen Test. Nach jedem Import ausreichende Kategorien prüfen; neue Hauptbereiche fachlich vorschlagen statt automatisch vermehren.
+
+## Wissenssammlung statt Umsetzungsannahme
+Markus hat präzisiert: Der Standardfall ist das Sammeln und Verdichten für mögliche spätere Projekte und sein Netzwerk. Persönliche Passung wird erst bei konkreter Projektwahl bewertet. Ein leeres persönliches Rating ist daher keine ausstehende Aufgabe. Die fünfte Kurzprüfungsposition kann den wiederverwendbaren Wissenskern und passende Werkzeug-/Prozessbausteine benennen. Die Evidenzmethodik und frühere Prüfstände bleiben unverändert.

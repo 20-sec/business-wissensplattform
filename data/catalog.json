@@ -732,6 +732,206 @@
           ]
         }
       ]
+    },
+    {
+      "id": "trailer-rental-side-hustle",
+      "title": "Trailer-Vermietung als nahezu automatisiertes Nebengeschäft",
+      "sourceUrl": "https://www.youtube.com/watch?v=68x7jFWbaE8",
+      "channel": "Chris Koerner on The Koerner Office Podcast",
+      "publishedAt": null,
+      "importedAt": "2026-09-10T06:54:56.833Z",
+      "categories": [
+        "Business-Ideen / Sidehustles"
+      ],
+      "tags": [
+        "Anhänger-Vermietung",
+        "Asset-Rental",
+        "Lokale Geschäftsmodelle",
+        "Kontaktlose Übergabe",
+        "Buchungsautomatisierung",
+        "Auslastung",
+        "Standortabhängigkeit"
+      ],
+      "summary": "Lokales Vermietungsmodell mit physischen Anhängern, digitaler Buchung und kontaktloser Übergabe. US-Betreiberzahlen sind nicht unabhängig bestätigt; deutsche Anbieter belegen die Umsetzbarkeit des Ablaufs. Wissensbaustein für spätere Projekte und die Weitergabe im Netzwerk.",
+      "originalHash": "6764788af793dc98db82537ccebc8a299209d41722259d6cf76b7f806bec0a69",
+      "originalFilename": "trailer-rental-side-hustle-analyse.html",
+      "sourceAssessment": "10. Meine Einschätzung\nDas Modell ist deutlich substanzieller als ein rein digitales Side-Hustle: Die Trailer sind reale, wiederverkaufbare Vermögenswerte und können bei guter Nachfrage mehrfach vermietet werden. Gleichzeitig benötigt das Unternehmen Kapital, einen geeigneten Standort und die Fähigkeit, Haftungs- und Wartungsthemen professionell zu steuern.\nDer stärkste Teil des Konzepts ist die Kombination aus einem einfachen Asset ohne Motor, regionaler Nachfrage und kontaktloser Übergabe. Der Betreiber hat die persönliche Arbeit durch feste Stellplätze, Schlossboxen, digitale Verträge und automatisierte Nachrichten reduziert.\nDie Aussage „nahezu passiv“ sollte dennoch vorsichtig verstanden werden. Akquise, Telefonate, Kontrolle, Reparaturen, Schäden, Kundenprobleme und saisonale Planung bleiben bestehen. Außerdem wurden Startaufwand, Kapitalkosten, Steuern, Abschreibung und die eigene Arbeitszeit in der Gewinnbetrachtung nicht vollständig transparent aufgeschlüsselt.\nGesamturteil: Interessant und realistisch testbar — aber kapital-, standort- und haftungsabhängig.\n12. Fazit\nTrailer-Vermietung kann ein attraktives lokales Side-Hustle sein, wenn drei Bedingungen zusammenkommen: ausreichend regionale Nachfrage, günstiger und geeigneter Platz sowie ein standardisierter Prozess für Buchung und Übergabe.\nDas Video zeigt überzeugend, wie aus einem physischen Asset durch Automatisierung ein relativ zeitarmes Geschäft werden kann. Es zeigt aber nicht, dass das Modell überall mit denselben Umsätzen funktioniert. Der Erfolg hängt weniger vom Trailer allein ab als von Standortwahl, Auslastung, Versicherung, Kostenkontrolle und der Qualität des Betriebsprozesses.\nKernlogik in einem Satz: Einen einfachen Trailer kaufen, die lokale Nachfrage vorab testen, kontaktlose Vermietung standardisieren und erst dann schrittweise weitere Assets oder Standorte ergänzen.",
+      "topicIds": [
+        "kontaktlose-anhaengervermietung"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-10T06:54:56Z",
+          "previousId": null,
+          "reason": "Erste Recherche und unabhängige Gegenprüfung; Markus bestätigt Punkte 1–4 und präzisiert den Zweck als Wissenssammlung. Persönliche Umsetzungsfrage durch sachliche Verdichtung ersetzt.",
+          "methodVersion": "1.0",
+          "assessment": "Plausibles lokales Vermietungsmodell mit dokumentierten deutschen Umsetzungen der kontaktlosen Abwicklung. Gewinn, Zeitbedarf und Übertragbarkeit der US-Zahlen sind nicht unabhängig validiert. Als Wissensbaustein aufnehmen: physische Vermögenswerte plus lokale Nachfrage, digitale Abwicklung und organisierte Betreuung. Kein konkretes Vorhaben von Markus. Die Sammlung soll Optionen für spätere Projekte und die Weitergabe im Netzwerk vergleichbar machen.",
+          "compactSummary": [
+            {
+              "label": "Die Automatisierung ist real",
+              "text": "Kontaktlose Anhängervermietung gibt es bereits in Deutschland: App-Buchung, Prüfung, Zahlung und elektronisches Schloss. Das belegt den Ablauf, noch nicht seine Rentabilität."
+            },
+            {
+              "label": "Der Gewinn bleibt unbestätigt",
+              "text": "Rund 4.000 USD monatlicher Gewinn sind eine Betreiberangabe. Platz, Versicherung und Wartung ergeben aus dem HTML bereits rund 1.783 USD monatlich; weitere Kosten und unterschiedliche Zeiträume müssen sauber abgegrenzt werden."
+            },
+            {
+              "label": "Standort und Auslastung entscheiden",
+              "text": "Das Modell ist grundsätzlich auf Deutschland übertragbar. Ob es wirtschaftlich trägt, hängt von lokalen Mietpreisen, bezahlten Miettagen, Anhängertypen und laufenden Kosten ab."
+            },
+            {
+              "label": "Den vorgeschlagenen Test korrigieren",
+              "text": "Gemietete Anhänger lassen sich nicht automatisch weitervermieten. Dafür braucht es passende Verträge und Versicherung; manche Anbieter untersagen die Untervermietung ausdrücklich."
+            },
+            {
+              "label": "Wiederverwendbarer Wissensbaustein",
+              "text": "Ein einfaches physisches Mietobjekt mit digitaler Abwicklung und lokaler Betreuung verbinden. Für spätere Projekte sammeln wir dazu Anbieter, Werkzeuge und Abläufe — ohne daraus eine persönliche Umsetzungsabsicht abzuleiten."
+            }
+          ],
+          "claims": [
+            {
+              "id": "kontaktlos",
+              "text": "Buchung und Übergabe lassen sich weitgehend digital und kontaktlos abwickeln.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Gewicht 2: zentrale Prozessvoraussetzung. Deutsche Anbieter dokumentieren entsprechende Abläufe. Das belegt technische/organisatorische Realisierbarkeit, nicht Gewinn oder völlige Betreuungsfreiheit.",
+              "sourceIds": [
+                "humbaur",
+                "deinhaenger",
+                "lanco"
+              ],
+              "location": "HTML Abschnitte 2 und 4",
+              "scope": "Kontaktlose Anhängervermietung als allgemeiner Ablauf; keine Freigabe eines konkreten Standorts."
+            },
+            {
+              "id": "gewinn",
+              "text": "Der interviewte Betrieb erzielt rund 4.000 USD monatlichen Nettogewinn.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: tragende Wirtschaftsaussage. Die Spannen aus dem HTML ergeben rechnerisch 3.000–5.500 USD Überschuss. Platz 800 plus Versicherung 3.800/12 plus Wartung 8.000/12 ergeben rund 1.783 USD pro Monat. Im angegebenen Kostenbudget bleiben 217–717 USD für weitere Positionen. Die Zeiträume der Einzelangaben sind nicht sicher deckungsgleich. Finanzierung, Ersatz/Wertverlust, Steuern und eigene Arbeit sind nicht hinreichend abgegrenzt. Die Betreiberangabe bleibt unbestätigt.",
+              "sourceIds": [
+                "youtube"
+              ],
+              "location": "HTML Abschnitte 1, 3, 5 und 10",
+              "scope": "US-Fallbeispiel, verschiedene Flotten- und Zeitstände; Rechenkontrolle ist kein Finanznachweis."
+            },
+            {
+              "id": "deutschland",
+              "text": "Das Geschäftsmodell kann grundsätzlich auch in Deutschland funktionieren.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Gewicht 3: Übertragbarkeit des Modells. Deutsche Angebote belegen die Existenz. Wirtschaftlicher Erfolg eines neuen Standorts bleibt offen und hängt unter anderem von bezahlten Miettagen, Typenmix, Platz- und Betreuungskosten ab. Die US-Tagespreise sind keine deutschen Preise. 95 USD auf 8.300 USD Kaufpreis entsprechen rund 1,14 Prozent, nicht der erwähnten 1,5-Prozent-Faustregel; Marktpreise nicht allein aus Anschaffungskosten herleiten.",
+              "sourceIds": [
+                "humbaur",
+                "deinhaenger"
+              ],
+              "location": "HTML Abschnitte 6, 9 und 12; Markus: Deutschland als mögliche Anwendung",
+              "scope": "Allgemeine Modellübertragung; keine Standortauswahl oder persönliche Umsetzung beauftragt."
+            },
+            {
+              "id": "gemieteter-pilot",
+              "text": "Nachfrage kann zunächst mit einem gemieteten Anhänger getestet werden.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Gewicht 2: relevante Validierungsmethode. Ein Test mit Fremdbestand ist nur eine bedingte Option: AzO untersagt Untervermietung, Wiemer verlangt schriftliche Zustimmung. Ein geeigneter Kooperationsvertrag und Versicherung sind daher vorher zu klären. Nachfragegespräche und Wettbewerbsanalyse bleiben unabhängig davon mögliche Recherchewege; keine Buchung ohne gesicherte Leistung anbieten.",
+              "sourceIds": [
+                "azo",
+                "wiemer"
+              ],
+              "location": "HTML Abschnitt 8",
+              "scope": "Konkrete Anbieterbedingungen in Deutschland; keine pauschale Rechtsaussage."
+            },
+            {
+              "id": "zeitaufwand",
+              "text": "13 Anhänger lassen sich mit etwa 2,5–5 Stunden Arbeit pro Woche betreiben.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Gewicht 2: wichtige Betriebsannahme. Das bleibt Selbstauskunft. Kontaktlose Übergabe ersetzt keine Wartung, Reinigung, Schadenbearbeitung und Störfallbetreuung. Für einen späteren Vergleich sollten Routinearbeit, Ausnahmen, Fremdleistungen und Aufbauaufwand getrennt erfasst werden. Das ist eine Eigenschaft des Modells, keine Aufforderung an Markus, diesen Betrieb selbst zu führen.",
+              "sourceIds": [
+                "youtube",
+                "deinhaenger"
+              ],
+              "location": "HTML Abschnitte 1, 4, 5 und 10",
+              "scope": "Interviewangabe; keine Arbeitszeiterfassung oder Übertragbarkeitsmessung vorhanden."
+            }
+          ],
+          "sources": [
+            {
+              "id": "youtube",
+              "title": "Chris Koerner: The Simple One-Man Side Hustle That Runs Itself",
+              "url": "https://www.youtube.com/watch?v=68x7jFWbaE8",
+              "accessedAt": "2026-09-10T06:54:56Z",
+              "originGroup": "koerner-interview",
+              "note": "Titel und Kanal über YouTube-oEmbed bestätigt. Finanz- und Zeitangaben aus der eingereichten HTML übernommen; kein vollständig geprüftes Videotranskript und keine geprüften Geschäftsunterlagen. Veröffentlichungsdatum bleibt offen."
+            },
+            {
+              "id": "lanco",
+              "title": "Lanco Trailer Rentals",
+              "url": "https://lancotrailers.com/",
+              "accessedAt": "2026-09-10T06:54:56Z",
+              "originGroup": "lanco-betreiber",
+              "note": "Betreiberwebsite aus der Episodenrecherche: kontaktlose Vermietung und Onlinebuchung. Eigene Anbieterangaben bestätigen kein Interviewergebnis. Aktuelle Flottenwerbung nicht mit damaliger Stückzahl gleichsetzen."
+            },
+            {
+              "id": "humbaur",
+              "title": "Humbaur Rent 24/7",
+              "url": "https://www.humbaur.com/de/lp/humbaur-rent",
+              "accessedAt": "2026-09-10T06:54:56Z",
+              "originGroup": "humbaur",
+              "note": "Anbieter beschreibt App-Buchung, Zahlung, Führerscheinkontrolle und elektronisches Schloss. Seit 01.09.2026 weist die Seite auf eingeschränkte Verfügbarkeit mancher öffentlicher/Großstadtstandorte hin. Kein Beleg für Wirtschaftlichkeit oder Ursache der Einschränkung."
+            },
+            {
+              "id": "deinhaenger",
+              "title": "DEINHÄNGER: AGB und Betriebsablauf",
+              "url": "https://deinhaenger.com/agb",
+              "accessedAt": "2026-09-10T06:54:56Z",
+              "originGroup": "deinhaenger",
+              "note": "Dokumentiert feste Stationen, digitalen Mietprozess, PIN und Zustandsfotos bei Abholung/Rückgabe. GPS und Smart Locks werden als Werkzeuge genannt. Anbieterbeschreibung, kein Test oder Produktempfehlung; Bedingungen gelten nur für dieses Angebot."
+            },
+            {
+              "id": "azo",
+              "title": "Anhänger-Zentrum Oldenburg: Mietbedingungen",
+              "url": "https://www.azo-anhaenger.de/kontakt/vermietungs-agbs/",
+              "accessedAt": "2026-09-10T06:54:56Z",
+              "originGroup": "azo",
+              "note": "Untersagt Überlassung/Untervermietung an Dritte. Beleg einer konkreten Vertragsgrenze, kein allgemeines gesetzliches Verbot."
+            },
+            {
+              "id": "wiemer",
+              "title": "Anhängercenter Wiemer: Mietbedingungen",
+              "url": "https://www.anhaenger-wiemer.de/allgemeine-mietbedingungen",
+              "accessedAt": "2026-09-10T06:54:56Z",
+              "originGroup": "wiemer",
+              "note": "Untervermietung nur mit ausdrücklicher schriftlicher Zustimmung. Gewerbliche Weitervermietung und passenden Versicherungsschutz nicht aus gewöhnlicher Anmietung ableiten."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Nicht Gegenstand der Prüfung. Markus sammelt und verdichtet Geschäftsmodelle für spätere Projektentscheidungen und sein Netzwerk; keine eigene Umsetzung vorgesehen oder zu bewerten.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "trailer_recherche",
+              "conclusion": "Betreiber- und deutsche Anbieterbeispiele recherchiert. Kontaktloses Modell belegt, Interviewfinanzen nicht unabhängig bestätigt."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "trailer_gegenpruefung",
+              "conclusion": "Kostenarithmetik und Preisfaustregel hinterfragt; Untervermietungsbedingungen und verbleibende Betreiberarbeit als Modellvoraussetzungen geprüft."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Primärquellen nachgelesen, Rechenkontrolle vorgenommen. Markus bestätigt die sachliche Prüfung, korrigiert die persönliche Umsetzungsannahme. Fünfter Punkt entsprechend als Wissenstransfer formuliert."
+            }
+          ]
+        }
+      ]
     }
   ],
   "topics": [
@@ -755,6 +955,21 @@
           "summary": "Auf Amazon.de direkt geprüft: drei deutschsprachige Hochzeitsmalbücher (kurzes Mal-/Rätselheft; Mann-und-Mann-Ausrichtung; kleines Querformat) und ein Capybara-Einzeltiermalbuch bei epubli. Letzteres ist nur eine angrenzende Umsetzung, keine bestätigte Axolotl-Capybara-Kombination.\n\nDie Beispiele liefern Anregungen für Positionierung und Format, aber keinen Beleg für geringe Konkurrenz, Verkäufe oder Profitabilität. Produktbeschreibungen können widersprüchlich sein; Seitenzahl und Format vor der eigenen Kalkulation verifizieren. Bisherige wirtschaftliche Einschätzung bleibt offen.",
           "videoRevisionIds": [
             "kleine-profitable-kdp-nischen/r3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kontaktlose-anhaengervermietung",
+      "title": "Kontaktlose Anhängervermietung",
+      "revisions": [
+        {
+          "id": "t1",
+          "createdAt": "2026-09-10T06:54:56Z",
+          "reason": "Erster Wissensbaustein, mit deutschem Umsetzungsbeleg und offenen Wirtschaftsdaten.",
+          "summary": "Modell: Einfache physische Mietobjekte, lokale Nachfrage, digitale Buchung und Zahlung, kontaktlose Übergabe sowie organisierte Betreuung. Deutschland-Beispiele: Humbaur Rent 24/7 und DEINHÄNGER.\n\nWerkzeugklassen: Buchungskalender, Zahlungsabwicklung, Identitäts-/Führerscheinprüfung, digitale Verträge, PIN- oder App-Schlösser, GPS und Zustandsdokumentation. Quellen beschreiben diese Abläufe; kein eigenes System getestet.\n\nAblaufwissen: Bestand und Verfügbarkeit erfassen → Buchung/Prüfung/Zahlung → Zustandsdokumentation und Freigabe → Rückgabeprüfung → Wartungs- und Schadenprozess. Dies ist eine Prozessübersicht, noch keine vollständige operative Anleitung.\n\nFür spätere Vertiefung: Standortkosten, Nachfrage, Auslastung, Vollkosten und Betreuung messen; Weitervermietung von Fremdbestand vertraglich klären. Keine persönliche Umsetzung beschlossen. KDP ist ein anderes Geschäftsmodell: Die gemeinsame Automatisierungsidee bestätigt keine ihrer jeweiligen Ertragsannahmen.",
+          "videoRevisionIds": [
+            "trailer-rental-side-hustle/r1"
           ]
         }
       ]

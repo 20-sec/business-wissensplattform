@@ -25,7 +25,7 @@ export default async function OriginalAnalysis({ params }: { params: Promise<{ i
       <p className="eyebrow">UNSERE EINSCHÄTZUNG{review ? ` · ${review.id}` : ""}</p>
       <h2 id="compact-title">Unsere Kurzprüfung</h2>
       {review?.compactSummary ? <ol>{review.compactSummary.map((point, index) => <li key={point.label}><span className="point-number" aria-hidden="true">0{index + 1}</span><div><h3>{point.label}</h3><p>{point.text}</p></div></li>)}</ol> : <p className="muted">Die Kurzprüfung folgt nach der Sichtung deiner Analyse.</p>}
-      <p className="compact-invitation">Was fällt dir dazu auf? Ergänze deine Sicht im gemeinsamen Task — wir prüfen sie und entwickeln die Einschätzung weiter.</p>
+      <p className="compact-invitation">Ergänzungen, Erfahrungen oder Verbindungen aus deinem Netzwerk können wir im gemeinsamen Task prüfen und in die Wissensbasis aufnehmen.</p>
       <Button asChild><a href="#vollstaendige-pruefung" aria-label="Mehr: vollständige Gegenprüfung weiter unten">Mehr</a></Button>
       </div>
     </section>

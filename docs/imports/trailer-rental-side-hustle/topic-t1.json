@@ -1,0 +1,15 @@
+{
+  "id": "kontaktlose-anhaengervermietung",
+  "title": "Kontaktlose Anhängervermietung",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-10T06:54:56Z",
+      "reason": "Erster Wissensbaustein, mit deutschem Umsetzungsbeleg und offenen Wirtschaftsdaten.",
+      "summary": "Modell: Einfache physische Mietobjekte, lokale Nachfrage, digitale Buchung und Zahlung, kontaktlose Übergabe sowie organisierte Betreuung. Deutschland-Beispiele: Humbaur Rent 24/7 und DEINHÄNGER.\n\nWerkzeugklassen: Buchungskalender, Zahlungsabwicklung, Identitäts-/Führerscheinprüfung, digitale Verträge, PIN- oder App-Schlösser, GPS und Zustandsdokumentation. Quellen beschreiben diese Abläufe; kein eigenes System getestet.\n\nAblaufwissen: Bestand und Verfügbarkeit erfassen → Buchung/Prüfung/Zahlung → Zustandsdokumentation und Freigabe → Rückgabeprüfung → Wartungs- und Schadenprozess. Dies ist eine Prozessübersicht, noch keine vollständige operative Anleitung.\n\nFür spätere Vertiefung: Standortkosten, Nachfrage, Auslastung, Vollkosten und Betreuung messen; Weitervermietung von Fremdbestand vertraglich klären. Keine persönliche Umsetzung beschlossen. KDP ist ein anderes Geschäftsmodell: Die gemeinsame Automatisierungsidee bestätigt keine ihrer jeweiligen Ertragsannahmen.",
+      "videoRevisionIds": [
+        "trailer-rental-side-hustle/r1"
+      ]
+    }
+  ]
+}

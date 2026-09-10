@@ -1,6 +1,6 @@
 # Business-Wissensplattform
 
-Private Bibliothek für analysierte Business-Videos von Markus Coenen. Stand: lokaler erster Prototyp mit erster importierter und gegengeprüfter HTML-Analyse; ohne Onlineveröffentlichung.
+Private Wissensdatenbank für analysierte Business-Videos von Markus Coenen: Modelle validieren, Erkenntnisse verdichten und Tools sowie Anleitungen für spätere Projekte oder das Netzwerk sammeln. Ein Import ist keine persönliche Umsetzungsabsicht. Stand: lokaler erster Prototyp mit importierten und gegengeprüften HTML-Analysen; ohne Onlineveröffentlichung.
 
 ## Enthalten
 - Passwortzugang mit serverseitiger Prüfung, signierter 12-Stunden-Sitzung und HttpOnly-Cookie.
