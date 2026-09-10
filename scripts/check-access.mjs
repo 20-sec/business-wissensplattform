@@ -2,7 +2,7 @@ import { readFile } from "node:fs/promises";
 import assert from "node:assert/strict";
 const base = process.argv[2] ?? "http://localhost:5173";
 if (!["localhost", "127.0.0.1"].includes(new URL(base).hostname)) throw new Error("Diese Prüfung darf nur den lokalen Server verwenden.");
-const secret = (await readFile(new URL("../.dev.vars", import.meta.url), "utf8")).split("\n").find(l => l.startsWith("APP_PASSWORD="))?.slice(13);
+const secret = (await readFile(new URL("../.dev.vars", import.meta.url), "utf8")).split("\n").find(l => l.startsWith("APP_PASSWORD="))?.slice(13).replace(/^"|"$/g, "");
 const get = (path, cookie) => fetch(base + path, { redirect: "manual", headers: cookie ? { Cookie: cookie } : {} });
 const post = (path, body, origin = base, cookie) => fetch(base + path, { method: "POST", redirect: "manual", headers: { Origin: origin, "Content-Type": "application/x-www-form-urlencoded", ...(cookie ? { Cookie: cookie } : {}) }, body });
 assert.equal((await get("/login")).status, 200);
