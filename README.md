@@ -1,6 +1,6 @@
 # Business-Wissensplattform
 
-Private Bibliothek für analysierte Business-Videos von Markus Coenen. Stand: lokaler erster Prototyp, noch ohne echte HTML-Analysen und ohne Onlineveröffentlichung.
+Private Bibliothek für analysierte Business-Videos von Markus Coenen. Stand: lokaler erster Prototyp mit erster importierter und gegengeprüfter HTML-Analyse; ohne Onlineveröffentlichung.
 
 ## Enthalten
 - Passwortzugang mit serverseitiger Prüfung, signierter 12-Stunden-Sitzung und HttpOnly-Cookie.
@@ -29,4 +29,4 @@ Daten liegen versioniert in `data/catalog.json`, Originalbytes unverändert in `
 `npm test` prüft Originalerhalt, Duplikate, Revisionsketten, Referenzen und Gewichtung mit isolierten Testdaten. `node scripts/check-access.mjs http://localhost:5173` prüft Anmeldung, geschützte Routen, Cookie-Eigenschaften, Fälschungen und Abmeldung ohne das Passwort auszugeben. Browserdarstellung wurde bisher nicht visuell geprüft.
 
 ## Nächste Schritte
-Zwei bis drei echte HTML-Analysen importieren und gemeinsam Einordnung/Bewertung prüfen. Danach Hosting und Datenhaltung auswählen und die geschützte Onlineversion bereitstellen. Noch kein GitHub-Remote, kein Deployment, keine dauerhaft laufende Automatisierung eingerichtet.
+Weitere HTML-Analysen importieren und gemeinsam Einordnung/Bewertung anhand des ersten KDP-Eintrags prüfen. Danach Hosting und Datenhaltung auswählen und die geschützte Onlineversion bereitstellen. Noch kein GitHub-Remote, kein Deployment, keine dauerhaft laufende Automatisierung eingerichtet.

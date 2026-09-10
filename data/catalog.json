@@ -1,1 +1,243 @@
-{"schemaVersion":1,"videos":[],"topics":[],"reviewQueue":[]}
+{
+  "schemaVersion": 1,
+  "videos": [
+    {
+      "id": "kleine-profitable-kdp-nischen",
+      "title": "Kleine, profitable Nischen für Amazon KDP",
+      "sourceUrl": "https://www.youtube.com/watch?v=hUTkB6UQRLQ",
+      "channel": "JeffSetLife",
+      "publishedAt": "2026-09-08",
+      "importedAt": "2026-09-10T05:57:20.537Z",
+      "categories": [
+        "KDP-Buchbusiness"
+      ],
+      "tags": [
+        "Nischenrecherche",
+        "Strategie",
+        "Malbücher",
+        "Aktivitätsbücher",
+        "Long-Tail",
+        "Print-on-Demand",
+        "US-Markt",
+        "Nationalparks",
+        "Hochzeitsaktivitäten",
+        "KI-Illustrationen"
+      ],
+      "summary": "Fünf Nischenideen für Mal- und Aktivitätsbücher: kulturelle Süßigkeiten, Axolotl und Capybara, Hochzeitsaktivitäten, US-Nationalparks und Highland Cows. Die Analyse empfiehlt einen Katalog kleiner Titel und priorisiert Nationalparks. Wirtschaftliche Zahlen und die Rangfolge sind zunächst Quellenbehauptungen.",
+      "originalHash": "9332cf7c746ac7488b40f3cd5c12d0a8144a882d59bb749419097ef5f1665276",
+      "originalFilename": "kleine-profitable-kdp-nischen.html",
+      "sourceAssessment": "5. Meine Einschätzung\nStärken\nGeringere direkte Konkurrenz als in großen Trendnischen\nKlare Zielgruppen und konkrete Kaufanlässe\nRelativ standardisierbare Produktentwicklung\nViele Varianten und Serien möglich\nTeilweise Evergreen-Potenzial\nSchwächen und Risiken\nNiedrige Nachfrage kann trotz geringer Konkurrenz zu kaum Verkäufen führen\nBSR-basierte Umsatzerwartungen sind nur Näherungen\nErfolgreiche Nischen sind leicht kopierbar\nKI-Content kann qualitativ schwach oder austauschbar wirken\nTrendthemen können schnell überlaufen\nKulturelle Themen verlangen sorgfältige und respektvolle Umsetzung\nHochzeitsprodukte sind ereignisbezogen und möglicherweise saisonal\n6. Vergleich und Priorisierung\n| Nische | Konkurrenz | Nachfrage | Evergreen | Urteil\n| Nationalparks für Kinder | niedrig–mittel | mittel–gut | hoch | stärkste Option\n| Hochzeitsaktivitäten | sehr niedrig | anlassbezogen | niedrig–mittel | klarer Use Case\n| Kulturelle Süßigkeiten | niedrig | unklar–mittel | mittel | als Serie interessant\n| Highland Cows | niedrig–mittel | mittel | mittel | testbar, trendabhängig\n| Axolotl + Capybara | niedrig | niedrig–wachsend | mittel | am spekulativsten\nPriorität für einen Praxistest: Nationalparks für Kinder, gefolgt von Hochzeitsaktivitäten für Kinder.\n8. Fazit\nDas Video liefert eine plausible Long-Tail-Strategie für Amazon KDP: Viele kleine, klar positionierte Bücher können zusammen ein Geschäft ergeben, auch wenn kein einzelner Titel ein großer Bestseller wird.\nDie stärkste vorgestellte Idee sind kindgerechte Nationalpark-Mal- und Aktivitätsbücher, weil sie einen konkreten Inhalt, Evergreen-Potenzial und einen zusätzlichen Sammel- beziehungsweise Reise-Tracker bieten.\nDie wichtigste Lehre lautet:Nicht die kleinste Nische ist automatisch gut — gut ist die kleinste Nische mit nachweisbarer Nachfrage, geringer Konkurrenz und einem Produkt, das deutlich besser oder passender ist als die vorhandenen Angebote.\nGesamturteil: Interessant und umsetzbar, aber vor dem Ausbau unbedingt validieren.",
+      "topicIds": [
+        "kdp-mal-und-aktivitaetsbuch-nischen"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-10T05:59:02Z",
+          "previousId": null,
+          "reason": "Erstprüfung der eingereichten HTML durch Rechercheagent und unabhängigen Gegenprüfungsagent. Originalbewertung bleibt unverändert; Primärquellen und Gegenangebote ergänzt. Keine früheren Analysen vorhanden.",
+          "methodVersion": "1.0",
+          "assessment": "Als Sammlung von Nischenhypothesen nützlich; als Beleg für profitable Nischen oder eine belastbare Rangfolge noch unzureichend. Das Originalurteil „vor dem Ausbau validieren“ wird bestärkt. „Nationalparks als stärkste Option“ wird abgeschwächt: vorläufig keine Rangfolge der fünf Nischen. Die zentralen Wirtschafts- und Nachfragedaten bleiben offen; bestätigte Plattformregeln dürfen diese Lücke nicht überdecken. Grundlage der Prüfung ist die HTML-Analyse, nicht ein vollständig geprüftes Videotranskript. Kanal und Veröffentlichungsdatum wurden separat bestätigt. Aktuelle Quellen wurden unabhängig von beiden Prüfbeiträgen nachgelesen.",
+          "claims": [
+            {
+              "id": "katalog-einkommen",
+              "text": "Ein Katalog vieler kleiner Nischenbücher kann ein relevantes Nebeneinkommen liefern.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: tragende Geschäftsthese. KDP ermöglicht Verkäufe ohne Lagerbestand, belegt aber nicht den Ertrag eines solchen Katalogs. Titelzahl ersetzt keine Deckungsbeitragsrechnung einschließlich Produktion, Werbung und Pflege. Rechenbeispiel, keine Prognose: 9,99 USD × 60 % − 2,84 USD = rund 3,15 USD Tantieme je verkauftem Schwarzweiß-Großformat-Paperback mit 103 Seiten. Erst danach gehen eigene Kosten ab. Wie oft die geplanten Titel gekauft werden, ist offen.",
+              "sourceIds": [
+                "kdp-royalty",
+                "kdp-print"
+              ],
+              "location": "HTML Abschnitte 1, 2 und 8",
+              "scope": "US-Marktplatz; Beispielrechnung unter ausdrücklich gesetzten Formatannahmen. Kein Einkommenstest, keine Übertragung auf deutsche Nachfrage."
+            },
+            {
+              "id": "nischen-zahlen",
+              "text": "Die fünf Nischen weisen die genannten Ergebniszahlen und monatlichen Beispielumsätze auf.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: Zahlen tragen die Nischenauswahl. Die HTML nennt 317/275/383/835/606 Suchtreffer und verschiedene Dollarspannen, aber keine ASINs, genauen Abfragen, Filter oder Messzeitpunkte. Unklar bleibt, ob die Beträge Umsatz, Tantieme oder eine Toolschätzung darstellen. Video-Metadaten bestätigen keine dieser Zahlen. Ohne Ausgangsdaten und vollständige Einsicht in die gezeigten Belege sind sie weder bestätigt noch widerlegt.",
+              "sourceIds": [
+                "youtube",
+                "kdp-bsr"
+              ],
+              "location": "HTML Abschnitt 3",
+              "scope": "Übernommene Angaben aus automatisch erstellter Videoanalyse; keine eigenen aktuellen Amazon-Messungen."
+            },
+            {
+              "id": "nationalparks-prioritaet",
+              "text": "Nationalparks für Kinder sind die stärkste Testoption, vor Hochzeitsaktivitäten.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: entscheidende Priorisierung. Die 63 National Parks sind bestätigt; daraus folgt keine belegte Kaufnachfrage. Kostenlose Junior-Ranger-Hefte und ein bestehender Sammelpass zeigen relevante Ersatzangebote. Bei Hochzeiten existieren preisgünstige Mehrfachsets. Das beweist weder das Scheitern noch eine Rangfolge der Nischen. Nationalparks werden vom Erstplatz-Favoriten zur gleichberechtigten Testhypothese herabgestuft. Auch „anlassbezogen“ schließt eine dauerhaft wiederkehrende Nachfrage nicht aus.",
+              "sourceIds": [
+                "nps-parks",
+                "nps-free",
+                "park-passport",
+                "wedding-sets"
+              ],
+              "location": "HTML Abschnitte 6 und 8",
+              "scope": "Priorisierung für neue KDP-Titel im US-Markt; keine vergleichbare Messung von Nachfrage, Wettbewerb und Marge vorhanden."
+            },
+            {
+              "id": "bsr-naeherung",
+              "text": "BSR-basierte Umsatzannahmen sind Näherungen und keine belastbare Prognose für neue Titel.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Gewicht 2: wichtige Prüfvoraussetzung. Amazon beschreibt einen relativen Rang mit jüngerer und historischer Aktivität. Er kann sich ohne Veränderung der eigenen Aktivität bewegen. Ein einzelner BSR liefert daher weder gesicherten Monatsabsatz noch eine Umsatzprognose. Die Vorsicht der Originalanalyse wird ausdrücklich bestärkt. Auch ein Rangverlauf bleibt ein Indikator, kein Verkaufsreport.",
+              "sourceIds": [
+                "kdp-bsr"
+              ],
+              "location": "HTML Einordnung in Abschnitt 1 und Risiken in Abschnitt 5",
+              "scope": "BSR-Interpretation; keine Prüfung einer bestimmten externen Schätzformel."
+            },
+            {
+              "id": "ki-produktion",
+              "text": "KI-Illustrationen können die Produktion unterstützen, ersetzen aber keine Qualitätsprüfung.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Gewicht 2: Produktionsvoraussetzung. Die Qualitätsanforderung ist durch die KDP-Regeln gestützt. Ergänzung: KI-erzeugte Bilder müssen KDP gemeldet werden, auch nach umfangreicher Nachbearbeitung. Bloße KI-Unterstützung wird anders behandelt; Rechteverantwortung bleibt beim Herausgeber. Ob ein konkreter Workflow nach Korrekturen tatsächlich Zeit spart, wurde nicht getestet.",
+              "sourceIds": [
+                "kdp-ai"
+              ],
+              "location": "HTML Abschnitt 4",
+              "scope": "Veröffentlichung von KI-Bildmaterial bei KDP; keine Freigabe einzelner Bilder oder gemessene Produktionszeit."
+            },
+            {
+              "id": "pilot-erstauflage",
+              "text": "Ein kleiner Produkttest ist sinnvoll; die Analyse beschreibt dazu eine kleine Erstauflage.",
+              "importance": 1,
+              "status": "teilweise gestützt",
+              "rationale": "Gewicht 1: ergänzende Umsetzungsempfehlung. Den begrenzten Pilot als eigene pragmatische Empfehlung beibehalten, aber die Auflagenformulierung korrigieren: Im regulären KDP-Vertrieb wird nach Bestellung gedruckt; eine vorfinanzierte Erstauflage ist nicht nötig. Besser: ein Pilotbuch, ein geprüftes Probeexemplar und begrenztes Zeit-/Werbebudget. Dieser Testplan wurde noch nicht durchgeführt.",
+              "sourceIds": [
+                "kdp-print"
+              ],
+              "location": "HTML Abschnitt 4, Punkt „Veröffentlichen und testen“, sowie Abschnitt 7",
+              "scope": "Regulärer KDP-Print-on-Demand-Vertrieb; freiwillige Autorenexemplare davon getrennt."
+            }
+          ],
+          "sources": [
+            {
+              "id": "youtube",
+              "title": "YouTube: JeffSetLife – Originalvideo",
+              "url": "https://www.youtube.com/watch?v=hUTkB6UQRLQ",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "youtube-jeffsetlife",
+              "note": "Titel, Kanal und Veröffentlichungsdatum über oEmbed und Seitenmetadaten bestätigt. Laufzeit ca. 15:31–15:32 statt ca. 15:16 im HTML. Gesprochener Inhalt und Verkaufsbelege nicht vollständig zugänglich/verifiziert; keine Bestätigung der HTML-Zahlen. Beschreibung verlinkt ein Coloring-Book-Tool; wirtschaftliche Beziehung nicht geklärt."
+            },
+            {
+              "id": "kdp-bsr",
+              "title": "Amazon KDP: Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu Funktionsweise und Grenzen des relativen Verkaufsrangs. Keine Offenlegung fremder Absatzdaten; alle KDP-Seiten gehören zu derselben institutionellen Quelle."
+            },
+            {
+              "id": "kdp-royalty",
+              "title": "Amazon KDP: Paperback Royalty",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Verbindliche Plattformformel für Tantiemen; kein Nachweis eines persönlichen Gewinns. US-Preisgrenze bei 9,99 USD berücksichtigt."
+            },
+            {
+              "id": "kdp-print",
+              "title": "Amazon KDP: Paperback Printing Cost",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Belegt Druck auf Nachfrage und formatabhängige Druckkosten. Musterrechnung verwendet Schwarzweiß, weißes/cremefarbenes Papier und Großformat; kein Beleg, dass jedes besprochene Buch diese Ausstattung hat."
+            },
+            {
+              "id": "kdp-ai",
+              "title": "Amazon KDP: Content Guidelines",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Unterscheidet KI-generierte und KI-unterstützte Inhalte; Generiertes ist an KDP zu melden. Qualitäts- und Rechteprüfung bleiben beim Herausgeber. Kein Produktivitätstest eines konkreten KI-Workflows."
+            },
+            {
+              "id": "nps-parks",
+              "title": "NPS: National Park System",
+              "url": "https://www.nps.gov/aboutus/national-park-system.htm",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "national-park-service",
+              "note": "Bestätigt 63 Einheiten mit Bezeichnung National Park. Das gesamte System ist größer. Anzahl der Parks ist kein Beleg der Buchnachfrage."
+            },
+            {
+              "id": "nps-free",
+              "title": "NPS Rocky Mountain: kostenlose Junior-Ranger-Hefte",
+              "url": "https://www.nps.gov/romo/learn/kidsyouth/junior-ranger.htm",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "national-park-service",
+              "note": "Kostenlose Aktivitätshefte in drei Altersgruppen mit Downloads belegen Ersatzangebote. Kein Beleg gegen sämtliche zahlungspflichtigen Buchkonzepte."
+            },
+            {
+              "id": "park-passport",
+              "title": "America’s National Parks: Junior Ranger Passport",
+              "url": "https://shop.americasnationalparks.org/products/passport-to-your-national-parks-junior-ranger-edition",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "nps-partner-americas-national-parks",
+              "note": "Händlerangebot: Sammelpass mit Aktivitäten, 100 Seiten, Spiralbindung und Stickern; beim Abruf 17,95 USD. In Zusammenarbeit mit NPS entwickelt, daher NPS-nahe Herkunft, kein unabhängiger Nachfragebeleg. Preis ist eine Momentaufnahme."
+            },
+            {
+              "id": "wedding-sets",
+              "title": "Oriental Trading: Wedding Kid’s Table Activity Sets",
+              "url": "https://www.orientaltrading.com/color-your-own-wedding-kid-s-table-activity-sets-12-pc--a2-13933620.fltr",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "oriental-trading",
+              "note": "Händlerangebot mit zwölf kleinen Aktivitätssets für 7,99 USD beim Abruf. Ersatzlösung, kein gleichwertiger Vergleich zu zwölf vollformatigen Büchern. Angebotsbeleg mit Verkaufsinteresse, kein Absatzbeleg."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Zunächst als Wissensbaustein erfasst. Zielmarkt, eigenes Interesse und Testressourcen sind noch offen; aus dem Import folgt keine Entscheidung, diese Nische umzusetzen.",
+            "confirmedByMarkus": false
+          },
+          "questions": [
+            "Welchen Zielmarkt und welche Sprache möchtest du später für einen möglichen Praxistest zugrunde legen?",
+            "Falls ein Praxistest interessant wird: Welches Zeit- und Kostenbudget würdest du dafür freigeben?"
+          ],
+          "relatedVideoIds": [],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_recherche",
+              "conclusion": "Video-Metadaten, BSR-Grenzen, US-Tantiemen und Druckkosten geprüft. Keine unabhängigen Nachweise der angegebenen Trefferzahlen oder Monatsbeträge; Umsatz, Tantieme und Gewinn trennen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_gegenpruefung",
+              "conclusion": "Keine belastbare Priorisierung von Nationalparks vor Hochzeiten. Kostenlose Hefte und preisgünstige Ersatzangebote gefunden. KI-Meldepflicht ergänzen; Erstauflage durch begrenzten POD-Produkttest ersetzen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Quellen der Agenten nachgeprüft und YouTube-Metadaten separat abgerufen. Bestätigte Regeln von offener Wirtschaftlichkeit getrennt. Kein vermeintliches Markt-Ranking vergeben, Originalbewertung unverändert erhalten."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "topics": [
+    {
+      "id": "kdp-mal-und-aktivitaetsbuch-nischen",
+      "title": "KDP-Nischen für Mal- und Aktivitätsbücher",
+      "revisions": [
+        {
+          "id": "t1",
+          "createdAt": "2026-09-10T05:59:02Z",
+          "reason": "Erster Wissensbaustein aus einer gegengeprüften Analyse; noch keine Bestätigung durch weitere Videos.",
+          "summary": "Fünf Testhypothesen: kulturelle Süßigkeiten, Axolotl und Capybara, Hochzeitsaktivitäten, US-Nationalparks und Highland Cows. Eine wirtschaftlich belastbare Rangfolge ist noch nicht möglich.\n\nFür künftige Vergleiche festhalten: identischer Zielmarkt, definierte Altersgruppe und Buchausstattung, konkrete Suchbegriffe und ASINs, dokumentierter Beobachtungszeitraum sowie Kosten und Erlöse getrennt. BSR nur als Indikator verwenden. Kostenlose oder günstigere Ersatzangebote außerhalb von Amazon berücksichtigen.\n\nVor einem Produkttest muss der eigene Mehrwert sichtbar werden. Ein begrenzter Pilot ist eine spätere Option, keine bereits getroffene Entscheidung. Neue passende Videos lösen eine erneute Prüfung der Aussagen und dieser Themenfassung aus.",
+          "videoRevisionIds": [
+            "kleine-profitable-kdp-nischen/r1"
+          ]
+        }
+      ]
+    }
+  ],
+  "reviewQueue": []
+}
