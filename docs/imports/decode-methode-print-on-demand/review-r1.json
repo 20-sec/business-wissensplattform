@@ -1,0 +1,296 @@
+{
+  "id": "r1",
+  "previousId": null,
+  "createdAt": "2026-09-10T08:20:13.715632Z",
+  "reason": "Besprochene Prüfung und zehn deutsche Beispiele nach Freigabe als Wissensbaustein gespeichert.",
+  "methodVersion": "1.0",
+  "assessment": "Nützlicher Ideenrahmen, keine bewiesene Verkaufsformel. Deutsche Entwürfe sind ausdrücklich ungetestete Konzepte. Verbindungen zu KDP betreffen Nischensignale und Positionierung, nicht eine Übertragung der Erträge.",
+  "keyFacts": [
+    {
+      "label": "Kaufgrund bleibt eine Hypothese",
+      "fact": "Ein Bestseller zeigt keine isolierte Wirkung von Witz oder Stil. 80/20 ist eine persönliche Faustregel.",
+      "implication": "Mechanismus und alternative Erklärungen wie Reichweite, Preis und Shopvertrauen gemeinsam festhalten.",
+      "sourceIds": [
+        "video"
+      ]
+    },
+    {
+      "label": "Monatsverkäufe sind nicht zwingend aktuell",
+      "fact": "EverBee beschreibt Monthly Sales als geschätzte Gesamtverkäufe geteilt durch Angebotsalter.",
+      "implication": "Zeitraum und Schätzcharakter dokumentieren; aktuelle Trends gesondert prüfen.",
+      "sourceIds": [
+        "everbee",
+        "estimates"
+      ]
+    },
+    {
+      "label": "Deutsch neu denken statt wörtlich übersetzen",
+      "fact": "Das Beispiel verbindet eine Redewendung mit einer unmöglichen Option. Die Wirkung hängt von Sprache und Zielgruppe ab.",
+      "implication": "Deutsche Redewendung → wörtlicher Bildwitz → erkennbare Zielgruppe; Verständlichkeit bleibt eine zu prüfende These.",
+      "sourceIds": [
+        "video"
+      ]
+    },
+    {
+      "label": "Umsatz ist kein Deckungsbeitrag",
+      "fact": "73.000 USD sind unbestätigt. Etsy verlangt unter anderem6,5% Transaktion und in Deutschland4%+0,30EUR Zahlungsabwicklung.",
+      "implication": "Produktion, Versand, Werbung und Reklamationen in die Einzelrechnung aufnehmen.",
+      "sourceIds": [
+        "video",
+        "fees",
+        "payment"
+      ]
+    },
+    {
+      "label": "Eigenständiges Design gehört zum Modell",
+      "fact": "Etsy erlaubt Originaldesigns mit ausgewiesenem Produktionspartner.",
+      "implication": "Inspirationsquelle, abstraktes Prinzip und eigene Umsetzung getrennt dokumentieren.",
+      "sourceIds": [
+        "etsy"
+      ]
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Kaufgrund bleibt eine Hypothese",
+      "text": "Ein Bestseller zeigt keine isolierte Wirkung von Witz oder Stil. 80/20 ist eine persönliche Faustregel."
+    },
+    {
+      "label": "Monatsverkäufe sind nicht zwingend aktuell",
+      "text": "EverBee beschreibt Monthly Sales als geschätzte Gesamtverkäufe geteilt durch Angebotsalter."
+    },
+    {
+      "label": "Deutsch neu denken statt wörtlich übersetzen",
+      "text": "Das Beispiel verbindet eine Redewendung mit einer unmöglichen Option. Die Wirkung hängt von Sprache und Zielgruppe ab."
+    },
+    {
+      "label": "Umsatz ist kein Deckungsbeitrag",
+      "text": "73.000 USD sind unbestätigt. Etsy verlangt unter anderem6,5% Transaktion und in Deutschland4%+0,30EUR Zahlungsabwicklung."
+    },
+    {
+      "label": "Eigenständiges Design gehört zum Modell",
+      "text": "Etsy erlaubt Originaldesigns mit ausgewiesenem Produktionspartner."
+    }
+  ],
+  "ideaExamples": [
+    {
+      "slogan": "Ich bin nicht nachtragend. Ich speichere nur.",
+      "motif": "Eichhörnchen mit beschriftetem Nussarchiv",
+      "mechanism": "Nichtvergessen wird zum Vorratsspeicher.",
+      "audience": "Trockener Humor"
+    },
+    {
+      "slogan": "Loslassen ist nicht meine Stärke.",
+      "motif": "Krabbe hält einen Gegenstand mit beiden Scheren",
+      "mechanism": "Emotionale Redewendung wird körperlich wörtlich.",
+      "audience": "Tierhumor, Geschenke"
+    },
+    {
+      "slogan": "Ich brauche Abstand.",
+      "motif": "Kaktus allein auf einer großen Parkbank",
+      "mechanism": "Freiraum trifft auf stacheliges Motiv.",
+      "audience": "Introvertierte, Pflanzenfans"
+    },
+    {
+      "slogan": "Ich lasse die Arbeit auf mich zukommen.",
+      "motif": "Spinne im Liegestuhl neben ihrem Netz",
+      "mechanism": "Vermeintliche Faulheit ist ihre Jagdstrategie.",
+      "audience": "Bürohumor"
+    },
+    {
+      "slogan": "Ich stehe über den Dingen.",
+      "motif": "Gelassene Giraffe",
+      "mechanism": "Körpergröße übersetzt die Redewendung.",
+      "audience": "Tierfans"
+    },
+    {
+      "slogan": "Ich bin offen für Neues. Außer die Tür.",
+      "motif": "Katze unentschlossen vor offener Tür",
+      "mechanism": "Positive Selbstaussage trifft auf bekannte Katzen-Situation.",
+      "audience": "Katzenmenschen"
+    },
+    {
+      "slogan": "Ich habe den Überblick. Nur keinen Plan.",
+      "motif": "Eule auf Wegweiser mit vielen Richtungen",
+      "mechanism": "Kluge Eule hat Aussicht, aber keine Orientierung.",
+      "audience": "Studierende, Büro"
+    },
+    {
+      "slogan": "Ich wachse an meinen Aufgaben.",
+      "motif": "Sauerteig quillt aus einem Glas",
+      "mechanism": "Entwicklungsfloskel wird buchstäbliches Wachstum.",
+      "audience": "Brotbacken, Sauerteigfans"
+    },
+    {
+      "slogan": "Ich mache heute nur das Nötigste.",
+      "motif": "Biber vor riesigem frisch gebautem Damm",
+      "mechanism": "Bescheidener Anspruch gegen übertriebene Leistung.",
+      "audience": "Heimwerken, Perfektionisten"
+    },
+    {
+      "slogan": "Ich bin noch in der Findungsphase.",
+      "motif": "Maulwurf mit Schatzkarte zwischen Suchhügeln",
+      "mechanism": "Lebensphase wird buchstäbliche Suche.",
+      "audience": "Gartenfans, Veränderung"
+    }
+  ],
+  "claims": [
+    {
+      "id": "revenue",
+      "text": "Das Design erzielte im ersten Jahr73.000USD.",
+      "status": "offen",
+      "rationale": "Videoangabe ohne unabhängig geprüfte Erlös- und Kostenrechnung.",
+      "sourceIds": [
+        "video"
+      ],
+      "importance": 3,
+      "location": "Original-HTML, Dokumentation und Dialog",
+      "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+    },
+    {
+      "id": "cause",
+      "text": "80%Konzept und20%Stil erklären den Verkaufserfolg.",
+      "status": "offen",
+      "rationale": "Keine isolierende Vergleichsmessung; persönliche Heuristik.",
+      "sourceIds": [
+        "video"
+      ],
+      "importance": 3,
+      "location": "Original-HTML, Dokumentation und Dialog",
+      "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+    },
+    {
+      "id": "monthly",
+      "text": "EverBee Monthly Sales belegt Verkäufe der letzten30Tage.",
+      "status": "widerlegt",
+      "rationale": "Dokumentierte Kennzahl ist ein geschätzter Durchschnitt über die Angebotslaufzeit.",
+      "sourceIds": [
+        "everbee"
+      ],
+      "importance": 2,
+      "location": "Original-HTML, Dokumentation und Dialog",
+      "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+    },
+    {
+      "id": "signals",
+      "text": "Bestseller-Sortierung beweist aktuelle profitable Verkäufe.",
+      "status": "teilweise gestützt",
+      "rationale": "Shopify sortiert nach Allzeit-Bestellungen; ohne Verkäufe nach Neuheit. Weder Marge noch Aktualität daraus ableiten.",
+      "sourceIds": [
+        "shopify"
+      ],
+      "importance": 2,
+      "location": "Original-HTML, Dokumentation und Dialog",
+      "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+    },
+    {
+      "id": "originality",
+      "text": "Etsy erlaubt eigene Designs mit Produktionspartner.",
+      "status": "gestützt",
+      "rationale": "Partner muss offengelegt werden; keine Freigabe beliebiger fremder Gestaltung.",
+      "sourceIds": [
+        "etsy"
+      ],
+      "importance": 2,
+      "location": "Original-HTML, Dokumentation und Dialog",
+      "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+    },
+    {
+      "id": "german",
+      "text": "Die zehn deutschen Entwürfe sind profitable eigenständige Nischen.",
+      "status": "offen",
+      "rationale": "Kreative Vorschläge aus dem Dialog; keine Markt-, Originalitäts- oder Rechteprüfung.",
+      "sourceIds": [
+        "video"
+      ],
+      "importance": 3,
+      "location": "Original-HTML, Dokumentation und Dialog",
+      "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+    }
+  ],
+  "sources": [
+    {
+      "id": "video",
+      "title": "Meg Heckman: I’ve Designed 10,000+ T-Shirts",
+      "url": "https://www.youtube.com/watch?v=o-dR95FNbLM",
+      "originGroup": "meg-heckman",
+      "note": "Kommerzieller WeScale-Verweis. 73.000 USD und 80/20 nicht unabhängig bestätigt.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    },
+    {
+      "id": "everbee",
+      "title": "EverBee: Product Analytics",
+      "url": "https://help.everbee.io/en/article/3-product-analytics",
+      "originGroup": "everbee",
+      "note": "Monthly Sales als geschätzte Total Sales geteilt durch Listing Age; separate Trends.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    },
+    {
+      "id": "estimates",
+      "title": "EverBee: How does EverBee work?",
+      "url": "https://help.everbee.io/en/article/6-how-does-everbee-work",
+      "originGroup": "everbee",
+      "note": "Verkäufe geschätzt; Views/Favoriten können bei abweichender Conversion irreführen.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    },
+    {
+      "id": "etsy",
+      "title": "Etsy: What Can I Sell?",
+      "url": "https://help.etsy.com/hc/en-us/articles/360024112614-What-Can-I-Sell-on-Etsy",
+      "originGroup": "etsy",
+      "note": "Eigene Designs und angegebene Produktionspartner; keine individuelle Rechtefreigabe.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    },
+    {
+      "id": "fees",
+      "title": "Etsy: Gebühren",
+      "url": "https://www.etsy.com/legal/fees/",
+      "originGroup": "etsy",
+      "note": "Transaktionsgebühr6,5%; weitere Gebühren möglich.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    },
+    {
+      "id": "payment",
+      "title": "Etsy: Zahlungsgebühren",
+      "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy",
+      "originGroup": "etsy",
+      "note": "Deutschland4%+0,30EUR Zahlungsabwicklung; keine vollständige Margenrechnung.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    },
+    {
+      "id": "shopify",
+      "title": "Shopify: Sortierung von Kollektionen",
+      "url": "https://help.shopify.com/en/manual/products/collections/collection-layout",
+      "originGroup": "shopify",
+      "note": "Best Selling nach Allzeit-Bestellzahl; ohne Verkäufe neueste zuerst.",
+      "accessedAt": "2026-09-10T08:20:13.715632Z"
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; keine persönliche Umsetzung beschlossen.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "kleine-profitable-kdp-nischen",
+    "tiktok-demand-engine-kdp"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "decode_recherche",
+      "conclusion": "Autor und Metadaten identifiziert; EverBee-Schätzcharakter, keine unabhängigen73k-/80:20-Belege."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "decode_challenge",
+      "conclusion": "Kausalität, Marktindikatoren, Kosten und Etsy-Originalitätsvorgaben geprüft."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Zehn deutsche Konzepte als ungeprüfte Ideen dokumentiert; keine Erfolgsempfehlung an Markus."
+    }
+  ]
+}

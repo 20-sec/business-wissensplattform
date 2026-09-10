@@ -1,0 +1,23 @@
+{
+  "id": "claude-linkedin-schritt-fuer-schritt",
+  "title": "Claude mit LinkedIn: Anleitung und Gegenprüfung",
+  "sourceUrl": "https://www.youtube.com/watch?v=NqHd-89RycA",
+  "channel": "Harry Long",
+  "publishedAt": null,
+  "categories": [
+    "KI & Automation"
+  ],
+  "tags": [
+    "Claude",
+    "LinkedIn",
+    "Marketing",
+    "Schreibassistenz",
+    "Browserautomation",
+    "Inbox-Triage"
+  ],
+  "summary": "Browserassistenz für Recherche, Texte und Inbox: technische Möglichkeiten, klare LinkedIn-Grenzen und wiederverwendbare Abläufe mit bereitgestellten Inhalten.",
+  "sourceAssessment": "Praktisch interessante Anleitung für assistierte LinkedIn-Arbeit — aber die Risiko- und Compliance-Aussagen des Videos sind zu sorglos.",
+  "topicIds": [
+    "ki-assistenz-linkedin-marketing"
+  ]
+}

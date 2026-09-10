@@ -1,0 +1,15 @@
+{
+  "id": "ki-assistenz-linkedin-marketing",
+  "title": "KI-Assistenz für LinkedIn und Marketing",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-10T08:21:28.751805Z",
+      "reason": "Erster bestätigter Wissensbaustein.",
+      "summary": "Eigene Schreibbibliothek, begründete Kontaktbewertung und getrennte Erfolgsmessung. Technische Browserautomation ist keine Plattformfreigabe. Thematische Verbindung zu Social-Media-Marketing; keine Übertragung von KDP- oder TikTok-Ertragsannahmen.",
+      "videoRevisionIds": [
+        "claude-linkedin-schritt-fuer-schritt/r1"
+      ]
+    }
+  ]
+}

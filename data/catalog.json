@@ -1785,6 +1785,360 @@
               "conclusion": "Angebotsbelege nicht mit Nachfrage verwechseln; epubli nicht pauschal als KDP einordnen; Capybara-Einzeltier von Kombinische trennen. Seiten-/Formatwidersprüche offenhalten. Kein Schluss über Lieferbarkeit in Deutschland."
             }
           ]
+        },
+        {
+          "id": "r7",
+          "createdAt": "2026-09-10T08:20:13.715632Z",
+          "previousId": "r6",
+          "reason": "Decode-Methode als ergänzenden Ideenrahmen verglichen; keine neuen Ertragsbelege.",
+          "methodVersion": "1.0",
+          "assessment": "Als Sammlung von Nischenhypothesen nützlich; als Beleg für profitable Nischen oder eine belastbare Rangfolge noch unzureichend. Das Originalurteil „vor dem Ausbau validieren“ wird bestärkt. „Nationalparks als stärkste Option“ wird abgeschwächt: vorläufig keine Rangfolge der fünf Nischen. Die zentralen Wirtschafts- und Nachfragedaten bleiben offen; bestätigte Plattformregeln dürfen diese Lücke nicht überdecken. Grundlage der Prüfung ist die HTML-Analyse, nicht ein vollständig geprüftes Videotranskript. Kanal und Veröffentlichungsdatum wurden separat bestätigt. Aktuelle Quellen wurden unabhängig von beiden Prüfbeiträgen nachgelesen. Ergänzung Amazon.de: Drei direkte deutschsprachige Hochzeitsbeispiele und ein angrenzendes Capybara-Einzeltierbuch sind als Angebote bestätigt. Das verbessert die Anschauung möglicher Umsetzungen, bestätigt aber weder geringe Konkurrenz noch wirtschaftlichen Erfolg. Drei Angebote sind als „Independently published“ gelistet, das vierte bei epubli; sie werden nicht pauschal als KDP-Produkte bezeichnet. Vergleich mit der Craig-Fallstudie: Katalogpflege und Varianten ergänzen die Modelllogik, belegen aber keine der fünf konkreten Nischen. Bisherige Belegurteile bleiben unverändert. Neue Social-Commerce-Analyse: Deutscher BookTok-Absatzbezug ergänzt die Marketingperspektive, bestätigt aber keine Erträge dieses Katalogs oder dieser Nischen. Bisherige Belegurteile unverändert. Die Decode-Methode ergänzt die Hypothesenbildung zu Motiv, Zielgruppe und Kaufversprechen. Sie bestätigt keine bisherigen Nischen- oder Ertragsannahmen.",
+          "keyFacts": [
+            {
+              "label": "Vier deutsche Umsetzungen vorhanden",
+              "fact": "Drei Hochzeitsmalbücher und ein Capybara-Malbuch wurden auf Amazon.de geprüft. Verkäufe und Gewinn sind damit nicht belegt.",
+              "implication": "Produktbeispiele für Format und Positionierung nutzen; Nachfrage und Wirtschaftlichkeit getrennt bewerten.",
+              "sourceIds": [
+                "amazon-de-1",
+                "amazon-de-2",
+                "amazon-de-3",
+                "amazon-de-4"
+              ]
+            },
+            {
+              "label": "Ein Anlass macht die Zielgruppe konkreter",
+              "fact": "Die Hochzeitsbeispiele unterscheiden sich durch Rätsel, Paar-Konstellation und Buchformat.",
+              "implication": "Nischen anhand von Anlass, Zielgruppe und Nutzung beschreiben, nicht nur anhand eines Motivs.",
+              "sourceIds": [
+                "amazon-de-1",
+                "amazon-de-2",
+                "amazon-de-3"
+              ]
+            },
+            {
+              "label": "Tantieme statt Verkaufspreis kalkulieren",
+              "fact": "KDP berechnet Print-Tantiemen aus Royalty-Satz und Listenpreis abzüglich Druckkosten.",
+              "implication": "Seitenzahl, Format und Zielmarkt vor dem Margenvergleich festlegen; Werbung und Produktion zusätzlich berücksichtigen.",
+              "sourceIds": [
+                "kdp-royalty",
+                "kdp-print"
+              ]
+            },
+            {
+              "label": "Suchrang ist kein Gewinnnachweis",
+              "fact": "Amazon beschreibt den Verkaufsrang als relativen Indikator. Er belegt keine konkreten Einnahmen der vorgestellten Nischen.",
+              "implication": "BSR als Beobachtung erfassen; eine Ertragsschätzung nicht als verifizierten Umsatz abspeichern.",
+              "sourceIds": [
+                "kdp-bsr"
+              ]
+            },
+            {
+              "label": "Kostenlose Alternativen gehören zum Markt",
+              "fact": "Für US-Nationalparks gibt es kostenlose Junior-Ranger-Hefte.",
+              "implication": "Bei der Nischenprüfung auch kostenlose Alternativen untersuchen und den zusätzlichen Nutzen eines Kaufprodukts benennen.",
+              "sourceIds": [
+                "nps-free"
+              ]
+            }
+          ],
+          "marketExamples": [
+            {
+              "title": "Hochzeitsmalbuch und Rätsel für Kinder",
+              "author": "Max Maler",
+              "niche": "Hochzeitsaktivitäten für Kinder",
+              "match": "Direkte Nischenübereinstimmung",
+              "language": "Deutsch laut Amazon-Produktdaten",
+              "format": "24 Seiten; Taschenbuch; 15,24 × 22,86 cm.",
+              "implementation": "Malen und Rätseln als Beschäftigung am Kindertisch und Gastgeschenk.",
+              "takeaway": "Ein knappes Heft konzentriert sich auf einen klaren Anlass. Mal- und Rätselangebote werden kombiniert.",
+              "amazonUrl": "https://www.amazon.de/dp/B086PRKW6N",
+              "caveat": "Amazon nennt „Independently published“, Erscheinung 03.04.2020, ISBN 9798633710878. Die Beschreibung bezeichnet das Format als DIN A5, die Maße weichen von DIN A5 ab. Keine verifizierte Verkaufsleistung."
+            },
+            {
+              "title": "XXL Hochzeitsmalbuch Mann & Mann",
+              "author": "Jana Lukanoeski",
+              "niche": "Hochzeitsaktivitäten für Kinder",
+              "match": "Direkte Nischenübereinstimmung, genaueres Zielgruppensegment",
+              "language": "Deutsch laut Amazon-Produktdaten",
+              "format": "Produktdaten: 72 Seiten; Taschenbuch; 20,32 × 25,4 cm.",
+              "implementation": "Hochzeitsbeschäftigung für kleine Gäste mit zwei Bräutigamen als Ausrichtung; Beschreibung nennt Ausmalbilder, Rätsel, Suchbilder und Mitmachaufgaben.",
+              "takeaway": "Differenzierung innerhalb der Nische über eine konkrete Hochzeitssituation; darüber hinaus werden verschiedene Aktivitäten gebündelt.",
+              "amazonUrl": "https://www.amazon.de/dp/B0D99DMCRB",
+              "caveat": "Widerspruch: Titel/Beschreibung nennen 74 Seiten und A4, Produktdaten 72 Seiten und andere Maße. Amazon nennt „Independently published“, 05.07.2024, ISBN 9798332744877. Beschreibungsversprechen sind nicht durch vollständige Innenansicht geprüft."
+            },
+            {
+              "title": "Hochzeitsmalbuch: Gastgeschenk Hochzeit Beschäftigung für Kinder",
+              "author": "Johanna´s Geschenkwelten",
+              "niche": "Hochzeitsaktivitäten für Kinder",
+              "match": "Direkte Nischenübereinstimmung",
+              "language": "Deutsch laut Amazon-Produktdaten",
+              "format": "33 Seiten; Taschenbuch; 20,96 × 15,24 cm, quer.",
+              "implementation": "Als kleines Gastgeschenk und Malbeschäftigung auf dem Kindertisch positioniert.",
+              "takeaway": "Eine weitere Umsetzung desselben Kaufanlasses mit anderem Format. Der Titel adressiert die kaufenden Erwachsenen und ihren Zweck.",
+              "amazonUrl": "https://www.amazon.de/dp/B095X84QMW",
+              "caveat": "Amazon nennt „Independently published“, Erscheinung 29.05.2021, ISBN 9798512150566. Keine Aussage zur Qualität sämtlicher Motive oder zur Profitabilität."
+            },
+            {
+              "title": "Capybara Malbuch für Kinder | Großformat A4",
+              "author": "Lia Mayr",
+              "niche": "Capybara-Malbücher",
+              "match": "Angrenzendes Einzeltier-Thema; keine Axolotl-Capybara-Kombination",
+              "language": "Deutsch laut Amazon-Produktdaten",
+              "format": "Amazon-Produktdaten: 74 Seiten; Taschenbuch; 21,01 × 29,69 cm.",
+              "implementation": "Beschreibung nennt 36 Illustrationen, klare Konturen und ein Bild pro Doppelseite.",
+              "takeaway": "Ein einzelnes Tiermotiv wird mit einem einfachen Ausmalversprechen verbunden. Anzahl der Motive und Gesamtseitenzahl getrennt betrachten.",
+              "amazonUrl": "https://www.amazon.de/dp/3565301392",
+              "caveat": "Herausgeber epubli, Erscheinung 07.03.2026, ISBN 9783565301393. Kein verifiziertes KDP-Beispiel. Die beschriebene Papier-/Stifteignung wurde nicht praktisch getestet."
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Die Idee trägt als Hypothese",
+              "text": "Viele klar positionierte Mal- und Aktivitätsbücher könnten gemeinsam Einnahmen liefern. Dass die genannten Nischen profitabel sind, ist bislang nicht belegt."
+            },
+            {
+              "label": "Deutsche Umsetzungen sind vorhanden",
+              "text": "Auf Amazon.de sind drei deutschsprachige Hochzeitsmalbücher und ein Capybara-Malbuch geprüft. Das zeigt konkrete Umsetzungen, aber keine Verkaufsstärke. Capybara allein belegt nicht die Kombination mit Axolotl; Nationalparks bleiben ohne Vorrang."
+            },
+            {
+              "label": "Umsatz ist noch kein Verdienst",
+              "text": "Die Dollarbeträge sind unbestätigt. Im gerechneten Beispiel bleiben bei 9,99 USD Verkaufspreis etwa 3,15 USD Tantieme vor eigenen Kosten — bei 103 Seiten, Schwarzweiß und Großformat auf Amazon.com."
+            },
+            {
+              "label": "Produktion genauer planen",
+              "text": "KI-Bilder brauchen Qualitäts- und Rechteprüfung sowie die Meldung an KDP. Eine vorfinanzierte Erstauflage ist beim Druck auf Bestellung nicht nötig."
+            },
+            {
+              "label": "Wiederverwendbare Positionierungsmerkmale",
+              "text": "Anlass, Zielgruppe, Rätselanteil und Format unterscheiden die vorhandenen Beispiele. Diese Merkmale liefern Vergleichskriterien für künftige Nischenanalysen; eine persönliche Umsetzung wird daraus nicht abgeleitet."
+            }
+          ],
+          "claims": [
+            {
+              "id": "katalog-einkommen",
+              "text": "Ein Katalog vieler kleiner Nischenbücher kann ein relevantes Nebeneinkommen liefern.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: tragende Geschäftsthese. KDP ermöglicht Verkäufe ohne Lagerbestand, belegt aber nicht den Ertrag eines solchen Katalogs. Titelzahl ersetzt keine Deckungsbeitragsrechnung einschließlich Produktion, Werbung und Pflege. Rechenbeispiel, keine Prognose: 9,99 USD × 60 % − 2,84 USD = rund 3,15 USD Tantieme je verkauftem Schwarzweiß-Großformat-Paperback mit 103 Seiten. Erst danach gehen eigene Kosten ab. Wie oft die geplanten Titel gekauft werden, ist offen.",
+              "sourceIds": [
+                "kdp-royalty",
+                "kdp-print"
+              ],
+              "location": "HTML Abschnitte 1, 2 und 8",
+              "scope": "US-Marktplatz; Beispielrechnung unter ausdrücklich gesetzten Formatannahmen. Kein Einkommenstest, keine Übertragung auf deutsche Nachfrage."
+            },
+            {
+              "id": "nischen-zahlen",
+              "text": "Die fünf Nischen weisen die genannten Ergebniszahlen und monatlichen Beispielumsätze auf.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: Zahlen tragen die Nischenauswahl. Die HTML nennt 317/275/383/835/606 Suchtreffer und verschiedene Dollarspannen, aber keine ASINs, genauen Abfragen, Filter oder Messzeitpunkte. Unklar bleibt, ob die Beträge Umsatz, Tantieme oder eine Toolschätzung darstellen. Video-Metadaten bestätigen keine dieser Zahlen. Ohne Ausgangsdaten und vollständige Einsicht in die gezeigten Belege sind sie weder bestätigt noch widerlegt.",
+              "sourceIds": [
+                "youtube",
+                "kdp-bsr"
+              ],
+              "location": "HTML Abschnitt 3",
+              "scope": "Übernommene Angaben aus automatisch erstellter Videoanalyse; keine eigenen aktuellen Amazon-Messungen."
+            },
+            {
+              "id": "nationalparks-prioritaet",
+              "text": "Nationalparks für Kinder sind die stärkste Testoption, vor Hochzeitsaktivitäten.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Gewicht 3: entscheidende Priorisierung. Die 63 National Parks sind bestätigt; daraus folgt keine belegte Kaufnachfrage. Kostenlose Junior-Ranger-Hefte und ein bestehender Sammelpass zeigen relevante Ersatzangebote. Bei Hochzeiten existieren preisgünstige Mehrfachsets. Das beweist weder das Scheitern noch eine Rangfolge der Nischen. Nationalparks werden vom Erstplatz-Favoriten zur gleichberechtigten Testhypothese herabgestuft. Auch „anlassbezogen“ schließt eine dauerhaft wiederkehrende Nachfrage nicht aus.",
+              "sourceIds": [
+                "nps-parks",
+                "nps-free",
+                "park-passport",
+                "wedding-sets"
+              ],
+              "location": "HTML Abschnitte 6 und 8",
+              "scope": "Priorisierung für neue KDP-Titel im US-Markt; keine vergleichbare Messung von Nachfrage, Wettbewerb und Marge vorhanden."
+            },
+            {
+              "id": "bsr-naeherung",
+              "text": "BSR-basierte Umsatzannahmen sind Näherungen und keine belastbare Prognose für neue Titel.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Gewicht 2: wichtige Prüfvoraussetzung. Amazon beschreibt einen relativen Rang mit jüngerer und historischer Aktivität. Er kann sich ohne Veränderung der eigenen Aktivität bewegen. Ein einzelner BSR liefert daher weder gesicherten Monatsabsatz noch eine Umsatzprognose. Die Vorsicht der Originalanalyse wird ausdrücklich bestärkt. Auch ein Rangverlauf bleibt ein Indikator, kein Verkaufsreport.",
+              "sourceIds": [
+                "kdp-bsr"
+              ],
+              "location": "HTML Einordnung in Abschnitt 1 und Risiken in Abschnitt 5",
+              "scope": "BSR-Interpretation; keine Prüfung einer bestimmten externen Schätzformel."
+            },
+            {
+              "id": "ki-produktion",
+              "text": "KI-Illustrationen können die Produktion unterstützen, ersetzen aber keine Qualitätsprüfung.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Gewicht 2: Produktionsvoraussetzung. Die Qualitätsanforderung ist durch die KDP-Regeln gestützt. Ergänzung: KI-erzeugte Bilder müssen KDP gemeldet werden, auch nach umfangreicher Nachbearbeitung. Bloße KI-Unterstützung wird anders behandelt; Rechteverantwortung bleibt beim Herausgeber. Ob ein konkreter Workflow nach Korrekturen tatsächlich Zeit spart, wurde nicht getestet.",
+              "sourceIds": [
+                "kdp-ai"
+              ],
+              "location": "HTML Abschnitt 4",
+              "scope": "Veröffentlichung von KI-Bildmaterial bei KDP; keine Freigabe einzelner Bilder oder gemessene Produktionszeit."
+            },
+            {
+              "id": "pilot-erstauflage",
+              "text": "Ein kleiner Produkttest ist sinnvoll; die Analyse beschreibt dazu eine kleine Erstauflage.",
+              "importance": 1,
+              "status": "teilweise gestützt",
+              "rationale": "Gewicht 1: ergänzende Umsetzungsempfehlung. Den begrenzten Pilot als eigene pragmatische Empfehlung beibehalten, aber die Auflagenformulierung korrigieren: Im regulären KDP-Vertrieb wird nach Bestellung gedruckt; eine vorfinanzierte Erstauflage ist nicht nötig. Besser: ein Pilotbuch, ein geprüftes Probeexemplar und begrenztes Zeit-/Werbebudget. Dieser Testplan wurde noch nicht durchgeführt.",
+              "sourceIds": [
+                "kdp-print"
+              ],
+              "location": "HTML Abschnitt 4, Punkt „Veröffentlichen und testen“, sowie Abschnitt 7",
+              "scope": "Regulärer KDP-Print-on-Demand-Vertrieb; freiwillige Autorenexemplare davon getrennt."
+            }
+          ],
+          "sources": [
+            {
+              "id": "youtube",
+              "title": "YouTube: JeffSetLife – Originalvideo",
+              "url": "https://www.youtube.com/watch?v=hUTkB6UQRLQ",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "youtube-jeffsetlife",
+              "note": "Titel, Kanal und Veröffentlichungsdatum über oEmbed und Seitenmetadaten bestätigt. Laufzeit ca. 15:31–15:32 statt ca. 15:16 im HTML. Gesprochener Inhalt und Verkaufsbelege nicht vollständig zugänglich/verifiziert; keine Bestätigung der HTML-Zahlen. Beschreibung verlinkt ein Coloring-Book-Tool; wirtschaftliche Beziehung nicht geklärt."
+            },
+            {
+              "id": "kdp-bsr",
+              "title": "Amazon KDP: Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu Funktionsweise und Grenzen des relativen Verkaufsrangs. Keine Offenlegung fremder Absatzdaten; alle KDP-Seiten gehören zu derselben institutionellen Quelle."
+            },
+            {
+              "id": "kdp-royalty",
+              "title": "Amazon KDP: Paperback Royalty",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Verbindliche Plattformformel für Tantiemen; kein Nachweis eines persönlichen Gewinns. US-Preisgrenze bei 9,99 USD berücksichtigt."
+            },
+            {
+              "id": "kdp-print",
+              "title": "Amazon KDP: Paperback Printing Cost",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Belegt Druck auf Nachfrage und formatabhängige Druckkosten. Musterrechnung verwendet Schwarzweiß, weißes/cremefarbenes Papier und Großformat; kein Beleg, dass jedes besprochene Buch diese Ausstattung hat."
+            },
+            {
+              "id": "kdp-ai",
+              "title": "Amazon KDP: Content Guidelines",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "amazon-kdp",
+              "note": "Unterscheidet KI-generierte und KI-unterstützte Inhalte; Generiertes ist an KDP zu melden. Qualitäts- und Rechteprüfung bleiben beim Herausgeber. Kein Produktivitätstest eines konkreten KI-Workflows."
+            },
+            {
+              "id": "nps-parks",
+              "title": "NPS: National Park System",
+              "url": "https://www.nps.gov/aboutus/national-park-system.htm",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "national-park-service",
+              "note": "Bestätigt 63 Einheiten mit Bezeichnung National Park. Das gesamte System ist größer. Anzahl der Parks ist kein Beleg der Buchnachfrage."
+            },
+            {
+              "id": "nps-free",
+              "title": "NPS Rocky Mountain: kostenlose Junior-Ranger-Hefte",
+              "url": "https://www.nps.gov/romo/learn/kidsyouth/junior-ranger.htm",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "national-park-service",
+              "note": "Kostenlose Aktivitätshefte in drei Altersgruppen mit Downloads belegen Ersatzangebote. Kein Beleg gegen sämtliche zahlungspflichtigen Buchkonzepte."
+            },
+            {
+              "id": "park-passport",
+              "title": "America’s National Parks: Junior Ranger Passport",
+              "url": "https://shop.americasnationalparks.org/products/passport-to-your-national-parks-junior-ranger-edition",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "nps-partner-americas-national-parks",
+              "note": "Händlerangebot: Sammelpass mit Aktivitäten, 100 Seiten, Spiralbindung und Stickern; beim Abruf 17,95 USD. In Zusammenarbeit mit NPS entwickelt, daher NPS-nahe Herkunft, kein unabhängiger Nachfragebeleg. Preis ist eine Momentaufnahme."
+            },
+            {
+              "id": "wedding-sets",
+              "title": "Oriental Trading: Wedding Kid’s Table Activity Sets",
+              "url": "https://www.orientaltrading.com/color-your-own-wedding-kid-s-table-activity-sets-12-pc--a2-13933620.fltr",
+              "accessedAt": "2026-09-10T05:59:02Z",
+              "originGroup": "oriental-trading",
+              "note": "Händlerangebot mit zwölf kleinen Aktivitätssets für 7,99 USD beim Abruf. Ersatzlösung, kein gleichwertiger Vergleich zu zwölf vollformatigen Büchern. Angebotsbeleg mit Verkaufsinteresse, kein Absatzbeleg."
+            },
+            {
+              "id": "amazon-de-1",
+              "title": "Amazon.de: Hochzeitsmalbuch und Rätsel für Kinder",
+              "url": "https://www.amazon.de/dp/B086PRKW6N",
+              "accessedAt": "2026-09-10T06:30:34Z",
+              "originGroup": "amazon-de-product-listings",
+              "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+            },
+            {
+              "id": "amazon-de-2",
+              "title": "Amazon.de: XXL Hochzeitsmalbuch Mann & Mann",
+              "url": "https://www.amazon.de/dp/B0D99DMCRB",
+              "accessedAt": "2026-09-10T06:30:34Z",
+              "originGroup": "amazon-de-product-listings",
+              "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+            },
+            {
+              "id": "amazon-de-3",
+              "title": "Amazon.de: Hochzeitsmalbuch: Gastgeschenk Hochzeit Beschäftigung für Kinder",
+              "url": "https://www.amazon.de/dp/B095X84QMW",
+              "accessedAt": "2026-09-10T06:30:34Z",
+              "originGroup": "amazon-de-product-listings",
+              "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+            },
+            {
+              "id": "amazon-de-4",
+              "title": "Amazon.de: Capybara Malbuch für Kinder | Großformat A4",
+              "url": "https://www.amazon.de/dp/3565301392",
+              "accessedAt": "2026-09-10T06:30:34Z",
+              "originGroup": "amazon-de-product-listings",
+              "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Markus hat die Kurzprüfung bestätigt und ausdrücklich Beispiele vom deutschsprachigen Amazon.de-Markt gewünscht. Das legt den Recherchemarkt dieser Ergänzung fest, ist aber noch keine Entscheidung für einen eigenen deutschen Produkttest oder eine Nische.",
+            "confirmedByMarkus": false
+          },
+          "questions": [
+            "Welche der gezeigten Umsetzungen erscheint dir interessant, und welchen zusätzlichen Nutzen könntest du anbieten?",
+            "Falls ein eigener Produkttest folgt: Zielgruppe, Zeit- und Kostenbudget gemeinsam festlegen."
+          ],
+          "relatedVideoIds": [
+            "kdp-200-buecher-umsatz-gewinn",
+            "tiktok-demand-engine-kdp",
+            "decode-methode-print-on-demand"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_recherche",
+              "conclusion": "Video-Metadaten, BSR-Grenzen, US-Tantiemen und Druckkosten geprüft. Keine unabhängigen Nachweise der angegebenen Trefferzahlen oder Monatsbeträge; Umsatz, Tantieme und Gewinn trennen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_gegenpruefung",
+              "conclusion": "Keine belastbare Priorisierung von Nationalparks vor Hochzeiten. Kostenlose Hefte und preisgünstige Ersatzangebote gefunden. KI-Meldepflicht ergänzen; Erstauflage durch begrenzten POD-Produkttest ersetzen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Quellen der Agenten nachgeprüft und YouTube-Metadaten separat abgerufen. Bestätigte Regeln von offener Wirtschaftlichkeit getrennt. Kein vermeintliches Markt-Ranking vergeben, Originalbewertung unverändert erhalten."
+            },
+            {
+              "role": "Recherche",
+              "name": "Codex · Amazon.de-Nachprüfung",
+              "conclusion": "Vier Amazon.de-Produktseiten direkt gelesen. Deutsche Sprache und Umsetzung erfasst; aktuelle Preise und Lieferzusagen wegen Spanien-Lieferkontext nicht übernommen. Original-Innenseiten nicht vollständig geprüft."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "de_beispiele",
+              "conclusion": "Angebotsbelege nicht mit Nachfrage verwechseln; epubli nicht pauschal als KDP einordnen; Capybara-Einzeltier von Kombinische trennen. Seiten-/Formatwidersprüche offenhalten. Kein Schluss über Lieferbarkeit in Deutschland."
+            }
+          ]
         }
       ]
     },
@@ -3092,6 +3446,1370 @@
               "conclusion": "Media Control direkt und NIQ Digital Purchases ergänzen den deutschen Marktkontext. Gemeinsame TikTok-/Media-Control-Meldung nur einmal als Quellenfamilie gewertet."
             }
           ]
+        },
+        {
+          "id": "r2",
+          "createdAt": "2026-09-10T08:20:13.715632Z",
+          "previousId": "r1",
+          "reason": "Decode-Methode als ergänzenden Ideenrahmen verglichen; keine neuen Ertragsbelege.",
+          "methodVersion": "1.0",
+          "assessment": "Die deutschen Daten stützen BookTok als relevanten Entdeckungskanal. TikTok Shop ist zusätzlich als deutscher Vertriebskanal etabliert, seine branchenübergreifenden Kennzahlen belegen jedoch keine KDP-Marge. Die Fallstudienbeträge und ein dauerhaft selbstverstärkender Amazon-Effekt bleiben unbestätigt. Als Marketingergänzung zur Katalogstrategie sinnvoll; Herstellung, Contentarbeit und Absatzwege getrennt bewerten. Die Decode-Methode ergänzt die Hypothesenbildung zu Motiv, Zielgruppe und Kaufversprechen. Sie bestätigt keine bisherigen Nischen- oder Ertragsannahmen.",
+          "keyFacts": [
+            {
+              "label": "Deutscher Buchmarkt: 28 Millionen Exemplare",
+              "fact": "Media Control nennt für 2025 in Deutschland 28 Millionen verkaufte Bücher mit BookTok-Bezug und 482 Millionen Euro Umsatz. Das sind kanalübergreifende Verkäufe ausgewählter Titel.",
+              "implication": "BookTok als relevanten Entdeckungskanal berücksichtigen; die Zahlen nicht als zusätzlichen TikTok-Absatz oder KDP-Gewinn verwenden.",
+              "sourceIds": [
+                "mc"
+              ]
+            },
+            {
+              "label": "TikTok Shop erreicht mehr als junge Käufer",
+              "fact": "Nach NIQ hatten nach 28 Wochen 10 Prozent der deutschen Online-Shopper bei TikTok Shop gekauft. Generation X stellte 33 Prozent der Käufer und 36 Prozent des Umsatzes.",
+              "implication": "Zielgruppen nicht pauschal auf Gen Z begrenzen. Diese Werte gelten für alle Produktkategorien; Buchkäufer separat prüfen.",
+              "sourceIds": [
+                "niq"
+              ]
+            },
+            {
+              "label": "Zwei Vertriebswege, zwei Kalkulationen",
+              "fact": "Social Content kann zu Amazon führen oder in einen eigenen Shop. Weiterverkaufte KDP-Autorenexemplare erzeugen keine KDP-Tantiemen.",
+              "implication": "Amazon-Tantiemen und eigenen Shop-Deckungsbeitrag getrennt erfassen; im Shop Herstellung, Versand, Retouren und Provisionen einrechnen.",
+              "sourceIds": [
+                "copies"
+              ]
+            },
+            {
+              "label": "Amazon-Effekt messen statt voraussetzen",
+              "fact": "Amazon Attribution ist für berechtigte KDP-Autoren auch in Deutschland verfügbar. Ein TikTok-Shop-Kauf ist kein belegter direkter Rankingimpuls auf Amazon.",
+              "implication": "Social-Links je Kampagne kennzeichnen; zugeordnete Käufe und vermuteten organischen Folgeabsatz getrennt dokumentieren.",
+              "sourceIds": [
+                "attribution",
+                "ranking"
+              ]
+            },
+            {
+              "label": "Content-Versprechen ist prüfbar, Spitzenumsatz kein Maßstab",
+              "fact": "Die Videobeispiele arbeiten mit Geschenk-Anlässen, Neugier und Identität. Claires 80.000–100.000 USD KDP pro Monat sind ausdrücklich geschätzt.",
+              "implication": "Wiederholbare Produktdemonstration und Käufe pro Contentaufwand bewerten; Spitzenwerte nicht als dauerhafte Ertragsprognose behandeln.",
+              "sourceIds": [
+                "video"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Deutsche Marktrelevanz ist gestützt",
+              "text": "Media Control nennt 28 Millionen BookTok-bezogene Buchverkäufe und 482 Millionen Euro Umsatz für Deutschland 2025. Das stützt den Kanal, nicht die Profitabilität einer bestimmten KDP-Nische."
+            },
+            {
+              "label": "Shop-Markt und Buchmarkt auseinanderhalten",
+              "text": "NIQ zeigt 10 Prozent Käuferreichweite unter Online-Shoppern nach 28 Wochen. Die Ergebnisse betreffen alle Kategorien; sie sind kein KDP-Absatznachweis."
+            },
+            {
+              "label": "Kosten und Vertriebswege trennen",
+              "text": "Amazon-Tantiemen und TikTok-Shop-Ergebnis benötigen getrennte Rechnungen. Ein eigener Shop bringt Herstellung, Versand, Retouren und Provisionen mit."
+            },
+            {
+              "label": "Fallbeispiele und Rankingeffekt bleiben offen",
+              "text": "Namen wurden präzisiert: LARKINROAD und Claire Monroe Books. Umsatzschätzungen und Spitzentage belegen keine dauerhafte Marge; Amazon-Spillover ist nicht kausal nachgewiesen."
+            },
+            {
+              "label": "Als Marketingbaustein weiterverwenden",
+              "text": "Produktversprechen und demonstrierbare Inhalte ergänzen die bisherigen KDP-Nischen- und Kataloganalysen. Attribution hilft bei der Messung, ersetzt aber keinen Nachweis zusätzlicher Nachfrage."
+            }
+          ],
+          "claims": [
+            {
+              "id": "de-market",
+              "text": "BookTok hat im deutschen Buchmarkt relevante Reichweite und Absatzbezug.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Media Control veröffentlicht für 2025 28 Millionen verkaufte Bücher mit BookTok-Bezug und 482 Millionen Euro Umsatz. Die Auswahl umfasst Titel mit Listenplatzierungen oder relevanten Verkaufsanstiegen; kein Nachweis ausschließlich kausal erzeugter Käufe. TikTok und Media Control veröffentlichen dieselbe Meldung.",
+              "sourceIds": [
+                "mc",
+                "tiktok-market"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "Deutschland, 2025, ausgewählte BookTok-Titel über mehrere Vertriebskanäle"
+            },
+            {
+              "id": "de-discovery",
+              "text": "Mehr als ein Drittel der 16- bis 39-Jährigen entdeckt laut Erhebung Bücher über TikTok.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "So in der gemeinsamen Veröffentlichung berichtet. Methodikhinweis: Media Control Consumer Panel, Online-Befragung von 1.300 Personen in Deutschland; genaue Teilgruppen, Gewichtung und Fragebogen nicht öffentlich geprüft. Selbstbericht zur Entdeckung, kein Kaufexperiment.",
+              "sourceIds": [
+                "mc"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "Befragungsangabe Deutschland; Stichprobenbeschreibung begrenzt"
+            },
+            {
+              "id": "shop-market",
+              "text": "TikTok Shop wird von einem relevanten Teil deutscher Online-Shopper genutzt.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "NIQ Digital Purchases: 10 Prozent kauften seit Launch mindestens einmal, Stand nach 28 Wochen. Generation X: 33 Prozent Käufer und 36 Prozent Umsatz. Keine buchbezogene Erfolgsquote.",
+              "sourceIds": [
+                "niq"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "Deutschland, erste 28 Wochen 2025, alle Produktkategorien"
+            },
+            {
+              "id": "case-revenue",
+              "text": "Die angegebenen Fallstudienumsätze sind unabhängig bestätigt und nachhaltig wiederholbar.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Nilsen nennt LARKINROAD 2,25 Mio. USD TikTok, Claire ca.80k TikTok und geschätzte80–100k KDP monatlich. Shops existieren, aber keine geprüfte Abrechnung/Kostenbasis. Amar: Beschreibung3,7kUSD an einem Tag nach ca.3k/Monat; HTML1–1,5k/Tag kann einen anderen Zeitraum meinen. Fallen Poet1k/Tag bleibt Autorenbehauptung.",
+              "sourceIds": [
+                "video",
+                "larkin",
+                "claire"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "names",
+              "text": "Die Fallbeispiele heißen Lark & Road und Claremont Road Books.",
+              "importance": 1,
+              "status": "widerlegt",
+              "rationale": "Originalbeschreibung nennt LARKINROAD und Claire Monroe Books. Korrektur nur in unserer Prüfung; Original-HTML unverändert.",
+              "sourceIds": [
+                "video",
+                "larkin",
+                "claire"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "spillover",
+              "text": "TikTok-Shop-Verkäufe bewirken einen dauerhaften Amazon-Ranking- und Absatzkreislauf.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Amazon dokumentiert keinen direkten Rankingtransfer aus Fremdshops. Plausible Zwischenstufe: Content motiviert zu Amazon-Suche/Kauf. Wie viele zusätzliche Käufe daraus entstehen und wie lange sie wirken, ist nicht belegt.",
+              "sourceIds": [
+                "ranking",
+                "attribution"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "measurement",
+              "text": "Amazon Attribution erlaubt die Zuordnung externer Kampagnen zu Amazon-Ergebnissen.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Für berechtigte KDP-Autoren in Deutschland verfügbar. 14-Tage-Letzter-Klick-Zuordnung ersetzt keine Messung inkrementeller Nachfrage und erfasst indirekte Suchen nicht vollständig.",
+              "sourceIds": [
+                "attribution",
+                "attribution-method"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "fulfillment",
+              "text": "TikTok Shop ist operativ mit dem KDP-Verkauf auf Amazon gleichzusetzen.",
+              "importance": 2,
+              "status": "widerlegt",
+              "rationale": "Autorenexemplare sind zum Wiederverkauf geeignet, erzeugen aber keine KDP-Tantiemen; eigener Shop benötigt eigene Abwicklung und separate Kostenrechnung.",
+              "sourceIds": [
+                "copies"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "durability",
+              "text": "Amazon-Ads wirken nur während Schaltung, Social-Content wirkt dauerhaft.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Die starre Gegenüberstellung ist nicht belegt. Beide können späteren Absatz beeinflussen, beide benötigen Messung. Relative Amazon-Rankings berücksichtigen frühere und aktuelle Aktivität. Keine Garantie dauerhafter Social-Reichweite.",
+              "sourceIds": [
+                "ranking",
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Jonathan Nilsen: TikTok Is Quietly Creating Six-Figure Publishers",
+              "url": "https://www.youtube.com/watch?v=_QcuQRBrASA",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "jonathan-nilsen",
+              "note": "Originalbeschreibung durch Rechercheagenten gelesen. Eigenes Coaching verlinkt; wirtschaftliche Fallbeispiele nicht unabhängig bestätigt."
+            },
+            {
+              "id": "mc",
+              "title": "Media Control: BookTok-Buchmarkt 2025",
+              "url": "https://media-control.de/booktok-community-treibt-weiter-buchverk%C3%A4ufe.html",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "booktok-market-2025",
+              "note": "19.03.2026. Gemeinsame Veröffentlichung mit TikTok, Daten von Media Control/NielsenIQ BookData; dieselbe Meldung ist keine zweite unabhängige Studie. Buchverkäufe der ausgewählten Titel über mehrere Vertriebskanäle, keine kausale Zusatzabsatzmessung. Consumer-Panel: Online-Befragung von 1.300 Personen in Deutschland."
+            },
+            {
+              "id": "tiktok-market",
+              "title": "TikTok: BookTok-Marktdaten und Methodik",
+              "url": "https://newsroom.tiktok.com/booktok-50-millionen?lang=de-DE",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "booktok-market-2025",
+              "note": "19.03.2026; inhaltlich dieselbe Veröffentlichung wie Media Control. Auswahl über BookTok-Listen oder signifikante Verkaufsanstiege im Zusammenhang mit Trends; Rohdaten und Kausalmodell nicht zugänglich."
+            },
+            {
+              "id": "niq",
+              "title": "NielsenIQ: TikTok Shop in Deutschland",
+              "url": "https://nielseniq.com/global/de/news-center/2025/jeder-zehnte-online-shopper-kauft-bereits-uber-tiktok-shop/",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "niq-digital-purchases",
+              "note": "03.11.2025, NIQ Digital Purchases, erste 28 Wochen seit Marktstart. Alle Produktkategorien; keine KDP-spezifischen Ergebnisse. 10 Prozent beziehen sich auf Online-Shopper, nicht Gesamtbevölkerung."
+            },
+            {
+              "id": "charts",
+              "title": "Media Control: BookTok-Bestsellerlisten August 2026",
+              "url": "https://media-control.de/booktok-bestsellerliste-f%C3%BCr-den-monat-august-2026.html",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "booktok-market-2025",
+              "note": "Aktuelle offizielle Listen als Rechercheeinstieg; Listenseite geprüft, Einzelbilder nicht ausgewertet. Keine unabhängige zweite Marktmessung."
+            },
+            {
+              "id": "copies",
+              "title": "KDP: Proof and Author Copies",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G7BBN68RYX5UMDZF",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-kdp",
+              "note": "Autorenexemplare dürfen weiterverkauft werden; keine KDP-Tantiemen oder KDP-Berichtsbuchung dieser Käufe."
+            },
+            {
+              "id": "ranking",
+              "title": "KDP: Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-kdp",
+              "note": "Relative Kundenaktivität auf Amazon; kein belegter direkter Transfer von TikTok-Shop-Verkäufen."
+            },
+            {
+              "id": "attribution",
+              "title": "Amazon Attribution: Verfügbarkeit und Funktion",
+              "url": "https://advertising.amazon.com/solutions/products/amazon-attribution",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-ads",
+              "note": "Für berechtigte KDP-Autoren auch Deutschland. Zuordnung von externen Marketingkontakten zu Amazon-Ergebnissen; keine Kausalitätsgarantie."
+            },
+            {
+              "id": "attribution-method",
+              "title": "Amazon Attribution: Messmethodik",
+              "url": "https://advertising.amazon.com/help/G4YK9L2G4NXDD7SC",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-ads",
+              "note": "Gegenprüfungsagent: 14-Tage-Letzter-Klick-Verfahren; spätere eigenständige Suche nicht vollständig erfasst."
+            },
+            {
+              "id": "larkin",
+              "title": "TikTok Shop: LARKINROAD",
+              "url": "https://shop.tiktok.com/us/store/larkinroad/7495303958200355386",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "tiktok-shop",
+              "note": "Shop durch Rechercheagenten identifiziert; kumulierte Einheitenanzeige bestätigt keine Umsatzperiode oder Marge."
+            },
+            {
+              "id": "claire",
+              "title": "TikTok Shop: Claire Monroe Books",
+              "url": "https://shop.tiktok.com/us/store/change-life-buys/7494236674330690985",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "tiktok-shop",
+              "note": "Shop durch Rechercheagenten identifiziert; keine unabhängigen KDP-Einnahmenbelege."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung und spätere Projektwahl; keine persönliche Umsetzungsabsicht.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kleine-profitable-kdp-nischen",
+            "kdp-200-buecher-umsatz-gewinn",
+            "decode-methode-print-on-demand"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "tiktok_recherche",
+              "conclusion": "Originalbeschreibung und Shops identifiziert, Namen korrigiert. Umsatzangaben bleiben Behauptungen; kein unabhängiger Finanznachweis."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "tiktok_challenge",
+              "conclusion": "Vertriebswege, Fulfillment, Ranking und Attribution getrennt. Deutsche Statistik beschreibt Absatzbezug, keine garantierte Kausalität."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Media Control direkt und NIQ Digital Purchases ergänzen den deutschen Marktkontext. Gemeinsame TikTok-/Media-Control-Meldung nur einmal als Quellenfamilie gewertet."
+            }
+          ]
+        },
+        {
+          "id": "r3",
+          "createdAt": "2026-09-10T08:22:10.697708Z",
+          "previousId": "r2",
+          "reason": "Querverbindung Marketing zwischen LinkedIn-Assistenz und TikTok-Nachfrage geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Die deutschen Daten stützen BookTok als relevanten Entdeckungskanal. TikTok Shop ist zusätzlich als deutscher Vertriebskanal etabliert, seine branchenübergreifenden Kennzahlen belegen jedoch keine KDP-Marge. Die Fallstudienbeträge und ein dauerhaft selbstverstärkender Amazon-Effekt bleiben unbestätigt. Als Marketingergänzung zur Katalogstrategie sinnvoll; Herstellung, Contentarbeit und Absatzwege getrennt bewerten. Die Decode-Methode ergänzt die Hypothesenbildung zu Motiv, Zielgruppe und Kaufversprechen. Sie bestätigt keine bisherigen Nischen- oder Ertragsannahmen. Vergleich: LinkedIn-Assistenz betrifft die Vorbereitung und Strukturierung von Marketingarbeit; die TikTok-Analyse betrifft Buchnachfrage und Attribution. Die gemeinsame Marketing-Kategorie liefert keinen gegenseitigen Beleg für Reichweite, Konversion oder Ertrag. Bestehende Belegurteile bleiben unverändert.",
+          "keyFacts": [
+            {
+              "label": "Deutscher Buchmarkt: 28 Millionen Exemplare",
+              "fact": "Media Control nennt für 2025 in Deutschland 28 Millionen verkaufte Bücher mit BookTok-Bezug und 482 Millionen Euro Umsatz. Das sind kanalübergreifende Verkäufe ausgewählter Titel.",
+              "implication": "BookTok als relevanten Entdeckungskanal berücksichtigen; die Zahlen nicht als zusätzlichen TikTok-Absatz oder KDP-Gewinn verwenden.",
+              "sourceIds": [
+                "mc"
+              ]
+            },
+            {
+              "label": "TikTok Shop erreicht mehr als junge Käufer",
+              "fact": "Nach NIQ hatten nach 28 Wochen 10 Prozent der deutschen Online-Shopper bei TikTok Shop gekauft. Generation X stellte 33 Prozent der Käufer und 36 Prozent des Umsatzes.",
+              "implication": "Zielgruppen nicht pauschal auf Gen Z begrenzen. Diese Werte gelten für alle Produktkategorien; Buchkäufer separat prüfen.",
+              "sourceIds": [
+                "niq"
+              ]
+            },
+            {
+              "label": "Zwei Vertriebswege, zwei Kalkulationen",
+              "fact": "Social Content kann zu Amazon führen oder in einen eigenen Shop. Weiterverkaufte KDP-Autorenexemplare erzeugen keine KDP-Tantiemen.",
+              "implication": "Amazon-Tantiemen und eigenen Shop-Deckungsbeitrag getrennt erfassen; im Shop Herstellung, Versand, Retouren und Provisionen einrechnen.",
+              "sourceIds": [
+                "copies"
+              ]
+            },
+            {
+              "label": "Amazon-Effekt messen statt voraussetzen",
+              "fact": "Amazon Attribution ist für berechtigte KDP-Autoren auch in Deutschland verfügbar. Ein TikTok-Shop-Kauf ist kein belegter direkter Rankingimpuls auf Amazon.",
+              "implication": "Social-Links je Kampagne kennzeichnen; zugeordnete Käufe und vermuteten organischen Folgeabsatz getrennt dokumentieren.",
+              "sourceIds": [
+                "attribution",
+                "ranking"
+              ]
+            },
+            {
+              "label": "Content-Versprechen ist prüfbar, Spitzenumsatz kein Maßstab",
+              "fact": "Die Videobeispiele arbeiten mit Geschenk-Anlässen, Neugier und Identität. Claires 80.000–100.000 USD KDP pro Monat sind ausdrücklich geschätzt.",
+              "implication": "Wiederholbare Produktdemonstration und Käufe pro Contentaufwand bewerten; Spitzenwerte nicht als dauerhafte Ertragsprognose behandeln.",
+              "sourceIds": [
+                "video"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Deutsche Marktrelevanz ist gestützt",
+              "text": "Media Control nennt 28 Millionen BookTok-bezogene Buchverkäufe und 482 Millionen Euro Umsatz für Deutschland 2025. Das stützt den Kanal, nicht die Profitabilität einer bestimmten KDP-Nische."
+            },
+            {
+              "label": "Shop-Markt und Buchmarkt auseinanderhalten",
+              "text": "NIQ zeigt 10 Prozent Käuferreichweite unter Online-Shoppern nach 28 Wochen. Die Ergebnisse betreffen alle Kategorien; sie sind kein KDP-Absatznachweis."
+            },
+            {
+              "label": "Kosten und Vertriebswege trennen",
+              "text": "Amazon-Tantiemen und TikTok-Shop-Ergebnis benötigen getrennte Rechnungen. Ein eigener Shop bringt Herstellung, Versand, Retouren und Provisionen mit."
+            },
+            {
+              "label": "Fallbeispiele und Rankingeffekt bleiben offen",
+              "text": "Namen wurden präzisiert: LARKINROAD und Claire Monroe Books. Umsatzschätzungen und Spitzentage belegen keine dauerhafte Marge; Amazon-Spillover ist nicht kausal nachgewiesen."
+            },
+            {
+              "label": "Als Marketingbaustein weiterverwenden",
+              "text": "Produktversprechen und demonstrierbare Inhalte ergänzen die bisherigen KDP-Nischen- und Kataloganalysen. Attribution hilft bei der Messung, ersetzt aber keinen Nachweis zusätzlicher Nachfrage."
+            }
+          ],
+          "claims": [
+            {
+              "id": "de-market",
+              "text": "BookTok hat im deutschen Buchmarkt relevante Reichweite und Absatzbezug.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Media Control veröffentlicht für 2025 28 Millionen verkaufte Bücher mit BookTok-Bezug und 482 Millionen Euro Umsatz. Die Auswahl umfasst Titel mit Listenplatzierungen oder relevanten Verkaufsanstiegen; kein Nachweis ausschließlich kausal erzeugter Käufe. TikTok und Media Control veröffentlichen dieselbe Meldung.",
+              "sourceIds": [
+                "mc",
+                "tiktok-market"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "Deutschland, 2025, ausgewählte BookTok-Titel über mehrere Vertriebskanäle"
+            },
+            {
+              "id": "de-discovery",
+              "text": "Mehr als ein Drittel der 16- bis 39-Jährigen entdeckt laut Erhebung Bücher über TikTok.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "So in der gemeinsamen Veröffentlichung berichtet. Methodikhinweis: Media Control Consumer Panel, Online-Befragung von 1.300 Personen in Deutschland; genaue Teilgruppen, Gewichtung und Fragebogen nicht öffentlich geprüft. Selbstbericht zur Entdeckung, kein Kaufexperiment.",
+              "sourceIds": [
+                "mc"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "Befragungsangabe Deutschland; Stichprobenbeschreibung begrenzt"
+            },
+            {
+              "id": "shop-market",
+              "text": "TikTok Shop wird von einem relevanten Teil deutscher Online-Shopper genutzt.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "NIQ Digital Purchases: 10 Prozent kauften seit Launch mindestens einmal, Stand nach 28 Wochen. Generation X: 33 Prozent Käufer und 36 Prozent Umsatz. Keine buchbezogene Erfolgsquote.",
+              "sourceIds": [
+                "niq"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "Deutschland, erste 28 Wochen 2025, alle Produktkategorien"
+            },
+            {
+              "id": "case-revenue",
+              "text": "Die angegebenen Fallstudienumsätze sind unabhängig bestätigt und nachhaltig wiederholbar.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Nilsen nennt LARKINROAD 2,25 Mio. USD TikTok, Claire ca.80k TikTok und geschätzte80–100k KDP monatlich. Shops existieren, aber keine geprüfte Abrechnung/Kostenbasis. Amar: Beschreibung3,7kUSD an einem Tag nach ca.3k/Monat; HTML1–1,5k/Tag kann einen anderen Zeitraum meinen. Fallen Poet1k/Tag bleibt Autorenbehauptung.",
+              "sourceIds": [
+                "video",
+                "larkin",
+                "claire"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "names",
+              "text": "Die Fallbeispiele heißen Lark & Road und Claremont Road Books.",
+              "importance": 1,
+              "status": "widerlegt",
+              "rationale": "Originalbeschreibung nennt LARKINROAD und Claire Monroe Books. Korrektur nur in unserer Prüfung; Original-HTML unverändert.",
+              "sourceIds": [
+                "video",
+                "larkin",
+                "claire"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "spillover",
+              "text": "TikTok-Shop-Verkäufe bewirken einen dauerhaften Amazon-Ranking- und Absatzkreislauf.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Amazon dokumentiert keinen direkten Rankingtransfer aus Fremdshops. Plausible Zwischenstufe: Content motiviert zu Amazon-Suche/Kauf. Wie viele zusätzliche Käufe daraus entstehen und wie lange sie wirken, ist nicht belegt.",
+              "sourceIds": [
+                "ranking",
+                "attribution"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "measurement",
+              "text": "Amazon Attribution erlaubt die Zuordnung externer Kampagnen zu Amazon-Ergebnissen.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Für berechtigte KDP-Autoren in Deutschland verfügbar. 14-Tage-Letzter-Klick-Zuordnung ersetzt keine Messung inkrementeller Nachfrage und erfasst indirekte Suchen nicht vollständig.",
+              "sourceIds": [
+                "attribution",
+                "attribution-method"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "fulfillment",
+              "text": "TikTok Shop ist operativ mit dem KDP-Verkauf auf Amazon gleichzusetzen.",
+              "importance": 2,
+              "status": "widerlegt",
+              "rationale": "Autorenexemplare sind zum Wiederverkauf geeignet, erzeugen aber keine KDP-Tantiemen; eigener Shop benötigt eigene Abwicklung und separate Kostenrechnung.",
+              "sourceIds": [
+                "copies"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            },
+            {
+              "id": "durability",
+              "text": "Amazon-Ads wirken nur während Schaltung, Social-Content wirkt dauerhaft.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Die starre Gegenüberstellung ist nicht belegt. Beide können späteren Absatz beeinflussen, beide benötigen Messung. Relative Amazon-Rankings berücksichtigen frühere und aktuelle Aktivität. Keine Garantie dauerhafter Social-Reichweite.",
+              "sourceIds": [
+                "ranking",
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Recherche",
+              "scope": "KDP-Social-Marketing; keine allgemeine Erfolgsgarantie"
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Jonathan Nilsen: TikTok Is Quietly Creating Six-Figure Publishers",
+              "url": "https://www.youtube.com/watch?v=_QcuQRBrASA",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "jonathan-nilsen",
+              "note": "Originalbeschreibung durch Rechercheagenten gelesen. Eigenes Coaching verlinkt; wirtschaftliche Fallbeispiele nicht unabhängig bestätigt."
+            },
+            {
+              "id": "mc",
+              "title": "Media Control: BookTok-Buchmarkt 2025",
+              "url": "https://media-control.de/booktok-community-treibt-weiter-buchverk%C3%A4ufe.html",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "booktok-market-2025",
+              "note": "19.03.2026. Gemeinsame Veröffentlichung mit TikTok, Daten von Media Control/NielsenIQ BookData; dieselbe Meldung ist keine zweite unabhängige Studie. Buchverkäufe der ausgewählten Titel über mehrere Vertriebskanäle, keine kausale Zusatzabsatzmessung. Consumer-Panel: Online-Befragung von 1.300 Personen in Deutschland."
+            },
+            {
+              "id": "tiktok-market",
+              "title": "TikTok: BookTok-Marktdaten und Methodik",
+              "url": "https://newsroom.tiktok.com/booktok-50-millionen?lang=de-DE",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "booktok-market-2025",
+              "note": "19.03.2026; inhaltlich dieselbe Veröffentlichung wie Media Control. Auswahl über BookTok-Listen oder signifikante Verkaufsanstiege im Zusammenhang mit Trends; Rohdaten und Kausalmodell nicht zugänglich."
+            },
+            {
+              "id": "niq",
+              "title": "NielsenIQ: TikTok Shop in Deutschland",
+              "url": "https://nielseniq.com/global/de/news-center/2025/jeder-zehnte-online-shopper-kauft-bereits-uber-tiktok-shop/",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "niq-digital-purchases",
+              "note": "03.11.2025, NIQ Digital Purchases, erste 28 Wochen seit Marktstart. Alle Produktkategorien; keine KDP-spezifischen Ergebnisse. 10 Prozent beziehen sich auf Online-Shopper, nicht Gesamtbevölkerung."
+            },
+            {
+              "id": "charts",
+              "title": "Media Control: BookTok-Bestsellerlisten August 2026",
+              "url": "https://media-control.de/booktok-bestsellerliste-f%C3%BCr-den-monat-august-2026.html",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "booktok-market-2025",
+              "note": "Aktuelle offizielle Listen als Rechercheeinstieg; Listenseite geprüft, Einzelbilder nicht ausgewertet. Keine unabhängige zweite Marktmessung."
+            },
+            {
+              "id": "copies",
+              "title": "KDP: Proof and Author Copies",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G7BBN68RYX5UMDZF",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-kdp",
+              "note": "Autorenexemplare dürfen weiterverkauft werden; keine KDP-Tantiemen oder KDP-Berichtsbuchung dieser Käufe."
+            },
+            {
+              "id": "ranking",
+              "title": "KDP: Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-kdp",
+              "note": "Relative Kundenaktivität auf Amazon; kein belegter direkter Transfer von TikTok-Shop-Verkäufen."
+            },
+            {
+              "id": "attribution",
+              "title": "Amazon Attribution: Verfügbarkeit und Funktion",
+              "url": "https://advertising.amazon.com/solutions/products/amazon-attribution",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-ads",
+              "note": "Für berechtigte KDP-Autoren auch Deutschland. Zuordnung von externen Marketingkontakten zu Amazon-Ergebnissen; keine Kausalitätsgarantie."
+            },
+            {
+              "id": "attribution-method",
+              "title": "Amazon Attribution: Messmethodik",
+              "url": "https://advertising.amazon.com/help/G4YK9L2G4NXDD7SC",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "amazon-ads",
+              "note": "Gegenprüfungsagent: 14-Tage-Letzter-Klick-Verfahren; spätere eigenständige Suche nicht vollständig erfasst."
+            },
+            {
+              "id": "larkin",
+              "title": "TikTok Shop: LARKINROAD",
+              "url": "https://shop.tiktok.com/us/store/larkinroad/7495303958200355386",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "tiktok-shop",
+              "note": "Shop durch Rechercheagenten identifiziert; kumulierte Einheitenanzeige bestätigt keine Umsatzperiode oder Marge."
+            },
+            {
+              "id": "claire",
+              "title": "TikTok Shop: Claire Monroe Books",
+              "url": "https://shop.tiktok.com/us/store/change-life-buys/7494236674330690985",
+              "accessedAt": "2026-09-10T07:20:30.404715Z",
+              "originGroup": "tiktok-shop",
+              "note": "Shop durch Rechercheagenten identifiziert; keine unabhängigen KDP-Einnahmenbelege."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung und spätere Projektwahl; keine persönliche Umsetzungsabsicht.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kleine-profitable-kdp-nischen",
+            "kdp-200-buecher-umsatz-gewinn",
+            "decode-methode-print-on-demand",
+            "claude-linkedin-schritt-fuer-schritt"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "tiktok_recherche",
+              "conclusion": "Originalbeschreibung und Shops identifiziert, Namen korrigiert. Umsatzangaben bleiben Behauptungen; kein unabhängiger Finanznachweis."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "tiktok_challenge",
+              "conclusion": "Vertriebswege, Fulfillment, Ranking und Attribution getrennt. Deutsche Statistik beschreibt Absatzbezug, keine garantierte Kausalität."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Media Control direkt und NIQ Digital Purchases ergänzen den deutschen Marktkontext. Gemeinsame TikTok-/Media-Control-Meldung nur einmal als Quellenfamilie gewertet."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "decode-methode-print-on-demand",
+      "title": "Die Decode-Methode für Print-on-Demand-Designs",
+      "sourceUrl": "https://www.youtube.com/watch?v=o-dR95FNbLM",
+      "channel": "Meg Heckman",
+      "publishedAt": null,
+      "importedAt": "2026-09-10T08:20:13.824Z",
+      "categories": [
+        "Business-Ideen / Sidehustles"
+      ],
+      "tags": [
+        "Print-on-Demand",
+        "T-Shirts",
+        "Nischenrecherche",
+        "Design",
+        "Etsy",
+        "EverBee",
+        "Ideenentwicklung"
+      ],
+      "summary": "Find, Decode, Flip: Verkaufssignale einordnen, ein Gestaltungsmuster abstrahieren und neue Nischenideen entwickeln. Mit zehn ungeprüften deutschen Konzeptideen.",
+      "originalHash": "d2db48a6960570397038d18381e015b1d089ac86e98a044b540ac88555129e58",
+      "originalFilename": "decode-methode-print-on-demand-analyse.html",
+      "sourceAssessment": "Sehr nützliche Ideationsmethode — deutlich besser als simples Kopieren, aber nur so gut wie die Marktvalidierung und die Qualität der Abstraktion.",
+      "topicIds": [
+        "pod-t-shirts-designhypothesen"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-10T08:20:13.715632Z",
+          "previousId": null,
+          "reason": "Besprochene Prüfung und zehn deutsche Beispiele nach Freigabe als Wissensbaustein gespeichert.",
+          "methodVersion": "1.0",
+          "assessment": "Nützlicher Ideenrahmen, keine bewiesene Verkaufsformel. Deutsche Entwürfe sind ausdrücklich ungetestete Konzepte. Verbindungen zu KDP betreffen Nischensignale und Positionierung, nicht eine Übertragung der Erträge.",
+          "ideaExamples": [
+            {
+              "slogan": "Ich bin nicht nachtragend. Ich speichere nur.",
+              "motif": "Eichhörnchen mit beschriftetem Nussarchiv",
+              "mechanism": "Nichtvergessen wird zum Vorratsspeicher.",
+              "audience": "Trockener Humor"
+            },
+            {
+              "slogan": "Loslassen ist nicht meine Stärke.",
+              "motif": "Krabbe hält einen Gegenstand mit beiden Scheren",
+              "mechanism": "Emotionale Redewendung wird körperlich wörtlich.",
+              "audience": "Tierhumor, Geschenke"
+            },
+            {
+              "slogan": "Ich brauche Abstand.",
+              "motif": "Kaktus allein auf einer großen Parkbank",
+              "mechanism": "Freiraum trifft auf stacheliges Motiv.",
+              "audience": "Introvertierte, Pflanzenfans"
+            },
+            {
+              "slogan": "Ich lasse die Arbeit auf mich zukommen.",
+              "motif": "Spinne im Liegestuhl neben ihrem Netz",
+              "mechanism": "Vermeintliche Faulheit ist ihre Jagdstrategie.",
+              "audience": "Bürohumor"
+            },
+            {
+              "slogan": "Ich stehe über den Dingen.",
+              "motif": "Gelassene Giraffe",
+              "mechanism": "Körpergröße übersetzt die Redewendung.",
+              "audience": "Tierfans"
+            },
+            {
+              "slogan": "Ich bin offen für Neues. Außer die Tür.",
+              "motif": "Katze unentschlossen vor offener Tür",
+              "mechanism": "Positive Selbstaussage trifft auf bekannte Katzen-Situation.",
+              "audience": "Katzenmenschen"
+            },
+            {
+              "slogan": "Ich habe den Überblick. Nur keinen Plan.",
+              "motif": "Eule auf Wegweiser mit vielen Richtungen",
+              "mechanism": "Kluge Eule hat Aussicht, aber keine Orientierung.",
+              "audience": "Studierende, Büro"
+            },
+            {
+              "slogan": "Ich wachse an meinen Aufgaben.",
+              "motif": "Sauerteig quillt aus einem Glas",
+              "mechanism": "Entwicklungsfloskel wird buchstäbliches Wachstum.",
+              "audience": "Brotbacken, Sauerteigfans"
+            },
+            {
+              "slogan": "Ich mache heute nur das Nötigste.",
+              "motif": "Biber vor riesigem frisch gebautem Damm",
+              "mechanism": "Bescheidener Anspruch gegen übertriebene Leistung.",
+              "audience": "Heimwerken, Perfektionisten"
+            },
+            {
+              "slogan": "Ich bin noch in der Findungsphase.",
+              "motif": "Maulwurf mit Schatzkarte zwischen Suchhügeln",
+              "mechanism": "Lebensphase wird buchstäbliche Suche.",
+              "audience": "Gartenfans, Veränderung"
+            }
+          ],
+          "keyFacts": [
+            {
+              "label": "Kaufgrund bleibt eine Hypothese",
+              "fact": "Ein Bestseller zeigt keine isolierte Wirkung von Witz oder Stil. 80/20 ist eine persönliche Faustregel.",
+              "implication": "Mechanismus und alternative Erklärungen wie Reichweite, Preis und Shopvertrauen gemeinsam festhalten.",
+              "sourceIds": [
+                "video"
+              ]
+            },
+            {
+              "label": "Monatsverkäufe sind nicht zwingend aktuell",
+              "fact": "EverBee beschreibt Monthly Sales als geschätzte Gesamtverkäufe geteilt durch Angebotsalter.",
+              "implication": "Zeitraum und Schätzcharakter dokumentieren; aktuelle Trends gesondert prüfen.",
+              "sourceIds": [
+                "everbee",
+                "estimates"
+              ]
+            },
+            {
+              "label": "Deutsch neu denken statt wörtlich übersetzen",
+              "fact": "Das Beispiel verbindet eine Redewendung mit einer unmöglichen Option. Die Wirkung hängt von Sprache und Zielgruppe ab.",
+              "implication": "Deutsche Redewendung → wörtlicher Bildwitz → erkennbare Zielgruppe; Verständlichkeit bleibt eine zu prüfende These.",
+              "sourceIds": [
+                "video"
+              ]
+            },
+            {
+              "label": "Umsatz ist kein Deckungsbeitrag",
+              "fact": "73.000 USD sind unbestätigt. Etsy verlangt unter anderem6,5% Transaktion und in Deutschland4%+0,30EUR Zahlungsabwicklung.",
+              "implication": "Produktion, Versand, Werbung und Reklamationen in die Einzelrechnung aufnehmen.",
+              "sourceIds": [
+                "video",
+                "fees",
+                "payment"
+              ]
+            },
+            {
+              "label": "Eigenständiges Design gehört zum Modell",
+              "fact": "Etsy erlaubt Originaldesigns mit ausgewiesenem Produktionspartner.",
+              "implication": "Inspirationsquelle, abstraktes Prinzip und eigene Umsetzung getrennt dokumentieren.",
+              "sourceIds": [
+                "etsy"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Kaufgrund bleibt eine Hypothese",
+              "text": "Ein Bestseller zeigt keine isolierte Wirkung von Witz oder Stil. 80/20 ist eine persönliche Faustregel."
+            },
+            {
+              "label": "Monatsverkäufe sind nicht zwingend aktuell",
+              "text": "EverBee beschreibt Monthly Sales als geschätzte Gesamtverkäufe geteilt durch Angebotsalter."
+            },
+            {
+              "label": "Deutsch neu denken statt wörtlich übersetzen",
+              "text": "Das Beispiel verbindet eine Redewendung mit einer unmöglichen Option. Die Wirkung hängt von Sprache und Zielgruppe ab."
+            },
+            {
+              "label": "Umsatz ist kein Deckungsbeitrag",
+              "text": "73.000 USD sind unbestätigt. Etsy verlangt unter anderem6,5% Transaktion und in Deutschland4%+0,30EUR Zahlungsabwicklung."
+            },
+            {
+              "label": "Eigenständiges Design gehört zum Modell",
+              "text": "Etsy erlaubt Originaldesigns mit ausgewiesenem Produktionspartner."
+            }
+          ],
+          "claims": [
+            {
+              "id": "revenue",
+              "text": "Das Design erzielte im ersten Jahr73.000USD.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Videoangabe ohne unabhängig geprüfte Erlös- und Kostenrechnung.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML, Dokumentation und Dialog",
+              "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+            },
+            {
+              "id": "cause",
+              "text": "80%Konzept und20%Stil erklären den Verkaufserfolg.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine isolierende Vergleichsmessung; persönliche Heuristik.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML, Dokumentation und Dialog",
+              "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+            },
+            {
+              "id": "monthly",
+              "text": "EverBee Monthly Sales belegt Verkäufe der letzten30Tage.",
+              "importance": 2,
+              "status": "widerlegt",
+              "rationale": "Dokumentierte Kennzahl ist ein geschätzter Durchschnitt über die Angebotslaufzeit.",
+              "sourceIds": [
+                "everbee"
+              ],
+              "location": "Original-HTML, Dokumentation und Dialog",
+              "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+            },
+            {
+              "id": "signals",
+              "text": "Bestseller-Sortierung beweist aktuelle profitable Verkäufe.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Shopify sortiert nach Allzeit-Bestellungen; ohne Verkäufe nach Neuheit. Weder Marge noch Aktualität daraus ableiten.",
+              "sourceIds": [
+                "shopify"
+              ],
+              "location": "Original-HTML, Dokumentation und Dialog",
+              "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+            },
+            {
+              "id": "originality",
+              "text": "Etsy erlaubt eigene Designs mit Produktionspartner.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Partner muss offengelegt werden; keine Freigabe beliebiger fremder Gestaltung.",
+              "sourceIds": [
+                "etsy"
+              ],
+              "location": "Original-HTML, Dokumentation und Dialog",
+              "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+            },
+            {
+              "id": "german",
+              "text": "Die zehn deutschen Entwürfe sind profitable eigenständige Nischen.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Kreative Vorschläge aus dem Dialog; keine Markt-, Originalitäts- oder Rechteprüfung.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML, Dokumentation und Dialog",
+              "scope": "POD-Designrecherche; keine allgemeine Erfolgsprognose"
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Meg Heckman: I’ve Designed 10,000+ T-Shirts",
+              "url": "https://www.youtube.com/watch?v=o-dR95FNbLM",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "meg-heckman",
+              "note": "Kommerzieller WeScale-Verweis. 73.000 USD und 80/20 nicht unabhängig bestätigt."
+            },
+            {
+              "id": "everbee",
+              "title": "EverBee: Product Analytics",
+              "url": "https://help.everbee.io/en/article/3-product-analytics",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "everbee",
+              "note": "Monthly Sales als geschätzte Total Sales geteilt durch Listing Age; separate Trends."
+            },
+            {
+              "id": "estimates",
+              "title": "EverBee: How does EverBee work?",
+              "url": "https://help.everbee.io/en/article/6-how-does-everbee-work",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "everbee",
+              "note": "Verkäufe geschätzt; Views/Favoriten können bei abweichender Conversion irreführen."
+            },
+            {
+              "id": "etsy",
+              "title": "Etsy: What Can I Sell?",
+              "url": "https://help.etsy.com/hc/en-us/articles/360024112614-What-Can-I-Sell-on-Etsy",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "etsy",
+              "note": "Eigene Designs und angegebene Produktionspartner; keine individuelle Rechtefreigabe."
+            },
+            {
+              "id": "fees",
+              "title": "Etsy: Gebühren",
+              "url": "https://www.etsy.com/legal/fees/",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "etsy",
+              "note": "Transaktionsgebühr6,5%; weitere Gebühren möglich."
+            },
+            {
+              "id": "payment",
+              "title": "Etsy: Zahlungsgebühren",
+              "url": "https://help.etsy.com/hc/en-us/articles/115015628847-What-are-Payment-Processing-Fees-for-Selling-on-Etsy",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "etsy",
+              "note": "Deutschland4%+0,30EUR Zahlungsabwicklung; keine vollständige Margenrechnung."
+            },
+            {
+              "id": "shopify",
+              "title": "Shopify: Sortierung von Kollektionen",
+              "url": "https://help.shopify.com/en/manual/products/collections/collection-layout",
+              "accessedAt": "2026-09-10T08:20:13.715632Z",
+              "originGroup": "shopify",
+              "note": "Best Selling nach Allzeit-Bestellzahl; ohne Verkäufe neueste zuerst."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung; keine persönliche Umsetzung beschlossen.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kleine-profitable-kdp-nischen",
+            "tiktok-demand-engine-kdp"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "decode_recherche",
+              "conclusion": "Autor und Metadaten identifiziert; EverBee-Schätzcharakter, keine unabhängigen73k-/80:20-Belege."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "decode_challenge",
+              "conclusion": "Kausalität, Marktindikatoren, Kosten und Etsy-Originalitätsvorgaben geprüft."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Zehn deutsche Konzepte als ungeprüfte Ideen dokumentiert; keine Erfolgsempfehlung an Markus."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude-linkedin-schritt-fuer-schritt",
+      "title": "Claude mit LinkedIn: Anleitung und Gegenprüfung",
+      "sourceUrl": "https://www.youtube.com/watch?v=NqHd-89RycA",
+      "channel": "Harry Long",
+      "publishedAt": null,
+      "importedAt": "2026-09-10T08:21:28.863Z",
+      "categories": [
+        "KI & Automation"
+      ],
+      "tags": [
+        "Claude",
+        "LinkedIn",
+        "Marketing",
+        "Schreibassistenz",
+        "Browserautomation",
+        "Inbox-Triage"
+      ],
+      "summary": "Browserassistenz für Recherche, Texte und Inbox: technische Möglichkeiten, klare LinkedIn-Grenzen und wiederverwendbare Abläufe mit bereitgestellten Inhalten.",
+      "originalHash": "9276499f9b1cde816ed13405459bd163b91026b9229c051dbf5a351ed414168f",
+      "originalFilename": "claude-linkedin-schritt-fuer-schritt-analyse.html",
+      "sourceAssessment": "Praktisch interessante Anleitung für assistierte LinkedIn-Arbeit — aber die Risiko- und Compliance-Aussagen des Videos sind zu sorglos.",
+      "topicIds": [
+        "ki-assistenz-linkedin-marketing"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-10T08:21:28.751805Z",
+          "previousId": null,
+          "reason": "Fünf Punkte von Markus bestätigt; ohne persönlichen Umsetzungsauftrag abgelegt.",
+          "methodVersion": "1.0",
+          "assessment": "Technische Browserfähigkeiten bestätigt. Der beschriebene LinkedIn-Ablauf wird durch Plattformregeln deutlich eingeschränkt. Schreibassistenz mit bereitgestellten eigenen Inhalten bleibt ein wiederverwendbarer Wissensbaustein. Erfolgszahlen bleiben offen.",
+          "keyFacts": [
+            {
+              "label": "Technisch möglich, keine native Anbindung",
+              "fact": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt.",
+              "implication": "Als Browserautomation dokumentieren; technische Fähigkeit und Plattformfreigabe getrennt bewerten.",
+              "sourceIds": [
+                "claude"
+              ]
+            },
+            {
+              "label": "LinkedIn-Regeln begrenzen den Ablauf",
+              "fact": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht.",
+              "implication": "Den beschriebenen Ablauf nicht als freigegebene LinkedIn-Automation empfehlen.",
+              "sourceIds": [
+                "linkedin",
+                "permissions"
+              ]
+            },
+            {
+              "label": "Eigene Schreibbibliothek als Wissensbaustein",
+              "fact": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis.",
+              "implication": "Schreibassistenz als separaten Ablauf ohne automatisierte LinkedIn-Navigation dokumentieren.",
+              "sourceIds": [
+                "video",
+                "claude"
+              ]
+            },
+            {
+              "label": "Kontaktbewertungen begründen",
+              "fact": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen.",
+              "implication": "Beobachtung, vermuteten Bedarf und offene Frage trennen. Priorisierung mit Begründung und Unsicherheit anzeigen.",
+              "sourceIds": [
+                "video"
+              ]
+            },
+            {
+              "label": "Erfolgszahlen bleiben offen",
+              "fact": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt.",
+              "implication": "Antwortquote, Abschlussquote und Nettozeit inklusive Nachbearbeitung getrennt erfassen.",
+              "sourceIds": [
+                "video"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Technisch möglich, keine native Anbindung",
+              "text": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt."
+            },
+            {
+              "label": "LinkedIn-Regeln begrenzen den Ablauf",
+              "text": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht."
+            },
+            {
+              "label": "Eigene Schreibbibliothek als Wissensbaustein",
+              "text": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis."
+            },
+            {
+              "label": "Kontaktbewertungen begründen",
+              "text": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen."
+            },
+            {
+              "label": "Erfolgszahlen bleiben offen",
+              "text": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt."
+            }
+          ],
+          "claims": [
+            {
+              "id": "browser",
+              "text": "Claude in Chrome kann Seiten lesen und bedienen.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Offizielle Produktdokumentation bestätigt die technische Fähigkeit.",
+              "sourceIds": [
+                "claude"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "permission",
+              "text": "Manuelle Sendefreigabe macht den beschriebenen automatisierten LinkedIn-Ablauf zulässig.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "LinkedIn untersagt auch automatisierte Aktivitäten und Scraping durch Erweiterungen; eine manuelle Schlussfreigabe ist keine allgemeine Ausnahme.",
+              "sourceIds": [
+                "linkedin",
+                "permissions"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "undetectable",
+              "text": "Die Browserautomation bleibt wahrscheinlich unentdeckt.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine belastbare Untersuchung zu Erkennung oder Kontorisiken vorgelegt.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "fivefold",
+              "text": "Die Methode verfünffacht Antwort- und Abschlussraten.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine unabhängigen Vergleichsdaten, Stichprobe oder eindeutigen Nenner.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "time",
+              "text": "Die Methode spart täglich mehrere Stunden.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Keine dokumentierte Ausgangszeit oder Nettozeit einschließlich Nachkontrolle.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Harry Long: How To Connect Claude To LinkedIn (Step by Step)",
+              "url": "https://www.youtube.com/watch?v=NqHd-89RycA",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "harry-long",
+              "note": "Videoaussagen aus dem Original; Erfolgszahlen nicht unabhängig bestätigt."
+            },
+            {
+              "id": "claude",
+              "title": "Anthropic: Get started with Claude in Chrome",
+              "url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "anthropic",
+              "note": "Bestätigt Browserbedienung; keine LinkedIn-Freigabe."
+            },
+            {
+              "id": "linkedin",
+              "title": "LinkedIn: Automated activity",
+              "url": "https://www.linkedin.com/help/linkedin/answer/a1340567/automated-activity-on-linkedin?lang=en",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "linkedin",
+              "note": "Untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen."
+            },
+            {
+              "id": "permissions",
+              "title": "Anthropic: Chrome permissions guide",
+              "url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "anthropic",
+              "note": "Berechtigungskontrollen ersetzen keine Regeln der besuchten Plattform."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung für spätere Projekte und Netzwerk; keine persönliche Umsetzung beschlossen.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "claude_linkedin_recherche",
+              "conclusion": "Videoautor und offizielle Produktmöglichkeiten recherchiert; keine unabhängigen Erfolgsbelege gefunden."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "Codex (Hauptagent)",
+              "conclusion": "LinkedIn-Primärquelle selbst geprüft. Unabhängiger Gegenprüfungsagent wegen technischem Agentenlimit nicht verfügbar; keine unabhängige Zweitprüfung."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Technik, Plattformregeln und Produktivitätshypothesen getrennt; fünf Punkte durch Markus bestätigt."
+            }
+          ]
+        },
+        {
+          "id": "r2",
+          "createdAt": "2026-09-10T08:22:10.753245Z",
+          "previousId": "r1",
+          "reason": "Querverbindung Marketing zwischen LinkedIn-Assistenz und TikTok-Nachfrage geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Technische Browserfähigkeiten bestätigt. Der beschriebene LinkedIn-Ablauf wird durch Plattformregeln deutlich eingeschränkt. Schreibassistenz mit bereitgestellten eigenen Inhalten bleibt ein wiederverwendbarer Wissensbaustein. Erfolgszahlen bleiben offen. Vergleich: LinkedIn-Assistenz betrifft die Vorbereitung und Strukturierung von Marketingarbeit; die TikTok-Analyse betrifft Buchnachfrage und Attribution. Die gemeinsame Marketing-Kategorie liefert keinen gegenseitigen Beleg für Reichweite, Konversion oder Ertrag. Bestehende Belegurteile bleiben unverändert.",
+          "keyFacts": [
+            {
+              "label": "Technisch möglich, keine native Anbindung",
+              "fact": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt.",
+              "implication": "Als Browserautomation dokumentieren; technische Fähigkeit und Plattformfreigabe getrennt bewerten.",
+              "sourceIds": [
+                "claude"
+              ]
+            },
+            {
+              "label": "LinkedIn-Regeln begrenzen den Ablauf",
+              "fact": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht.",
+              "implication": "Den beschriebenen Ablauf nicht als freigegebene LinkedIn-Automation empfehlen.",
+              "sourceIds": [
+                "linkedin",
+                "permissions"
+              ]
+            },
+            {
+              "label": "Eigene Schreibbibliothek als Wissensbaustein",
+              "fact": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis.",
+              "implication": "Schreibassistenz als separaten Ablauf ohne automatisierte LinkedIn-Navigation dokumentieren.",
+              "sourceIds": [
+                "video",
+                "claude"
+              ]
+            },
+            {
+              "label": "Kontaktbewertungen begründen",
+              "fact": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen.",
+              "implication": "Beobachtung, vermuteten Bedarf und offene Frage trennen. Priorisierung mit Begründung und Unsicherheit anzeigen.",
+              "sourceIds": [
+                "video"
+              ]
+            },
+            {
+              "label": "Erfolgszahlen bleiben offen",
+              "fact": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt.",
+              "implication": "Antwortquote, Abschlussquote und Nettozeit inklusive Nachbearbeitung getrennt erfassen.",
+              "sourceIds": [
+                "video"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Technisch möglich, keine native Anbindung",
+              "text": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt."
+            },
+            {
+              "label": "LinkedIn-Regeln begrenzen den Ablauf",
+              "text": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht."
+            },
+            {
+              "label": "Eigene Schreibbibliothek als Wissensbaustein",
+              "text": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis."
+            },
+            {
+              "label": "Kontaktbewertungen begründen",
+              "text": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen."
+            },
+            {
+              "label": "Erfolgszahlen bleiben offen",
+              "text": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt."
+            }
+          ],
+          "claims": [
+            {
+              "id": "browser",
+              "text": "Claude in Chrome kann Seiten lesen und bedienen.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Offizielle Produktdokumentation bestätigt die technische Fähigkeit.",
+              "sourceIds": [
+                "claude"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "permission",
+              "text": "Manuelle Sendefreigabe macht den beschriebenen automatisierten LinkedIn-Ablauf zulässig.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "LinkedIn untersagt auch automatisierte Aktivitäten und Scraping durch Erweiterungen; eine manuelle Schlussfreigabe ist keine allgemeine Ausnahme.",
+              "sourceIds": [
+                "linkedin",
+                "permissions"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "undetectable",
+              "text": "Die Browserautomation bleibt wahrscheinlich unentdeckt.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine belastbare Untersuchung zu Erkennung oder Kontorisiken vorgelegt.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "fivefold",
+              "text": "Die Methode verfünffacht Antwort- und Abschlussraten.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine unabhängigen Vergleichsdaten, Stichprobe oder eindeutigen Nenner.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "time",
+              "text": "Die Methode spart täglich mehrere Stunden.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Keine dokumentierte Ausgangszeit oder Nettozeit einschließlich Nachkontrolle.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Harry Long: How To Connect Claude To LinkedIn (Step by Step)",
+              "url": "https://www.youtube.com/watch?v=NqHd-89RycA",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "harry-long",
+              "note": "Videoaussagen aus dem Original; Erfolgszahlen nicht unabhängig bestätigt."
+            },
+            {
+              "id": "claude",
+              "title": "Anthropic: Get started with Claude in Chrome",
+              "url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "anthropic",
+              "note": "Bestätigt Browserbedienung; keine LinkedIn-Freigabe."
+            },
+            {
+              "id": "linkedin",
+              "title": "LinkedIn: Automated activity",
+              "url": "https://www.linkedin.com/help/linkedin/answer/a1340567/automated-activity-on-linkedin?lang=en",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "linkedin",
+              "note": "Untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen."
+            },
+            {
+              "id": "permissions",
+              "title": "Anthropic: Chrome permissions guide",
+              "url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "anthropic",
+              "note": "Berechtigungskontrollen ersetzen keine Regeln der besuchten Plattform."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung für spätere Projekte und Netzwerk; keine persönliche Umsetzung beschlossen.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "tiktok-demand-engine-kdp"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "claude_linkedin_recherche",
+              "conclusion": "Videoautor und offizielle Produktmöglichkeiten recherchiert; keine unabhängigen Erfolgsbelege gefunden."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "Codex (Hauptagent)",
+              "conclusion": "LinkedIn-Primärquelle selbst geprüft. Unabhängiger Gegenprüfungsagent wegen technischem Agentenlimit nicht verfügbar; keine unabhängige Zweitprüfung."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Technik, Plattformregeln und Produktivitätshypothesen getrennt; fünf Punkte durch Markus bestätigt."
+            }
+          ]
         }
       ]
     }
@@ -3159,6 +4877,38 @@
             "tiktok-demand-engine-kdp/r1",
             "kleine-profitable-kdp-nischen/r6",
             "kdp-200-buecher-umsatz-gewinn/r2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pod-t-shirts-designhypothesen",
+      "title": "Print-on-Demand / T-Shirts: Designhypothesen",
+      "revisions": [
+        {
+          "id": "t1",
+          "createdAt": "2026-09-10T08:20:13.715632Z",
+          "reason": "Erster POD-Shirt-Wissensbaustein mit deutschen Ideen.",
+          "summary": "Deutsche Redewendung → wörtlicher Bildwitz → Zielgruppe. Inspiration, abstraktes Prinzip und eigene Gestaltung trennen. Zehn kreative Konzepte im verknüpften Bericht; nicht markt- oder rechtegeprüft. EverBee-Durchschnitte nicht mit aktuellen Verkäufen verwechseln. KDP-Verbindungen betreffen Recherche und Positionierung; Erträge bleiben separat.",
+          "videoRevisionIds": [
+            "decode-methode-print-on-demand/r1",
+            "kleine-profitable-kdp-nischen/r7",
+            "tiktok-demand-engine-kdp/r2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ki-assistenz-linkedin-marketing",
+      "title": "KI-Assistenz für LinkedIn und Marketing",
+      "revisions": [
+        {
+          "id": "t1",
+          "createdAt": "2026-09-10T08:21:28.751805Z",
+          "reason": "Erster bestätigter Wissensbaustein.",
+          "summary": "Eigene Schreibbibliothek, begründete Kontaktbewertung und getrennte Erfolgsmessung. Technische Browserautomation ist keine Plattformfreigabe. Thematische Verbindung zu Social-Media-Marketing; keine Übertragung von KDP- oder TikTok-Ertragsannahmen.",
+          "videoRevisionIds": [
+            "claude-linkedin-schritt-fuer-schritt/r1"
           ]
         }
       ]

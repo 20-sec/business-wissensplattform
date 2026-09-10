@@ -1,0 +1,354 @@
+{
+  "id": "r7",
+  "createdAt": "2026-09-10T08:20:13.715632Z",
+  "previousId": "r6",
+  "reason": "Decode-Methode als ergänzenden Ideenrahmen verglichen; keine neuen Ertragsbelege.",
+  "methodVersion": "1.0",
+  "assessment": "Als Sammlung von Nischenhypothesen nützlich; als Beleg für profitable Nischen oder eine belastbare Rangfolge noch unzureichend. Das Originalurteil „vor dem Ausbau validieren“ wird bestärkt. „Nationalparks als stärkste Option“ wird abgeschwächt: vorläufig keine Rangfolge der fünf Nischen. Die zentralen Wirtschafts- und Nachfragedaten bleiben offen; bestätigte Plattformregeln dürfen diese Lücke nicht überdecken. Grundlage der Prüfung ist die HTML-Analyse, nicht ein vollständig geprüftes Videotranskript. Kanal und Veröffentlichungsdatum wurden separat bestätigt. Aktuelle Quellen wurden unabhängig von beiden Prüfbeiträgen nachgelesen. Ergänzung Amazon.de: Drei direkte deutschsprachige Hochzeitsbeispiele und ein angrenzendes Capybara-Einzeltierbuch sind als Angebote bestätigt. Das verbessert die Anschauung möglicher Umsetzungen, bestätigt aber weder geringe Konkurrenz noch wirtschaftlichen Erfolg. Drei Angebote sind als „Independently published“ gelistet, das vierte bei epubli; sie werden nicht pauschal als KDP-Produkte bezeichnet. Vergleich mit der Craig-Fallstudie: Katalogpflege und Varianten ergänzen die Modelllogik, belegen aber keine der fünf konkreten Nischen. Bisherige Belegurteile bleiben unverändert. Neue Social-Commerce-Analyse: Deutscher BookTok-Absatzbezug ergänzt die Marketingperspektive, bestätigt aber keine Erträge dieses Katalogs oder dieser Nischen. Bisherige Belegurteile unverändert. Die Decode-Methode ergänzt die Hypothesenbildung zu Motiv, Zielgruppe und Kaufversprechen. Sie bestätigt keine bisherigen Nischen- oder Ertragsannahmen.",
+  "keyFacts": [
+    {
+      "label": "Vier deutsche Umsetzungen vorhanden",
+      "fact": "Drei Hochzeitsmalbücher und ein Capybara-Malbuch wurden auf Amazon.de geprüft. Verkäufe und Gewinn sind damit nicht belegt.",
+      "implication": "Produktbeispiele für Format und Positionierung nutzen; Nachfrage und Wirtschaftlichkeit getrennt bewerten.",
+      "sourceIds": [
+        "amazon-de-1",
+        "amazon-de-2",
+        "amazon-de-3",
+        "amazon-de-4"
+      ]
+    },
+    {
+      "label": "Ein Anlass macht die Zielgruppe konkreter",
+      "fact": "Die Hochzeitsbeispiele unterscheiden sich durch Rätsel, Paar-Konstellation und Buchformat.",
+      "implication": "Nischen anhand von Anlass, Zielgruppe und Nutzung beschreiben, nicht nur anhand eines Motivs.",
+      "sourceIds": [
+        "amazon-de-1",
+        "amazon-de-2",
+        "amazon-de-3"
+      ]
+    },
+    {
+      "label": "Tantieme statt Verkaufspreis kalkulieren",
+      "fact": "KDP berechnet Print-Tantiemen aus Royalty-Satz und Listenpreis abzüglich Druckkosten.",
+      "implication": "Seitenzahl, Format und Zielmarkt vor dem Margenvergleich festlegen; Werbung und Produktion zusätzlich berücksichtigen.",
+      "sourceIds": [
+        "kdp-royalty",
+        "kdp-print"
+      ]
+    },
+    {
+      "label": "Suchrang ist kein Gewinnnachweis",
+      "fact": "Amazon beschreibt den Verkaufsrang als relativen Indikator. Er belegt keine konkreten Einnahmen der vorgestellten Nischen.",
+      "implication": "BSR als Beobachtung erfassen; eine Ertragsschätzung nicht als verifizierten Umsatz abspeichern.",
+      "sourceIds": [
+        "kdp-bsr"
+      ]
+    },
+    {
+      "label": "Kostenlose Alternativen gehören zum Markt",
+      "fact": "Für US-Nationalparks gibt es kostenlose Junior-Ranger-Hefte.",
+      "implication": "Bei der Nischenprüfung auch kostenlose Alternativen untersuchen und den zusätzlichen Nutzen eines Kaufprodukts benennen.",
+      "sourceIds": [
+        "nps-free"
+      ]
+    }
+  ],
+  "marketExamples": [
+    {
+      "title": "Hochzeitsmalbuch und Rätsel für Kinder",
+      "author": "Max Maler",
+      "niche": "Hochzeitsaktivitäten für Kinder",
+      "match": "Direkte Nischenübereinstimmung",
+      "language": "Deutsch laut Amazon-Produktdaten",
+      "format": "24 Seiten; Taschenbuch; 15,24 × 22,86 cm.",
+      "implementation": "Malen und Rätseln als Beschäftigung am Kindertisch und Gastgeschenk.",
+      "takeaway": "Ein knappes Heft konzentriert sich auf einen klaren Anlass. Mal- und Rätselangebote werden kombiniert.",
+      "amazonUrl": "https://www.amazon.de/dp/B086PRKW6N",
+      "caveat": "Amazon nennt „Independently published“, Erscheinung 03.04.2020, ISBN 9798633710878. Die Beschreibung bezeichnet das Format als DIN A5, die Maße weichen von DIN A5 ab. Keine verifizierte Verkaufsleistung."
+    },
+    {
+      "title": "XXL Hochzeitsmalbuch Mann & Mann",
+      "author": "Jana Lukanoeski",
+      "niche": "Hochzeitsaktivitäten für Kinder",
+      "match": "Direkte Nischenübereinstimmung, genaueres Zielgruppensegment",
+      "language": "Deutsch laut Amazon-Produktdaten",
+      "format": "Produktdaten: 72 Seiten; Taschenbuch; 20,32 × 25,4 cm.",
+      "implementation": "Hochzeitsbeschäftigung für kleine Gäste mit zwei Bräutigamen als Ausrichtung; Beschreibung nennt Ausmalbilder, Rätsel, Suchbilder und Mitmachaufgaben.",
+      "takeaway": "Differenzierung innerhalb der Nische über eine konkrete Hochzeitssituation; darüber hinaus werden verschiedene Aktivitäten gebündelt.",
+      "amazonUrl": "https://www.amazon.de/dp/B0D99DMCRB",
+      "caveat": "Widerspruch: Titel/Beschreibung nennen 74 Seiten und A4, Produktdaten 72 Seiten und andere Maße. Amazon nennt „Independently published“, 05.07.2024, ISBN 9798332744877. Beschreibungsversprechen sind nicht durch vollständige Innenansicht geprüft."
+    },
+    {
+      "title": "Hochzeitsmalbuch: Gastgeschenk Hochzeit Beschäftigung für Kinder",
+      "author": "Johanna´s Geschenkwelten",
+      "niche": "Hochzeitsaktivitäten für Kinder",
+      "match": "Direkte Nischenübereinstimmung",
+      "language": "Deutsch laut Amazon-Produktdaten",
+      "format": "33 Seiten; Taschenbuch; 20,96 × 15,24 cm, quer.",
+      "implementation": "Als kleines Gastgeschenk und Malbeschäftigung auf dem Kindertisch positioniert.",
+      "takeaway": "Eine weitere Umsetzung desselben Kaufanlasses mit anderem Format. Der Titel adressiert die kaufenden Erwachsenen und ihren Zweck.",
+      "amazonUrl": "https://www.amazon.de/dp/B095X84QMW",
+      "caveat": "Amazon nennt „Independently published“, Erscheinung 29.05.2021, ISBN 9798512150566. Keine Aussage zur Qualität sämtlicher Motive oder zur Profitabilität."
+    },
+    {
+      "title": "Capybara Malbuch für Kinder | Großformat A4",
+      "author": "Lia Mayr",
+      "niche": "Capybara-Malbücher",
+      "match": "Angrenzendes Einzeltier-Thema; keine Axolotl-Capybara-Kombination",
+      "language": "Deutsch laut Amazon-Produktdaten",
+      "format": "Amazon-Produktdaten: 74 Seiten; Taschenbuch; 21,01 × 29,69 cm.",
+      "implementation": "Beschreibung nennt 36 Illustrationen, klare Konturen und ein Bild pro Doppelseite.",
+      "takeaway": "Ein einzelnes Tiermotiv wird mit einem einfachen Ausmalversprechen verbunden. Anzahl der Motive und Gesamtseitenzahl getrennt betrachten.",
+      "amazonUrl": "https://www.amazon.de/dp/3565301392",
+      "caveat": "Herausgeber epubli, Erscheinung 07.03.2026, ISBN 9783565301393. Kein verifiziertes KDP-Beispiel. Die beschriebene Papier-/Stifteignung wurde nicht praktisch getestet."
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Die Idee trägt als Hypothese",
+      "text": "Viele klar positionierte Mal- und Aktivitätsbücher könnten gemeinsam Einnahmen liefern. Dass die genannten Nischen profitabel sind, ist bislang nicht belegt."
+    },
+    {
+      "label": "Deutsche Umsetzungen sind vorhanden",
+      "text": "Auf Amazon.de sind drei deutschsprachige Hochzeitsmalbücher und ein Capybara-Malbuch geprüft. Das zeigt konkrete Umsetzungen, aber keine Verkaufsstärke. Capybara allein belegt nicht die Kombination mit Axolotl; Nationalparks bleiben ohne Vorrang."
+    },
+    {
+      "label": "Umsatz ist noch kein Verdienst",
+      "text": "Die Dollarbeträge sind unbestätigt. Im gerechneten Beispiel bleiben bei 9,99 USD Verkaufspreis etwa 3,15 USD Tantieme vor eigenen Kosten — bei 103 Seiten, Schwarzweiß und Großformat auf Amazon.com."
+    },
+    {
+      "label": "Produktion genauer planen",
+      "text": "KI-Bilder brauchen Qualitäts- und Rechteprüfung sowie die Meldung an KDP. Eine vorfinanzierte Erstauflage ist beim Druck auf Bestellung nicht nötig."
+    },
+    {
+      "label": "Wiederverwendbare Positionierungsmerkmale",
+      "text": "Anlass, Zielgruppe, Rätselanteil und Format unterscheiden die vorhandenen Beispiele. Diese Merkmale liefern Vergleichskriterien für künftige Nischenanalysen; eine persönliche Umsetzung wird daraus nicht abgeleitet."
+    }
+  ],
+  "claims": [
+    {
+      "id": "katalog-einkommen",
+      "text": "Ein Katalog vieler kleiner Nischenbücher kann ein relevantes Nebeneinkommen liefern.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Gewicht 3: tragende Geschäftsthese. KDP ermöglicht Verkäufe ohne Lagerbestand, belegt aber nicht den Ertrag eines solchen Katalogs. Titelzahl ersetzt keine Deckungsbeitragsrechnung einschließlich Produktion, Werbung und Pflege. Rechenbeispiel, keine Prognose: 9,99 USD × 60 % − 2,84 USD = rund 3,15 USD Tantieme je verkauftem Schwarzweiß-Großformat-Paperback mit 103 Seiten. Erst danach gehen eigene Kosten ab. Wie oft die geplanten Titel gekauft werden, ist offen.",
+      "sourceIds": [
+        "kdp-royalty",
+        "kdp-print"
+      ],
+      "location": "HTML Abschnitte 1, 2 und 8",
+      "scope": "US-Marktplatz; Beispielrechnung unter ausdrücklich gesetzten Formatannahmen. Kein Einkommenstest, keine Übertragung auf deutsche Nachfrage."
+    },
+    {
+      "id": "nischen-zahlen",
+      "text": "Die fünf Nischen weisen die genannten Ergebniszahlen und monatlichen Beispielumsätze auf.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Gewicht 3: Zahlen tragen die Nischenauswahl. Die HTML nennt 317/275/383/835/606 Suchtreffer und verschiedene Dollarspannen, aber keine ASINs, genauen Abfragen, Filter oder Messzeitpunkte. Unklar bleibt, ob die Beträge Umsatz, Tantieme oder eine Toolschätzung darstellen. Video-Metadaten bestätigen keine dieser Zahlen. Ohne Ausgangsdaten und vollständige Einsicht in die gezeigten Belege sind sie weder bestätigt noch widerlegt.",
+      "sourceIds": [
+        "youtube",
+        "kdp-bsr"
+      ],
+      "location": "HTML Abschnitt 3",
+      "scope": "Übernommene Angaben aus automatisch erstellter Videoanalyse; keine eigenen aktuellen Amazon-Messungen."
+    },
+    {
+      "id": "nationalparks-prioritaet",
+      "text": "Nationalparks für Kinder sind die stärkste Testoption, vor Hochzeitsaktivitäten.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Gewicht 3: entscheidende Priorisierung. Die 63 National Parks sind bestätigt; daraus folgt keine belegte Kaufnachfrage. Kostenlose Junior-Ranger-Hefte und ein bestehender Sammelpass zeigen relevante Ersatzangebote. Bei Hochzeiten existieren preisgünstige Mehrfachsets. Das beweist weder das Scheitern noch eine Rangfolge der Nischen. Nationalparks werden vom Erstplatz-Favoriten zur gleichberechtigten Testhypothese herabgestuft. Auch „anlassbezogen“ schließt eine dauerhaft wiederkehrende Nachfrage nicht aus.",
+      "sourceIds": [
+        "nps-parks",
+        "nps-free",
+        "park-passport",
+        "wedding-sets"
+      ],
+      "location": "HTML Abschnitte 6 und 8",
+      "scope": "Priorisierung für neue KDP-Titel im US-Markt; keine vergleichbare Messung von Nachfrage, Wettbewerb und Marge vorhanden."
+    },
+    {
+      "id": "bsr-naeherung",
+      "text": "BSR-basierte Umsatzannahmen sind Näherungen und keine belastbare Prognose für neue Titel.",
+      "importance": 2,
+      "status": "gestützt",
+      "rationale": "Gewicht 2: wichtige Prüfvoraussetzung. Amazon beschreibt einen relativen Rang mit jüngerer und historischer Aktivität. Er kann sich ohne Veränderung der eigenen Aktivität bewegen. Ein einzelner BSR liefert daher weder gesicherten Monatsabsatz noch eine Umsatzprognose. Die Vorsicht der Originalanalyse wird ausdrücklich bestärkt. Auch ein Rangverlauf bleibt ein Indikator, kein Verkaufsreport.",
+      "sourceIds": [
+        "kdp-bsr"
+      ],
+      "location": "HTML Einordnung in Abschnitt 1 und Risiken in Abschnitt 5",
+      "scope": "BSR-Interpretation; keine Prüfung einer bestimmten externen Schätzformel."
+    },
+    {
+      "id": "ki-produktion",
+      "text": "KI-Illustrationen können die Produktion unterstützen, ersetzen aber keine Qualitätsprüfung.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Gewicht 2: Produktionsvoraussetzung. Die Qualitätsanforderung ist durch die KDP-Regeln gestützt. Ergänzung: KI-erzeugte Bilder müssen KDP gemeldet werden, auch nach umfangreicher Nachbearbeitung. Bloße KI-Unterstützung wird anders behandelt; Rechteverantwortung bleibt beim Herausgeber. Ob ein konkreter Workflow nach Korrekturen tatsächlich Zeit spart, wurde nicht getestet.",
+      "sourceIds": [
+        "kdp-ai"
+      ],
+      "location": "HTML Abschnitt 4",
+      "scope": "Veröffentlichung von KI-Bildmaterial bei KDP; keine Freigabe einzelner Bilder oder gemessene Produktionszeit."
+    },
+    {
+      "id": "pilot-erstauflage",
+      "text": "Ein kleiner Produkttest ist sinnvoll; die Analyse beschreibt dazu eine kleine Erstauflage.",
+      "importance": 1,
+      "status": "teilweise gestützt",
+      "rationale": "Gewicht 1: ergänzende Umsetzungsempfehlung. Den begrenzten Pilot als eigene pragmatische Empfehlung beibehalten, aber die Auflagenformulierung korrigieren: Im regulären KDP-Vertrieb wird nach Bestellung gedruckt; eine vorfinanzierte Erstauflage ist nicht nötig. Besser: ein Pilotbuch, ein geprüftes Probeexemplar und begrenztes Zeit-/Werbebudget. Dieser Testplan wurde noch nicht durchgeführt.",
+      "sourceIds": [
+        "kdp-print"
+      ],
+      "location": "HTML Abschnitt 4, Punkt „Veröffentlichen und testen“, sowie Abschnitt 7",
+      "scope": "Regulärer KDP-Print-on-Demand-Vertrieb; freiwillige Autorenexemplare davon getrennt."
+    }
+  ],
+  "sources": [
+    {
+      "id": "youtube",
+      "title": "YouTube: JeffSetLife – Originalvideo",
+      "url": "https://www.youtube.com/watch?v=hUTkB6UQRLQ",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "youtube-jeffsetlife",
+      "note": "Titel, Kanal und Veröffentlichungsdatum über oEmbed und Seitenmetadaten bestätigt. Laufzeit ca. 15:31–15:32 statt ca. 15:16 im HTML. Gesprochener Inhalt und Verkaufsbelege nicht vollständig zugänglich/verifiziert; keine Bestätigung der HTML-Zahlen. Beschreibung verlinkt ein Coloring-Book-Tool; wirtschaftliche Beziehung nicht geklärt."
+    },
+    {
+      "id": "kdp-bsr",
+      "title": "Amazon KDP: Sales Ranking",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu Funktionsweise und Grenzen des relativen Verkaufsrangs. Keine Offenlegung fremder Absatzdaten; alle KDP-Seiten gehören zu derselben institutionellen Quelle."
+    },
+    {
+      "id": "kdp-royalty",
+      "title": "Amazon KDP: Paperback Royalty",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "amazon-kdp",
+      "note": "Verbindliche Plattformformel für Tantiemen; kein Nachweis eines persönlichen Gewinns. US-Preisgrenze bei 9,99 USD berücksichtigt."
+    },
+    {
+      "id": "kdp-print",
+      "title": "Amazon KDP: Paperback Printing Cost",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201834340",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "amazon-kdp",
+      "note": "Belegt Druck auf Nachfrage und formatabhängige Druckkosten. Musterrechnung verwendet Schwarzweiß, weißes/cremefarbenes Papier und Großformat; kein Beleg, dass jedes besprochene Buch diese Ausstattung hat."
+    },
+    {
+      "id": "kdp-ai",
+      "title": "Amazon KDP: Content Guidelines",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "amazon-kdp",
+      "note": "Unterscheidet KI-generierte und KI-unterstützte Inhalte; Generiertes ist an KDP zu melden. Qualitäts- und Rechteprüfung bleiben beim Herausgeber. Kein Produktivitätstest eines konkreten KI-Workflows."
+    },
+    {
+      "id": "nps-parks",
+      "title": "NPS: National Park System",
+      "url": "https://www.nps.gov/aboutus/national-park-system.htm",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "national-park-service",
+      "note": "Bestätigt 63 Einheiten mit Bezeichnung National Park. Das gesamte System ist größer. Anzahl der Parks ist kein Beleg der Buchnachfrage."
+    },
+    {
+      "id": "nps-free",
+      "title": "NPS Rocky Mountain: kostenlose Junior-Ranger-Hefte",
+      "url": "https://www.nps.gov/romo/learn/kidsyouth/junior-ranger.htm",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "national-park-service",
+      "note": "Kostenlose Aktivitätshefte in drei Altersgruppen mit Downloads belegen Ersatzangebote. Kein Beleg gegen sämtliche zahlungspflichtigen Buchkonzepte."
+    },
+    {
+      "id": "park-passport",
+      "title": "America’s National Parks: Junior Ranger Passport",
+      "url": "https://shop.americasnationalparks.org/products/passport-to-your-national-parks-junior-ranger-edition",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "nps-partner-americas-national-parks",
+      "note": "Händlerangebot: Sammelpass mit Aktivitäten, 100 Seiten, Spiralbindung und Stickern; beim Abruf 17,95 USD. In Zusammenarbeit mit NPS entwickelt, daher NPS-nahe Herkunft, kein unabhängiger Nachfragebeleg. Preis ist eine Momentaufnahme."
+    },
+    {
+      "id": "wedding-sets",
+      "title": "Oriental Trading: Wedding Kid’s Table Activity Sets",
+      "url": "https://www.orientaltrading.com/color-your-own-wedding-kid-s-table-activity-sets-12-pc--a2-13933620.fltr",
+      "accessedAt": "2026-09-10T05:59:02Z",
+      "originGroup": "oriental-trading",
+      "note": "Händlerangebot mit zwölf kleinen Aktivitätssets für 7,99 USD beim Abruf. Ersatzlösung, kein gleichwertiger Vergleich zu zwölf vollformatigen Büchern. Angebotsbeleg mit Verkaufsinteresse, kein Absatzbeleg."
+    },
+    {
+      "id": "amazon-de-1",
+      "title": "Amazon.de: Hochzeitsmalbuch und Rätsel für Kinder",
+      "url": "https://www.amazon.de/dp/B086PRKW6N",
+      "accessedAt": "2026-09-10T06:30:34Z",
+      "originGroup": "amazon-de-product-listings",
+      "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+    },
+    {
+      "id": "amazon-de-2",
+      "title": "Amazon.de: XXL Hochzeitsmalbuch Mann & Mann",
+      "url": "https://www.amazon.de/dp/B0D99DMCRB",
+      "accessedAt": "2026-09-10T06:30:34Z",
+      "originGroup": "amazon-de-product-listings",
+      "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+    },
+    {
+      "id": "amazon-de-3",
+      "title": "Amazon.de: Hochzeitsmalbuch: Gastgeschenk Hochzeit Beschäftigung für Kinder",
+      "url": "https://www.amazon.de/dp/B095X84QMW",
+      "accessedAt": "2026-09-10T06:30:34Z",
+      "originGroup": "amazon-de-product-listings",
+      "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+    },
+    {
+      "id": "amazon-de-4",
+      "title": "Amazon.de: Capybara Malbuch für Kinder | Großformat A4",
+      "url": "https://www.amazon.de/dp/3565301392",
+      "accessedAt": "2026-09-10T06:30:34Z",
+      "originGroup": "amazon-de-product-listings",
+      "note": "Direkt im Browser geprüft: Titel, Autor, deutsche Sprache, Produktdaten und Beschreibung. Angaben stammen vom jeweiligen Anbieter, über Amazon dargestellt. Keine unabhängigen Absatzdaten. Abruf im Lieferkontext Spanien; keine bestätigten deutschen Endpreise oder deutschen Lieferzusagen."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Markus hat die Kurzprüfung bestätigt und ausdrücklich Beispiele vom deutschsprachigen Amazon.de-Markt gewünscht. Das legt den Recherchemarkt dieser Ergänzung fest, ist aber noch keine Entscheidung für einen eigenen deutschen Produkttest oder eine Nische.",
+    "confirmedByMarkus": false
+  },
+  "questions": [
+    "Welche der gezeigten Umsetzungen erscheint dir interessant, und welchen zusätzlichen Nutzen könntest du anbieten?",
+    "Falls ein eigener Produkttest folgt: Zielgruppe, Zeit- und Kostenbudget gemeinsam festlegen."
+  ],
+  "relatedVideoIds": [
+    "kdp-200-buecher-umsatz-gewinn",
+    "tiktok-demand-engine-kdp",
+    "decode-methode-print-on-demand"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "kdp_recherche",
+      "conclusion": "Video-Metadaten, BSR-Grenzen, US-Tantiemen und Druckkosten geprüft. Keine unabhängigen Nachweise der angegebenen Trefferzahlen oder Monatsbeträge; Umsatz, Tantieme und Gewinn trennen."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "kdp_gegenpruefung",
+      "conclusion": "Keine belastbare Priorisierung von Nationalparks vor Hochzeiten. Kostenlose Hefte und preisgünstige Ersatzangebote gefunden. KI-Meldepflicht ergänzen; Erstauflage durch begrenzten POD-Produkttest ersetzen."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Quellen der Agenten nachgeprüft und YouTube-Metadaten separat abgerufen. Bestätigte Regeln von offener Wirtschaftlichkeit getrennt. Kein vermeintliches Markt-Ranking vergeben, Originalbewertung unverändert erhalten."
+    },
+    {
+      "role": "Recherche",
+      "name": "Codex · Amazon.de-Nachprüfung",
+      "conclusion": "Vier Amazon.de-Produktseiten direkt gelesen. Deutsche Sprache und Umsetzung erfasst; aktuelle Preise und Lieferzusagen wegen Spanien-Lieferkontext nicht übernommen. Original-Innenseiten nicht vollständig geprüft."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "de_beispiele",
+      "conclusion": "Angebotsbelege nicht mit Nachfrage verwechseln; epubli nicht pauschal als KDP einordnen; Capybara-Einzeltier von Kombinische trennen. Seiten-/Formatwidersprüche offenhalten. Kein Schluss über Lieferbarkeit in Deutschland."
+    }
+  ]
+}
