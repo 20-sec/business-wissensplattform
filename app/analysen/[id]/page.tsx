@@ -19,6 +19,20 @@ export default async function OriginalAnalysis({ params }: { params: Promise<{ i
         <Button variant="outline" asChild><a href={`/api/original/${video.id}`} download={video.originalFilename}>HTML herunterladen</a></Button>
       </div>
     </nav>
+    {review?.keyFacts && <section className="key-facts-band" aria-labelledby="key-facts-title">
+      <div className="compact-review">
+        <p className="eyebrow">WISSEN AUS ANALYSE &amp; RECHERCHE · {review.id}</p>
+        <h1 id="key-facts-title">Die fünf wichtigsten Erkenntnisse</h1>
+        <p className="muted">Konkrete Informationen und Handlungsthesen für die Einordnung des Geschäftsmodells.</p>
+        <ol>{review.keyFacts.map((point, index) => <li key={point.label}>
+          <span className="point-number" aria-hidden="true">0{index + 1}</span>
+          <div><h2>{point.label}</h2><p>{point.fact}</p><p className="key-fact-implication"><strong>Handlungsthese:</strong> {point.implication}</p>
+            <div className="key-fact-sources">{point.sourceIds.map(sourceId => { const source = review.sources.find(s => s.id === sourceId); return source ? <a key={sourceId} href={source.url} target="_blank" rel="noreferrer">{source.title}</a> : null; })}</div>
+          </div>
+        </li>)}</ol>
+        <a href="#kurzpruefung">Zur Kurzprüfung ↓</a>
+      </div>
+    </section>}
     <iframe className="original-full-frame" title={video.title} src={`/api/original/${video.id}`} sandbox="" referrerPolicy="no-referrer"/>
     <section className="compact-review-band" id="kurzpruefung" aria-labelledby="compact-title">
       <div className="compact-review">
