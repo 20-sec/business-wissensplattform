@@ -1,0 +1,15 @@
+{
+  "id": "kdp-brand-und-katalogaufbau",
+  "title": "KDP-Brand und Katalogaufbau",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-12T10:18:11.714Z",
+      "reason": "Erster Wissensbaustein zu KDP als Brand- und Portfolio-System.",
+      "summary": "KDP-Branding wird als System aus Zielgruppe, Nutzenversprechen, konsistenter Gestaltung, Anschlussprodukten, A+ Content, Author Central, E-Mail-Liste und Ads-Daten verstanden. Die stärkste wiederverwendbare Erkenntnis: Nicht die reine Titelzahl zählt, sondern die Verbindung zwischen Büchern und die Messung auf Reihenebene.\n\nPrimärquellen stützen A+ Content, Vergleichstabellen eigener Bücher, Sponsored Products/Sponsored Brands und KDP-Reports. Sie setzen aber klare Grenzen: keine QR-Codes, E-Mail-Adressen, externen Links, Kundenreviews, Bonus-/Free-Sprache oder Kaufaufforderungen in A+ Content; Reviews dürfen nicht erzwungen oder belohnt werden.\n\nFür künftige KDP-Videos prüfen: Zielgruppe, Reihenlogik, Cross-Sell-Flächen, regelkonformer Lead-Magnet, Anzeigenmessung, Folgekäufe, Produktionskosten, Zeitaufwand und Deckungsbeitrag. Die Sprecherzahl $389k+ bleibt ein offener Claim, kein bestätigter Case.",
+      "videoRevisionIds": [
+        "kdp-branding-amazon/r1"
+      ]
+    }
+  ]
+}

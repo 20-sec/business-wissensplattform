@@ -1,0 +1,272 @@
+{
+  "id": "r1",
+  "createdAt": "2026-09-12T10:18:11.714Z",
+  "previousId": null,
+  "reason": "Erstprüfung der hochgeladenen HTML-Analyse zu KDP-Branding und Katalogaufbau.",
+  "methodVersion": "1.0",
+  "assessment": "Sehr wertvoll als strategischer KDP-Portfolio-Baustein: Die Grundlogik eines konsistenten Katalogs wird durch Amazon-Funktionen wie A+ Content, Author Central, Sponsored Brands und Reporting gestützt. Abgeschwächt werden müssen die Sprecherzahlen, Algorithmusannahmen und die Speerspitzen-Ads-Logik, solange Folgekäufe, Produktionskosten, Werbekosten, Zeitaufwand und Deckungsbeitrag nicht sauber getrennt gemessen sind. A+ Content, Bonusmaterial, E-Mail-Liste und Reviews sind nützlich, aber deutlich regelgebundener als das Video stellenweise wirkt. Grundlage ist die HTML-Analyse plus Primärquellenprüfung; das Video wurde nicht vollständig gegengehört.",
+  "keyFacts": [
+    {
+      "label": "Portfolio nur mit Deckungsbeitrag bewerten",
+      "fact": "Die Kataloglogik ist plausibel, aber $389k+ Lifetime-Royalties sind eine Selbstauskunft ohne vollständige Kosten-, Zeit- und Ads-Rechnung.",
+      "implication": "Bei KDP-Brands nicht einzelne Bestseller feiern, sondern pro Reihe Neukundenkosten, Folgekäufe, organische Verkäufe und Netto-Beitrag messen.",
+      "sourceIds": [
+        "video",
+        "kdp-reports"
+      ]
+    },
+    {
+      "label": "A+ Content kann Cross-Selling tragen",
+      "fact": "Amazon erlaubt A+ Content mit Text, Bildern und Vergleichstabellen; Vergleichstabellen dürfen nur eigene KDP-Bücher vergleichen.",
+      "implication": "A+ als interne Katalogfläche nutzen, aber ohne fremde Konkurrenzvergleiche, Kundenreviews, Kaufdruck oder externe Weiterleitung planen.",
+      "sourceIds": [
+        "kdp-aplus",
+        "kdp-aplus-guidelines"
+      ]
+    },
+    {
+      "label": "E-Mail und Bonus sauber trennen",
+      "fact": "Bonusinhalte sind möglich, müssen relevant sein und dürfen die Leseerfahrung nicht stören; disruptive Links und Geschenk-/Reward-Versprechen sind untersagt.",
+      "implication": "Lead-Magnet und Leserliste als langfristigen Kanal denken, aber nicht als Review- oder Rabattmechanik formulieren.",
+      "sourceIds": [
+        "kdp-bonus",
+        "kdp-reviews"
+      ]
+    },
+    {
+      "label": "Mehrere Titel öffnen Werbeoptionen",
+      "fact": "Sponsored Brands für Autoren setzen drei oder mehr geeignete Titel unter demselben Autorennamen voraus und können Sammlungen mehrerer Bücher zeigen.",
+      "implication": "Ab drei passenden Titeln wird die Brand-Idee werbetechnisch konkreter; vorher bleibt Sponsored Products der einfachere Einzelbuch-Hebel.",
+      "sourceIds": [
+        "amazon-ads-books",
+        "amazon-ads-sponsored-brands"
+      ]
+    },
+    {
+      "label": "Konsistenz ist der eigentliche Hebel",
+      "fact": "Die geprüften Amazon-Funktionen belohnen keine bloße Titelmenge, sondern auffindbare, regelkonforme, zusammenhängende Bücher mit klarer Zielgruppe.",
+      "implication": "Künftige KDP-Analysen danach prüfen, ob Zielgruppe, Nutzenversprechen, Reihenlogik und Messplan wirklich zusammenpassen.",
+      "sourceIds": [
+        "kdp-aplus",
+        "amazon-ads-sponsored-brands",
+        "kdp-title-limit"
+      ]
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Kataloglogik ist stark",
+      "text": "Die Idee, KDP als Brand- und Portfolio-Spiel zu sehen, ist sinnvoll. Der Hebel ist Verbindung zwischen Titeln, nicht bloße Masse."
+    },
+    {
+      "label": "Zahlen bleiben Sprecher-Claim",
+      "text": "$389k+ Lifetime-Royalties mit 12 Büchern sind inspirierend, aber ohne unabhängige Kosten-, Zeit- und Ads-Daten nicht belegt."
+    },
+    {
+      "label": "A+ Content hat harte Grenzen",
+      "text": "Cross-Selling über eigene Bücher ist möglich. QR-Codes, E-Mail-Adressen, externe Links, Kundenreviews, Bonus-Sprache und Kaufaufforderungen gehören nicht in A+ Content."
+    },
+    {
+      "label": "E-Mail-Liste nur regelkonform",
+      "text": "Bonusmaterial und Leserbindung können helfen. Reviews dürfen nicht verlangt, belohnt oder beeinflusst werden."
+    },
+    {
+      "label": "Messplan entscheidet",
+      "text": "Gute Brand-Tests brauchen ACOS/TACOS, Deckungsbeitrag, Folgekäufe, Produktionskosten und Zeitaufwand je Reihe."
+    }
+  ],
+  "claims": [
+    {
+      "id": "brand-system",
+      "text": "Ein KDP-Brand ist vor allem ein wiederverwendbares System aus Zielgruppe, Themenwelt, Gestaltung, Lesererwartung und Anschlussprodukten.",
+      "importance": 3,
+      "status": "gestützt",
+      "rationale": "Amazon unterstützt Autorenseiten, A+ Content, Vergleichstabellen eigener Bücher und Sponsored Brands für mehrere Titel. Das stützt die Systemlogik deutlich, belegt aber keine automatische Profitabilität.",
+      "sourceIds": [
+        "kdp-aplus",
+        "amazon-ads-books",
+        "amazon-ads-sponsored-brands"
+      ],
+      "location": "Original-HTML: Executive Summary und Mechanik",
+      "scope": "Strategische KDP-Portfolio-Logik; keine Gewinnprognose."
+    },
+    {
+      "id": "royalties-389k",
+      "text": "Zwölf Bücher der Hauptmarke haben $389k+ Lifetime-Royalties erwirtschaftet.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Die Zahl stammt aus der Sprecher-/HTML-Darstellung. Keine unabhängigen Reports, Kosten, Zeiträume, Werbeausgaben, Steuer- oder Produktionskosten wurden geprüft.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Original-HTML: Quelle in Zahlen",
+      "scope": "Sprecher-Claim; keine unabhängig belegte Fallstudie."
+    },
+    {
+      "id": "cross-sell-aplus",
+      "text": "A+ Content kann als Cross-Selling-Fläche für andere eigene KDP-Bücher genutzt werden.",
+      "importance": 3,
+      "status": "teilweise gestützt",
+      "rationale": "A+ Content erlaubt Informationen, Bilder und Vergleichstabellen. Die Regeln begrenzen das aber stark: Vergleich nur eigener KDP-Bücher, keine externen Links, QR-Codes, Reviews, Preis-/Bonus-Sprache oder Kaufaufforderungen.",
+      "sourceIds": [
+        "kdp-aplus",
+        "kdp-aplus-guidelines"
+      ],
+      "location": "Original-HTML: Strategien und Chancen",
+      "scope": "KDP-A+ Content auf Amazon-Marktplätzen einschließlich Amazon.de."
+    },
+    {
+      "id": "email-list",
+      "text": "Eine E-Mail-Liste ab Buch eins kann Launch-Reichweite und Anschlusskäufe unterstützen.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Bonusmaterial und Leserbindung sind plausibel, aber die konkrete Umsetzung muss KDP-Regeln einhalten. Disruptive Links, Geschenke/Rewards und Review-Beeinflussung sind kritisch bzw. verboten.",
+      "sourceIds": [
+        "kdp-bonus",
+        "kdp-reviews"
+      ],
+      "location": "Original-HTML: Fünf Strategien",
+      "scope": "Regelkonformer Lead-Magnet; keine Prüfung eines konkreten Opt-in-Flows oder Datenschutzes."
+    },
+    {
+      "id": "sponsored-brands",
+      "text": "Ab mehreren Titeln entstehen zusätzliche Werbemöglichkeiten für eine Autoren- oder Buchmarke.",
+      "importance": 2,
+      "status": "gestützt",
+      "rationale": "Amazon Ads beschreibt Sponsored Brands für Autoren mit drei oder mehr geeigneten Titeln unter demselben Autorennamen und Collections mit 3-10 Büchern. Das stärkt den Kataloggedanken ab einer Mindestgröße.",
+      "sourceIds": [
+        "amazon-ads-books",
+        "amazon-ads-sponsored-brands"
+      ],
+      "location": "Original-HTML: Portfolio und Ads",
+      "scope": "Amazon-Ads-Funktionen; Verfügbarkeit abhängig von Land, Author Central und Anzeigenrichtlinien."
+    },
+    {
+      "id": "portfolio-roi",
+      "text": "Ein Speerspitzenbuch darf schwächere direkte Rendite haben, wenn es andere Titel messbar mitfinanziert.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Als Managementlogik sinnvoll, aber ohne eindeutige Attribution der Folgekäufe anfällig für Schönrechnung. Amazon Ads nennt TACOS, Sales Lift und Reports; diese zeigen Hilfsgrößen, ersetzen aber keine vollständige Deckungsbeitragsrechnung.",
+      "sourceIds": [
+        "amazon-ads-sponsored-brands",
+        "kdp-reports"
+      ],
+      "location": "Original-HTML: Quelle in Zahlen und Fünf Strategien",
+      "scope": "Portfolio-Controlling, nicht Einzelkampagnen-ROAS allein."
+    },
+    {
+      "id": "high-frequency",
+      "text": "Monatliche oder zweimonatliche Veröffentlichungen sind für Einzelpersonen realistisch, hohe Frequenz braucht ein Team.",
+      "importance": 1,
+      "status": "teilweise gestützt",
+      "rationale": "Die Aussage ist als operative Vorsicht plausibel; Amazon begrenzt außerdem standardmäßig die gleichzeitige Titelerstellung. Der konkrete Rhythmus hängt aber von Buchtyp, Qualität, Produktion und Marketing ab.",
+      "sourceIds": [
+        "kdp-title-limit"
+      ],
+      "location": "Original-HTML: Fünf Strategien",
+      "scope": "KDP-Katalogaufbau; keine allgemeine Produktivitätsregel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "video",
+      "title": "Andrey Bernhart: How ONLY 12 Books Made Me $389,000 on Amazon KDP (Branding Masterclass)",
+      "url": "https://www.youtube.com/watch?v=4aNF6WUx6uM",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "andrey-bernhart",
+      "note": "Titel und Kanal per YouTube-oEmbed bestätigt. Zahlen und Beispiele aus der vorgelegten HTML bleiben Sprecher-Claims; Video nicht vollständig gegengehört."
+    },
+    {
+      "id": "kdp-aplus",
+      "title": "Amazon KDP: A+ Content",
+      "url": "https://kdp.amazon.com/en_US/help/topic/GHL7P99B7AA543CN",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-kdp",
+      "note": "Offizielle KDP-Hilfe: A+ Content kann Leser mit Büchern und Autorengeschichte verbinden; Amazon.de wird unterstützt; veröffentlichte Titel und Pre-orders sind nutzbar."
+    },
+    {
+      "id": "kdp-aplus-guidelines",
+      "title": "Amazon KDP: A+ Content Guidelines",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G4WB7VPPEAREHAAD",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-kdp",
+      "note": "Offizielle Regeln: keine QR-Codes, E-Mail-Adressen, externen Links, Kundenreviews, Preis-/Bonus-Sprache oder Kaufaufforderungen in A+ Content; Vergleichstabellen nur für eigene KDP-Bücher."
+    },
+    {
+      "id": "kdp-reviews",
+      "title": "Amazon KDP: Customer Reviews",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-kdp",
+      "note": "Offizielle KDP-Regel zu kostenlosen oder vergünstigten Exemplaren: erlaubt nur ohne Review-Pflicht oder Einflussnahme; andere Gegenleistungen invalidieren Reviews."
+    },
+    {
+      "id": "kdp-bonus",
+      "title": "Amazon KDP: Bonus Content",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G202018960",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-kdp",
+      "note": "Offizielle KDP-Regel: Bonusinhalte müssen relevant sein, ans Ende, ins Inhaltsverzeichnis und ungefähr unter 10 Prozent bleiben; disruptive Links und Geschenke/Rewards sind nicht erlaubt."
+    },
+    {
+      "id": "amazon-ads-books",
+      "title": "Amazon Ads: Advertising books on Amazon – Guide for authors",
+      "url": "https://advertising.amazon.com/library/guides/advertising-books-on-amazon-authors",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-ads",
+      "note": "Offizielle Amazon-Ads-Anleitung für Autorinnen und Autoren: Author Page, Sponsored Products, Sponsored Brands, Reporting und Optimierung."
+    },
+    {
+      "id": "amazon-ads-sponsored-brands",
+      "title": "Amazon Ads: The author’s guide to Sponsored Brands",
+      "url": "https://advertising.amazon.com/library/guides/sponsored-brand-authors",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-ads",
+      "note": "Offizielle Anleitung: Sponsored Brands setzen drei oder mehr geeignete Titel unter demselben Autorennamen voraus; Collections können 3-10 Bücher zeigen; Reports und TACOS werden als Messgrößen genannt."
+    },
+    {
+      "id": "kdp-reports",
+      "title": "Amazon KDP: Reports",
+      "url": "https://kdp.amazon.com/en_US/help/topic/GVTTXHKHVPAPBEDQ",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-kdp",
+      "note": "Offizielle KDP-Reports: Orders, geschätzte Royalties, KENP und Vergleiche bis zu 10 Büchern; Updates und Schätzcharakter sind zu beachten."
+    },
+    {
+      "id": "kdp-title-limit",
+      "title": "Amazon KDP: Paperback Submission Guidelines",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G201857950",
+      "accessedAt": "2026-09-12T10:18:11.714Z",
+      "originGroup": "amazon-kdp",
+      "note": "Offizielle KDP-Regel: standardmäßig maximal 10 neu angelegte Titel pro Buchformat und Woche; relevant gegen zu aggressive Katalogskalierung."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "kleine-profitable-kdp-nischen",
+    "kdp-200-buecher-umsatz-gewinn",
+    "tiktok-demand-engine-kdp"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "kdp_branding_recherche",
+      "conclusion": "Recherche stützt den Katalog- und A+ Content-Gedanken, relativiert aber E-Mail/Bonus/Reviews durch KDP-Regeln."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "kdp_branding_challenge",
+      "conclusion": "Gegenprüfung schwächt Sprecherzahlen, Algorithmus- und Speerspitzen-Ads-Logik ab; Messung auf Portfolio-Ebene bleibt Pflicht."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Einordnung unter KDP-Buchbusiness mit Strategie, Marketing und Konkrete Anleitungen; keine neue Kategorie nötig."
+    }
+  ]
+}
