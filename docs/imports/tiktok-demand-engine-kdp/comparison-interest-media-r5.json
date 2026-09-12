@@ -1,0 +1,118 @@
+{
+  "id": "r5",
+  "createdAt": "2026-09-12T10:33:42.804Z",
+  "previousId": "r4",
+  "reason": "GaryVee-Interest-Media-Analyse als übergreifenden Creative-Test-Kontext verglichen.",
+  "methodVersion": "1.0",
+  "assessment": "Die Interest-Media-Analyse stärkt die bisherige Einordnung von TikTok als Nachfrage- und Creative-Testkanal, aber sie bestätigt keine KDP-Verkäufe, keine BookTok-Kausalität und keine Profitabilität einzelner Bücher. Sie ergänzt die Methodik: organische Resonanz als Frühsignal nutzen, anschließend Angebot, Attribution, CAC und Deckungsbeitrag prüfen.",
+  "compactSummary": [
+    {
+      "label": "Creative-Test-Logik gestärkt",
+      "text": "GaryVee bestätigt als Denkmodell, dass organische Resonanz wertvoll für Creative- und Themenfindung sein kann."
+    },
+    {
+      "label": "Keine KDP-Umsatzbestätigung",
+      "text": "Das neue Video beweist keine Verkäufe oder Profitabilität der TikTok/KDP-Fälle."
+    },
+    {
+      "label": "Views bleiben Frühsignal",
+      "text": "Auch bei BookTok gilt: Aufmerksamkeit ist noch kein Kaufbeleg."
+    },
+    {
+      "label": "Paid nur mit Messung",
+      "text": "Skalierung braucht CAC, Deckungsbeitrag und möglichst inkrementelle Wirkung."
+    },
+    {
+      "label": "Thema bleibt Marketing",
+      "text": "Die Ergänzung stärkt die Marketing-Methodik, nicht die Nischenbewertung selbst."
+    }
+  ],
+  "claims": [
+    {
+      "id": "creative-context",
+      "text": "Die TikTok/KDP-Analyse profitiert methodisch vom Interest-Media-Ansatz: organische Resonanz kann als Creative- und Nachfragefrühindikator dienen.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Die neue Analyse und Plattformquellen stützen den Testansatz. Sie belegen aber keine Kausalität zwischen TikTok-Views und KDP-Verkäufen.",
+      "sourceIds": [
+        "interest-video",
+        "tiktok-business",
+        "google-conversion-lift"
+      ],
+      "location": "Vergleich mit interest-media-garyvee/r1",
+      "scope": "Methodischer Marketingvergleich; keine neue Verkaufsvalidierung."
+    },
+    {
+      "id": "kdp-sales-confirmation",
+      "text": "Das Interest-Media-Video bestätigt die wirtschaftliche Wirkung von TikTok für KDP-Bücher.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Es liefert eine allgemeine Creative-These, aber keine KDP-spezifischen Sales-Daten, Attribution oder Deckungsbeiträge.",
+      "sourceIds": [
+        "interest-video"
+      ],
+      "location": "Vergleich mit interest-media-garyvee/r1",
+      "scope": "KDP/BookTok-Wirkung."
+    }
+  ],
+  "sources": [
+    {
+      "id": "interest-video",
+      "title": "GaryVee: Everything You Know About Social Media Is Changing",
+      "url": "https://www.youtube.com/watch?v=83r8orCLOyg",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "garyvee",
+      "note": "Neue Interest-Media-Analyse als Vergleichsquelle; Sprecher-Claims nicht unabhängig bestätigt."
+    },
+    {
+      "id": "youtube-recommendations",
+      "title": "YouTube Help: Good to know about recommendations for YouTube’s recommendation system",
+      "url": "https://support.google.com/youtube/answer/16559651?hl=en",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "youtube-help",
+      "note": "Primärquelle zu Kontext, Zuschauerreaktionen und Empfehlungen."
+    },
+    {
+      "id": "google-conversion-lift",
+      "title": "Google Ads Help: About Conversion Lift",
+      "url": "https://support.google.com/google-ads/answer/12003020?hl=en",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "google-ads",
+      "note": "Primärquelle zur Kausal-/Incrementality-Messung."
+    },
+    {
+      "id": "tiktok-business",
+      "title": "TikTok for Business",
+      "url": "https://ads.tiktok.com/business/en-GB?tt4b_lang_redirect=1",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "tiktok-business",
+      "note": "Plattformquelle zu Full-Funnel, Creative und Measurement."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "interest-media-garyvee"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "interest_media_recherche",
+      "conclusion": "Interest-Media-Logik als ergänzender Creative-Test-Kontext geprüft."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "interest_media_challenge",
+      "conclusion": "Keine automatische Bestätigung von TikTok/KDP-Verkäufen; Businesswirkung bleibt gesondert zu messen."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Alte TikTok/KDP-Bewertung nicht heraufgestuft, nur methodisch ergänzt."
+    }
+  ]
+}

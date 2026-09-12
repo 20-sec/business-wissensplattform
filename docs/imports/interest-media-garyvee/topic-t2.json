@@ -1,0 +1,26 @@
+{
+  "id": "interest-media-creative-testing",
+  "title": "Interest Media und Creative-Testing",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-12T10:32:47.281Z",
+      "reason": "Erster Wissensbaustein zum Wechsel von Social Graph zu Interest Graph und zum organisch bezahlten Creative-Lernsystem.",
+      "summary": "Interest Media beschreibt die Verschiebung von followerzentrierter Verteilung zu Empfehlungsfeeds, die Interessen, Kontext und Viewer-Reaktionen auswerten. Der wiederverwendbare Kern ist ein Creative-Lernsystem: mehrere native Hypothesen aus realen Interessen testen, Resonanzsignale lesen, Gewinner mit Angebot/CTA adaptieren und Paid erst mit Kontroll- und Wirtschaftsmessung skalieren. Views sind Frühindikatoren, keine Umsatzbelege. Snapchat bleibt als mögliches Testfeld offen, nicht als bewiesene Arbitrage. Querverbindungen bestehen zu TikTok/KDP, YouTube-Upload und LinkedIn/KI-Marketing.",
+      "videoRevisionIds": [
+        "interest-media-garyvee/r1"
+      ]
+    },
+    {
+      "id": "t2",
+      "createdAt": "2026-09-12T10:33:42.804Z",
+      "reason": "Vergleich mit vorhandenen TikTok- und YouTube-Marketinganalysen ergänzt.",
+      "summary": "GaryVees Interest-Media-These verbindet die TikTok/KDP- und YouTube-Upload-Analysen methodisch: Organische Resonanz liefert Hinweise auf Hooks, Themen und Formate, bestätigt aber keine Verkäufe. Für TikTok/KDP bleibt BookTok/Creative als Nachfrageindikator relevant, jedoch ohne KDP-Sales-Beleg. Für YouTube wird die Upload-Routine als Teil eines größeren Creative-Lernsystems gelesen. Gemeinsamer Messstandard: Retention, Interaktionen, Profilaktionen, Klicks, Leads, CAC, Deckungsbeitrag und möglichst inkrementelle Wirkung.",
+      "videoRevisionIds": [
+        "interest-media-garyvee/r1",
+        "tiktok-demand-engine-kdp/r5",
+        "youtube-upload-checkliste-dennis-kasper/r2"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "id": "r2",
+  "createdAt": "2026-09-12T10:33:42.804Z",
+  "previousId": "r1",
+  "reason": "GaryVee-Interest-Media-Analyse mit YouTube-Upload-Routine verglichen.",
+  "methodVersion": "1.0",
+  "assessment": "Die Interest-Media-Analyse passt zur YouTube-Upload-Routine, weil beide frühe Resonanzsignale ernst nehmen. Sie verschiebt die Deutung aber: Nicht nur Algorithmusruhe nach Upload zählt, sondern ein systematischer Creative-Lernprozess über Hooks, Themen, Retention und spätere Angebotsprüfung. Die ursprüngliche Vorsicht bleibt: Views, CTR und Retention sind Diagnosewerte, keine direkten Umsatzbelege.",
+  "compactSummary": [
+    {
+      "label": "Resonanz als Lernsignal",
+      "text": "YouTube-Kennzahlen passen in den Interest-Media-Loop: Sie zeigen, welche Themen und Hooks Aufmerksamkeit bekommen."
+    },
+    {
+      "label": "Nicht nur Upload-Routine",
+      "text": "Nach Veröffentlichung sollte man Gewinner auch als Creative-Hypothesen für Folgeinhalte und Angebote lesen."
+    },
+    {
+      "label": "Views bleiben begrenzt",
+      "text": "Auch hohe Reichweite beweist keine Kaufabsicht oder wirtschaftliche Wirkung."
+    },
+    {
+      "label": "Tests statt Dogmen",
+      "text": "Titel, Thumbnail, Hook und CTA sollten kontrolliert getestet werden, nicht nach starren Regeln behandelt werden."
+    },
+    {
+      "label": "Marketing-Verknüpfung",
+      "text": "Das Video ergänzt die YouTube-Analyse um den größeren Content-Marketing-Lernkreislauf."
+    }
+  ],
+  "claims": [
+    {
+      "id": "youtube-loop",
+      "text": "Die YouTube-Upload-Routine lässt sich als Teil eines Interest-Media-Creative-Loops lesen.",
+      "importance": 2,
+      "status": "gestützt",
+      "rationale": "YouTube beschreibt Empfehlungen anhand von Zuschauerreaktionen, Kontext und Interessen. Das passt zur Idee, frühe Kennzahlen als Lernsignale für Hooks und Themen zu nutzen.",
+      "sourceIds": [
+        "youtube-recommendations",
+        "interest-video"
+      ],
+      "location": "Vergleich mit interest-media-garyvee/r1",
+      "scope": "Methodischer Vergleich von YouTube-Routine und Creative-Testsystem."
+    },
+    {
+      "id": "views-revenue",
+      "text": "YouTube-Views aus dem Upload-Prozess belegen wirtschaftliche Wirkung.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Die Interest-Media-Analyse verschärft die Trennung zwischen Aufmerksamkeit und Umsatz. Wirtschaftliche Wirkung braucht nachgelagerte Conversion- oder Lift-Messung.",
+      "sourceIds": [
+        "google-conversion-lift",
+        "interest-video"
+      ],
+      "location": "Vergleich mit interest-media-garyvee/r1",
+      "scope": "YouTube-Content-Marketing als Businesshebel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "interest-video",
+      "title": "GaryVee: Everything You Know About Social Media Is Changing",
+      "url": "https://www.youtube.com/watch?v=83r8orCLOyg",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "garyvee",
+      "note": "Neue Interest-Media-Analyse als Vergleichsquelle; Sprecher-Claims nicht unabhängig bestätigt."
+    },
+    {
+      "id": "youtube-recommendations",
+      "title": "YouTube Help: Good to know about recommendations for YouTube’s recommendation system",
+      "url": "https://support.google.com/youtube/answer/16559651?hl=en",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "youtube-help",
+      "note": "Primärquelle zu Kontext, Zuschauerreaktionen und Empfehlungen."
+    },
+    {
+      "id": "google-conversion-lift",
+      "title": "Google Ads Help: About Conversion Lift",
+      "url": "https://support.google.com/google-ads/answer/12003020?hl=en",
+      "accessedAt": "2026-09-12T10:33:42.804Z",
+      "originGroup": "google-ads",
+      "note": "Primärquelle zur Kausal-/Incrementality-Messung."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "interest-media-garyvee"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "interest_media_recherche",
+      "conclusion": "YouTube-Empfehlungslogik als Resonanz- und Kontextsystem berücksichtigt."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "interest_media_challenge",
+      "conclusion": "Views und frühe Kennzahlen bleiben Diagnosewerte, keine Umsatzbelege."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "YouTube-Analyse methodisch ergänzt, ohne ursprüngliche Belegurteile zu verändern."
+    }
+  ]
+}
