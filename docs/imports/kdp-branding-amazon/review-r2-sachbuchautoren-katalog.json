@@ -1,0 +1,215 @@
+{
+  "id": "r2",
+  "createdAt": "2026-09-12T10:26:26.051Z",
+  "previousId": "r1",
+  "reason": "Markus hat die Prüfung bestätigt; konkrete Übertragung der KDP-Brand-Logik auf Coaching für Sach- und Fachbuchautoren ergänzt.",
+  "methodVersion": "1.0",
+  "assessment": "Die ursprüngliche Prüfung bleibt valide. Ergänzt wird ein konkretes Beispiel für Markus’ Feld: Ein vertikaler KDP-/Buchkatalog rund um Coaching für Sach- und Fachbuchautoren ist naheliegender als ein rein horizontaler Katalog, weil die Zielgruppe eine klare Reifeleiter durchläuft: Buchidee, Positionierung, Struktur, Schreiben, Überarbeitung, Veröffentlichung, Vermarktung und langfristiges Expertensystem. Dieses Beispiel ist kein Umsetzungsauftrag, sondern ein Modellbaustein für die Wissensplattform.",
+  "keyFacts": [
+    {
+      "label": "Vertikal passt besser als horizontal",
+      "fact": "Sach- und Fachbuchautoren bewegen sich entlang einer klaren Journey von Idee über Manuskript bis Vermarktung.",
+      "implication": "Den Katalog zuerst als Reifeleiter bauen; horizontale Zielgruppenvarianten erst später ergänzen.",
+      "sourceIds": [
+        "video",
+        "amazon-ads-sponsored-brands"
+      ]
+    },
+    {
+      "label": "Das Ausgangsbuch verkauft Orientierung",
+      "fact": "Der erste Schmerz ist meist nicht Veröffentlichung, sondern die tragfähige Buchidee und Buchthese.",
+      "implication": "Als Einstieg ein Buch zur Themenfindung und Positionierung nutzen, nicht sofort ein Alles-über-Self-Publishing-Buch.",
+      "sourceIds": [
+        "video"
+      ]
+    },
+    {
+      "label": "Jedes Folgebuch löst eine nächste Hürde",
+      "fact": "Positionierung, Struktur, Schreiben, Überarbeitung, Veröffentlichung und Vermarktung sind natürliche Anschlussprobleme.",
+      "implication": "Folgetitel so planen, dass jeder Band einzeln kaufbar ist und zugleich den nächsten Schritt sichtbar macht.",
+      "sourceIds": [
+        "kdp-aplus",
+        "amazon-ads-sponsored-brands"
+      ]
+    },
+    {
+      "label": "Cross-Selling muss regelkonform bleiben",
+      "fact": "A+ Content und Amazon Ads können mehrere eigene Bücher sichtbar machen, aber A+ verbietet externe Links, QR-Codes, Review-Inhalte und Kaufdruck.",
+      "implication": "Interne Katalogflächen für Buchvergleiche nutzen; E-Mail-Opt-ins und Boni getrennt und regelkonform im Buchkontext planen.",
+      "sourceIds": [
+        "kdp-aplus-guidelines",
+        "kdp-bonus",
+        "kdp-reviews"
+      ]
+    },
+    {
+      "label": "Das Beispiel ist ein Wissensbaustein",
+      "fact": "Die Katalogidee zeigt, wie sich Expertise in wiederverwendbare Buchprodukte übersetzen lässt; sie belegt noch keine Nachfrage oder Profitabilität.",
+      "implication": "Bei späterer Projektwahl Nachfrage, Keywords, Konkurrenz, Produktionsaufwand und Deckungsbeitrag separat prüfen.",
+      "sourceIds": [
+        "kdp-reports",
+        "video"
+      ]
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Beispiel ergänzt",
+      "text": "Der Ansatz wurde auf Coaching für Sach- und Fachbuchautoren übertragen: vom Einstiegsbuch zur ganzen Reifeleiter."
+    },
+    {
+      "label": "Ausgangsbuch: Buchidee",
+      "text": "Der Einstieg wäre ein Buch zur tragfähigen Buchidee, Zielgruppe und Buchthese, weil dort die meisten Autorinnen zuerst festhängen."
+    },
+    {
+      "label": "Katalog als Journey",
+      "text": "Folgebücher können Positionierung, Struktur, Schreiben, Überarbeitung, Veröffentlichung, Vermarktung und Evergreen-System abdecken."
+    },
+    {
+      "label": "Erst vertikal, später horizontal",
+      "text": "Vertikal ist klarer, weil es einen Prozess abbildet. Horizontale Spezialausgaben für Coaches, Unternehmer oder Wissenschaftler können später folgen."
+    },
+    {
+      "label": "Keine Umsetzungspflicht",
+      "text": "Das Beispiel ist eine übertragene Kataloghypothese für die Wissensdatenbank, kein persönlicher Projektauftrag."
+    }
+  ],
+  "claims": [
+    {
+      "id": "vertical-catalog-fit",
+      "text": "Für Coaching von Sach- und Fachbuchautoren ist ein vertikaler Katalog entlang der Customer Journey besonders plausibel.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Die Kataloglogik wird durch die geprüfte KDP-Branding-Analyse und Amazon-Funktionen gestützt. Die konkrete Nachfrage nach jedem vorgeschlagenen Titel wurde noch nicht recherchiert.",
+      "sourceIds": [
+        "video",
+        "kdp-aplus",
+        "amazon-ads-sponsored-brands"
+      ],
+      "location": "Ergänzung aus Markus-Dialog nach r1",
+      "scope": "Kataloghypothese für Coaching/Sachbuchautoren; keine Marktvalidierung."
+    },
+    {
+      "id": "starter-book",
+      "text": "Ein Einstiegsbuch zur Buchidee und Buchthese ist als Ausgangsbuch sinnvoller als ein allgemeines Veröffentlichungsbuch.",
+      "importance": 2,
+      "status": "offen",
+      "rationale": "Die These folgt aus der Customer-Journey-Logik und Markus’ Arbeitsfeld. Sie wurde noch nicht mit Suchdaten, Konkurrenz oder Kundeninterviews validiert.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Ergänzung aus Markus-Dialog nach r1",
+      "scope": "Produktarchitektur, nicht Nachfragebeleg."
+    },
+    {
+      "id": "catalog-books",
+      "text": "Folgebücher zu Positionierung, Struktur, Schreibprozess, Überarbeitung, Veröffentlichung, Vermarktung und Evergreen-System bilden einen schlüssigen vertikalen Produktkatalog.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Als Prozessarchitektur schlüssig und kompatibel mit KDP-Branding, A+ Content und Sponsored Brands. Der konkrete wirtschaftliche Wert jedes Bandes bleibt offen.",
+      "sourceIds": [
+        "kdp-aplus",
+        "amazon-ads-sponsored-brands",
+        "kdp-reports"
+      ],
+      "location": "Ergänzung aus Markus-Dialog nach r1",
+      "scope": "Beispielkatalog; keine fertige Produktentscheidung."
+    },
+    {
+      "id": "horizontal-later",
+      "text": "Horizontale Spezialausgaben für Zielgruppen sollten später ergänzt werden, nicht den Start bilden.",
+      "importance": 1,
+      "status": "offen",
+      "rationale": "Das ist eine strategische Empfehlung aus der Synthese: Erst eine klare Leiter bauen, dann Zielgruppenvarianten prüfen. Dafür liegen noch keine Marktdaten vor.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Ergänzung aus Markus-Dialog nach r1",
+      "scope": "Katalogreihenfolge als Hypothese."
+    }
+  ],
+  "sources": [
+    {
+      "id": "video",
+      "title": "Andrey Bernhart: How ONLY 12 Books Made Me $389,000 on Amazon KDP (Branding Masterclass)",
+      "url": "https://www.youtube.com/watch?v=4aNF6WUx6uM",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "andrey-bernhart",
+      "note": "Ausgangsanalyse für Brand-/Kataloglogik; Sprecherzahlen bleiben offen."
+    },
+    {
+      "id": "kdp-aplus",
+      "title": "Amazon KDP: A+ Content",
+      "url": "https://kdp.amazon.com/en_US/help/topic/GHL7P99B7AA543CN",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu A+ Content als Buchdetailseiten-Erweiterung."
+    },
+    {
+      "id": "kdp-aplus-guidelines",
+      "title": "Amazon KDP: A+ Content Guidelines",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G4WB7VPPEAREHAAD",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu Grenzen von A+ Content."
+    },
+    {
+      "id": "kdp-bonus",
+      "title": "Amazon KDP: Bonus Content",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G202018960",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu Bonusinhalten und disruptiven Links."
+    },
+    {
+      "id": "kdp-reviews",
+      "title": "Amazon KDP: Customer Reviews",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu Review-Grenzen."
+    },
+    {
+      "id": "amazon-ads-sponsored-brands",
+      "title": "Amazon Ads: The author’s guide to Sponsored Brands",
+      "url": "https://advertising.amazon.com/library/guides/sponsored-brand-authors",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "amazon-ads",
+      "note": "Primärquelle zu mehreren Titeln, Sponsored Brands und Cross-Sell-Messung."
+    },
+    {
+      "id": "kdp-reports",
+      "title": "Amazon KDP: Reports",
+      "url": "https://kdp.amazon.com/en_US/help/topic/GVTTXHKHVPAPBEDQ",
+      "accessedAt": "2026-09-12T10:26:26.051Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu KDP-Reports und Messgrenzen."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung und Beispielübertragung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "kdp-200-buecher-umsatz-gewinn"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "kdp_branding_recherche",
+      "conclusion": "Bestehende Primärquellen aus r1 tragen die Plattformlogik; die konkrete Sachbuch-Coaching-Anwendung bleibt eine Hypothese."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "kdp_branding_challenge",
+      "conclusion": "Beispiel nicht als Nachfragebeleg oder Umsetzungsauftrag speichern; wirtschaftliche Validierung bleibt offen."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Vertikaler Beispielkatalog ergänzt, ohne die ursprüngliche Evidenzbewertung heraufzustufen."
+    }
+  ]
+}
