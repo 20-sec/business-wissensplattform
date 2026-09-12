@@ -1,0 +1,17 @@
+{
+  "id": "youtube-veroeffentlichung-und-auswertung",
+  "title": "YouTube: Veröffentlichung und Auswertung",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-12T10:10:16.667161Z",
+      "reason": "Erste bestätigte Upload-Routine mit Primärquellenprüfung.",
+      "summary": "Gezielt testen statt hektisch ändern, frühe Kennzahlen vorsichtig lesen, relevante externe Verbreitung zulassen, Metadaten differenzieren und Folgeinhalte messbar verbinden. Querverbindungen zu TikTok und LinkedIn betreffen die Lernroutine, nicht gemeinsame Plattformregeln.",
+      "videoRevisionIds": [
+        "youtube-upload-checkliste-dennis-kasper/r1",
+        "tiktok-demand-engine-kdp/r4",
+        "claude-linkedin-schritt-fuer-schritt/r3"
+      ]
+    }
+  ]
+}

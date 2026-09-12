@@ -1,0 +1,198 @@
+{
+  "id": "r3",
+  "createdAt": "2026-09-12T10:10:16.667161Z",
+  "previousId": "r2",
+  "reason": "YouTube-Upload-Routine als thematisch verwandten Marketingbaustein verglichen; keine neue Evidenz zu bisherigen Ertrags- oder Plattformbehauptungen.",
+  "methodVersion": "1.0",
+  "assessment": "Technische Browserfähigkeiten bestätigt. Der beschriebene LinkedIn-Ablauf wird durch Plattformregeln deutlich eingeschränkt. Schreibassistenz mit bereitgestellten eigenen Inhalten bleibt ein wiederverwendbarer Wissensbaustein. Erfolgszahlen bleiben offen. Vergleich: LinkedIn-Assistenz betrifft die Vorbereitung und Strukturierung von Marketingarbeit; die TikTok-Analyse betrifft Buchnachfrage und Attribution. Die gemeinsame Marketing-Kategorie liefert keinen gegenseitigen Beleg für Reichweite, Konversion oder Ertrag. Bestehende Belegurteile bleiben unverändert. Die YouTube-Checkliste ergänzt die Sammlung um Veröffentlichung und Auswertung. Plattformfunktionen und Rankingregeln sind nicht auf TikTok oder LinkedIn übertragbar; bisherige Belegurteile bleiben unverändert.",
+  "keyFacts": [
+    {
+      "label": "Technisch möglich, keine native Anbindung",
+      "fact": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt.",
+      "implication": "Als Browserautomation dokumentieren; technische Fähigkeit und Plattformfreigabe getrennt bewerten.",
+      "sourceIds": [
+        "claude"
+      ]
+    },
+    {
+      "label": "LinkedIn-Regeln begrenzen den Ablauf",
+      "fact": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht.",
+      "implication": "Den beschriebenen Ablauf nicht als freigegebene LinkedIn-Automation empfehlen.",
+      "sourceIds": [
+        "linkedin",
+        "permissions"
+      ]
+    },
+    {
+      "label": "Eigene Schreibbibliothek als Wissensbaustein",
+      "fact": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis.",
+      "implication": "Schreibassistenz als separaten Ablauf ohne automatisierte LinkedIn-Navigation dokumentieren.",
+      "sourceIds": [
+        "video",
+        "claude"
+      ]
+    },
+    {
+      "label": "Kontaktbewertungen begründen",
+      "fact": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen.",
+      "implication": "Beobachtung, vermuteten Bedarf und offene Frage trennen. Priorisierung mit Begründung und Unsicherheit anzeigen.",
+      "sourceIds": [
+        "video"
+      ]
+    },
+    {
+      "label": "Erfolgszahlen bleiben offen",
+      "fact": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt.",
+      "implication": "Antwortquote, Abschlussquote und Nettozeit inklusive Nachbearbeitung getrennt erfassen.",
+      "sourceIds": [
+        "video"
+      ]
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Technisch möglich, keine native Anbindung",
+      "text": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt."
+    },
+    {
+      "label": "LinkedIn-Regeln begrenzen den Ablauf",
+      "text": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht."
+    },
+    {
+      "label": "Eigene Schreibbibliothek als Wissensbaustein",
+      "text": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis."
+    },
+    {
+      "label": "Kontaktbewertungen begründen",
+      "text": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen."
+    },
+    {
+      "label": "Erfolgszahlen bleiben offen",
+      "text": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt."
+    }
+  ],
+  "claims": [
+    {
+      "id": "browser",
+      "text": "Claude in Chrome kann Seiten lesen und bedienen.",
+      "importance": 2,
+      "status": "gestützt",
+      "rationale": "Offizielle Produktdokumentation bestätigt die technische Fähigkeit.",
+      "sourceIds": [
+        "claude"
+      ],
+      "location": "Original-HTML und ergänzende Primärquellen",
+      "scope": "Claude-Browserassistenz für LinkedIn"
+    },
+    {
+      "id": "permission",
+      "text": "Manuelle Sendefreigabe macht den beschriebenen automatisierten LinkedIn-Ablauf zulässig.",
+      "importance": 3,
+      "status": "widerlegt",
+      "rationale": "LinkedIn untersagt auch automatisierte Aktivitäten und Scraping durch Erweiterungen; eine manuelle Schlussfreigabe ist keine allgemeine Ausnahme.",
+      "sourceIds": [
+        "linkedin",
+        "permissions"
+      ],
+      "location": "Original-HTML und ergänzende Primärquellen",
+      "scope": "Claude-Browserassistenz für LinkedIn"
+    },
+    {
+      "id": "undetectable",
+      "text": "Die Browserautomation bleibt wahrscheinlich unentdeckt.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Keine belastbare Untersuchung zu Erkennung oder Kontorisiken vorgelegt.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Original-HTML und ergänzende Primärquellen",
+      "scope": "Claude-Browserassistenz für LinkedIn"
+    },
+    {
+      "id": "fivefold",
+      "text": "Die Methode verfünffacht Antwort- und Abschlussraten.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Keine unabhängigen Vergleichsdaten, Stichprobe oder eindeutigen Nenner.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Original-HTML und ergänzende Primärquellen",
+      "scope": "Claude-Browserassistenz für LinkedIn"
+    },
+    {
+      "id": "time",
+      "text": "Die Methode spart täglich mehrere Stunden.",
+      "importance": 2,
+      "status": "offen",
+      "rationale": "Keine dokumentierte Ausgangszeit oder Nettozeit einschließlich Nachkontrolle.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Original-HTML und ergänzende Primärquellen",
+      "scope": "Claude-Browserassistenz für LinkedIn"
+    }
+  ],
+  "sources": [
+    {
+      "id": "video",
+      "title": "Harry Long: How To Connect Claude To LinkedIn (Step by Step)",
+      "url": "https://www.youtube.com/watch?v=NqHd-89RycA",
+      "accessedAt": "2026-09-10T08:21:28.751805Z",
+      "originGroup": "harry-long",
+      "note": "Videoaussagen aus dem Original; Erfolgszahlen nicht unabhängig bestätigt."
+    },
+    {
+      "id": "claude",
+      "title": "Anthropic: Get started with Claude in Chrome",
+      "url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+      "accessedAt": "2026-09-10T08:21:28.751805Z",
+      "originGroup": "anthropic",
+      "note": "Bestätigt Browserbedienung; keine LinkedIn-Freigabe."
+    },
+    {
+      "id": "linkedin",
+      "title": "LinkedIn: Automated activity",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1340567/automated-activity-on-linkedin?lang=en",
+      "accessedAt": "2026-09-10T08:21:28.751805Z",
+      "originGroup": "linkedin",
+      "note": "Untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen."
+    },
+    {
+      "id": "permissions",
+      "title": "Anthropic: Chrome permissions guide",
+      "url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
+      "accessedAt": "2026-09-10T08:21:28.751805Z",
+      "originGroup": "anthropic",
+      "note": "Berechtigungskontrollen ersetzen keine Regeln der besuchten Plattform."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung für spätere Projekte und Netzwerk; keine persönliche Umsetzung beschlossen.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "tiktok-demand-engine-kdp",
+    "youtube-upload-checkliste-dennis-kasper"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "claude_linkedin_recherche",
+      "conclusion": "Videoautor und offizielle Produktmöglichkeiten recherchiert; keine unabhängigen Erfolgsbelege gefunden."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "Codex (Hauptagent)",
+      "conclusion": "LinkedIn-Primärquelle selbst geprüft. Unabhängiger Gegenprüfungsagent wegen technischem Agentenlimit nicht verfügbar; keine unabhängige Zweitprüfung."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Technik, Plattformregeln und Produktivitätshypothesen getrennt; fünf Punkte durch Markus bestätigt."
+    }
+  ]
+}

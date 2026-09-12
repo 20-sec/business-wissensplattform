@@ -1,0 +1,266 @@
+{
+  "id": "r1",
+  "createdAt": "2026-09-12T10:10:16.667161Z",
+  "previousId": null,
+  "reason": "Fünf Prüfpunkte von Markus bestätigt; Einordnung unter Marketing/Vermarktung und Konkrete Anleitungen.",
+  "methodVersion": "1.0",
+  "assessment": "Als Arbeitsroutine sinnvoll und in wesentlichen Handlungsschritten durch offizielle Dokumentation gestützt. Kein validiertes allgemeines Algorithmusgesetz oder Umsatzmodell. Pauschales Änderungsverbot korrigiert; externe-Traffic-Schädigung und wirtschaftlicher Mehrwert bleiben unbelegt. Grundlage ist die HTML, keine vollständige eigene Video-/Transkriptprüfung.",
+  "keyFacts": [
+    {
+      "label": "Titel und Thumbnail gezielt testen",
+      "fact": "YouTube unterstützt bis zu drei A/B-Varianten auch für bestehende Videos. Ein grundsätzliches Änderungsverbot ist nicht haltbar.",
+      "implication": "Funktionierendes beibehalten, erkennbare Schwächen kontrolliert testen; hektische Wechsel vermeiden.",
+      "sourceIds": [
+        "ab"
+      ]
+    },
+    {
+      "label": "48–72 Stunden sind ein erster Kontrolltermin",
+      "fact": "Zuschauerbindungsdaten benötigen normalerweise ein bis zwei Tage Verarbeitung. Das garantiert noch keine belastbare Stichprobe.",
+      "implication": "Bei wenigen Aufrufen länger beobachten. Abbruchstellen auf Einstieg, Erwartungen und Themenpassung prüfen.",
+      "sourceIds": [
+        "retention",
+        "ctr"
+      ]
+    },
+    {
+      "label": "Passendes externes Teilen ist sinnvoll",
+      "fact": "YouTube empfiehlt selbst Websites, Newsletter und soziale Netzwerke. Eine pauschale Algorithmus-Schädigung durch externe Zugriffe ist nicht belegt.",
+      "implication": "Relevante Zielgruppen ansprechen und externe Zugriffe getrennt auswerten.",
+      "sourceIds": [
+        "sharing",
+        "ctr"
+      ]
+    },
+    {
+      "label": "Tags und Beschreibung getrennt behandeln",
+      "fact": "Tags spielen meist eine geringe Rolle; Titel, Thumbnail und Beschreibung sind für Auffindbarkeit wichtiger.",
+      "implication": "Wenig Zeit in Tag-Feinschliff investieren, eine klare passende Beschreibung beibehalten.",
+      "sourceIds": [
+        "tags"
+      ]
+    },
+    {
+      "label": "Jeden Upload für den nächsten nutzen",
+      "fact": "Ein passendes Folgevideo und die Endscreen-Klickrate ergeben eine messbare Weiterleitung, keinen garantierten Reichweitenbonus.",
+      "implication": "Zuschauerfragen und wiederholt erfolgreiche Themen für weitere Folgen nutzen; neue Themen bewusst testen.",
+      "sourceIds": [
+        "endscreen",
+        "content",
+        "audience"
+      ]
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Titel und Thumbnail gezielt testen",
+      "text": "YouTube unterstützt bis zu drei A/B-Varianten auch für bestehende Videos. Ein grundsätzliches Änderungsverbot ist nicht haltbar."
+    },
+    {
+      "label": "48–72 Stunden sind ein erster Kontrolltermin",
+      "text": "Zuschauerbindungsdaten benötigen normalerweise ein bis zwei Tage Verarbeitung. Das garantiert noch keine belastbare Stichprobe."
+    },
+    {
+      "label": "Passendes externes Teilen ist sinnvoll",
+      "text": "YouTube empfiehlt selbst Websites, Newsletter und soziale Netzwerke. Eine pauschale Algorithmus-Schädigung durch externe Zugriffe ist nicht belegt."
+    },
+    {
+      "label": "Tags und Beschreibung getrennt behandeln",
+      "text": "Tags spielen meist eine geringe Rolle; Titel, Thumbnail und Beschreibung sind für Auffindbarkeit wichtiger."
+    },
+    {
+      "label": "Jeden Upload für den nächsten nutzen",
+      "text": "Ein passendes Folgevideo und die Endscreen-Klickrate ergeben eine messbare Weiterleitung, keinen garantierten Reichweitenbonus."
+    }
+  ],
+  "claims": [
+    {
+      "id": "changes",
+      "text": "Titel und Thumbnail sollten nach Upload grundsätzlich nicht geändert werden.",
+      "status": "widerlegt",
+      "rationale": "YouTube bietet A/B-Tests auch für bestehende Videos; die pauschale Regel ist zu absolut.",
+      "sourceIds": [
+        "ab"
+      ],
+      "location": "Original-HTML: 04:11 / 06:09",
+      "importance": 3,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    },
+    {
+      "id": "time",
+      "text": "Nach 48–72 Stunden ist eine abschließende Erfolgsdiagnose möglich.",
+      "status": "offen",
+      "rationale": "Als erste Arbeitsroutine sinnvoll, aber Datenmenge und Verarbeitung begrenzen das Urteil. Keine allgemeine Erfolgsfrist.",
+      "sourceIds": [
+        "retention",
+        "ctr"
+      ],
+      "location": "Original-HTML: 03:40; Zuspitzung der Routine im Prüfbericht",
+      "importance": 2,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    },
+    {
+      "id": "external",
+      "text": "Externes Teilen schädigt pauschal die algorithmische Ausspielung.",
+      "status": "offen",
+      "rationale": "Keine belastbare Kausalbestätigung; offizielle Hinweise empfehlen gezielte externe Verbreitung. Unterschiedliche Besuchergruppen können Gesamtwerte verändern.",
+      "sourceIds": [
+        "sharing",
+        "ctr"
+      ],
+      "location": "Original-HTML: 01:51 / 08:13",
+      "importance": 3,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    },
+    {
+      "id": "metadata",
+      "text": "Tags und Beschreibung sind gleichermaßen nachrangig.",
+      "status": "teilweise gestützt",
+      "rationale": "Tags meist gering gewichtet; Beschreibung ausdrücklich wichtiger für Auffindbarkeit.",
+      "sourceIds": [
+        "tags"
+      ],
+      "location": "Original-HTML: 09:07",
+      "importance": 2,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    },
+    {
+      "id": "end",
+      "text": "Ein passendes Folgevideo auf dem Endscreen ist eine messbare Weiterleitung.",
+      "status": "gestützt",
+      "rationale": "Offiziell empfohlen, Klickrate verfügbar; kein garantierter Rankingbonus.",
+      "sourceIds": [
+        "endscreen"
+      ],
+      "location": "Original-HTML: 03:07",
+      "importance": 2,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    },
+    {
+      "id": "series",
+      "text": "Erfolgreiche Themen können als Serien weiterentwickelt werden.",
+      "status": "gestützt",
+      "rationale": "Contentplanung unterstützt Serien und Experimente. Einzelner Erfolg ist kein garantierter Wiederholungserfolg.",
+      "sourceIds": [
+        "content",
+        "audience"
+      ],
+      "location": "Original-HTML: 06:40 / 07:35",
+      "importance": 2,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    },
+    {
+      "id": "business",
+      "text": "Die Routine erzeugt nachweislich mehr Umsatz oder Kunden.",
+      "status": "offen",
+      "rationale": "Kein unabhängiger Nachweis von Konversion und wirtschaftlicher Wirkung.",
+      "sourceIds": [
+        "video"
+      ],
+      "location": "Original-HTML: Business-Relevanz und Trainingsangebot",
+      "importance": 3,
+      "scope": "YouTube-Upload-Routine, keine allgemeine Umsatzprognose"
+    }
+  ],
+  "sources": [
+    {
+      "id": "video",
+      "title": "Dennis Kasper: 11 Dinge nach jedem YouTube-Upload",
+      "url": "https://www.youtube.com/watch?v=V2ooH1_AAgA",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "dennis-kasper",
+      "note": "Aussagen und Autor laut vorgelegter HTML mit Fallback-Transkript. Video nicht vollständig gegengehört; Trainingsangebot am Ende ist kommerzieller Kontext."
+    },
+    {
+      "id": "ab",
+      "title": "YouTube: Titel und Thumbnails testen",
+      "url": "https://support.google.com/youtube/answer/16391400?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "retention",
+      "title": "YouTube: Zuschauerbindung verstehen",
+      "url": "https://support.google.com/youtube/answer/9314415?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "ctr",
+      "title": "YouTube: Impressionen und Klickrate",
+      "url": "https://support.google.com/youtube/answer/7628154?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "tags",
+      "title": "YouTube: Tags und Metadaten",
+      "url": "https://support.google.com/youtube/answer/146402?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "endscreen",
+      "title": "YouTube: Endscreens",
+      "url": "https://support.google.com/youtube/answer/6388789?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "sharing",
+      "title": "YouTube: Videos bewerben",
+      "url": "https://support.google.com/youtube/answer/141808?hl=en-GB",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "content",
+      "title": "YouTube: Contentplanung",
+      "url": "https://support.google.com/youtube/answer/13616340?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    },
+    {
+      "id": "audience",
+      "title": "YouTube: Zuschauerentwicklung",
+      "url": "https://support.google.com/youtube/answer/13615784?hl=en",
+      "accessedAt": "2026-09-12T10:10:16.667161Z",
+      "originGroup": "youtube-help",
+      "note": "Offizielle Plattformdokumentation, am 12.09.2026 recherchiert; mehrere Hilfeseiten sind eine Quellenfamilie."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "tiktok-demand-engine-kdp",
+    "claude-linkedin-schritt-fuer-schritt"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "youtube_upload_recherche",
+      "conclusion": "youtube_upload_recherche: offizielle Änderungs-/Testfunktionen, Datenverarbeitung, CTR und Metadaten geprüft."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "youtube_upload_challenge",
+      "conclusion": "youtube_upload_challenge: keine pauschale externe-Traffic-Schädigung; Endscreen und Kommentare ohne garantierten Rankingbonus; Serien plus Experimente."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Arbeitsroutine bestätigt, Algorithmusdogmen relativiert. Keine neue Kategorie erforderlich."
+    }
+  ]
+}
