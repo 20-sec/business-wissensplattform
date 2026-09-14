@@ -1,0 +1,18 @@
+{
+  "id": "ki-social-media-automation",
+  "title": "KI-Social-Media-Automation",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-14T16:01:17.000Z",
+      "reason": "Erster bestätigter Wissensbaustein zu agentischer Social-Media-Produktion, Publishing und Auto-DM-Grenzen.",
+      "summary": "KI-Social-Media-Automation ist vor allem als kontrolliertes Content-Operations-System tragfähig: Skill-Datei, Brand Voice, Asset-Erstellung und kanalbezogene Entwürfe schaffen Wiederholbarkeit. Der Autopilot-Anspruch bleibt begrenzt, weil Plattformregeln, OAuth-Rechte, Auto-DMs, Faktenprüfung und Markenrisiken menschliche Freigaben und Stop-Regeln brauchen. Querverbindungen bestehen zu LinkedIn-KI-Assistenz, Interest-Media-Creative-Testing und YouTube-Upload-Auswertung.",
+      "videoRevisionIds": [
+        "gpt6-astra-social-media-automation/r1",
+        "claude-linkedin-schritt-fuer-schritt/r3",
+        "interest-media-garyvee/r1",
+        "youtube-upload-checkliste-dennis-kasper/r2"
+      ]
+    }
+  ]
+}

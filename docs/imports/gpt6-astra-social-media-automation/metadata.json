@@ -1,0 +1,28 @@
+{
+  "id": "gpt6-astra-social-media-automation",
+  "title": "GPT-6 Astra als Social-Media-Automation",
+  "sourceUrl": "https://www.youtube.com/watch?v=xC8C1w2fxg4",
+  "channel": "Zubair Trabzada | AI Workshop",
+  "publishedAt": null,
+  "categories": ["KI & Automation"],
+  "sections": [
+    { "category": "KI & Automation", "section": "Marketing" },
+    { "category": "KI & Automation", "section": "Tools und Werkzeuge" },
+    { "category": "KI & Automation", "section": "Konkrete Anleitungen" }
+  ],
+  "tags": [
+    "GPT-6 Astra",
+    "Social Media Automation",
+    "Content Operations",
+    "MCP",
+    "Higgsfield",
+    "Instagram",
+    "LinkedIn",
+    "Auto-DM",
+    "Brand Voice",
+    "OAuth"
+  ],
+  "summary": "Ein KI-gestützter Social-Media-Workflow mit Skill-Datei, Brand Voice, Asset-Erstellung, Posting und Auto-DM. Stark als kontrolliertes Content-Operations-System, aber zu riskant als unbeaufsichtigter Autopilot.",
+  "sourceAssessment": "Als Content-Operations-Setup plausibel und potenziell zeitsparend; als unbeaufsichtigter Autopilot deutlich riskanter, weil Qualitätskontrolle, Plattformregeln, Berechtigungen und Fehlermodi im Video nur begrenzt behandelt werden.",
+  "topicIds": ["ki-social-media-automation"]
+}

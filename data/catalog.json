@@ -5599,6 +5599,227 @@
               "conclusion": "Technik, Plattformregeln und Produktivitätshypothesen getrennt; fünf Punkte durch Markus bestätigt."
             }
           ]
+        },
+        {
+          "id": "r4",
+          "createdAt": "2026-09-14T16:01:58.509Z",
+          "previousId": "r3",
+          "reason": "Vergleich mit GPT-6-Astra-Social-Media-Automation ergänzt und offene Prüfwarteschlange geschlossen.",
+          "methodVersion": "1.0",
+          "assessment": "Technische Browserfähigkeiten bestätigt. Der beschriebene LinkedIn-Ablauf wird durch Plattformregeln deutlich eingeschränkt. Schreibassistenz mit bereitgestellten eigenen Inhalten bleibt ein wiederverwendbarer Wissensbaustein. Erfolgszahlen bleiben offen. Vergleich: LinkedIn-Assistenz betrifft die Vorbereitung und Strukturierung von Marketingarbeit; die TikTok-Analyse betrifft Buchnachfrage und Attribution. Die gemeinsame Marketing-Kategorie liefert keinen gegenseitigen Beleg für Reichweite, Konversion oder Ertrag. Bestehende Belegurteile bleiben unverändert. Die YouTube-Checkliste ergänzt die Sammlung um Veröffentlichung und Auswertung. Plattformfunktionen und Rankingregeln sind nicht auf TikTok oder LinkedIn übertragbar; bisherige Belegurteile bleiben unverändert. Neuer Vergleich: Die GPT-6-Astra-Analyse ist breiter angelegt als die Claude-LinkedIn-Analyse. Claude/LinkedIn bleibt primär Schreibassistenz und Browserhilfe mit deutlichen LinkedIn-Grenzen; GPT-6 Astra beschreibt ein Content-Operations-System mit Skill-Datei, Asset-Produktion, Publishing und Auto-DM-Risiken. Gemeinsamer Nenner ist nicht Autopilot, sondern kontrollierte Vorbereitung mit menschlicher Freigabe, offiziellen Schnittstellen und Wirkungsmessung.",
+          "keyFacts": [
+            {
+              "label": "Technisch möglich, keine native Anbindung",
+              "fact": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt.",
+              "implication": "Als Browserautomation dokumentieren; technische Fähigkeit und Plattformfreigabe getrennt bewerten.",
+              "sourceIds": [
+                "claude"
+              ]
+            },
+            {
+              "label": "LinkedIn-Regeln begrenzen den Ablauf",
+              "fact": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht.",
+              "implication": "Den beschriebenen Ablauf nicht als freigegebene LinkedIn-Automation empfehlen.",
+              "sourceIds": [
+                "linkedin",
+                "permissions"
+              ]
+            },
+            {
+              "label": "Eigene Schreibbibliothek als Wissensbaustein",
+              "fact": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis.",
+              "implication": "Schreibassistenz als separaten Ablauf ohne automatisierte LinkedIn-Navigation dokumentieren.",
+              "sourceIds": [
+                "video",
+                "claude"
+              ]
+            },
+            {
+              "label": "Kontaktbewertungen begründen",
+              "fact": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen.",
+              "implication": "Beobachtung, vermuteten Bedarf und offene Frage trennen. Priorisierung mit Begründung und Unsicherheit anzeigen.",
+              "sourceIds": [
+                "video"
+              ]
+            },
+            {
+              "label": "Erfolgszahlen bleiben offen",
+              "fact": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt.",
+              "implication": "Antwortquote, Abschlussquote und Nettozeit inklusive Nachbearbeitung getrennt erfassen.",
+              "sourceIds": [
+                "video"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Technisch möglich, keine native Anbindung",
+              "text": "Claude kann über seine Chrome-Erweiterung Webseiten lesen und bedienen. Eine offizielle LinkedIn-Anbindung ist damit nicht belegt."
+            },
+            {
+              "label": "LinkedIn-Regeln begrenzen den Ablauf",
+              "text": "LinkedIn untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen. Manuelle Sendefreigabe allein löst das Problem nicht."
+            },
+            {
+              "label": "Eigene Schreibbibliothek als Wissensbaustein",
+              "text": "Aus bereitgestellten eigenen Beiträgen lassen sich Stilregeln, Themen und Entwürfe ableiten. Das ist eine Handlungsthese, kein Erfolgsnachweis."
+            },
+            {
+              "label": "Kontaktbewertungen begründen",
+              "text": "Ein Profil belegt weder konkreten Bedarf noch Kaufbereitschaft; auch eine Inbox-Sortierung kann falsch liegen."
+            },
+            {
+              "label": "Erfolgszahlen bleiben offen",
+              "text": "Fünffache Antwort- beziehungsweise Abschlussraten und tägliche Stundenersparnis sind nicht unabhängig belegt."
+            }
+          ],
+          "claims": [
+            {
+              "id": "browser",
+              "text": "Claude in Chrome kann Seiten lesen und bedienen.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Offizielle Produktdokumentation bestätigt die technische Fähigkeit.",
+              "sourceIds": [
+                "claude"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "permission",
+              "text": "Manuelle Sendefreigabe macht den beschriebenen automatisierten LinkedIn-Ablauf zulässig.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "LinkedIn untersagt auch automatisierte Aktivitäten und Scraping durch Erweiterungen; eine manuelle Schlussfreigabe ist keine allgemeine Ausnahme.",
+              "sourceIds": [
+                "linkedin",
+                "permissions"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "undetectable",
+              "text": "Die Browserautomation bleibt wahrscheinlich unentdeckt.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine belastbare Untersuchung zu Erkennung oder Kontorisiken vorgelegt.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "fivefold",
+              "text": "Die Methode verfünffacht Antwort- und Abschlussraten.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Keine unabhängigen Vergleichsdaten, Stichprobe oder eindeutigen Nenner.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "time",
+              "text": "Die Methode spart täglich mehrere Stunden.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Keine dokumentierte Ausgangszeit oder Nettozeit einschließlich Nachkontrolle.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML und ergänzende Primärquellen",
+              "scope": "Claude-Browserassistenz für LinkedIn"
+            },
+            {
+              "id": "social-ops-vergleich",
+              "text": "Die neue GPT-6-Astra-Analyse bestätigt die Grenze zwischen assistierter Content-Vorbereitung und riskanter Social-Media-Automation.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Beide Analysen kommen trotz unterschiedlicher Tools zur gleichen Leitplanke: Entwürfe, Brand Voice und Vorbereitung sind wertvoll; unautorisierte Browser-/Posting-/Messaging-Automation bleibt riskant.",
+              "sourceIds": [
+                "video",
+                "linkedin",
+                "gpt6-social"
+              ],
+              "location": "Vergleich mit gpt6-astra-social-media-automation/r1",
+              "scope": "LinkedIn-Assistenz, Social-Media-Operations und agentische Publishing-Workflows"
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Harry Long: How To Connect Claude To LinkedIn (Step by Step)",
+              "url": "https://www.youtube.com/watch?v=NqHd-89RycA",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "harry-long",
+              "note": "Videoaussagen aus dem Original; Erfolgszahlen nicht unabhängig bestätigt."
+            },
+            {
+              "id": "claude",
+              "title": "Anthropic: Get started with Claude in Chrome",
+              "url": "https://support.claude.com/en/articles/12012173-get-started-with-claude-in-chrome",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "anthropic",
+              "note": "Bestätigt Browserbedienung; keine LinkedIn-Freigabe."
+            },
+            {
+              "id": "linkedin",
+              "title": "LinkedIn: Automated activity",
+              "url": "https://www.linkedin.com/help/linkedin/answer/a1340567/automated-activity-on-linkedin?lang=en",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "linkedin",
+              "note": "Untersagt Erweiterungen, die Aktivitäten automatisieren oder Daten scrapen."
+            },
+            {
+              "id": "permissions",
+              "title": "Anthropic: Chrome permissions guide",
+              "url": "https://support.claude.com/en/articles/12902446-claude-in-chrome-permissions-guide",
+              "accessedAt": "2026-09-10T08:21:28.751805Z",
+              "originGroup": "anthropic",
+              "note": "Berechtigungskontrollen ersetzen keine Regeln der besuchten Plattform."
+            },
+            {
+              "id": "gpt6-social",
+              "title": "GPT-6 Astra als Social-Media-Automation – bestätigte Gegenprüfung",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/gpt6-astra-social-media-automation/",
+              "accessedAt": "2026-09-14T16:01:58.509Z",
+              "originGroup": "interne-wissensplattform",
+              "note": "Neu gespeicherter Wissensbaustein zu Skill-Datei, Content Operations, OAuth/MCP, Publishing und Auto-DM-Grenzen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung für spätere Projekte und Netzwerk; keine persönliche Umsetzung beschlossen.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "tiktok-demand-engine-kdp",
+            "youtube-upload-checkliste-dennis-kasper",
+            "gpt6-astra-social-media-automation"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "claude_linkedin_recherche",
+              "conclusion": "Videoautor und offizielle Produktmöglichkeiten recherchiert; keine unabhängigen Erfolgsbelege gefunden."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "Codex (Hauptagent)",
+              "conclusion": "LinkedIn-Primärquelle selbst geprüft. Unabhängiger Gegenprüfungsagent wegen technischem Agentenlimit nicht verfügbar; keine unabhängige Zweitprüfung."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Vergleich ergänzt: beide Analysen stärken den Entwurfs- und Freigabeansatz, nicht unbeaufsichtigte Social-Media-Automation."
+            }
+          ]
         }
       ]
     },
@@ -7769,6 +7990,304 @@
           ]
         }
       ]
+    },
+    {
+      "id": "gpt6-astra-social-media-automation",
+      "title": "GPT-6 Astra als Social-Media-Automation",
+      "sourceUrl": "https://www.youtube.com/watch?v=xC8C1w2fxg4",
+      "channel": "Zubair Trabzada | AI Workshop",
+      "publishedAt": null,
+      "importedAt": "2026-09-14T15:59:58.697Z",
+      "categories": [
+        "KI & Automation"
+      ],
+      "sections": [
+        {
+          "category": "KI & Automation",
+          "section": "Marketing"
+        },
+        {
+          "category": "KI & Automation",
+          "section": "Tools und Werkzeuge"
+        },
+        {
+          "category": "KI & Automation",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "GPT-6 Astra",
+        "Social Media Automation",
+        "Content Operations",
+        "MCP",
+        "Higgsfield",
+        "Instagram",
+        "LinkedIn",
+        "Auto-DM",
+        "Brand Voice",
+        "OAuth"
+      ],
+      "summary": "Ein KI-gestützter Social-Media-Workflow mit Skill-Datei, Brand Voice, Asset-Erstellung, Posting und Auto-DM. Stark als kontrolliertes Content-Operations-System, aber zu riskant als unbeaufsichtigter Autopilot.",
+      "originalHash": "036b5645936b21dfe01c85dfe1cbf35ba42193eee9d6de605dd72708de2fcf50",
+      "originalFilename": "youtube_report_gpt6_astra_social_media.html",
+      "sourceAssessment": "Als Content-Operations-Setup plausibel und potenziell zeitsparend; als unbeaufsichtigter Autopilot deutlich riskanter, weil Qualitätskontrolle, Plattformregeln, Berechtigungen und Fehlermodi im Video nur begrenzt behandelt werden.",
+      "topicIds": [
+        "ki-social-media-automation"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-14T16:01:17.000Z",
+          "previousId": null,
+          "reason": "Fünf Prüfpunkte von Markus bestätigt; als letzter Tagesimport ohne neue Kategorie abgelegt.",
+          "methodVersion": "1.0",
+          "assessment": "Der Ansatz ist als kontrolliertes Content-Operations-System plausibel: Skill-Datei, Brand Voice, Asset-Produktion und kanalbezogene Entwürfe können Wiederholbarkeit schaffen. Der Autopilot-Anspruch wird abgeschwächt, weil Plattformregeln, OAuth-/MCP-Rechte, Auto-DMs, Faktenprüfung und Markenrisiken klare Freigabe- und Stop-Regeln brauchen. Die Stärke liegt in schnellerer Vorbereitung und standardisierten Abläufen, nicht in unbeaufsichtigtem Posten.",
+          "keyFacts": [
+            {
+              "label": "Kein echter Autopilot",
+              "fact": "Der Workflow ist stark für Recherche, Entwurf, Asset-Erstellung, Caption-Varianten und Publishing-Vorbereitung. Unbeaufsichtigtes Posten bleibt wegen Claims, Bildqualität, Timing und Krisenkommunikation riskant.",
+              "implication": "Als Content-Operations-System speichern; Auto-Publish erst nach mehreren fehlerfreien Entwurfszyklen zulassen.",
+              "sourceIds": [
+                "original",
+                "challenge"
+              ]
+            },
+            {
+              "label": "Skill-Datei ist der Hebel",
+              "fact": "Die wiederverwendbare Anleitung für Brand Voice, Plattformregeln, No-Go-Themen, Beispiele und Freigaben ist wertvoller als ein einzelner Prompt.",
+              "implication": "Für künftige Social-Workflows zuerst Skill/Briefing standardisieren und erst danach weitere Tools verbinden.",
+              "sourceIds": [
+                "original",
+                "openai-dev"
+              ]
+            },
+            {
+              "label": "OAuth ist der Risikokern",
+              "fact": "Verbundene Social-Accounts, MCPs und Publishing-Tools erzeugen einen mächtigen Zugangsknoten. Fehlrechte oder Token-Probleme können mehr Schaden verursachen als ein schlechter Post.",
+              "implication": "Minimale Rechte, Testkonten, widerrufbare Tokens, Logging und Stop-Regeln als Pflichtprüfpunkte aufnehmen.",
+              "sourceIds": [
+                "oauth-bcp",
+                "research"
+              ]
+            },
+            {
+              "label": "Plattformregeln setzen Grenzen",
+              "fact": "LinkedIn untersagt unautorisierte Bots und Automatisierung auf der Website; offizielle Posts-APIs arbeiten mit Berechtigungen und Versionierung. Instagram-Messaging und Publishing sind ebenfalls regelgebunden.",
+              "implication": "Offizielle APIs oder Entwurfsmodus bevorzugen; Browserautomation, Auto-Engagement und Auto-DMs nur sehr restriktiv bewerten.",
+              "sourceIds": [
+                "linkedin-prohibited",
+                "linkedin-posts",
+                "instagram-messaging"
+              ]
+            },
+            {
+              "label": "Wirkung statt Output messen",
+              "fact": "Mehr Posts sind kein Business-Beleg. Relevant sind qualifizierte Reichweite, Profilaktionen, Leads, Antworten, negative Kommentare, Spam-Meldungen und manuelle Korrekturen.",
+              "implication": "Den Business Case erst akzeptieren, wenn gleiche oder bessere Wirkung bei weniger Aufwand messbar wird.",
+              "sourceIds": [
+                "original",
+                "challenge"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Autopilot abschwächen",
+              "text": "Nützlich als Produktions- und Freigabesystem; unbeaufsichtigte Veröffentlichung bleibt zu riskant. Erst Entwurfsmodus, dann begrenzte Automatisierung."
+            },
+            {
+              "label": "Skill zuerst",
+              "text": "Brand Voice, Plattformregeln, No-Gos, Beispielposts und Freigaberegeln gehören in eine wiederverwendbare Arbeitsanweisung."
+            },
+            {
+              "label": "Rechte begrenzen",
+              "text": "MCPs und Social-Accounts nur mit minimalen Rechten, Testkonten, Logging und widerrufbaren Tokens verbinden."
+            },
+            {
+              "label": "Regeln prüfen",
+              "text": "LinkedIn, Instagram und Auto-DMs haben klare Grenzen. Offizielle APIs und menschliche Freigabe sind sicherer als Browser-Bots."
+            },
+            {
+              "label": "Wirkung messen",
+              "text": "Nicht Output zählt, sondern qualifizierte Resonanz, Leads, negative Signale und Korrekturaufwand."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Ein KI-Agent kann Social-Media-Produktion beschleunigen, wenn Recherche, Asset-Produktion und Caption-Erstellung modular angelegt sind.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Die HTML-Analyse beschreibt einen plausiblen Workflow. Ein belastbarer Zeit-, Kosten- oder Wirkungstest wird nicht nachgewiesen.",
+              "sourceIds": [
+                "original"
+              ],
+              "location": "Workflow- und Nutzenbeschreibung der Originalanalyse",
+              "scope": "Gilt für vorbereitende Content-Operations, nicht automatisch für vollautonome Veröffentlichung."
+            },
+            {
+              "id": "c2",
+              "text": "Die Skill-Datei ist ein sinnvoller Standardisierungsbaustein für wiederholbare Social-Media-Produktion.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Das Video nutzt eine Skill-/Anweisungsschicht; OpenAI beschreibt Skills als wiederverwendbare Workflow-Bausteine im Agenten-/Tool-Kontext.",
+              "sourceIds": [
+                "original",
+                "openai-dev"
+              ],
+              "location": "Abschnitte zu social carousel skills und Brand Voice",
+              "scope": "Gilt für wiederholbare Instruktionen, Tonalität und Prozessregeln."
+            },
+            {
+              "id": "c3",
+              "text": "Unbeaufsichtigtes Posten über verbundene Accounts ist risikoreich.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "OAuth-Sicherheitsprinzipien, Plattformberechtigungen und Account-Zugriffe verlangen minimale Rechte, kontrollierte Tokens und klare Prüfpfade.",
+              "sourceIds": [
+                "oauth-bcp",
+                "linkedin-posts",
+                "instagram-messaging"
+              ],
+              "location": "Risiken: OAuth/MCP, Plattformregeln, Auto-DM",
+              "scope": "Gilt besonders bei Produktivkonten, Publishing-Rechten und Messaging."
+            },
+            {
+              "id": "c4",
+              "text": "LinkedIn-Automatisierung sollte nicht als frei nutzbare Browser- oder Bot-Automation gespeichert werden.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "LinkedIn untersagt Bots, Browser-Plugins und nicht autorisierte automatisierte Methoden für Aktivitäten wie Nachrichten, Posts, Kommentare oder Likes.",
+              "sourceIds": [
+                "linkedin-prohibited",
+                "linkedin-posts"
+              ],
+              "location": "Kanalrisiken und Posting-/DM-Schritte",
+              "scope": "Gilt für LinkedIn-Website-Automation und unautorisierte Engagement-Automation."
+            },
+            {
+              "id": "c5",
+              "text": "Auto-DMs sind der heikelste Teil des beschriebenen Workflows.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Die HTML-Analyse benennt Auto-DM als Risiko. Instagram-Messaging ist möglich, aber regelgebunden; konkrete Umsetzung, Triggerlogik und Tool bleiben im Video nicht ausreichend geprüft.",
+              "sourceIds": [
+                "original",
+                "instagram-messaging"
+              ],
+              "location": "Risiken zu Auto-DMs und Community-Upsells",
+              "scope": "Gilt für kommentarbasierte Antwortmechaniken und private Nachrichten."
+            },
+            {
+              "id": "c6",
+              "text": "Der eigentliche Business Case entsteht erst durch Wirkungsmessung, nicht durch höhere Posting-Frequenz.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die Gegenprüfung trennt Output von qualifizierter Wirkung und fordert Kennzahlen zu Leads, Profilaktionen, negativen Signalen und Korrekturaufwand.",
+              "sourceIds": [
+                "challenge",
+                "research"
+              ],
+              "location": "Verdichtung und Gegenprüfung",
+              "scope": "Gilt für Bewertung als Business-Modell oder operativer Produktivitätshebel."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original",
+              "title": "GPT-6 Astra als Social-Media-Automation – Analyse",
+              "url": "https://www.youtube.com/watch?v=xC8C1w2fxg4",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Original-HTML und Video-Kontext",
+              "note": "Hochgeladene HTML-Analyse inklusive Originalbewertung, Risiken und Handlungsempfehlung."
+            },
+            {
+              "id": "openai-dev",
+              "title": "OpenAI Developers – Skills, MCP und Tool-Workflows",
+              "url": "https://developers.openai.com/",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "OpenAI-Dokumentation",
+              "note": "Offizielle OpenAI-Dokumentation zu Skills, MCP/Connectors und agentischen Tool-Workflows."
+            },
+            {
+              "id": "oauth-bcp",
+              "title": "OAuth 2.0 Security Best Current Practice",
+              "url": "https://www.rfc-editor.org/info/rfc9700/",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Sicherheitsstandard",
+              "note": "Aktuelle Sicherheitsleitlinie für OAuth-2.0-basierte Autorisierung."
+            },
+            {
+              "id": "linkedin-prohibited",
+              "title": "LinkedIn Help – Prohibited software and extensions",
+              "url": "https://www.linkedin.com/help/linkedin/answer/a1341387",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Plattformregeln",
+              "note": "LinkedIn untersagt unauthorisierte Bots, Scraper, Browser-Plugins und automatisierte Aktivitäten."
+            },
+            {
+              "id": "linkedin-posts",
+              "title": "LinkedIn Posts API",
+              "url": "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api?view=li-lms-2026-08",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Offizielle API-Dokumentation",
+              "note": "Beschreibt offizielle Posting-Möglichkeiten, Berechtigungen, Versionierung und unterstützte Content-Typen."
+            },
+            {
+              "id": "instagram-messaging",
+              "title": "Instagram Messaging API",
+              "url": "https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Offizielle API-Dokumentation",
+              "note": "Meta-Dokumentation für Instagram-Messaging im API-Kontext."
+            },
+            {
+              "id": "research",
+              "title": "Recherche-Agent zur Social-Media-Automation",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Interne Gegenrecherche",
+              "note": "Synthetisierte Recherche zu OpenAI/Codex-Skills, MCP/OAuth, Social APIs, Plattformregeln und Auto-DM-Risiken."
+            },
+            {
+              "id": "challenge",
+              "title": "Gegenprüfung-Agent zur Social-Media-Automation",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-14T16:01:17.000Z",
+              "originGroup": "Interne Gegenprüfung",
+              "note": "Unabhängige Challenge des Autopilot-Claims mit Fokus auf Plattformregeln, Spam-/DM-Risiken und Wirkungsmessung."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Markus sieht den Fall nicht als völlig neu, möchte ihn aber als Wissensbaustein speichern. Der Nutzen liegt in Verdichtung und späterer Vergleichbarkeit, nicht in einem persönlichen Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "claude-linkedin-schritt-fuer-schritt",
+            "interest-media-garyvee",
+            "youtube-upload-checkliste-dennis-kasper"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "Social-Autopilot-Recherche",
+              "conclusion": "Plausibel als Tool-Workflow; Plattform- und OAuth-Risiken müssen offiziell geprüft und begrenzt werden."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "Social-Autopilot-Challenge",
+              "conclusion": "Autopilot-Claim abschwächen; Entwurfsmodus, offizielle APIs und Wirkungsmessung sind zentrale Leitplanken."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als KI-&-Automation-Wissensbaustein speichern, ohne neue Oberkategorie und ohne persönliche Umsetzungsannahme."
+            }
+          ]
+        }
+      ]
     }
   ],
   "topics": [
@@ -7989,6 +8508,24 @@
           "videoRevisionIds": [
             "kdp-bild-video-reviews/r1",
             "kdp-branding-amazon/r3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ki-social-media-automation",
+      "title": "KI-Social-Media-Automation",
+      "revisions": [
+        {
+          "id": "t1",
+          "createdAt": "2026-09-14T16:01:17.000Z",
+          "reason": "Erster bestätigter Wissensbaustein zu agentischer Social-Media-Produktion, Publishing und Auto-DM-Grenzen.",
+          "summary": "KI-Social-Media-Automation ist vor allem als kontrolliertes Content-Operations-System tragfähig: Skill-Datei, Brand Voice, Asset-Erstellung und kanalbezogene Entwürfe schaffen Wiederholbarkeit. Der Autopilot-Anspruch bleibt begrenzt, weil Plattformregeln, OAuth-Rechte, Auto-DMs, Faktenprüfung und Markenrisiken menschliche Freigaben und Stop-Regeln brauchen. Querverbindungen bestehen zu LinkedIn-KI-Assistenz, Interest-Media-Creative-Testing und YouTube-Upload-Auswertung.",
+          "videoRevisionIds": [
+            "gpt6-astra-social-media-automation/r1",
+            "claude-linkedin-schritt-fuer-schritt/r3",
+            "interest-media-garyvee/r1",
+            "youtube-upload-checkliste-dennis-kasper/r2"
           ]
         }
       ]

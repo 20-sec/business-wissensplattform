@@ -1,0 +1,218 @@
+{
+  "id": "r1",
+  "createdAt": "2026-09-14T16:01:17.000Z",
+  "previousId": null,
+  "reason": "Fünf Prüfpunkte von Markus bestätigt; als letzter Tagesimport ohne neue Kategorie abgelegt.",
+  "methodVersion": "1.0",
+  "assessment": "Der Ansatz ist als kontrolliertes Content-Operations-System plausibel: Skill-Datei, Brand Voice, Asset-Produktion und kanalbezogene Entwürfe können Wiederholbarkeit schaffen. Der Autopilot-Anspruch wird abgeschwächt, weil Plattformregeln, OAuth-/MCP-Rechte, Auto-DMs, Faktenprüfung und Markenrisiken klare Freigabe- und Stop-Regeln brauchen. Die Stärke liegt in schnellerer Vorbereitung und standardisierten Abläufen, nicht in unbeaufsichtigtem Posten.",
+  "keyFacts": [
+    {
+      "label": "Kein echter Autopilot",
+      "fact": "Der Workflow ist stark für Recherche, Entwurf, Asset-Erstellung, Caption-Varianten und Publishing-Vorbereitung. Unbeaufsichtigtes Posten bleibt wegen Claims, Bildqualität, Timing und Krisenkommunikation riskant.",
+      "implication": "Als Content-Operations-System speichern; Auto-Publish erst nach mehreren fehlerfreien Entwurfszyklen zulassen.",
+      "sourceIds": ["original", "challenge"]
+    },
+    {
+      "label": "Skill-Datei ist der Hebel",
+      "fact": "Die wiederverwendbare Anleitung für Brand Voice, Plattformregeln, No-Go-Themen, Beispiele und Freigaben ist wertvoller als ein einzelner Prompt.",
+      "implication": "Für künftige Social-Workflows zuerst Skill/Briefing standardisieren und erst danach weitere Tools verbinden.",
+      "sourceIds": ["original", "openai-dev"]
+    },
+    {
+      "label": "OAuth ist der Risikokern",
+      "fact": "Verbundene Social-Accounts, MCPs und Publishing-Tools erzeugen einen mächtigen Zugangsknoten. Fehlrechte oder Token-Probleme können mehr Schaden verursachen als ein schlechter Post.",
+      "implication": "Minimale Rechte, Testkonten, widerrufbare Tokens, Logging und Stop-Regeln als Pflichtprüfpunkte aufnehmen.",
+      "sourceIds": ["oauth-bcp", "research"]
+    },
+    {
+      "label": "Plattformregeln setzen Grenzen",
+      "fact": "LinkedIn untersagt unautorisierte Bots und Automatisierung auf der Website; offizielle Posts-APIs arbeiten mit Berechtigungen und Versionierung. Instagram-Messaging und Publishing sind ebenfalls regelgebunden.",
+      "implication": "Offizielle APIs oder Entwurfsmodus bevorzugen; Browserautomation, Auto-Engagement und Auto-DMs nur sehr restriktiv bewerten.",
+      "sourceIds": ["linkedin-prohibited", "linkedin-posts", "instagram-messaging"]
+    },
+    {
+      "label": "Wirkung statt Output messen",
+      "fact": "Mehr Posts sind kein Business-Beleg. Relevant sind qualifizierte Reichweite, Profilaktionen, Leads, Antworten, negative Kommentare, Spam-Meldungen und manuelle Korrekturen.",
+      "implication": "Den Business Case erst akzeptieren, wenn gleiche oder bessere Wirkung bei weniger Aufwand messbar wird.",
+      "sourceIds": ["original", "challenge"]
+    }
+  ],
+  "compactSummary": [
+    {
+      "label": "Autopilot abschwächen",
+      "text": "Nützlich als Produktions- und Freigabesystem; unbeaufsichtigte Veröffentlichung bleibt zu riskant. Erst Entwurfsmodus, dann begrenzte Automatisierung."
+    },
+    {
+      "label": "Skill zuerst",
+      "text": "Brand Voice, Plattformregeln, No-Gos, Beispielposts und Freigaberegeln gehören in eine wiederverwendbare Arbeitsanweisung."
+    },
+    {
+      "label": "Rechte begrenzen",
+      "text": "MCPs und Social-Accounts nur mit minimalen Rechten, Testkonten, Logging und widerrufbaren Tokens verbinden."
+    },
+    {
+      "label": "Regeln prüfen",
+      "text": "LinkedIn, Instagram und Auto-DMs haben klare Grenzen. Offizielle APIs und menschliche Freigabe sind sicherer als Browser-Bots."
+    },
+    {
+      "label": "Wirkung messen",
+      "text": "Nicht Output zählt, sondern qualifizierte Resonanz, Leads, negative Signale und Korrekturaufwand."
+    }
+  ],
+  "claims": [
+    {
+      "id": "c1",
+      "text": "Ein KI-Agent kann Social-Media-Produktion beschleunigen, wenn Recherche, Asset-Produktion und Caption-Erstellung modular angelegt sind.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Die HTML-Analyse beschreibt einen plausiblen Workflow. Ein belastbarer Zeit-, Kosten- oder Wirkungstest wird nicht nachgewiesen.",
+      "sourceIds": ["original"],
+      "location": "Workflow- und Nutzenbeschreibung der Originalanalyse",
+      "scope": "Gilt für vorbereitende Content-Operations, nicht automatisch für vollautonome Veröffentlichung."
+    },
+    {
+      "id": "c2",
+      "text": "Die Skill-Datei ist ein sinnvoller Standardisierungsbaustein für wiederholbare Social-Media-Produktion.",
+      "importance": 2,
+      "status": "gestützt",
+      "rationale": "Das Video nutzt eine Skill-/Anweisungsschicht; OpenAI beschreibt Skills als wiederverwendbare Workflow-Bausteine im Agenten-/Tool-Kontext.",
+      "sourceIds": ["original", "openai-dev"],
+      "location": "Abschnitte zu social carousel skills und Brand Voice",
+      "scope": "Gilt für wiederholbare Instruktionen, Tonalität und Prozessregeln."
+    },
+    {
+      "id": "c3",
+      "text": "Unbeaufsichtigtes Posten über verbundene Accounts ist risikoreich.",
+      "importance": 3,
+      "status": "gestützt",
+      "rationale": "OAuth-Sicherheitsprinzipien, Plattformberechtigungen und Account-Zugriffe verlangen minimale Rechte, kontrollierte Tokens und klare Prüfpfade.",
+      "sourceIds": ["oauth-bcp", "linkedin-posts", "instagram-messaging"],
+      "location": "Risiken: OAuth/MCP, Plattformregeln, Auto-DM",
+      "scope": "Gilt besonders bei Produktivkonten, Publishing-Rechten und Messaging."
+    },
+    {
+      "id": "c4",
+      "text": "LinkedIn-Automatisierung sollte nicht als frei nutzbare Browser- oder Bot-Automation gespeichert werden.",
+      "importance": 3,
+      "status": "gestützt",
+      "rationale": "LinkedIn untersagt Bots, Browser-Plugins und nicht autorisierte automatisierte Methoden für Aktivitäten wie Nachrichten, Posts, Kommentare oder Likes.",
+      "sourceIds": ["linkedin-prohibited", "linkedin-posts"],
+      "location": "Kanalrisiken und Posting-/DM-Schritte",
+      "scope": "Gilt für LinkedIn-Website-Automation und unautorisierte Engagement-Automation."
+    },
+    {
+      "id": "c5",
+      "text": "Auto-DMs sind der heikelste Teil des beschriebenen Workflows.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Die HTML-Analyse benennt Auto-DM als Risiko. Instagram-Messaging ist möglich, aber regelgebunden; konkrete Umsetzung, Triggerlogik und Tool bleiben im Video nicht ausreichend geprüft.",
+      "sourceIds": ["original", "instagram-messaging"],
+      "location": "Risiken zu Auto-DMs und Community-Upsells",
+      "scope": "Gilt für kommentarbasierte Antwortmechaniken und private Nachrichten."
+    },
+    {
+      "id": "c6",
+      "text": "Der eigentliche Business Case entsteht erst durch Wirkungsmessung, nicht durch höhere Posting-Frequenz.",
+      "importance": 3,
+      "status": "gestützt",
+      "rationale": "Die Gegenprüfung trennt Output von qualifizierter Wirkung und fordert Kennzahlen zu Leads, Profilaktionen, negativen Signalen und Korrekturaufwand.",
+      "sourceIds": ["challenge", "research"],
+      "location": "Verdichtung und Gegenprüfung",
+      "scope": "Gilt für Bewertung als Business-Modell oder operativer Produktivitätshebel."
+    }
+  ],
+  "sources": [
+    {
+      "id": "original",
+      "title": "GPT-6 Astra als Social-Media-Automation – Analyse",
+      "url": "https://www.youtube.com/watch?v=xC8C1w2fxg4",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Original-HTML und Video-Kontext",
+      "note": "Hochgeladene HTML-Analyse inklusive Originalbewertung, Risiken und Handlungsempfehlung."
+    },
+    {
+      "id": "openai-dev",
+      "title": "OpenAI Developers – Skills, MCP und Tool-Workflows",
+      "url": "https://developers.openai.com/",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "OpenAI-Dokumentation",
+      "note": "Offizielle OpenAI-Dokumentation zu Skills, MCP/Connectors und agentischen Tool-Workflows."
+    },
+    {
+      "id": "oauth-bcp",
+      "title": "OAuth 2.0 Security Best Current Practice",
+      "url": "https://www.rfc-editor.org/info/rfc9700/",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Sicherheitsstandard",
+      "note": "Aktuelle Sicherheitsleitlinie für OAuth-2.0-basierte Autorisierung."
+    },
+    {
+      "id": "linkedin-prohibited",
+      "title": "LinkedIn Help – Prohibited software and extensions",
+      "url": "https://www.linkedin.com/help/linkedin/answer/a1341387",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Plattformregeln",
+      "note": "LinkedIn untersagt unauthorisierte Bots, Scraper, Browser-Plugins und automatisierte Aktivitäten."
+    },
+    {
+      "id": "linkedin-posts",
+      "title": "LinkedIn Posts API",
+      "url": "https://learn.microsoft.com/en-us/linkedin/marketing/community-management/shares/posts-api?view=li-lms-2026-08",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Offizielle API-Dokumentation",
+      "note": "Beschreibt offizielle Posting-Möglichkeiten, Berechtigungen, Versionierung und unterstützte Content-Typen."
+    },
+    {
+      "id": "instagram-messaging",
+      "title": "Instagram Messaging API",
+      "url": "https://developers.facebook.com/documentation/instagram-platform/instagram-api-with-instagram-login/messaging-api",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Offizielle API-Dokumentation",
+      "note": "Meta-Dokumentation für Instagram-Messaging im API-Kontext."
+    },
+    {
+      "id": "research",
+      "title": "Recherche-Agent zur Social-Media-Automation",
+      "url": "https://20-sec.github.io/business-wissensplattform/",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Interne Gegenrecherche",
+      "note": "Synthetisierte Recherche zu OpenAI/Codex-Skills, MCP/OAuth, Social APIs, Plattformregeln und Auto-DM-Risiken."
+    },
+    {
+      "id": "challenge",
+      "title": "Gegenprüfung-Agent zur Social-Media-Automation",
+      "url": "https://20-sec.github.io/business-wissensplattform/",
+      "accessedAt": "2026-09-14T16:01:17.000Z",
+      "originGroup": "Interne Gegenprüfung",
+      "note": "Unabhängige Challenge des Autopilot-Claims mit Fokus auf Plattformregeln, Spam-/DM-Risiken und Wirkungsmessung."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Markus sieht den Fall nicht als völlig neu, möchte ihn aber als Wissensbaustein speichern. Der Nutzen liegt in Verdichtung und späterer Vergleichbarkeit, nicht in einem persönlichen Umsetzungsauftrag.",
+    "confirmedByMarkus": true
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "claude-linkedin-schritt-fuer-schritt",
+    "interest-media-garyvee",
+    "youtube-upload-checkliste-dennis-kasper"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "Social-Autopilot-Recherche",
+      "conclusion": "Plausibel als Tool-Workflow; Plattform- und OAuth-Risiken müssen offiziell geprüft und begrenzt werden."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "Social-Autopilot-Challenge",
+      "conclusion": "Autopilot-Claim abschwächen; Entwurfsmodus, offizielle APIs und Wirkungsmessung sind zentrale Leitplanken."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Als KI-&-Automation-Wissensbaustein speichern, ohne neue Oberkategorie und ohne persönliche Umsetzungsannahme."
+    }
+  ]
+}
