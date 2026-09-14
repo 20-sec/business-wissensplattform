@@ -1,0 +1,118 @@
+{
+  "id": "r4",
+  "createdAt": "2026-09-14T15:52:04.533Z",
+  "previousId": "r3",
+  "reason": "250-Bücher-Analyse als Portfolio-Lernsystem mit KDP-Branding verglichen.",
+  "methodVersion": "1.0",
+  "assessment": "Die 250-Bücher-Analyse stärkt die KDP-Branding-Logik: Ein Brand oder Katalog entsteht nicht durch viele Titel allein, sondern durch dokumentiertes Lernen, klare Zielgruppen, wiederholbare Produktentscheidungen und Vertiefung nachweisbarer Gewinner. Gleichzeitig verschärft sie die Warnung vor reiner Menge: viele Flops, offene Vollkosten und Amazon-Abhängigkeit bleiben zentrale Grenzen.",
+  "compactSummary": [
+    {
+      "label": "Portfolio-Lernen gestärkt",
+      "text": "Der neue Fall bestätigt die Idee, dass KDP als Lernsystem wertvoller ist als als Titelfabrik."
+    },
+    {
+      "label": "Brand braucht Gewinner",
+      "text": "Ein Katalog wird erst stark, wenn funktionierende Zielgruppen und Produkte vertieft werden."
+    },
+    {
+      "label": "Zahlen bleiben offen",
+      "text": "Auch hier bestätigen hohe Sprecher-Royalties keine Profitabilität des Brand-Modells."
+    },
+    {
+      "label": "AI nur Werkzeug",
+      "text": "AI passt in Produktionsprozesse, ersetzt aber nicht Strategie, Qualität und KDP-Offenlegung."
+    },
+    {
+      "label": "Keine Neubewertung nach oben",
+      "text": "Die bestehende Brand-These wird methodisch gestützt, aber wirtschaftlich nicht neu belegt."
+    }
+  ],
+  "claims": [
+    {
+      "id": "learning-brand",
+      "text": "KDP-Branding und Katalogaufbau sollten als dokumentiertes Lernsystem verstanden werden.",
+      "importance": 2,
+      "status": "gestützt",
+      "rationale": "Die 250-Bücher-Analyse stärkt die gemeinsame Logik: Gewinner vertiefen, Prozesse dokumentieren, Zielgruppe und Engpassdiagnose wiederholen.",
+      "sourceIds": [
+        "kdp250",
+        "kdp-reports"
+      ],
+      "location": "Vergleich mit kdp-250-buecher/r1",
+      "scope": "Methodische Ergänzung der KDP-Branding-Analyse."
+    },
+    {
+      "id": "profit-proof",
+      "text": "Die 250-Bücher-Analyse belegt wirtschaftlich die Profitabilität des KDP-Branding-Modells.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Die neuen Zahlen bleiben Sprecher-Claims ohne Vollkostenrechnung. Sie stützen das Denkmodell, nicht die Profitabilität.",
+      "sourceIds": [
+        "kdp250",
+        "kdp-reports"
+      ],
+      "location": "Vergleich mit kdp-250-buecher/r1",
+      "scope": "Profitabilität des KDP-Brand-/Katalogmodells."
+    }
+  ],
+  "sources": [
+    {
+      "id": "kdp250",
+      "title": "Kevin Faggioli: I Published 250 Books on Amazon KDP: Here’s What Actually Worked",
+      "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+      "accessedAt": "2026-09-14T15:52:04.533Z",
+      "originGroup": "kevin-faggioli",
+      "note": "Neue 250-Bücher-Analyse als Vergleichsquelle; Zahlen bleiben Sprecher-Claims."
+    },
+    {
+      "id": "kdp-reports",
+      "title": "Amazon KDP: KDP Reports",
+      "url": "https://kdp.amazon.com/help/topic/GVTTXHKHVPAPBEDQ",
+      "accessedAt": "2026-09-14T15:52:04.533Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu KDP-Reports, geschätzten Royalties und Auswertungen."
+    },
+    {
+      "id": "kdp-low-content",
+      "title": "Amazon KDP: Low-Content Books",
+      "url": "https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM",
+      "accessedAt": "2026-09-14T15:52:04.533Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu Low-Content-Definition und Abgrenzung."
+    },
+    {
+      "id": "kdp-ai",
+      "title": "Amazon KDP: Content Guidelines",
+      "url": "https://kdp.amazon.com/help/topic/G200672390",
+      "accessedAt": "2026-09-14T15:52:04.533Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu AI-generierten Inhalten und Publisher-Verantwortung."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "kdp-250-buecher"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "kdp250_recherche",
+      "conclusion": "Portfolio-Lernsystem als Schnittmenge zu KDP-Branding eingeordnet."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "kdp250_challenge",
+      "conclusion": "Keine wirtschaftliche Heraufstufung, weil Vollkosten und Sprecherzahlen offen bleiben."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Branding-Analyse methodisch ergänzt, Evidenzstatus bleibt vorsichtig."
+    }
+  ]
+}

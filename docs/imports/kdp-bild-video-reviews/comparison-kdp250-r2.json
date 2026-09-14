@@ -1,0 +1,101 @@
+{
+  "id": "r2",
+  "createdAt": "2026-09-14T15:52:04.533Z",
+  "previousId": "r1",
+  "reason": "250-Bücher-Analyse mit Produktseiten- und Review-Optimierung verglichen.",
+  "methodVersion": "1.0",
+  "assessment": "Die 250-Bücher-Analyse ordnet die Review-/Produktseiten-Optimierung in den größeren KDP-Funnel ein: Cover, Titel, Produktseite und Vertrauen sind Diagnosepunkte zwischen Impression, Klick und Kauf. Sie bestätigt aber keine Wirksamkeit von Review-Bounties und verändert die Compliance-Warnung nicht. Cover-/Listing-Feedback bleibt der sauberere Lernbaustein.",
+  "compactSummary": [
+    {
+      "label": "Listing im Funnel verorten",
+      "text": "Cover, Titel, Preis und Produktseite gehören in die Engpassdiagnose zwischen Impression, Klick und Kauf."
+    },
+    {
+      "label": "Review-Bounty bleibt heikel",
+      "text": "Die neue Analyse macht Review-Bounties nicht sicherer und bestätigt keine Compliance."
+    },
+    {
+      "label": "Cover-Feedback passt",
+      "text": "Vorab-Feedback zu Cover und Listing ist ein guter Lernbaustein im KDP-Testsystem."
+    },
+    {
+      "label": "Wirkung messen",
+      "text": "Produktseitenänderungen brauchen Baseline, Traffic-Quelle, Conversion und Umsatzvergleich."
+    },
+    {
+      "label": "Keine Standardisierung",
+      "text": "Nur saubere Feedback- und Messprozesse standardisieren, nicht punktgebundene Review-Gewinnung."
+    }
+  ],
+  "claims": [
+    {
+      "id": "listing-funnel",
+      "text": "Produktseiten- und Cover-Feedback gehören als Funnel-Diagnose in ein KDP-Lernsystem.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Die 250-Bücher-Analyse stärkt die Trennung von Impression, Klick, Kauf und Rückgabe. Cover-/Listing-Feedback passt dazu, Review-Bounties bleiben gesondert riskant.",
+      "sourceIds": [
+        "kdp250",
+        "kdp-reports"
+      ],
+      "location": "Vergleich mit kdp-250-buecher/r1",
+      "scope": "Produktseitenoptimierung innerhalb des KDP-Testsystems."
+    },
+    {
+      "id": "review-bounty-proof",
+      "text": "Die 250-Bücher-Analyse bestätigt Review-Bounties als wiederholbaren Prozess.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Das neue Video behandelt Lernsysteme und Funnel-Logik, aber keine unabhängige Compliance- oder Wirkungsmessung von Review-Bounties.",
+      "sourceIds": [
+        "kdp250"
+      ],
+      "location": "Vergleich mit kdp-250-buecher/r1",
+      "scope": "Review-Gewinnung über Drittanbieter."
+    }
+  ],
+  "sources": [
+    {
+      "id": "kdp250",
+      "title": "Kevin Faggioli: I Published 250 Books on Amazon KDP: Here’s What Actually Worked",
+      "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+      "accessedAt": "2026-09-14T15:52:04.533Z",
+      "originGroup": "kevin-faggioli",
+      "note": "Neue 250-Bücher-Analyse als Vergleichsquelle; Zahlen bleiben Sprecher-Claims."
+    },
+    {
+      "id": "kdp-reports",
+      "title": "Amazon KDP: KDP Reports",
+      "url": "https://kdp.amazon.com/help/topic/GVTTXHKHVPAPBEDQ",
+      "accessedAt": "2026-09-14T15:52:04.533Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu KDP-Reports, geschätzten Royalties und Auswertungen."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "kdp-250-buecher"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "kdp250_recherche",
+      "conclusion": "KDP-Funnel-Diagnose ergänzt Produktseitenoptimierung."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "kdp250_challenge",
+      "conclusion": "Review-Bounty-Risiken bleiben unverändert, keine Standardisierung."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "Bild-/Videoreview-Analyse nur um Funnel-Kontext ergänzt."
+    }
+  ]
+}

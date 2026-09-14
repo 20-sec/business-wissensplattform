@@ -6655,6 +6655,124 @@
               "conclusion": "KDP-Branding-Analyse nur ergänzend versioniert, ohne Evidenzstatus heraufzustufen."
             }
           ]
+        },
+        {
+          "id": "r4",
+          "createdAt": "2026-09-14T15:52:04.533Z",
+          "previousId": "r3",
+          "reason": "250-Bücher-Analyse als Portfolio-Lernsystem mit KDP-Branding verglichen.",
+          "methodVersion": "1.0",
+          "assessment": "Die 250-Bücher-Analyse stärkt die KDP-Branding-Logik: Ein Brand oder Katalog entsteht nicht durch viele Titel allein, sondern durch dokumentiertes Lernen, klare Zielgruppen, wiederholbare Produktentscheidungen und Vertiefung nachweisbarer Gewinner. Gleichzeitig verschärft sie die Warnung vor reiner Menge: viele Flops, offene Vollkosten und Amazon-Abhängigkeit bleiben zentrale Grenzen.",
+          "compactSummary": [
+            {
+              "label": "Portfolio-Lernen gestärkt",
+              "text": "Der neue Fall bestätigt die Idee, dass KDP als Lernsystem wertvoller ist als als Titelfabrik."
+            },
+            {
+              "label": "Brand braucht Gewinner",
+              "text": "Ein Katalog wird erst stark, wenn funktionierende Zielgruppen und Produkte vertieft werden."
+            },
+            {
+              "label": "Zahlen bleiben offen",
+              "text": "Auch hier bestätigen hohe Sprecher-Royalties keine Profitabilität des Brand-Modells."
+            },
+            {
+              "label": "AI nur Werkzeug",
+              "text": "AI passt in Produktionsprozesse, ersetzt aber nicht Strategie, Qualität und KDP-Offenlegung."
+            },
+            {
+              "label": "Keine Neubewertung nach oben",
+              "text": "Die bestehende Brand-These wird methodisch gestützt, aber wirtschaftlich nicht neu belegt."
+            }
+          ],
+          "claims": [
+            {
+              "id": "learning-brand",
+              "text": "KDP-Branding und Katalogaufbau sollten als dokumentiertes Lernsystem verstanden werden.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Die 250-Bücher-Analyse stärkt die gemeinsame Logik: Gewinner vertiefen, Prozesse dokumentieren, Zielgruppe und Engpassdiagnose wiederholen.",
+              "sourceIds": [
+                "kdp250",
+                "kdp-reports"
+              ],
+              "location": "Vergleich mit kdp-250-buecher/r1",
+              "scope": "Methodische Ergänzung der KDP-Branding-Analyse."
+            },
+            {
+              "id": "profit-proof",
+              "text": "Die 250-Bücher-Analyse belegt wirtschaftlich die Profitabilität des KDP-Branding-Modells.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Die neuen Zahlen bleiben Sprecher-Claims ohne Vollkostenrechnung. Sie stützen das Denkmodell, nicht die Profitabilität.",
+              "sourceIds": [
+                "kdp250",
+                "kdp-reports"
+              ],
+              "location": "Vergleich mit kdp-250-buecher/r1",
+              "scope": "Profitabilität des KDP-Brand-/Katalogmodells."
+            }
+          ],
+          "sources": [
+            {
+              "id": "kdp250",
+              "title": "Kevin Faggioli: I Published 250 Books on Amazon KDP: Here’s What Actually Worked",
+              "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+              "accessedAt": "2026-09-14T15:52:04.533Z",
+              "originGroup": "kevin-faggioli",
+              "note": "Neue 250-Bücher-Analyse als Vergleichsquelle; Zahlen bleiben Sprecher-Claims."
+            },
+            {
+              "id": "kdp-reports",
+              "title": "Amazon KDP: KDP Reports",
+              "url": "https://kdp.amazon.com/help/topic/GVTTXHKHVPAPBEDQ",
+              "accessedAt": "2026-09-14T15:52:04.533Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu KDP-Reports, geschätzten Royalties und Auswertungen."
+            },
+            {
+              "id": "kdp-low-content",
+              "title": "Amazon KDP: Low-Content Books",
+              "url": "https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM",
+              "accessedAt": "2026-09-14T15:52:04.533Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu Low-Content-Definition und Abgrenzung."
+            },
+            {
+              "id": "kdp-ai",
+              "title": "Amazon KDP: Content Guidelines",
+              "url": "https://kdp.amazon.com/help/topic/G200672390",
+              "accessedAt": "2026-09-14T15:52:04.533Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu AI-generierten Inhalten und Publisher-Verantwortung."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-250-buecher"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp250_recherche",
+              "conclusion": "Portfolio-Lernsystem als Schnittmenge zu KDP-Branding eingeordnet."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp250_challenge",
+              "conclusion": "Keine wirtschaftliche Heraufstufung, weil Vollkosten und Sprecherzahlen offen bleiben."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Branding-Analyse methodisch ergänzt, Evidenzstatus bleibt vorsichtig."
+            }
+          ]
         }
       ]
     },
@@ -7236,6 +7354,419 @@
               "conclusion": "Einordnung unter KDP-Buchbusiness mit Marketing, Tools und Konkrete Anleitungen; neues Thema KDP-Reviews und Produktseiten-Optimierung."
             }
           ]
+        },
+        {
+          "id": "r2",
+          "createdAt": "2026-09-14T15:52:04.533Z",
+          "previousId": "r1",
+          "reason": "250-Bücher-Analyse mit Produktseiten- und Review-Optimierung verglichen.",
+          "methodVersion": "1.0",
+          "assessment": "Die 250-Bücher-Analyse ordnet die Review-/Produktseiten-Optimierung in den größeren KDP-Funnel ein: Cover, Titel, Produktseite und Vertrauen sind Diagnosepunkte zwischen Impression, Klick und Kauf. Sie bestätigt aber keine Wirksamkeit von Review-Bounties und verändert die Compliance-Warnung nicht. Cover-/Listing-Feedback bleibt der sauberere Lernbaustein.",
+          "compactSummary": [
+            {
+              "label": "Listing im Funnel verorten",
+              "text": "Cover, Titel, Preis und Produktseite gehören in die Engpassdiagnose zwischen Impression, Klick und Kauf."
+            },
+            {
+              "label": "Review-Bounty bleibt heikel",
+              "text": "Die neue Analyse macht Review-Bounties nicht sicherer und bestätigt keine Compliance."
+            },
+            {
+              "label": "Cover-Feedback passt",
+              "text": "Vorab-Feedback zu Cover und Listing ist ein guter Lernbaustein im KDP-Testsystem."
+            },
+            {
+              "label": "Wirkung messen",
+              "text": "Produktseitenänderungen brauchen Baseline, Traffic-Quelle, Conversion und Umsatzvergleich."
+            },
+            {
+              "label": "Keine Standardisierung",
+              "text": "Nur saubere Feedback- und Messprozesse standardisieren, nicht punktgebundene Review-Gewinnung."
+            }
+          ],
+          "claims": [
+            {
+              "id": "listing-funnel",
+              "text": "Produktseiten- und Cover-Feedback gehören als Funnel-Diagnose in ein KDP-Lernsystem.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Die 250-Bücher-Analyse stärkt die Trennung von Impression, Klick, Kauf und Rückgabe. Cover-/Listing-Feedback passt dazu, Review-Bounties bleiben gesondert riskant.",
+              "sourceIds": [
+                "kdp250",
+                "kdp-reports"
+              ],
+              "location": "Vergleich mit kdp-250-buecher/r1",
+              "scope": "Produktseitenoptimierung innerhalb des KDP-Testsystems."
+            },
+            {
+              "id": "review-bounty-proof",
+              "text": "Die 250-Bücher-Analyse bestätigt Review-Bounties als wiederholbaren Prozess.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Das neue Video behandelt Lernsysteme und Funnel-Logik, aber keine unabhängige Compliance- oder Wirkungsmessung von Review-Bounties.",
+              "sourceIds": [
+                "kdp250"
+              ],
+              "location": "Vergleich mit kdp-250-buecher/r1",
+              "scope": "Review-Gewinnung über Drittanbieter."
+            }
+          ],
+          "sources": [
+            {
+              "id": "kdp250",
+              "title": "Kevin Faggioli: I Published 250 Books on Amazon KDP: Here’s What Actually Worked",
+              "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+              "accessedAt": "2026-09-14T15:52:04.533Z",
+              "originGroup": "kevin-faggioli",
+              "note": "Neue 250-Bücher-Analyse als Vergleichsquelle; Zahlen bleiben Sprecher-Claims."
+            },
+            {
+              "id": "kdp-reports",
+              "title": "Amazon KDP: KDP Reports",
+              "url": "https://kdp.amazon.com/help/topic/GVTTXHKHVPAPBEDQ",
+              "accessedAt": "2026-09-14T15:52:04.533Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu KDP-Reports, geschätzten Royalties und Auswertungen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-250-buecher"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp250_recherche",
+              "conclusion": "KDP-Funnel-Diagnose ergänzt Produktseitenoptimierung."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp250_challenge",
+              "conclusion": "Review-Bounty-Risiken bleiben unverändert, keine Standardisierung."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Bild-/Videoreview-Analyse nur um Funnel-Kontext ergänzt."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kdp-250-buecher",
+      "title": "Amazon KDP nach 250 Büchern",
+      "sourceUrl": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+      "channel": "Kevin Faggioli",
+      "publishedAt": null,
+      "importedAt": "2026-09-14T15:50:51.351Z",
+      "categories": [
+        "KDP-Buchbusiness"
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Strategie"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Produktion"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Tools und Werkzeuge"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "KDP",
+        "Portfolio-Ökonomie",
+        "Katalogaufbau",
+        "Low-Content",
+        "Validierung",
+        "AI",
+        "Funnel-Diagnose",
+        "Abbruchregeln",
+        "Produktionsprozess",
+        "Amazon Reports"
+      ],
+      "summary": "KDP als Lern- und Portfolio-System: Idee vor Produktion beweisen, Funnel-Signale getrennt lesen, Low-Content als Lernformat nutzen, Gewinner vertiefen und AI nur als Produktionshebel einsetzen.",
+      "originalHash": "625254592cfa35e595bbffd8cbfc551a3b0c18701225c2fabbbccb9f25bcf21c",
+      "originalFilename": "amazon-kdp-250-buecher-analyse.html",
+      "sourceAssessment": "Sehr wertvoll als KDP-Lernsystem und Portfolio-Denkmodell; Erfolgszahlen, Low-Content-Leichtigkeit und AI-Skalierung müssen nüchtern relativiert werden.",
+      "topicIds": [
+        "kdp-brand-und-katalogaufbau"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-14T15:50:51.284Z",
+          "previousId": null,
+          "reason": "Erstprüfung der hochgeladenen HTML-Analyse zu 250 KDP-Büchern und Portfolio-Lernen.",
+          "methodVersion": "1.0",
+          "assessment": "Sehr wertvoll als KDP-Lernsystem und Portfolio-Denkmodell. Die robuste Idee ist nicht die Zahl von 250 Büchern, sondern die Disziplin aus Validierung, klarer Positionierung, Funnel-Diagnose, Abbruchregeln und Vertiefung nachweisbarer Gewinner. Die hohen Royalty- und Umsatzangaben bleiben Sprecher-Claims ohne unabhängige Kosten-, Ads-, Team-, Steuer- und Zeitdaten. Low-Content wird sinnvoll als Lernformat beschrieben, aber nicht als leichter Markt. AI kann Produktion beschleunigen, ersetzt aber weder Entscheidung, Qualität, Rechteprüfung noch KDP-Offenlegung. Grundlage ist die HTML-Analyse plus Primärquellenprüfung; das Video wurde nicht vollständig gegengehört.",
+          "keyFacts": [
+            {
+              "label": "250 Bücher bedeuten 250 Lernschleifen",
+              "fact": "Die stärkste Logik ist Validierung vor Produktion, kontrollierte Iteration und Vertiefung von Gewinnern, nicht maximale Veröffentlichungsmenge.",
+              "implication": "KDP-Projekte als Lernsystem mit Abbruchregeln und Engpassdiagnose speichern, nicht als Masse-Strategie.",
+              "sourceIds": [
+                "video"
+              ]
+            },
+            {
+              "label": "Geldzahlen bleiben Sprecher-Claims",
+              "fact": "Die genannten 1,7 Mio. USD Royalties und 2 Mio. USD KDP-Erlöse sind nicht unabhängig belegt und trennen keine Vollkosten.",
+              "implication": "Als Motivationssignal erfassen; Profitabilität erst mit Ads, Produktion, Software, Team, Steuern, Zeit und Deckungsbeitrag bewerten.",
+              "sourceIds": [
+                "video",
+                "kdp-reports",
+                "kdp-sales-royalties"
+              ]
+            },
+            {
+              "label": "Funnel-Diagnose ist wiederverwendbar",
+              "fact": "Sichtbarkeit, Klick, Kauf und Rückgabe beschreiben unterschiedliche Engpässe und sollten nicht in eine Metrik zusammenfallen.",
+              "implication": "Bei KDP-Analysen künftig Impressionen, CTR, Conversion, Preis, Produktseite und Rückgaben getrennt lesen.",
+              "sourceIds": [
+                "video",
+                "kdp-sales-rank",
+                "kdp-reports"
+              ]
+            },
+            {
+              "label": "Low-Content ist Lernformat, kein leichter Markt",
+              "fact": "KDP beschreibt Low-Content als minimalen oder repetitiven Inneninhalt und grenzt Aktivitäts-/Puzzle-/Malbücher teils davon ab.",
+              "implication": "Low-Content nur als schnelles Testformat speichern, wenn echter Nutzwert, klare Differenzierung und Qualitätskontrolle vorhanden sind.",
+              "sourceIds": [
+                "kdp-low-content",
+                "kdp-quality"
+              ]
+            },
+            {
+              "label": "AI hilft bei Produktion, nicht bei Verantwortung",
+              "fact": "KDP verlangt Angaben zu AI-generierten Inhalten; Rechte, Originalität, Qualität und Kundenerfahrung bleiben beim Publisher.",
+              "implication": "AI-Workflows als Produktionshebel dokumentieren, aber Entscheidung, Prüfung und Plattform-Compliance beim Betreiber belassen.",
+              "sourceIds": [
+                "kdp-ai",
+                "kdp-quality"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Portfolio-Denkmodell passt",
+              "text": "Der Beitrag ergänzt die bisherige KDP-Kataloglogik: Viele Titel sind nur dann wertvoll, wenn daraus Wissen, Regeln und Gewinner-Vertiefung entstehen."
+            },
+            {
+              "label": "Zahlen bleiben offen",
+              "text": "1,7 Mio. USD Royalties und 2 Mio. USD KDP-Erlöse sind Sprecher-Claims ohne Vollkostenrechnung."
+            },
+            {
+              "label": "Funnel getrennt lesen",
+              "text": "Keine Sichtbarkeit, kein Klick, kein Kauf und Rückgabe sind verschiedene Probleme. Diese Diagnose ist sehr brauchbar."
+            },
+            {
+              "label": "Low-Content nüchtern sehen",
+              "text": "Kurze Lernschleifen sind sinnvoll, aber niedrige Produktionshürde bedeutet auch viel Wettbewerb und Qualitätsrisiko."
+            },
+            {
+              "label": "AI braucht Kontrolle",
+              "text": "AI kann Produktion beschleunigen; Offenlegung, Rechte, Originalität und Qualität bleiben Pflicht des Publishers."
+            }
+          ],
+          "claims": [
+            {
+              "id": "portfolio-learning",
+              "text": "Der wichtigste Nutzen der 250-Bücher-Erfahrung liegt in wiederholbaren Lernschleifen, nicht in der reinen Titelzahl.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die HTML beschreibt 140 schwache Titel und betont Validierung, Engpassdiagnose und Gewinner-Vertiefung. Das passt zu unseren bisherigen Kataloganalysen und wird durch KDP-Reportlogik als messbarer Prozess plausibel.",
+              "sourceIds": [
+                "video",
+                "kdp-reports"
+              ],
+              "location": "Original-HTML: Executive Summary, Logik als System, Lektionen 1/3/5",
+              "scope": "KDP-Portfolio als Lernsystem; keine Einkommensprognose."
+            },
+            {
+              "id": "royalty-claims",
+              "text": "250 Bücher erzeugten 1,7 Mio. USD Royalties und über 2 Mio. USD KDP-Erlöse.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Die Angaben stammen aus dem Video/HTML. Ohne Reportauszug, Kosten, Ads, Team, Software, Steuern, Zeitaufwand und Verteilung auf Gewinner/Verlierer sind sie nicht unabhängig verifiziert.",
+              "sourceIds": [
+                "video",
+                "kdp-reports",
+                "kdp-sales-royalties"
+              ],
+              "location": "Original-HTML: Executive Summary",
+              "scope": "Sprecher-Claim; keine geprüfte Gewinnrechnung."
+            },
+            {
+              "id": "funnel-diagnosis",
+              "text": "Impression, Klick, Kauf und Rückgabe sollten als getrennte KDP-Engpässe gelesen werden.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Die Diagnose ist methodisch stark. Offizielle Quellen bestätigen Reports und relative Customer Activity, aber nicht die vollständige Algorithmusformel oder jede Zuordnung im Video.",
+              "sourceIds": [
+                "video",
+                "kdp-sales-rank",
+                "kdp-reports"
+              ],
+              "location": "Original-HTML: Lektion 2 und Schritt-für-Schritt",
+              "scope": "Diagnosemodell für KDP-Listing und Buchperformance."
+            },
+            {
+              "id": "algorithm-behavior",
+              "text": "Amazon beobachtet primär Kundenzufriedenheitssignale wie Klicks, Käufe, Rückgaben und Wiederkäufe.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Amazon beschreibt Sales Rank über relative Customer Activity, veröffentlicht aber keinen vollständigen Rankingalgorithmus. Die Aussage ist plausibel, bleibt aber vereinfacht.",
+              "sourceIds": [
+                "kdp-sales-rank",
+                "video"
+              ],
+              "location": "Original-HTML: Lektion 4",
+              "scope": "Amazon-Ranking und Produktperformance; keine vollständige Algorithmusbeschreibung."
+            },
+            {
+              "id": "low-content-learning",
+              "text": "High-Value Low-Content kann ein sinnvolles Lernformat sein.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Kurze Produktionsschleifen können Lernen erleichtern. KDP definiert Low-Content jedoch eng und Qualitäts-/Wettbewerbsrisiken bleiben hoch. Leichte Produktion ist keine leichte Sichtbarkeit.",
+              "sourceIds": [
+                "kdp-low-content",
+                "kdp-quality",
+                "video"
+              ],
+              "location": "Original-HTML: Lektion 8 und Realitätscheck",
+              "scope": "Low-Content als Testformat, nicht als pauschal einfacher Markt."
+            },
+            {
+              "id": "ai-production",
+              "text": "AI kann KDP-Produktion beschleunigen, ersetzt aber nicht Entscheidung und Verantwortung.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "KDP unterscheidet AI-generated und AI-assisted content und verlangt Offenlegung generierter Inhalte. Publisher bleiben für Rechte, Qualität und Kundenerfahrung verantwortlich.",
+              "sourceIds": [
+                "kdp-ai",
+                "kdp-quality",
+                "video"
+              ],
+              "location": "Original-HTML: Lektion 6",
+              "scope": "AI-gestützte KDP-Produktion."
+            },
+            {
+              "id": "asset-logic",
+              "text": "Ein KDP-Portfolio kann asset-ähnlicher werden, wenn Prozesse, Konten, Regeln und Marken dokumentiert sind.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Dokumentation, Marken und Reihen erhöhen Übertragbarkeit. Dennoch bleiben Sichtbarkeit, Regeln, Reviews, Ads und Account-Zustand stark Amazon-abhängig.",
+              "sourceIds": [
+                "video",
+                "kdp-reports",
+                "kdp-quality"
+              ],
+              "location": "Original-HTML: Lektion 7",
+              "scope": "Portfolio/Asset-Logik innerhalb Amazon-KDP-Abhängigkeit."
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Kevin Faggioli: I Published 250 Books on Amazon KDP: Here’s What Actually Worked",
+              "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "kevin-faggioli",
+              "note": "Titel und Kanal per YouTube-oEmbed bestätigt. Grundlage ist die vorgelegte HTML mit Transcript-Fallback; Video nicht vollständig gegengehört. Umsatz-/Royalty-Zahlen bleiben Sprecher-Claims."
+            },
+            {
+              "id": "kdp-reports",
+              "title": "Amazon KDP: KDP Reports",
+              "url": "https://kdp.amazon.com/help/topic/GVTTXHKHVPAPBEDQ",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle: KDP Reports zeigen geschätzte Royalties, Sales, KENP, Top-Bücher, Formate und Marktplätze; keine Bestätigung fremder Sprecherzahlen."
+            },
+            {
+              "id": "kdp-sales-royalties",
+              "title": "Amazon KDP: Sales and Royalties Report",
+              "url": "https://kdp.amazon.com/help?topicId=A3OVLANLFI5WMG",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle: Bericht für Orders, Sales und Royalties im gewählten Zeitraum; relevant für die Trennung von Umsatz, Tantiemen und Berichtsdaten."
+            },
+            {
+              "id": "kdp-low-content",
+              "title": "Amazon KDP: Low-Content Books",
+              "url": "https://kdp.amazon.com/help/topic/GGE5T76TWKA85DJM",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle: Low-Content wird als minimaler oder repetitiver Inneninhalt beschrieben und von Puzzle-/Mal-/Activity-Büchern abgegrenzt; Einschränkungen beachten."
+            },
+            {
+              "id": "kdp-ai",
+              "title": "Amazon KDP: Content Guidelines",
+              "url": "https://kdp.amazon.com/help/topic/G200672390",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle: AI-generierte Inhalte müssen beim Veröffentlichen oder Republishen angegeben werden; AI-assisted ist anders behandelt. Rechte und Qualität bleiben Verantwortung des Publishers."
+            },
+            {
+              "id": "kdp-sales-rank",
+              "title": "Amazon KDP: Sales Ranking",
+              "url": "https://kdp.amazon.com/help/topic/G201648140",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle: Bestseller- und Kategorie-Ränge beruhen auf relativer Customer Activity; kein vollständiger Algorithmus oder Umsatznachweis."
+            },
+            {
+              "id": "kdp-quality",
+              "title": "Amazon KDP: Kindle Content Quality Guide",
+              "url": "https://kdp.amazon.com/help/topic/G200952510",
+              "accessedAt": "2026-09-14T15:50:51.284Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu Qualität, Kundenerfahrung und möglichen Problemen bei Inhalten; relevant für AI- und Low-Content-Produktionsrisiken."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-branding-amazon",
+            "kdp-200-buecher-umsatz-gewinn",
+            "kleine-profitable-kdp-nischen"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp250_recherche",
+              "conclusion": "Recherche stützt Portfolio-/Validierungslogik, Funnel-Diagnose und AI/Low-Content-Regelprüfung; Geldzahlen bleiben offen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp250_challenge",
+              "conclusion": "Gegenprüfung schwächt Erfolgszahlen, Low-Content-Leichtigkeit, AI-Skalierung und Asset-Unabhängigkeit deutlich ab."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Einordnung als KDP-Portfolio-Denkmodell mit Schnittmenge zu KDP-Branding/Katalogaufbau und den bisherigen KDP-Fallstudien."
+            }
+          ]
         }
       ]
     }
@@ -7386,6 +7917,27 @@
           "summary": "Beispielhafte vertikale Produktarchitektur für Markus’ Feld: Ausgangsbuch zur tragfähigen Buchidee und Buchthese; anschließende Bände zu Positionierung, Bucharchitektur, Schreibprozess, Überarbeitung, Veröffentlichung, Vermarktung und Buch als langfristiges Expertensystem. Horizontale Spezialausgaben für Coaches, Unternehmer, Wissenschaftler oder andere Zielgruppen bleiben spätere Erweiterungen. Diese Ergänzung ist ein Wissensbaustein, keine persönliche Umsetzungspflicht und keine Marktvalidierung.",
           "videoRevisionIds": [
             "kdp-branding-amazon/r2"
+          ]
+        },
+        {
+          "id": "t4",
+          "createdAt": "2026-09-14T15:50:51.284Z",
+          "reason": "250-Bücher-Analyse als weiteres Portfolio-Denkmodell mit hoher Schnittmenge ergänzt.",
+          "summary": "Die 250-Bücher-Analyse stärkt das gemeinsame KDP-Portfolio-Denkmodell: Nicht Titelmenge ist der Kern, sondern wiederholbares Lernen. Gemeinsame Achsen mit den bisherigen KDP-Branding- und Fallstudien-Videos: Idee vor Produktion validieren, Funnel-Engpässe getrennt lesen, Gewinner vertiefen, Prozesse dokumentieren, AI als Produktionshilfe nutzen und Vollkosten/Deckungsbeitrag von Sprecher-Royalties trennen. Die hohe Zahl publizierter Bücher bleibt Warnsignal und Erfahrungsbasis, nicht Zielvorgabe.",
+          "videoRevisionIds": [
+            "kdp-branding-amazon/r3",
+            "kdp-250-buecher/r1"
+          ]
+        },
+        {
+          "id": "t5",
+          "createdAt": "2026-09-14T15:52:04.533Z",
+          "reason": "Vergleiche zu KDP-Branding und Produktseitenoptimierung nachgezogen.",
+          "summary": "Die 250-Bücher-Analyse verbindet KDP-Branding, Katalogpflege und Produktseitenoptimierung: Lernprozesse und Gewinner-Vertiefung sind der Kern, Listing- und Coverfeedback gehören in die Funnel-Diagnose, Review-Bounties bleiben ausgeschlossen. Keine wirtschaftliche Heraufstufung der Sprecher-Claims.",
+          "videoRevisionIds": [
+            "kdp-250-buecher/r1",
+            "kdp-branding-amazon/r4",
+            "kdp-bild-video-reviews/r2"
           ]
         }
       ]
