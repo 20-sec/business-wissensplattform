@@ -1,0 +1,110 @@
+{
+  "id": "r3",
+  "createdAt": "2026-09-14T15:43:26.585Z",
+  "previousId": "r2",
+  "reason": "Bild-/Videoreview-Analyse als Produktseiten- und Compliance-Ergänzung zum KDP-Branding verglichen.",
+  "methodVersion": "1.0",
+  "assessment": "Die neue Analyse ergänzt das KDP-Branding-Thema um Produktseitenvertrauen, Reviews und Cover-/Listing-Feedback. Sie stärkt die Idee, dass Kataloge nicht nur aus Büchern, sondern auch aus wiederholbaren Produktseiten- und Feedback-Prozessen bestehen. Sie bestätigt aber keine höhere Profitabilität eines KDP-Brands und macht Review-Bounty-Mechaniken wegen Amazon-/Compliance-Risiken ausdrücklich nicht zum Standardprozess.",
+  "compactSummary": [
+    {
+      "label": "Produktseite ergänzt Brand-System",
+      "text": "Visuelle Reviews und Listing-Feedback können zur Katalogpflege gehören, beweisen aber keinen Brand-Moat."
+    },
+    {
+      "label": "Compliance bleibt Trennlinie",
+      "text": "A+ Content, E-Mail und Reviews sind unterschiedliche Flächen mit unterschiedlichen Regeln; Review-Bounties bleiben besonders heikel."
+    },
+    {
+      "label": "Cover-Feedback passt besser",
+      "text": "Pre-Publication-Covertests sind ein sauberer wiederverwendbarer Prozess im KDP-Katalog."
+    },
+    {
+      "label": "Keine Profitabilitätsbestätigung",
+      "text": "Die neue Analyse liefert keine zusätzlichen Deckungsbeitrags- oder Umsatzbelege für die KDP-Branding-These."
+    },
+    {
+      "label": "Standardprozess bleibt begrenzt",
+      "text": "Als Standard speichern wir Feedback und Messung, nicht bezahlte oder punktgebundene Review-Gewinnung."
+    }
+  ],
+  "claims": [
+    {
+      "id": "listing-process",
+      "text": "KDP-Branding kann durch wiederholbare Produktseiten- und Feedback-Prozesse ergänzt werden.",
+      "importance": 2,
+      "status": "teilweise gestützt",
+      "rationale": "Cover-Feedback und Listing-Optimierung passen zur Kataloglogik. Review-Bounty-Mechaniken bleiben jedoch zu riskant, um als normaler Brand-Prozess zu gelten.",
+      "sourceIds": [
+        "visual-review-analysis",
+        "kdp-reviews",
+        "pickfu-cover"
+      ],
+      "location": "Vergleich mit kdp-bild-video-reviews/r1",
+      "scope": "Ergänzung der KDP-Branding-Analyse um Produktseitenprozesse."
+    },
+    {
+      "id": "brand-profit-confirmation",
+      "text": "Bild- und Videoreviews bestätigen die Profitabilität eines KDP-Brands.",
+      "importance": 3,
+      "status": "offen",
+      "rationale": "Die neue Analyse liefert keine belastbaren Umsatz-, Conversion- oder Deckungsbeitragsdaten. Sie bleibt eine Produktseitenhypothese mit Compliance-Risiko.",
+      "sourceIds": [
+        "visual-review-analysis"
+      ],
+      "location": "Vergleich mit kdp-bild-video-reviews/r1",
+      "scope": "Wirtschaftliche Wirkung des KDP-Brand-Systems."
+    }
+  ],
+  "sources": [
+    {
+      "id": "visual-review-analysis",
+      "title": "Sean Dollwet: How to Get Image and Video Reviews for Your Books on Amazon KDP",
+      "url": "https://www.youtube.com/watch?v=zje9zu4bWVw",
+      "accessedAt": "2026-09-14T15:43:26.585Z",
+      "originGroup": "sean-dollwet",
+      "note": "Neue Analyse als Vergleichsquelle; Umsatzwirkung und Compliance bleiben offen."
+    },
+    {
+      "id": "kdp-reviews",
+      "title": "Amazon KDP: Customer Reviews",
+      "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+      "accessedAt": "2026-09-14T15:43:26.585Z",
+      "originGroup": "amazon-kdp",
+      "note": "Primärquelle zu Review-Regeln und freien/rabattierten Buchkopien."
+    },
+    {
+      "id": "pickfu-cover",
+      "title": "PickFu: Book cover design A/B test",
+      "url": "https://www.pickfu.com/templates/book-cover-comparison",
+      "accessedAt": "2026-09-14T15:43:26.585Z",
+      "originGroup": "pickfu",
+      "note": "Anbieterquelle zu Cover-Feedback als weniger compliance-sensiblem Prozess."
+    }
+  ],
+  "personalRelevance": {
+    "rating": null,
+    "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+    "confirmedByMarkus": false
+  },
+  "questions": [],
+  "relatedVideoIds": [
+    "kdp-bild-video-reviews"
+  ],
+  "reviewers": [
+    {
+      "role": "Recherche",
+      "name": "kdp_visual_reviews_recherche",
+      "conclusion": "Produktseiten-Feedback als ergänzende Katalogpflege eingeordnet; Review-Bounties compliance-sensibel."
+    },
+    {
+      "role": "Gegenprüfung",
+      "name": "kdp_visual_reviews_challenge",
+      "conclusion": "Keine Bestätigung der KDP-Brand-Profitabilität; Review-Gewinnung nicht als Standard übernehmen."
+    },
+    {
+      "role": "Synthese",
+      "name": "Codex",
+      "conclusion": "KDP-Branding-Analyse nur ergänzend versioniert, ohne Evidenzstatus heraufzustufen."
+    }
+  ]
+}

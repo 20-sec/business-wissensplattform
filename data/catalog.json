@@ -6545,6 +6545,116 @@
               "conclusion": "Vertikaler Beispielkatalog ergänzt, ohne die ursprüngliche Evidenzbewertung heraufzustufen."
             }
           ]
+        },
+        {
+          "id": "r3",
+          "createdAt": "2026-09-14T15:43:26.585Z",
+          "previousId": "r2",
+          "reason": "Bild-/Videoreview-Analyse als Produktseiten- und Compliance-Ergänzung zum KDP-Branding verglichen.",
+          "methodVersion": "1.0",
+          "assessment": "Die neue Analyse ergänzt das KDP-Branding-Thema um Produktseitenvertrauen, Reviews und Cover-/Listing-Feedback. Sie stärkt die Idee, dass Kataloge nicht nur aus Büchern, sondern auch aus wiederholbaren Produktseiten- und Feedback-Prozessen bestehen. Sie bestätigt aber keine höhere Profitabilität eines KDP-Brands und macht Review-Bounty-Mechaniken wegen Amazon-/Compliance-Risiken ausdrücklich nicht zum Standardprozess.",
+          "compactSummary": [
+            {
+              "label": "Produktseite ergänzt Brand-System",
+              "text": "Visuelle Reviews und Listing-Feedback können zur Katalogpflege gehören, beweisen aber keinen Brand-Moat."
+            },
+            {
+              "label": "Compliance bleibt Trennlinie",
+              "text": "A+ Content, E-Mail und Reviews sind unterschiedliche Flächen mit unterschiedlichen Regeln; Review-Bounties bleiben besonders heikel."
+            },
+            {
+              "label": "Cover-Feedback passt besser",
+              "text": "Pre-Publication-Covertests sind ein sauberer wiederverwendbarer Prozess im KDP-Katalog."
+            },
+            {
+              "label": "Keine Profitabilitätsbestätigung",
+              "text": "Die neue Analyse liefert keine zusätzlichen Deckungsbeitrags- oder Umsatzbelege für die KDP-Branding-These."
+            },
+            {
+              "label": "Standardprozess bleibt begrenzt",
+              "text": "Als Standard speichern wir Feedback und Messung, nicht bezahlte oder punktgebundene Review-Gewinnung."
+            }
+          ],
+          "claims": [
+            {
+              "id": "listing-process",
+              "text": "KDP-Branding kann durch wiederholbare Produktseiten- und Feedback-Prozesse ergänzt werden.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Cover-Feedback und Listing-Optimierung passen zur Kataloglogik. Review-Bounty-Mechaniken bleiben jedoch zu riskant, um als normaler Brand-Prozess zu gelten.",
+              "sourceIds": [
+                "visual-review-analysis",
+                "kdp-reviews",
+                "pickfu-cover"
+              ],
+              "location": "Vergleich mit kdp-bild-video-reviews/r1",
+              "scope": "Ergänzung der KDP-Branding-Analyse um Produktseitenprozesse."
+            },
+            {
+              "id": "brand-profit-confirmation",
+              "text": "Bild- und Videoreviews bestätigen die Profitabilität eines KDP-Brands.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Die neue Analyse liefert keine belastbaren Umsatz-, Conversion- oder Deckungsbeitragsdaten. Sie bleibt eine Produktseitenhypothese mit Compliance-Risiko.",
+              "sourceIds": [
+                "visual-review-analysis"
+              ],
+              "location": "Vergleich mit kdp-bild-video-reviews/r1",
+              "scope": "Wirtschaftliche Wirkung des KDP-Brand-Systems."
+            }
+          ],
+          "sources": [
+            {
+              "id": "visual-review-analysis",
+              "title": "Sean Dollwet: How to Get Image and Video Reviews for Your Books on Amazon KDP",
+              "url": "https://www.youtube.com/watch?v=zje9zu4bWVw",
+              "accessedAt": "2026-09-14T15:43:26.585Z",
+              "originGroup": "sean-dollwet",
+              "note": "Neue Analyse als Vergleichsquelle; Umsatzwirkung und Compliance bleiben offen."
+            },
+            {
+              "id": "kdp-reviews",
+              "title": "Amazon KDP: Customer Reviews",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+              "accessedAt": "2026-09-14T15:43:26.585Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle zu Review-Regeln und freien/rabattierten Buchkopien."
+            },
+            {
+              "id": "pickfu-cover",
+              "title": "PickFu: Book cover design A/B test",
+              "url": "https://www.pickfu.com/templates/book-cover-comparison",
+              "accessedAt": "2026-09-14T15:43:26.585Z",
+              "originGroup": "pickfu",
+              "note": "Anbieterquelle zu Cover-Feedback als weniger compliance-sensiblem Prozess."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-bild-video-reviews"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_visual_reviews_recherche",
+              "conclusion": "Produktseiten-Feedback als ergänzende Katalogpflege eingeordnet; Review-Bounties compliance-sensibel."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_visual_reviews_challenge",
+              "conclusion": "Keine Bestätigung der KDP-Brand-Profitabilität; Review-Gewinnung nicht als Standard übernehmen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "KDP-Branding-Analyse nur ergänzend versioniert, ohne Evidenzstatus heraufzustufen."
+            }
+          ]
         }
       ]
     },
@@ -6847,6 +6957,287 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kdp-bild-video-reviews",
+      "title": "Amazon KDP: Bild- und Videoreviews",
+      "sourceUrl": "https://www.youtube.com/watch?v=zje9zu4bWVw",
+      "channel": "Sean Dollwet",
+      "publishedAt": null,
+      "importedAt": "2026-09-14T15:42:49.122Z",
+      "categories": [
+        "KDP-Buchbusiness"
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Marketing"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Tools und Werkzeuge"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "KDP",
+        "Amazon Reviews",
+        "Bildreviews",
+        "Videoreviews",
+        "Book Bounty",
+        "Booksprout",
+        "Cover-Feedback",
+        "PickFu",
+        "Produktseite",
+        "Compliance"
+      ],
+      "summary": "Analyse eines Workflows für visuelle Amazon-Reviews und Cover-Feedback bei KDP-Büchern. Die Idee ist als Listing-Optimierung plausibel, aber Review-Bounty- und Punktesysteme sind compliance-sensibel.",
+      "originalHash": "36a46573331d5fe06d8386782628739f592496228db32e69e7d93cd736650d29",
+      "originalFilename": "amazon-kdp-bild-video-reviews-report.html",
+      "sourceAssessment": "Interessanter Taktikbaustein, kein eigenständiger Moat. Nützlich als Produktseiten- und Feedback-Idee, aber der Review-Bounty-Teil gehört klar abgeschwächt und mit Compliance-Warnung gespeichert.",
+      "topicIds": [
+        "kdp-reviews-und-produktseiten-optimierung"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-14T15:42:48.712Z",
+          "previousId": null,
+          "reason": "Erstprüfung der hochgeladenen HTML-Analyse zu KDP-Bild- und Videoreviews.",
+          "methodVersion": "1.0",
+          "assessment": "Als Produktseiten- und Cover-Feedback-Idee ist der Ansatz plausibel: visuelle Rezensionen können Vertrauen und Produktverständnis erhöhen, und Covertests können Entscheidungen verbessern. Als Review-Bounty-Workflow ist der Ansatz deutlich compliance-sensibel. Amazon erlaubt freie oder rabattierte Buchkopien nur ohne Review-Pflicht und ohne Einflussnahme; alles mit Punkten, Bounties, Review-Erwartung, indirekter Belohnung oder Kauf-/Review-Verknüpfung muss als hohes Risiko behandelt werden. Die behauptete Umsatzwirkung ist offen, weil im Video keine belastbaren Vorher-Nachher-Daten, Kontrollgruppen oder Deckungsbeiträge gezeigt werden. Grundlage ist die HTML-Analyse plus Primärquellenprüfung; das Video wurde nicht vollständig gegengehört.",
+          "keyFacts": [
+            {
+              "label": "Visuelle Reviews sind plausibel, nicht bewiesen",
+              "fact": "Bild- und Videoreviews können auf einer Produktseite auffallen; das Video belegt aber keine Conversion- oder Umsatzsteigerung.",
+              "implication": "Nutzen als Vertrauenshypothese speichern und nur mit Sessions, Conversion Rate, Umsatz und Traffic-Quelle bewerten.",
+              "sourceIds": [
+                "video",
+                "kdp-reviews"
+              ]
+            },
+            {
+              "label": "Compliance ist der Hauptprüfpunkt",
+              "fact": "KDP erlaubt freie oder rabattierte Buchkopien nur ohne verlangte Review und ohne Einfluss auf die Bewertung; Compensation kann Reviews entfernen lassen.",
+              "implication": "Review-Gewinnung niemals als Gegenleistung, Pflicht, Punktehandel oder Bewertungsvorgabe formulieren.",
+              "sourceIds": [
+                "kdp-reviews",
+                "amazon-community"
+              ]
+            },
+            {
+              "label": "Verified Purchase reicht nicht aus",
+              "fact": "Ein verifizierter Kauf sagt nur etwas über den Kaufkanal, nicht über die Unabhängigkeit des Reviews.",
+              "implication": "Wenn Kauf, Review, Punkte oder Erstattung gekoppelt sind, bleibt der Review auch bei Verified Purchase riskant.",
+              "sourceIds": [
+                "kdp-reviews",
+                "book-bounty"
+              ]
+            },
+            {
+              "label": "Cover-Feedback ist sauberer",
+              "fact": "Cover-Tests vor Veröffentlichung trennen Feedback von Amazon-Reviews und können Produktentscheidungen verbessern.",
+              "implication": "Cover- und Listing-Feedback bevorzugen; Amazon-Review-Bounties nur mit hoher Vorsicht und aktueller Regelprüfung betrachten.",
+              "sourceIds": [
+                "pickfu-cover",
+                "video"
+              ]
+            },
+            {
+              "label": "Book Bounty nicht als Standardprozess",
+              "fact": "Book Bounty beschreibt Bounty Contracts, Bounty Points und Amazon-Reviews; Anbieterclaims ersetzen keine Amazon-Freigabe.",
+              "implication": "Als compliance-sensiblen Taktikbaustein speichern, nicht als wiederholbaren Standard für KDP-Reviews.",
+              "sourceIds": [
+                "book-bounty",
+                "ftc-fake-reviews"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Nützliche Idee, heikler Workflow",
+              "text": "Visuelle Reviews können Vertrauen erhöhen. Der konkrete Bounty-/Punkte-Mechanismus ist der riskante Teil."
+            },
+            {
+              "label": "Umsatzwirkung offen",
+              "text": "Im Video fehlen Vorher-Nachher-Daten zu Sessions, Conversion, Umsatz, Traffic-Quelle und Kosten pro gültiger Review."
+            },
+            {
+              "label": "Amazon-Regeln sind eng",
+              "text": "Freie oder rabattierte Buchkopien sind nur ohne Review-Pflicht und ohne Einflussnahme erlaubt. Compensation kann Reviews entfernen lassen."
+            },
+            {
+              "label": "Cover-Feedback bevorzugen",
+              "text": "Vorab-Covertests sind deutlich sauberer als Amazon-Review-Bounties und können echte Designentscheidungen verbessern."
+            },
+            {
+              "label": "Nur mit Warnhinweis speichern",
+              "text": "Book Bounty/Booksprout nicht als Review-Maschine erfassen, sondern als compliance-sensiblen Optimierungsbaustein."
+            }
+          ],
+          "claims": [
+            {
+              "id": "visual-reviews-trust",
+              "text": "Bild- und Videoreviews können Vertrauen auf einer Amazon-KDP-Produktseite erhöhen.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Als psychologischer und visueller Vertrauensanker plausibel. Amazon selbst beschreibt Reviews als Entscheidungshilfe für Leser; die konkrete Mehrwirkung von Bild-/Videoreviews wurde nicht unabhängig belegt.",
+              "sourceIds": [
+                "video",
+                "kdp-reviews"
+              ],
+              "location": "Original-HTML: Executive Summary und Business Case",
+              "scope": "Plausibilitätsbewertung von Produktseitenvertrauen; keine Umsatzprognose."
+            },
+            {
+              "id": "sales-lift",
+              "text": "Bild- und Videoreviews verkaufen ein KDP-Buch deutlich besser.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Das Video nennt eine starke Wirkung, liefert aber keine belastbaren Vorher-Nachher-Daten, Kontrollgruppe, Genrevergleich, Traffic-Quelle, Conversion Rate oder Deckungsbeitrag.",
+              "sourceIds": [
+                "video"
+              ],
+              "location": "Original-HTML: starke Aussage aus der Quelle ca. 01:04-01:20",
+              "scope": "Conversion- und Umsatzwirkung visueller Reviews."
+            },
+            {
+              "id": "review-bounty-compliance",
+              "text": "Review-Bounties mit Punkten und Amazon-Reviews sind ohne weiteres KDP-konform.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Book Bounty beschreibt Punkte und Amazon-Reviews, aber Amazon erlaubt Buchkopien nur ohne Review-Pflicht oder Einflussnahme. Anbieterclaims ersetzen keine Amazon-Freigabe. Die konkrete Mechanik muss vor Nutzung rechtlich und plattformseitig geprüft werden.",
+              "sourceIds": [
+                "book-bounty",
+                "kdp-reviews",
+                "amazon-community"
+              ],
+              "location": "Original-HTML: Workflow Review-Bounty und verified purchase print",
+              "scope": "Amazon-Reviews über Drittplattformen; keine Rechtsberatung."
+            },
+            {
+              "id": "verified-purchase-safe",
+              "text": "Verified Purchase Print macht den Review-Prozess unproblematisch.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "Verified Purchase kann einen Kauf anzeigen, aber es sagt nichts darüber aus, ob eine Review durch Punkte, Erstattung, Druck oder Gegenleistung beeinflusst wurde. Die Amazon-Regeln zielen gerade auf Compensation und Einflussnahme.",
+              "sourceIds": [
+                "kdp-reviews",
+                "book-bounty"
+              ],
+              "location": "Original-HTML: Review-Typ und Parameter",
+              "scope": "Interpretation von Verified Purchase im Review-Kontext."
+            },
+            {
+              "id": "cover-feedback",
+              "text": "Cover-Feedback vor Veröffentlichung ist ein sinnvoller, weniger compliance-sensibler Optimierungsbaustein.",
+              "importance": 2,
+              "status": "gestützt",
+              "rationale": "Covertests sammeln Entscheidungsfeedback, ohne Amazon-Reviews zu erzeugen. Der Nutzen für Designentscheidungen ist plausibel; konkrete Umsatzwirkung bleibt trotzdem separat zu messen.",
+              "sourceIds": [
+                "pickfu-cover",
+                "video"
+              ],
+              "location": "Original-HTML: Cover testen und Chancen",
+              "scope": "Cover- und Listing-Entscheidungen vor Veröffentlichung oder Relaunch."
+            },
+            {
+              "id": "standard-process",
+              "text": "Book Bounty/Booksprout sollte als Standardprozess für jedes KDP-Buch übernommen werden.",
+              "importance": 2,
+              "status": "widerlegt",
+              "rationale": "Wegen Compliance-Risiko, unbewiesener Umsatzwirkung und Drittplattformabhängigkeit eignet sich der Workflow nicht als unkritischer Standard. Er bleibt ein Prüffall mit roter Markierung.",
+              "sourceIds": [
+                "book-bounty",
+                "kdp-reviews",
+                "ftc-fake-reviews"
+              ],
+              "location": "Original-HTML: Fazit und praktischer Testplan",
+              "scope": "KDP-Marketingprozess für Review-Aufbau."
+            }
+          ],
+          "sources": [
+            {
+              "id": "video",
+              "title": "Sean Dollwet: How to Get Image and Video Reviews for Your Books on Amazon KDP",
+              "url": "https://www.youtube.com/watch?v=zje9zu4bWVw",
+              "accessedAt": "2026-09-14T15:42:48.712Z",
+              "originGroup": "sean-dollwet",
+              "note": "Titel und Kanal per YouTube-oEmbed bestätigt. Grundlage ist die vorgelegte HTML mit Transcript-Fallback; Video nicht vollständig gegengehört. Preis- und Punkteangaben sind zeitgebundene Videoangaben."
+            },
+            {
+              "id": "kdp-reviews",
+              "title": "Amazon KDP: Customer Reviews",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+              "accessedAt": "2026-09-14T15:42:48.712Z",
+              "originGroup": "amazon-kdp",
+              "note": "Primärquelle: KDP verweist auf Community Guidelines, nennt Compensation als häufigen Grund für entfernte Reviews und erlaubt freie/rabattierte Buchkopien nur ohne Review-Pflicht oder Einflussnahme."
+            },
+            {
+              "id": "amazon-community",
+              "title": "Amazon Customer Service: Community Guidelines",
+              "url": "https://www.amazon.com/gp/help/customer/display.html?nodeId=GLHXEX85MENUE4XF",
+              "accessedAt": "2026-09-14T15:42:48.712Z",
+              "originGroup": "amazon",
+              "note": "Primärquelle zu Customer Reviews und Community-Regeln; relevant für Review-Manipulation, Compensation und zulässige Buch-ARCs."
+            },
+            {
+              "id": "book-bounty",
+              "title": "Book Bounty: Get Reviews for Your Books Fast and Simple",
+              "url": "https://book-bounty.com/",
+              "accessedAt": "2026-09-14T15:42:48.712Z",
+              "originGroup": "book-bounty",
+              "note": "Anbieterseite: beschreibt Bounty Contracts, Amazon-Reviews, Bounty Points, Abos und künftige Foto-/Video-Review-Funktionen. Anbieterquelle, nicht unabhängiger Compliance-Beleg."
+            },
+            {
+              "id": "pickfu-cover",
+              "title": "PickFu: Book cover design A/B test",
+              "url": "https://www.pickfu.com/templates/book-cover-comparison",
+              "accessedAt": "2026-09-14T15:42:48.712Z",
+              "originGroup": "pickfu",
+              "note": "Anbieterseite zu Cover-A/B-Tests; nützlich als Vergleich für weniger compliance-sensibles Pre-Publication-Feedback."
+            },
+            {
+              "id": "ftc-fake-reviews",
+              "title": "FTC: Final Rule Banning Fake Reviews and Testimonials",
+              "url": "https://www.ftc.gov/news-events/news/press-releases/2024/08/federal-trade-commission-announces-final-rule-banning-fake-reviews-testimonials",
+              "accessedAt": "2026-09-14T15:42:48.712Z",
+              "originGroup": "ftc",
+              "note": "Regulatorischer Kontext: bezahlte/incentivierte Reviews und Testimonials können zusätzlich zu Plattformregeln problematisch sein."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissenssammlung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": false
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-branding-amazon",
+            "kdp-200-buecher-umsatz-gewinn"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_visual_reviews_recherche",
+              "conclusion": "Recherche bestätigt Cover-/Listing-Feedback als plausibel, markiert Review-Bounty-Mechaniken als compliance-sensibel."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_visual_reviews_challenge",
+              "conclusion": "Gegenprüfung schwächt Verified-Purchase- und Review-Bounty-Sicherheit deutlich ab; Umsatzwirkung bleibt offen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Einordnung unter KDP-Buchbusiness mit Marketing, Tools und Konkrete Anleitungen; neues Thema KDP-Reviews und Produktseiten-Optimierung."
+            }
+          ]
+        }
+      ]
     }
   ],
   "topics": [
@@ -7021,6 +7412,31 @@
             "interest-media-garyvee/r1",
             "tiktok-demand-engine-kdp/r5",
             "youtube-upload-checkliste-dennis-kasper/r2"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kdp-reviews-und-produktseiten-optimierung",
+      "title": "KDP-Reviews und Produktseiten-Optimierung",
+      "revisions": [
+        {
+          "id": "t1",
+          "createdAt": "2026-09-14T15:42:48.712Z",
+          "reason": "Erster Wissensbaustein zu visuellen Reviews, Cover-Feedback und compliance-sensibler Produktseiten-Optimierung.",
+          "summary": "Visuelle Reviews und Produktseiten-Feedback sind als Vertrauens- und Conversion-Hypothese interessant, aber Review-Gewinnung über Drittanbieter, Bounties, Punkte oder Verified-Purchase-Mechaniken ist compliance-sensibel. Der sauberere Baustein ist Cover- und Listing-Feedback vor Veröffentlichung oder Relaunch. Für echte Bewertung künftig trennen: Produktseitenvertrauen, Coverentscheidung, organische Rezensionen, Drittanbieter-Review-Workflows, Amazon-Regeln, FTC-/Compliance-Kontext und wirtschaftliche Wirkung. Umsatzwirkung nur mit Sessions, Conversion Rate, Traffic-Quelle, Kosten und Deckungsbeitrag erfassen.",
+          "videoRevisionIds": [
+            "kdp-bild-video-reviews/r1"
+          ]
+        },
+        {
+          "id": "t2",
+          "createdAt": "2026-09-14T15:43:26.585Z",
+          "reason": "KDP-Branding als angrenzendes Produktseiten- und Katalogpflege-Thema verglichen.",
+          "summary": "Die Review-/Produktseitenanalyse ergänzt das KDP-Branding-Thema um Listing-Vertrauen, Cover-Feedback und wiederholbare Produktseitenprozesse. Die Grenze bleibt klar: Cover-/Listing-Feedback kann ein sauberer Katalogprozess sein, Review-Bounties oder punktgebundene Amazon-Reviews nicht. Die KDP-Branding-Profitabilität wird dadurch nicht zusätzlich belegt.",
+          "videoRevisionIds": [
+            "kdp-bild-video-reviews/r1",
+            "kdp-branding-amazon/r3"
           ]
         }
       ]

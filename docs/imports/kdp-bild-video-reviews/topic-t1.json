@@ -1,0 +1,15 @@
+{
+  "id": "kdp-reviews-und-produktseiten-optimierung",
+  "title": "KDP-Reviews und Produktseiten-Optimierung",
+  "revisions": [
+    {
+      "id": "t1",
+      "createdAt": "2026-09-14T15:42:48.712Z",
+      "reason": "Erster Wissensbaustein zu visuellen Reviews, Cover-Feedback und compliance-sensibler Produktseiten-Optimierung.",
+      "summary": "Visuelle Reviews und Produktseiten-Feedback sind als Vertrauens- und Conversion-Hypothese interessant, aber Review-Gewinnung über Drittanbieter, Bounties, Punkte oder Verified-Purchase-Mechaniken ist compliance-sensibel. Der sauberere Baustein ist Cover- und Listing-Feedback vor Veröffentlichung oder Relaunch. Für echte Bewertung künftig trennen: Produktseitenvertrauen, Coverentscheidung, organische Rezensionen, Drittanbieter-Review-Workflows, Amazon-Regeln, FTC-/Compliance-Kontext und wirtschaftliche Wirkung. Umsatzwirkung nur mit Sessions, Conversion Rate, Traffic-Quelle, Kosten und Deckungsbeitrag erfassen.",
+      "videoRevisionIds": [
+        "kdp-bild-video-reviews/r1"
+      ]
+    }
+  ]
+}

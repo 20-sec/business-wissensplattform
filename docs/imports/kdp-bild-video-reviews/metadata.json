@@ -1,0 +1,41 @@
+{
+  "id": "kdp-bild-video-reviews",
+  "title": "Amazon KDP: Bild- und Videoreviews",
+  "sourceUrl": "https://www.youtube.com/watch?v=zje9zu4bWVw",
+  "channel": "Sean Dollwet",
+  "publishedAt": null,
+  "categories": [
+    "KDP-Buchbusiness"
+  ],
+  "sections": [
+    {
+      "category": "KDP-Buchbusiness",
+      "section": "Marketing"
+    },
+    {
+      "category": "KDP-Buchbusiness",
+      "section": "Tools und Werkzeuge"
+    },
+    {
+      "category": "KDP-Buchbusiness",
+      "section": "Konkrete Anleitungen"
+    }
+  ],
+  "tags": [
+    "KDP",
+    "Amazon Reviews",
+    "Bildreviews",
+    "Videoreviews",
+    "Book Bounty",
+    "Booksprout",
+    "Cover-Feedback",
+    "PickFu",
+    "Produktseite",
+    "Compliance"
+  ],
+  "summary": "Analyse eines Workflows für visuelle Amazon-Reviews und Cover-Feedback bei KDP-Büchern. Die Idee ist als Listing-Optimierung plausibel, aber Review-Bounty- und Punktesysteme sind compliance-sensibel.",
+  "sourceAssessment": "Interessanter Taktikbaustein, kein eigenständiger Moat. Nützlich als Produktseiten- und Feedback-Idee, aber der Review-Bounty-Teil gehört klar abgeschwächt und mit Compliance-Warnung gespeichert.",
+  "topicIds": [
+    "kdp-reviews-und-produktseiten-optimierung"
+  ]
+}
