@@ -7877,6 +7877,102 @@
               "conclusion": "Bild-/Videoreview-Analyse nur um Funnel-Kontext ergänzt."
             }
           ]
+        },
+        {
+          "id": "r3",
+          "createdAt": "2026-09-21T13:05:00.000Z",
+          "previousId": "r2",
+          "reason": "Neue Analyse eines Coin-/Quest-Review-Centers mit aktuellen Amazon-Regelbeispielen verglichen.",
+          "methodVersion": "1.0",
+          "assessment": "Die neue Review-Center-Analyse verschärft die bisherige Warnung zu Bounties, Punkten und Verified-Purchase-Mechaniken. Wenn Rezensionen Coins erzeugen, die für die Sichtbarkeit des eigenen Buches eingesetzt werden, entsteht ein zukünftiger Vorteil für Review-Aktivität. Diese Logik liegt sehr nahe an Amazons ausdrücklich verbotenen Review-Clubs, Credits und Tauschsystemen. Der bisher sauberere Weg bleibt unverändert: Cover- und Listing-Feedback vor Veröffentlichung, neutrale Review-Einladungen sowie ungebundene ARC-Exemplare. Drittanbieter-Review-Systeme mit Punkten oder Gegenleistung sind nicht empfehlenswert.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Punkte-, Bounty- oder Coin-Systeme für Amazon-Rezensionen sollten als nicht empfehlenswert eingestuft werden.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Amazon nennt Review-Clubs, Credits, zukünftige Vorteile und Review-Tausch ausdrücklich als verbotene Muster; die neue Analyse zeigt eine funktional entsprechende Coin-/Quest-Konstruktion.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-promotional"
+              ],
+              "location": "Vergleich mit Book-Bounty-, Booksprout- und Drittanbieter-Review-Workflows",
+              "scope": "Gilt für Systeme, in denen Review-Aktivität einen wirtschaftlichen oder programmbezogenen Vorteil erzeugt."
+            },
+            {
+              "id": "c2",
+              "text": "Ungebundene ARC-Exemplare und neutrale Review-Einladungen bleiben die tragfähigeren Methoden.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "KDP erlaubt kostenlose oder vergünstigte Buchkopien ohne Review-Pflicht und unbeeinflusste Review-Einladungen.",
+              "sourceIds": [
+                "kdp-free-copy",
+                "amazon-community"
+              ],
+              "location": "Abgrenzung sauberer Review-Gewinnung von koordinierten Review-Systemen",
+              "scope": "Keine Review-Pflicht, keine Sentiment-Vorgabe und keine weitere Gegenleistung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "KDP-Reviews kostenlos: vier Methoden im Regelcheck",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-reviews-kostenlos-review-center/",
+              "accessedAt": "2026-09-21T13:05:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Konkreter Coin-/Quest-Fall mit Review-URL-Prüfung und Anbieterclaim zur Amazon-Konformität."
+            },
+            {
+              "id": "amazon-promotional",
+              "title": "Amazon – Promotional Content and Review Abuse",
+              "url": "https://digprjsurvey.amazon.com/csad/help/node/GDSRWWGGRA2JXSNZ",
+              "accessedAt": "2026-09-21T13:05:00.000Z",
+              "originGroup": "Amazon",
+              "note": "Offizielle Beispiele zu verbotenen Review-Clubs, Credits, künftigen Vorteilen und Review-Tausch."
+            },
+            {
+              "id": "kdp-free-copy",
+              "title": "Amazon KDP – Free and Discounted Books and Reviews",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+              "accessedAt": "2026-09-21T13:05:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Offizielle Regel zu kostenlosen Buchkopien ohne Review-Pflicht oder zusätzliche Gegenleistung."
+            },
+            {
+              "id": "amazon-community",
+              "title": "Amazon Community Guidelines",
+              "url": "https://digprjsurvey.amazon.com/csad/help/node/GLHXEX85MENUE4XF",
+              "accessedAt": "2026-09-21T13:05:00.000Z",
+              "originGroup": "Amazon",
+              "note": "Offizielle Grundsätze für ehrliche, unbeeinflusste und nicht incentivierte Community-Inhalte."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-reviews-kostenlos-review-center"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_review_recherche",
+              "conclusion": "Amazon-Regelbeispiele verschärfen die bisherige Warnung zu Punkten, Clubs und Gegenleistungen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_review_challenge",
+              "conclusion": "Review-Center mit Coins nicht empfehlen; ARC und neutrale Einladungen klar davon trennen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Bestehenden Review-Prüfstand aktualisiert; frühere Fassung bleibt erhalten."
+            }
+          ]
         }
       ]
     },
@@ -8757,6 +8853,302 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kdp-reviews-kostenlos-review-center",
+      "title": "KDP-Reviews kostenlos: vier Methoden im Regelcheck",
+      "sourceUrl": "https://www.youtube.com/watch?v=FUvSQ5nBQyo",
+      "channel": "Nezir Basar / Publbee",
+      "publishedAt": null,
+      "importedAt": "2026-09-21T12:24:51.827Z",
+      "categories": [
+        "KDP-Buchbusiness"
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Marketing"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Tools und Werkzeuge"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "Amazon Rezensionen",
+        "Review Center",
+        "ARC-Exemplare",
+        "Review Clubs",
+        "Coins",
+        "Publbee",
+        "Leserliste"
+      ],
+      "summary": "Vier Wege zu KDP-Rezensionen: neutraler CTA, ungebundene ARC-Exemplare und eine eigene Leserliste sind tragfähig. Das beworbene Coin-/Quest-System liegt dagegen sehr nahe an Amazons verbotenen Review-Club- und Vorteilsmodellen.",
+      "originalHash": "665dd171ccac131f6d1cc0ecf0fbe1b091bb2e7348edc1bf96d2aa8e8ede498c",
+      "originalFilename": "FUvSQ5nBQyo_kdp-review-analyse.html",
+      "sourceAssessment": "Als KDP-Strategie sind neutraler Review-CTA, ungebundene ARC-Exemplare und eine eigene Audience interessant. Das beworbene Review-Center ist wegen seiner Coin-, Quest- und Gegenleistungslogik nicht empfehlenswert; die Compliance- und Erfolgsbehauptungen des Anbieters sind nicht unabhängig belegt.",
+      "topicIds": [
+        "kdp-reviews-und-produktseiten-optimierung"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-21T13:00:00.000Z",
+          "previousId": null,
+          "reason": "Fünf Prüfpunkte von Markus bestätigt; Review-Center anhand aktueller Amazon- und KDP-Regeln verschärft bewertet.",
+          "methodVersion": "1.0",
+          "assessment": "Drei Bausteine sind unter klaren Bedingungen tragfähig: ein neutraler Review-Aufruf im Buch, kostenlose ARC-Exemplare ohne Review-Pflicht oder Einflussnahme und eine breit sowie neutral angesprochene eigene Leserliste. Das beworbene Coin-/Quest-System ist hingegen nicht empfehlenswert. Wer durch Rezensionen Credits für die Sichtbarkeit des eigenen Buches erhält, bekommt einen zukünftigen Vorteil für Review-Aktivität; diese Konstruktion liegt sehr nahe an Amazons ausdrücklich verbotenen Review-Clubs, Credits und Review-Tauschsystemen. Freunde und Familie sind wegen persönlicher Verbindungen kein geeigneter Review-Pool. Die genannten Quoten und schnellen Review-Ziele bleiben unbelegte Anbieterbehauptungen.",
+          "keyFacts": [
+            {
+              "label": "Neutraler Review-Aufruf ist erlaubt",
+              "fact": "Amazon erlaubt eine ehrliche, unbeeinflusste und nicht incentivierte Bitte um eine Rezension. Eine positive Sternezahl, Sentiment-Selektion oder Gegenleistung sind nicht zulässig.",
+              "implication": "Im Buch neutral um eine ehrliche Bewertung bitten und weder Sterne noch Belohnung nennen.",
+              "sourceIds": [
+                "kdp-reviews",
+                "amazon-community"
+              ]
+            },
+            {
+              "label": "ARC nur ohne Review-Pflicht",
+              "fact": "Kostenlose oder vergünstigte Buchkopien dürfen bereitgestellt werden, wenn die Rezension weder verlangt noch beeinflusst wird. Weitere Vorteile wie Gutscheine oder Credits invalidieren die Bewertung.",
+              "implication": "ARC-Einladung und Rezension organisatorisch trennen; kostenlose Bereitstellung transparent offenlegen.",
+              "sourceIds": [
+                "kdp-free-copy",
+                "ftc-endorsements"
+              ]
+            },
+            {
+              "label": "Coins und Quests sind nicht empfehlenswert",
+              "fact": "Im gezeigten System erzeugen veröffentlichte Rezensionen Coins, die dem eigenen Buch Sichtbarkeit verschaffen. Amazon verbietet Review-Clubs, Credits, künftige Vorteile und organisierte Review-Tauschmuster.",
+              "implication": "Das Review-Center unabhängig von einer freien Sternebewertung nicht für den eigenen KDP-Katalog einsetzen.",
+              "sourceIds": [
+                "original",
+                "amazon-promotional"
+              ]
+            },
+            {
+              "label": "Freunde und Familie ausschließen",
+              "fact": "Amazon untersagt Rezensionen bei enger persönlicher oder wirtschaftlicher Verbindung zur Verkaufsförderung. Eine ehrliche Meinung beseitigt diesen Interessenkonflikt nicht.",
+              "implication": "Freunde, Verwandte und Geschäftspartner nicht als Review-Pool einplanen; eine neutrale Leserliste verwenden.",
+              "sourceIds": [
+                "amazon-promotional",
+                "amazon-community"
+              ]
+            },
+            {
+              "label": "Schnelle Review-Zahlen sind unbelegt",
+              "fact": "Für 1–2 Prozent organische Review-Quote und 20–30 Rezensionen in zwei Wochen wurde keine belastbare Primärquelle gefunden. Reviews können Vertrauen beeinflussen, sind aber kein bewiesener direkter Rankinghebel.",
+              "implication": "Review-Zahl nicht als Erfolgsversprechen verwenden; Conversion, Verkäufe, Kosten und langfristige Kontosicherheit getrennt bewerten.",
+              "sourceIds": [
+                "original",
+                "research",
+                "kdp-free-copy"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Neutral fragen",
+              "text": "Eine ehrliche, unbeeinflusste Review-Bitte im Buch ist zulässig; keine Sternezahl und keine Gegenleistung nennen."
+            },
+            {
+              "label": "ARC entkoppeln",
+              "text": "Kostenlose Bücher sind möglich, wenn die Rezension freiwillig bleibt und in keiner Weise beeinflusst wird."
+            },
+            {
+              "label": "Review-Center ablehnen",
+              "text": "Coins für Reviews und Sichtbarkeit für das eigene Buch entsprechen sehr wahrscheinlich einem verbotenen Vorteils- und Clubmuster."
+            },
+            {
+              "label": "Nähe vermeiden",
+              "text": "Freunde, Familie und Geschäftspartner sind trotz ehrlicher Meinung kein geeigneter Review-Pool."
+            },
+            {
+              "label": "Quoten nicht übernehmen",
+              "text": "1–2 Prozent und 20–30 Reviews in zwei Wochen sind Anbieterclaims, keine belastbaren Benchmarks."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Leser dürfen im Buch neutral um eine ehrliche Rezension gebeten werden.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Amazon und KDP erlauben ehrliche, nicht incentivierte Review-Einladungen; positive Wertungen und Gegenleistungen dürfen nicht verlangt werden.",
+              "sourceIds": [
+                "kdp-reviews",
+                "amazon-community"
+              ],
+              "location": "Methode 1: Review-Request im Buch",
+              "scope": "Gilt für neutrale Anfragen im Buch; Produktbeschreibungen und manipulative Formulierungen haben zusätzliche Grenzen."
+            },
+            {
+              "id": "c2",
+              "text": "Kostenlose ARC-Exemplare sind für Buchrezensionen zulässig.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "KDP erlaubt kostenlose oder vergünstigte Buchkopien, sofern keine Review-Pflicht, Inhaltsvorgabe oder weitere Gegenleistung besteht.",
+              "sourceIds": [
+                "kdp-free-copy",
+                "amazon-community",
+                "ftc-endorsements"
+              ],
+              "location": "Methode 2: ARC-Kopien",
+              "scope": "Nur ungebunden und unbeeinflusst; Offenlegung der kostenlosen Bereitstellung ist der transparente Standard."
+            },
+            {
+              "id": "c3",
+              "text": "Das Coin-/Quest-Review-Center ist hundertprozentig Amazon-konform.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "Amazons Richtlinie verbietet Review-Clubs, Credits, künftige Vorteile und organisierte Tauschkonstruktionen. Im gezeigten Prozess werden Coins erst nach Review und hinterlegter Review-URL vergeben.",
+              "sourceIds": [
+                "original",
+                "amazon-promotional",
+                "challenge"
+              ],
+              "location": "Review-Center-Demonstration und Compliance-Behauptung",
+              "scope": "Bewertung der gezeigten Funktionslogik; keine Aussage über nicht gezeigte oder später geänderte Produktvarianten."
+            },
+            {
+              "id": "c4",
+              "text": "Freunde und Familie dürfen das Buch bewerten, solange ihre Meinung ehrlich ist.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "Amazon schließt Rezensionen bei enger persönlicher, finanzieller oder geschäftlicher Verbindung zur Verkaufsförderung aus; Ehrlichkeit hebt den Interessenkonflikt nicht auf.",
+              "sourceIds": [
+                "amazon-promotional",
+                "amazon-community"
+              ],
+              "location": "Warnliste und Hinweise zu Freunden und Familie",
+              "scope": "Gilt für Rezensionen zur Verkaufsförderung auf Amazon."
+            },
+            {
+              "id": "c5",
+              "text": "Ein bis zwei Prozent organische Review-Quote und 20–30 Reviews in zwei Wochen sind belastbare Benchmarks.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Für beide Zahlen wurde keine belastbare Primärquelle gefunden. Sie stammen aus dem Anbieter- und Tutorialkontext des Videos.",
+              "sourceIds": [
+                "original",
+                "research"
+              ],
+              "location": "Kennzahlen und Verkaufsargumente des Anbieters",
+              "scope": "Nicht als Prognose, Mindestwert oder Branchenbenchmark verwenden."
+            },
+            {
+              "id": "c6",
+              "text": "Eine eigene Leserliste ist ein tragfähiger Kanal für neutrale Review-Einladungen.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Eine neutrale, un-incentivierte Einladung an tatsächliche Leser entspricht den Review-Grundsätzen; Datenschutz, Einwilligung und konkrete Listenführung wurden nicht rechtlich geprüft.",
+              "sourceIds": [
+                "amazon-community",
+                "challenge"
+              ],
+              "location": "Methode 3: E-Mail-Liste",
+              "scope": "Keine Sentiment-Selektion, kein Druck und keine Gegenleistung; E-Mail-Recht separat prüfen."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original",
+              "title": "How to Get KDP Reviews for Free – Nezir Basar / Publbee",
+              "url": "https://www.youtube.com/watch?v=FUvSQ5nBQyo",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Originalvideo und eingereichte Analyse",
+              "note": "Quelle der vier Methoden, der Produktdemo, der Kennzahlen und der Compliance-Behauptung."
+            },
+            {
+              "id": "kdp-reviews",
+              "title": "Amazon KDP – Reviews",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200673650",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Offizielle KDP-Hinweise zu Rezensionen und zulässiger Ermutigung von Lesern."
+            },
+            {
+              "id": "kdp-free-copy",
+              "title": "Amazon KDP – Free and Discounted Books and Reviews",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G202101910",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Offizielle Regel zu kostenlosen oder vergünstigten Buchkopien und unzulässigen zusätzlichen Gegenleistungen."
+            },
+            {
+              "id": "amazon-community",
+              "title": "Amazon Community Guidelines",
+              "url": "https://digprjsurvey.amazon.com/csad/help/node/GLHXEX85MENUE4XF",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Amazon",
+              "note": "Offizielle Grundsätze für ehrliche, unbeeinflusste und nicht incentivierte Community-Inhalte."
+            },
+            {
+              "id": "amazon-promotional",
+              "title": "Amazon – Promotional Content and Review Abuse",
+              "url": "https://digprjsurvey.amazon.com/csad/help/node/GDSRWWGGRA2JXSNZ",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Amazon",
+              "note": "Offizielle Beispiele zu verbotenen Review-Clubs, Credits, künftigen Vorteilen, Beziehungen und Review-Tausch."
+            },
+            {
+              "id": "ftc-endorsements",
+              "title": "FTC Endorsement Guides – What People Are Asking",
+              "url": "https://www.ftc.gov/business-guidance/resources/ftcs-endorsement-guides-what-people-are-asking",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "US Federal Trade Commission",
+              "note": "Primärquelle zur Offenlegung materieller Verbindungen wie kostenlos bereitgestellter Produkte."
+            },
+            {
+              "id": "research",
+              "title": "Recherche-Agent zur KDP-Review-Analyse",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Interne Gegenrecherche",
+              "note": "Unabhängige Recherche zu Amazon-Regeln, ARC-Kopien, Review-Clubs, Verified Purchase und unbelegten Kennzahlen."
+            },
+            {
+              "id": "challenge",
+              "title": "Gegenprüfungs-Agent zur KDP-Review-Analyse",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-21T13:00:00.000Z",
+              "originGroup": "Interne Gegenprüfung",
+              "note": "Unabhängige Challenge der Compliance-Behauptung, Anbieterinteressen und Review-Methoden."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensbaustein für die Sammlung und Verdichtung von KDP-Strategien; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-bild-video-reviews",
+            "kdp-branding-amazon"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_review_recherche",
+              "conclusion": "Das Coin-/Quest-System passt sehr wahrscheinlich direkt zu Amazons verbotenen Club-, Credit- und Vorteilsbeispielen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_review_challenge",
+              "conclusion": "Methoden 1 bis 3 mit Bedingungen tragfähig; Freunde/Familie ausschließen und Review-Center klar nicht empfehlen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Bestehenden Review-Wissensstand verschärfen und als Compliance-Fall im vorhandenen Thema speichern."
+            }
+          ]
+        }
+      ]
     }
   ],
   "topics": [
@@ -8988,6 +9380,17 @@
           "summary": "Die Review-/Produktseitenanalyse ergänzt das KDP-Branding-Thema um Listing-Vertrauen, Cover-Feedback und wiederholbare Produktseitenprozesse. Die Grenze bleibt klar: Cover-/Listing-Feedback kann ein sauberer Katalogprozess sein, Review-Bounties oder punktgebundene Amazon-Reviews nicht. Die KDP-Branding-Profitabilität wird dadurch nicht zusätzlich belegt.",
           "videoRevisionIds": [
             "kdp-bild-video-reviews/r1",
+            "kdp-branding-amazon/r3"
+          ]
+        },
+        {
+          "id": "t3",
+          "createdAt": "2026-09-21T13:06:00.000Z",
+          "reason": "Konkretes Coin-/Quest-Review-Center anhand aktueller Amazon-Regelbeispiele bewertet und den bisherigen Risikohinweis verschärft.",
+          "summary": "Der gemeinsame Wissensstand trennt nun klar drei tragfähige Wege von einem roten Bereich. Tragfähig sind ein neutraler Review-Aufruf im Buch, ungebundene ARC-Exemplare ohne Review-Pflicht oder Einflussnahme und eine breit sowie neutral angesprochene eigene Leserliste. Freunde, Familie und Geschäftspartner sind wegen persönlicher Verbindungen kein geeigneter Review-Pool. Coin-, Quest-, Bounty- oder Clubsysteme, in denen Review-Aktivität Credits, Sichtbarkeit oder andere künftige Vorteile erzeugt, sind nach den aktuellen Amazon-Regelbeispielen nicht empfehlenswert. Verified Purchase oder freie Sterneauswahl machen eine incentivierte Rezension nicht regelkonform. Review-Zahlen bleiben ohne belastbare Attribution kein direkter Ranking- oder Umsatzbeleg.",
+          "videoRevisionIds": [
+            "kdp-bild-video-reviews/r3",
+            "kdp-reviews-kostenlos-review-center/r1",
             "kdp-branding-amazon/r3"
           ]
         }
