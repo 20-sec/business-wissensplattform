@@ -4632,6 +4632,73 @@
               "conclusion": "Alte TikTok/KDP-Bewertung nicht heraufgestuft, nur methodisch ergänzt."
             }
           ]
+        },
+        {
+          "id": "r6",
+          "createdAt": "2026-09-21T12:06:00.000Z",
+          "previousId": "r5",
+          "reason": "Neue TikTok-Skriptanalyse auf Auswirkungen für die BookTok-/KDP-Nachfragebewertung geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Der Let-off-Fall ergänzt die TikTok-KDP-Analyse um eine konkrete Hook- und Retention-Hypothese. Er zeigt, wie Textvideos auf Satzebene getestet werden können, liefert aber keinen zusätzlichen Beleg für Buchverkäufe, Deckungsbeitrag oder deutsche Marktübertragbarkeit. Die Trennung zwischen Content-Signal und Geschäftswirkung bleibt unverändert wichtig.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Frühe Skriptentlastung kann als Content-Hypothese für BookTok getestet werden, belegt aber keine Buchnachfrage oder Verkäufe.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "TikTok stützt frühe Hooks und Watchtime als relevante Signale; die neue Analyse enthält jedoch keine Sales- oder Attribution-Daten.",
+              "sourceIds": [
+                "tiktok-script",
+                "tiktok-recommendations"
+              ],
+              "location": "Vergleich mit Social Content als Nachfragekanal",
+              "scope": "Gilt als Creative-Testidee; Geschäftswirkung muss separat über Klicks, Attribution und Verkäufe geprüft werden."
+            }
+          ],
+          "sources": [
+            {
+              "id": "tiktok-script",
+              "title": "819x mehr Views durch einen Satz – Analyse und Gegenprüfung",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/tiktok-let-off-script/",
+              "accessedAt": "2026-09-21T12:06:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Neuer Fall zu frühem Let-off, Retention und den Grenzen des Creator-Claims."
+            },
+            {
+              "id": "tiktok-recommendations",
+              "title": "How TikTok recommends content",
+              "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+              "accessedAt": "2026-09-21T12:06:00.000Z",
+              "originGroup": "TikTok Support",
+              "note": "Offizielle Übersicht zu Watchtime, vollständigem Ansehen, Interaktionen und weiteren Empfehlungssignalen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "tiktok-let-off-script"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "tiktok_script_recherche",
+              "conclusion": "Hook und Retention sind relevante Content-Signale; Sales-Wirkung bleibt unbelegt."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "tiktok_script_challenge",
+              "conclusion": "Views dürfen wegen Confoundern und fehlender Attribution nicht mit Nachfrage oder Verkäufen gleichgesetzt werden."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Neue Skripthypothese ergänzt die Marketinganalyse, verändert aber deren wirtschaftliches Urteil nicht."
+            }
+          ]
         }
       ]
     },
@@ -6234,6 +6301,73 @@
               "conclusion": "YouTube-Analyse methodisch ergänzt, ohne ursprüngliche Belegurteile zu verändern."
             }
           ]
+        },
+        {
+          "id": "r3",
+          "createdAt": "2026-09-21T12:07:00.000Z",
+          "previousId": "r2",
+          "reason": "Neue TikTok-Skriptanalyse auf Auswirkungen für die bestehende Videoauswertung geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Die TikTok-Skriptanalyse bestätigt erneut, dass frühe Leistungsdaten nur im Kontext von Inhalt, Länge, Ausspielung und Ziel betrachtet werden dürfen. Für YouTube entsteht daraus keine neue Upload-Kategorie, sondern eine ergänzende Creative-Frage: Welche Kernbotschaft erreicht Zuschauer früh genug? Plattformübergreifende Effektgrößen lassen sich nicht übertragen; die bisherige Checklistenbewertung bleibt bestehen.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Frühe Retention sollte in der Videoauswertung mit der Position der Kernbotschaft verbunden werden, ohne TikTok-Effektgrößen auf YouTube zu übertragen.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Der neue Fall liefert eine plausible Diagnosefrage für Hooks; Plattformen, Formate und Empfehlungssysteme unterscheiden sich jedoch.",
+              "sourceIds": [
+                "tiktok-script",
+                "tiktok-recommendations"
+              ],
+              "location": "Vergleich mit früher Videoauswertung und Upload-Routine",
+              "scope": "Als qualitative Diagnosefrage nutzbar; keine plattformübergreifende Wirkungszahl."
+            }
+          ],
+          "sources": [
+            {
+              "id": "tiktok-script",
+              "title": "819x mehr Views durch einen Satz – Analyse und Gegenprüfung",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/tiktok-let-off-script/",
+              "accessedAt": "2026-09-21T12:07:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Neuer Short-Form-Fall zur Position der Kernbotschaft und zur Retention."
+            },
+            {
+              "id": "tiktok-recommendations",
+              "title": "How TikTok recommends content",
+              "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+              "accessedAt": "2026-09-21T12:07:00.000Z",
+              "originGroup": "TikTok Support",
+              "note": "TikTok-spezifische Primärquelle; deshalb nur begrenzt auf YouTube übertragbar."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "tiktok-let-off-script"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "tiktok_script_recherche",
+              "conclusion": "Frühe Hooks und Retention sind relevant, aber die vorliegenden Quellen sind TikTok-spezifisch."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "tiktok_script_challenge",
+              "conclusion": "Plattformübergreifende Übertragung erfordert neue Tests; die 819x-Zahl ist nicht übertragbar."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als ergänzende Diagnosefrage in der Auswertung verknüpft; frühere YouTube-Bewertung bleibt bestehen."
+            }
+          ]
         }
       ]
     },
@@ -7294,6 +7428,73 @@
               "conclusion": "Einordnung unter Business-Ideen / Sidehustles mit Marketing, Strategie und Konkrete Anleitungen; neues Thema Interest Media und Creative-Testing."
             }
           ]
+        },
+        {
+          "id": "r2",
+          "createdAt": "2026-09-21T12:05:00.000Z",
+          "previousId": "r1",
+          "reason": "Neue TikTok-Skriptanalyse auf Auswirkungen für das bestehende Creative-Testing-Modell geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Der Let-off-Fall konkretisiert GaryVees Creative-Testing-Logik auf Satzebene: Eine organische Hypothese kann als isolierte Skriptvariante getestet werden. Die neue Analyse stärkt den Wert früher Hooks und sauberer Ein-Variablen-Tests, bestätigt aber weder Views als Umsatzsignal noch eine universelle Viralitätsformel. Die bisherige Bewertung bleibt bestehen.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Der frühe Perspektivwechsel ist eine konkrete Creative-Hypothese innerhalb des bestehenden Interest-Media-Testsystems.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die neue Analyse liefert eine klar isolierbare Skriptvariable; TikTok empfiehlt frühe Hooks und Split-Tests mit nur einer veränderten Variable.",
+              "sourceIds": [
+                "tiktok-script",
+                "tiktok-split-test"
+              ],
+              "location": "Vergleich mit dem organisch bezahlten Creative-Lernsystem",
+              "scope": "Stützt den Testprozess, nicht die behauptete 819x-Wirkung oder eine Umsatzfolge."
+            }
+          ],
+          "sources": [
+            {
+              "id": "tiktok-script",
+              "title": "819x mehr Views durch einen Satz – Analyse und Gegenprüfung",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/tiktok-let-off-script/",
+              "accessedAt": "2026-09-21T12:05:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Neuer Fall zu frühem Let-off, Retention und den Grenzen des Creator-Claims."
+            },
+            {
+              "id": "tiktok-split-test",
+              "title": "TikTok Ads Split Testing Variables",
+              "url": "https://ads.tiktok.com/help/article/split-testing-variables?lang=en",
+              "accessedAt": "2026-09-21T12:05:00.000Z",
+              "originGroup": "TikTok Ads Help",
+              "note": "Offizielle Empfehlung, pro Split-Test nur eine Variable zu verändern."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "tiktok-let-off-script"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "tiktok_script_recherche",
+              "conclusion": "Frühe Hooks sind gestützt; der Let-off bleibt eine prüfbare Creative-Hypothese."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "tiktok_script_challenge",
+              "conclusion": "Views und Extremfallvergleiche dürfen nicht als Kausal- oder Umsatzbeleg gelesen werden."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Bestehendes Creative-Testing-Modell um die Satzebene ergänzt; frühere Bewertung bleibt bestehen."
+            }
+          ]
         }
       ]
     },
@@ -8288,6 +8489,274 @@
           ]
         }
       ]
+    },
+    {
+      "id": "tiktok-let-off-script",
+      "title": "819x mehr Views durch einen Satz",
+      "sourceUrl": "https://www.youtube.com/watch?v=Fr6rDmmanCo",
+      "channel": "Jonathan Nilsen",
+      "publishedAt": null,
+      "importedAt": "2026-09-21T11:58:54.222Z",
+      "categories": [
+        "Business-Ideen / Sidehustles"
+      ],
+      "sections": [
+        {
+          "category": "Business-Ideen / Sidehustles",
+          "section": "Marketing"
+        },
+        {
+          "category": "Business-Ideen / Sidehustles",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "TikTok",
+        "Short-Form",
+        "Hooks",
+        "Retention",
+        "Creative Testing",
+        "Skriptstruktur",
+        "Content-Marketing"
+      ],
+      "summary": "Ein früher Perspektivwechsel – der sogenannte Let-off – soll die Retention textbasierter Kurzvideos verbessern. Plausibel als testbarer Copywriting-Hebel; die behaupteten 819x Views sind jedoch kein kausaler Wirkungsnachweis.",
+      "originalHash": "581905429680d7e9f76cb585515eef527fa44ba7c84359353459967f4318a85f",
+      "originalFilename": "Fr6rDmmanCo_tiktok-script-analyse.html",
+      "sourceAssessment": "Starkes Copywriting-Prinzip – aber kein vollständiges Viralitätsmodell. Robust für textbasierte Short-Form-Hooks, sofern Wirkung über kontrollierte Varianten und Retention-Daten geprüft wird; die Creator-Zahlen sind nicht unabhängig belegt.",
+      "topicIds": [
+        "interest-media-creative-testing"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-21T12:00:00.000Z",
+          "previousId": null,
+          "reason": "Fünf Prüfpunkte von Markus bestätigt; als Vertiefung zu Interest Media und Creative Testing gespeichert.",
+          "methodVersion": "1.0",
+          "assessment": "Das frühe Platzieren der stärksten Entlastung oder Neubewertung ist ein plausibler und direkt testbarer Copywriting-Hebel. TikToks eigene Empfehlungen stützen die Bedeutung der ersten Sekunden, belegen aber weder den speziellen Let-off als allgemeines Wirkgesetz noch einen 819-fachen Kausaleffekt. Der Fall wird deshalb als konkrete Skripthypothese mit mittlerer Evidenz für frühe Hooks und niedriger Evidenz für die behauptete Effektgröße gespeichert.",
+          "keyFacts": [
+            {
+              "label": "Reihenfolge ist der Hebel",
+              "fact": "Bei kurzen Videos sollte die zentrale Entlastung oder überraschende Neubewertung möglichst in den ersten ein bis zwei Sätzen erscheinen. TikTok bezeichnet die ersten drei bis sechs Sekunden als entscheidend.",
+              "implication": "Den stärksten Erkenntnissatz früh platzieren und als eigene Skriptvariante testen.",
+              "sourceIds": [
+                "original",
+                "tiktok-creative"
+              ]
+            },
+            {
+              "label": "819x ist kein Kausalbeleg",
+              "fact": "1.600 gegenüber 1,3 Millionen Views ergeben mit den gerundeten Zahlen etwa 812,5x. Identische, kontrolliert ausgespielte Videos werden nicht nachgewiesen.",
+              "implication": "Die Zahl als Creator-Beobachtung kennzeichnen, nicht als erwartbare Effektgröße.",
+              "sourceIds": [
+                "original",
+                "challenge"
+              ]
+            },
+            {
+              "label": "Watchtime ist nur ein Faktor",
+              "fact": "TikTok berücksichtigt Watchtime und vollständiges Ansehen, außerdem Interaktionen, Inhaltsinformationen sowie Nutzer- und Kontextsignale.",
+              "implication": "Retention als wichtigen Verteilungsfaktor behandeln, aber Viralität nicht auf einen Satz oder eine Kennzahl reduzieren.",
+              "sourceIds": [
+                "tiktok-recommendations"
+              ]
+            },
+            {
+              "label": "Let-off bleibt Hypothese",
+              "fact": "Für die enge Formel Selbstvorwurf, frühe Entlastung und mehr Views liegt kein unabhängiger Kausalbeleg vor. Bei sensiblen Themen kann sie zudem unbelegte Diagnosen oder Gewissheiten transportieren.",
+              "implication": "Probabilistisch formulieren, Grenzen sichtbar machen und psychologische Entlastung nicht als Kaufdruck einsetzen.",
+              "sourceIds": [
+                "challenge",
+                "tiktok-guidelines"
+              ]
+            },
+            {
+              "label": "Sauberer Skripttest entscheidet",
+              "fact": "Ein aussagekräftiger Vergleich verändert nur die Position des Let-off und hält Visual, Ton, Länge, CTA und Zielgruppe möglichst konstant.",
+              "implication": "Neben Views mindestens 2-/6-Sekunden-Hold, durchschnittliche Watchtime, Completion, Saves, Shares und Klicks vergleichen.",
+              "sourceIds": [
+                "tiktok-split-test",
+                "research"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Früh platzieren",
+              "text": "Die stärkste Entlastung oder Neubewertung gehört bei Short-Form möglichst in Satz eins oder zwei."
+            },
+            {
+              "label": "819x relativieren",
+              "text": "Die enorme View-Spanne ist eine Creator-Beobachtung ohne kontrollierten Kausalnachweis."
+            },
+            {
+              "label": "Mehrere Faktoren",
+              "text": "Watchtime ist wichtig, aber Thema, Visual, Interaktionen, Account und Ausspielung wirken ebenfalls."
+            },
+            {
+              "label": "Ethisch formulieren",
+              "text": "Der Let-off darf keine Scheindiagnose, falsche Gewissheit oder manipulativen Kaufdruck erzeugen."
+            },
+            {
+              "label": "Eine Variable testen",
+              "text": "Nur die Satzposition verändern und Retention, Completion, Saves, Shares und Klicks gemeinsam auswerten."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Ein früher Hook und eine frühe Kernbotschaft können die Aufmerksamkeit in Short-Form-Videos verbessern.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "TikTok nennt die ersten drei bis sechs Sekunden als entscheidenden Bereich und empfiehlt eine frühe Hook- und Kernbotschaftsstruktur.",
+              "sourceIds": [
+                "tiktok-creative"
+              ],
+              "location": "Executive Summary und Timing-Unterschied",
+              "scope": "Stützt frühe Hooks allgemein, nicht speziell den Let-off oder organische Viralität in jeder Nische."
+            },
+            {
+              "id": "c2",
+              "text": "Der Let-off ist der entscheidende Grund für den Unterschied zwischen 1.600 und 1,3 Millionen Views.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Die Beispiele sind nicht randomisiert oder kontrolliert; zahlreiche Ausspielungs-, Inhalts- und Accountfaktoren bleiben mögliche Erklärungen.",
+              "sourceIds": [
+                "original",
+                "challenge",
+                "tiktok-recommendations"
+              ],
+              "location": "Headline, Kennzahlen und Meine Einschätzung",
+              "scope": "Creator-Beobachtung aus wenigen ausgewählten Videos, keine belastbare Effektgröße."
+            },
+            {
+              "id": "c3",
+              "text": "Watchtime und vollständiges Ansehen sind relevante Signale für TikToks Empfehlungen.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "TikToks offizielle Dokumentation nennt Watchtime, vollständiges Ansehen und Überspringen als gewichtete Nutzerinteraktionen.",
+              "sourceIds": [
+                "tiktok-recommendations"
+              ],
+              "location": "Watchtime-Vergleich und Übertragbarkeit",
+              "scope": "Watchtime ist ein wichtiger, aber nicht alleiniger Faktor des Empfehlungssystems."
+            },
+            {
+              "id": "c4",
+              "text": "Das Let-off-Muster lässt sich unverändert auf Money, Fitness, Parenting und andere Märkte übertragen.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Eine frühe Value Proposition ist breit nutzbar; Glaubwürdigkeit, Belegpflicht und ethisches Risiko unterscheiden sich jedoch stark nach Thema.",
+              "sourceIds": [
+                "original",
+                "challenge",
+                "tiktok-guidelines"
+              ],
+              "location": "Übertragbarkeit auf andere Märkte",
+              "scope": "Jede Nische und Plattform braucht eine eigene Prüfung; sensible Themen verlangen besonders vorsichtige Formulierungen."
+            },
+            {
+              "id": "c5",
+              "text": "Ein Test mit nur einer veränderten Skriptvariable liefert belastbarere Erkenntnisse als Gewinner-Flop-Vergleiche.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "TikToks Split-Test-Anleitung verlangt eine vorab definierte Hypothese und nur eine veränderte Variable; organische Doppelposts bleiben lediglich quasi-experimentell.",
+              "sourceIds": [
+                "tiktok-split-test",
+                "research"
+              ],
+              "location": "Praktischer Testplan",
+              "scope": "Am saubersten im Ads-Split-Test; organische Tests benötigen mehrere Wiederholungen und vorsichtige Interpretation."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original",
+              "title": "819x More Views From ONE Sentence – Jonathan Nilsen",
+              "url": "https://www.youtube.com/watch?v=Fr6rDmmanCo",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "Originalvideo und eingereichte Analyse",
+              "note": "Quelle der Fallbeispiele, Zeitstempel, Creator-Zahlen und des Let-off-Konzepts."
+            },
+            {
+              "id": "tiktok-creative",
+              "title": "TikTok Creative Best Practices",
+              "url": "https://ads.tiktok.com/business/en/blog/creative-best-practices-top-performing-ads?redirected=1",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "TikTok Business",
+              "note": "TikTok-eigene Empfehlungen zur Bedeutung der ersten Sekunden und zur Creative-Struktur; Werbekontext, kein organischer Viralitätsbeleg."
+            },
+            {
+              "id": "tiktok-recommendations",
+              "title": "How TikTok recommends content",
+              "url": "https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "TikTok Support",
+              "note": "Offizielle Übersicht zu Nutzerinteraktionen, Content-Informationen und weiteren Empfehlungssignalen."
+            },
+            {
+              "id": "tiktok-split-test",
+              "title": "TikTok Ads Split Testing Variables",
+              "url": "https://ads.tiktok.com/help/article/split-testing-variables?lang=en",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "TikTok Ads Help",
+              "note": "Offizielle Testanleitung: Hypothese und KPI vorab festlegen und pro Test nur eine Variable verändern."
+            },
+            {
+              "id": "tiktok-guidelines",
+              "title": "TikTok Community Guidelines – Mental and Behavioral Health",
+              "url": "https://www.tiktok.com/community-guidelines/en/mental-behavioral-health",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "TikTok Community Guidelines",
+              "note": "Plattformleitlinien für sensible psychische und verhaltensbezogene Inhalte; relevant für Grenzen psychologischer Entlastungsclaims."
+            },
+            {
+              "id": "research",
+              "title": "Recherche-Agent zur TikTok-Skriptanalyse",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "Interne Gegenrecherche",
+              "note": "Unabhängige Recherche zu frühen Hooks, Watchtime, TikTok-Empfehlungssignalen und Split-Tests."
+            },
+            {
+              "id": "challenge",
+              "title": "Gegenprüfungs-Agent zur TikTok-Skriptanalyse",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-21T12:00:00.000Z",
+              "originGroup": "Interne Gegenprüfung",
+              "note": "Unabhängige Challenge der Kausalbehauptung, Effektgröße, Übertragbarkeit und ethischen Risiken."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensbaustein für die Sammlung und Verdichtung von Marketing- und Businessmodellen; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "interest-media-garyvee",
+            "tiktok-demand-engine-kdp",
+            "youtube-upload-checkliste-dennis-kasper"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "tiktok_script_recherche",
+              "conclusion": "Frühe Hooks und Watchtime sind plausibel und offiziell gestützt; der spezifische Let-off und 819x bleiben unbelegt."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "tiktok_script_challenge",
+              "conclusion": "Extremfallvergleich ohne Randomisierung; Confounder, Metrikgrenzen und ethische Risiken müssen sichtbar bleiben."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als konkrete Skripthypothese und Vertiefung des Creative-Testing-Themas speichern, ohne neue Kategorie."
+            }
+          ]
+        }
+      ]
     }
   ],
   "topics": [
@@ -8483,6 +8952,18 @@
             "interest-media-garyvee/r1",
             "tiktok-demand-engine-kdp/r5",
             "youtube-upload-checkliste-dennis-kasper/r2"
+          ]
+        },
+        {
+          "id": "t3",
+          "createdAt": "2026-09-21T12:08:00.000Z",
+          "reason": "TikTok-Let-off-Analyse ergänzt das Creative-Lernsystem um eine konkrete, auf Satzebene testbare Hook-Hypothese.",
+          "summary": "Der frühe Let-off konkretisiert Creative Testing auf Satzebene: Eine Fassung setzt die zentrale Entlastung oder Neubewertung sofort, die Vergleichsfassung später; Visual, Ton, Länge und CTA bleiben möglichst gleich. TikToks eigene Hinweise stützen frühe Hooks und Watchtime als relevante Signale, aber weder den Let-off als allgemeines Wirkgesetz noch die behauptete 819x-Effektgröße. Views bleiben ein Frühindikator. Bewertet werden sollten zusätzlich 2-/6-Sekunden-Hold, durchschnittliche Watchtime, Completion, Saves, Shares, Klicks und nachgelagerte Geschäftswirkung.",
+          "videoRevisionIds": [
+            "interest-media-garyvee/r2",
+            "tiktok-let-off-script/r1",
+            "tiktok-demand-engine-kdp/r6",
+            "youtube-upload-checkliste-dennis-kasper/r3"
           ]
         }
       ]
