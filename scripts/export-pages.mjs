@@ -28,8 +28,8 @@ for(const route of routes){
  html=html.replace('</head>',`<meta name="robots" content="noindex, nofollow, noarchive"><link rel="stylesheet" href="${base}style-${assetVersion}.css"><link rel="icon" href="${base}favicon.svg"><script src="${base}pages-${assetVersion}.js" defer></script></head>`);
  const p=output+'/'+target(route);await mkdir(p.slice(0,p.lastIndexOf('/')),{recursive:true});await writeFile(p,html);
 }
-await mkdir(output+'/originals',{recursive:true});
-for(const v of catalog.videos){const bytes=await readFile('data/originals/'+v.originalHash+'.html');assert.equal(createHash('sha256').update(bytes).digest('hex'),v.originalHash);await writeFile(output+'/originals/'+v.id+'.html',bytes);}
+await mkdir(output+'/originals',{recursive:true});let originalCount=0;
+for(const v of catalog.videos){const bytes=await readFile('data/originals/'+v.originalHash+'.html');assert.equal(createHash('sha256').update(bytes).digest('hex'),v.originalHash);await writeFile(output+'/originals/'+v.id+'.html',bytes);originalCount++;for(const r of v.revisions.filter(r=>r.originalHash)){const revisionBytes=await readFile('data/originals/'+r.originalHash+'.html');assert.equal(createHash('sha256').update(revisionBytes).digest('hex'),r.originalHash);await writeFile(output+'/originals/'+v.id+'--'+r.id+'.html',revisionBytes);originalCount++;}}
 const salt=randomBytes(16).toString('hex'),iterations=600000,hash=pbkdf2Sync(password,salt,iterations,32,'sha256').toString('hex');
 const taxonomy=JSON.parse(await readFile('lib/taxonomy.json','utf8'));
 const records=catalog.videos.map(v=>({id:v.id,categories:v.categories,sections:v.sections,text:[v.title,v.summary,v.channel,...v.tags].join(' ').toLocaleLowerCase('de'),reviewed:!!v.revisions.length,queued:catalog.reviewQueue.some(q=>q.videoId===v.id)}));
@@ -45,4 +45,4 @@ await writeFile(output+'/robots.txt','User-agent: *\nDisallow: '+base+'originals
 await writeFile(output+'/style.css',(await readFile(output+'/style.css','utf8'))+'\n.controls input,.controls select{padding:10px;border:1px solid #ccd9df;border-radius:6px;background:white;min-width:0}.controls input{flex:1}');
 await copyFile(output+'/pages.js',output+'/pages-'+assetVersion+'.js');
 await copyFile(output+'/style.css',output+'/style-'+assetVersion+'.css');
-console.log('GitHub Pages exportiert: '+routes.length+' Seiten, '+catalog.videos.length+' bytegleiche Originale.');
+console.log('GitHub Pages exportiert: '+routes.length+' Seiten, '+originalCount+' bytegleiche Originalfassungen.');

@@ -8571,6 +8571,275 @@
               "conclusion": "Portfolio-Denkmodell um einen klaren vorgelagerten Screening-Schritt ergänzt."
             }
           ]
+        },
+        {
+          "id": "r3",
+          "createdAt": "2026-09-25T13:00:00.000Z",
+          "previousId": "r2",
+          "reason": "Zweite HTML-Analyse desselben Videos abgeglichen; klarere Lernschleife übernommen, ohne sie als unabhängigen Beleg zu zählen.",
+          "methodVersion": "1.0",
+          "assessment": "Die zweite redaktionelle Fassung verbessert die operative Darstellung des bereits gespeicherten Videos, erhöht aber nicht die Evidenz. Besonders nützlich sind vorab definierte Abbruchkriterien, die getrennte Betrachtung von Sichtbarkeit, Klick, Kauf und Rückgabe sowie die Drei-Monate-Abwesenheitsprobe. Titel und Cover sind ein wichtiger erster Verkaufsmoment. Kundenverhalten ersetzt relevante Keywords und Metadaten jedoch nicht; Amazon veröffentlicht keine vollständige Gewichtung. Der Funnel liefert Diagnosehypothesen, keine eindeutigen Ursachen. Low-Content kann Lernzyklen verkürzen, besitzt aber Plattform- und Differenzierungsgrenzen. Prozesse, Rechte, Dateien und Marke können assetähnlich sein, während der KDP-Account wegen Transfer-, Ads-, Report- und A+-Grenzen kein frei portables Asset ist. Alle Umsatz- und Erfolgszahlen bleiben unbestätigte Aussagen derselben Quelle.",
+          "originalHash": "4b05f533fa9f4c064d69a901be8bab2b688a786b6f380782fb1dba411004d414",
+          "originalFilename": "KDP_Amazon_Report.html",
+          "keyFacts": [
+            {
+              "label": "Titel und Cover sind der erste Verkaufsmoment",
+              "fact": "Amazon zeigt Cover als Thumbnail in Suche und Empfehlungen; der Titel ist ein zentrales Suchattribut. Gute Verpackung unterstützt Aufmerksamkeit und Passung, garantiert aber keine Conversion.",
+              "implication": "Titel und Cover als gemeinsame Hypothese testen und anschließend Klick- sowie Kaufsignale getrennt auswerten.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-marketing"
+              ]
+            },
+            {
+              "label": "Abbruchkriterien vorher festlegen",
+              "fact": "Testdauer, Budget, Verlustlimit und Erfolgssignale sind eine sinnvolle Managementregel. Amazon gibt dafür keine universellen Schwellen vor.",
+              "implication": "Stop- und Ausbaukriterien vor dem Test aus Deckungsbeitrag, Budget und gewünschtem Lernwert ableiten.",
+              "sourceIds": [
+                "original-v2",
+                "amazon-ads-testing"
+              ]
+            },
+            {
+              "label": "Funnel liefert Hypothesen",
+              "fact": "Impressionen, Klicks, Verkäufe und Rückerstattungen sind getrennt messbar. Eine schwache Stufe beweist jedoch nicht automatisch eine einzelne Ursache.",
+              "implication": "Pro Funnelstufe mehrere Ursachen testen und Cover, Preis, Suchpassung, Produktseite sowie Inhalt nicht vorschnell gleichsetzen.",
+              "sourceIds": [
+                "amazon-ads-reporting",
+                "kdp-orders"
+              ]
+            },
+            {
+              "label": "Kundenverhalten ergänzt Keywords",
+              "fact": "Amazon nennt Verkaufshistorie und Popularität ebenso wie relevante Keywords, Metadaten und Suchpassung. Eine Rangfolge oder vollständige Gewichtung wird nicht veröffentlicht.",
+              "implication": "Metadaten sauber halten und reale Leistungsdaten nutzen; die beiden Signalgruppen nicht gegeneinander ausspielen.",
+              "sourceIds": [
+                "kdp-keywords",
+                "kdp-search"
+              ]
+            },
+            {
+              "label": "KDP ist nur bedingt ein portables Asset",
+              "fact": "Marke, Rechte, Dateien und Prozesse können Personenabhängigkeit senken. Bücher, Reports, Ads und A+ Content lassen sich zwischen KDP-Konten jedoch nicht reibungslos übertragen.",
+              "implication": "Die Abwesenheitsprobe für Operations nutzen, Verkaufsfähigkeit und Kontenübertragbarkeit aber separat prüfen.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-account"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Verpackung testen",
+              "text": "Titel und Cover sind der erste Verkaufsmoment, aber erst Klick- und Kaufsignale zeigen ihre tatsächliche Wirkung."
+            },
+            {
+              "label": "Stop-Regeln festlegen",
+              "text": "Dauer, Budget, Verlustlimit und Erfolgssignal gehören vor den Test; allgemeine Amazon-Grenzwerte gibt es nicht."
+            },
+            {
+              "label": "Funnel vorsichtig lesen",
+              "text": "Sichtbarkeit, Klick, Kauf und Rückgabe sind Diagnoseachsen; ihre Ursachen müssen jeweils getestet werden."
+            },
+            {
+              "label": "Keywords bleiben relevant",
+              "text": "Kundenverhalten, Verkaufshistorie, Keywords, Metadaten und Suchpassung wirken zusammen; die Gewichtung ist unbekannt."
+            },
+            {
+              "label": "Asset-These begrenzen",
+              "text": "Prozesse und Rechte können assetähnlich sein, der KDP-Account samt Reports, Ads und A+ Content ist nicht frei portabel."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Titel und Cover bilden im Amazon-Kontext den ersten sichtbaren Verkaufsmoment.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "KDP beschreibt das Cover als Thumbnail in Suche und Empfehlungen und den Titel als wichtiges Suchattribut. Eine automatische Conversion folgt daraus nicht.",
+              "sourceIds": [
+                "kdp-marketing",
+                "kdp-metadata"
+              ],
+              "location": "Lektion 2: Titel und Cover sind die Anzeige",
+              "scope": "Funktion und Sichtbarkeit sind gestützt; Wirkung muss je Angebot gemessen werden."
+            },
+            {
+              "id": "c2",
+              "text": "Vorab definierte Testdauer, Budgets und Abbruchkriterien verbessern die Lernlogik.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Amazon Ads unterstützt Budgets, Laufzeiten und Leistungsbeobachtung. Universelle Erfolgs- oder Verlustschwellen existieren nicht und müssen aus den eigenen Unit Economics entstehen.",
+              "sourceIds": [
+                "original-v2",
+                "amazon-ads-testing"
+              ],
+              "location": "Lektion 3: Abbruchkriterien",
+              "scope": "Managementpraxis, keine offizielle KDP-Erfolgsregel."
+            },
+            {
+              "id": "c3",
+              "text": "Sichtbarkeit, Klicks, Käufe und Rückgaben bilden nützliche Diagnoseachsen.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Ads- und KDP-Berichte bilden diese Größen teilweise getrennt ab. Die im Video zugeordneten Ursachen sind jedoch nur Hypothesen und organisch nicht vollständig messbar.",
+              "sourceIds": [
+                "amazon-ads-reporting",
+                "kdp-orders",
+                "original-v2"
+              ],
+              "location": "Diagnose-Logik",
+              "scope": "Messbare Stufen, aber keine eindeutige Kausaldiagnose."
+            },
+            {
+              "id": "c4",
+              "text": "Kundenverhalten schlägt Keywords und macht Metadaten zweitrangig.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "Amazon nennt relevante Keywords und Metadaten zusammen mit Verkaufshistorie, Popularität und weiteren Faktoren. Eine Rangfolge zugunsten einer Signalgruppe ist nicht veröffentlicht.",
+              "sourceIds": [
+                "kdp-keywords",
+                "kdp-search"
+              ],
+              "location": "Lektion 4: Kundenverhalten schlägt Keyword-Obsession",
+              "scope": "Die Keyword-Obsession ist sinnvoll zu relativieren; Keywords selbst bleiben relevant."
+            },
+            {
+              "id": "c5",
+              "text": "Low-Content ermöglicht schnellere und dauerhaft verteidigbare Markttests.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Einfachere Formate können Produktionszyklen verkürzen. KDP nennt jedoch Einschränkungen und grenzt Puzzle-, Activity- und Malbücher meist von Low-Content ab; Marktnachfrage und Verteidigbarkeit folgen nicht aus dem Format.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-low-content"
+              ],
+              "location": "Lektion 8: schnellstes Lernen",
+              "scope": "Produktionsgeschwindigkeit ist nicht gleich Marktvalidierung oder Wettbewerbsvorteil."
+            },
+            {
+              "id": "c6",
+              "text": "Ein dokumentierter KDP-Betrieb ist ein frei übertragbares und weitgehend personenunabhängiges Asset.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Prozesse, Marke, Dateien und Rechte können Personenabhängigkeit senken. KDP-Konten, einzelne Bücher, Reports, Ads und A+ Content besitzen jedoch erhebliche Übertragungsgrenzen.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-account"
+              ],
+              "location": "Lektion 7 und Drei-Monate-Abwesenheitsprobe",
+              "scope": "Assetähnliche Bausteine ja; reibungslos portables Gesamtgeschäft nein."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original-v2",
+              "title": "Acht Lektionen aus 250 Büchern – zweite Analysefassung",
+              "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Dasselbe Originalvideo und zweite redaktionelle HTML-Fassung",
+              "note": "Keine neue unabhängige Quelle; präzisere Darstellung derselben acht Lektionen."
+            },
+            {
+              "id": "kdp-marketing",
+              "title": "Amazon KDP – Ways to Promote Your Book",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200673650",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur Darstellung des Covers und zu Vermarktungsflächen."
+            },
+            {
+              "id": "kdp-metadata",
+              "title": "Amazon KDP – Metadata Guidelines",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201097560",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Titel, Cover, Metadaten und Series Pages."
+            },
+            {
+              "id": "amazon-ads-testing",
+              "title": "Amazon Ads – Sponsored Products Best Practices",
+              "url": "https://advertising.amazon.com/library/guides/sponsored-products-best-practices",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon Ads",
+              "note": "Primärquelle zu Budgets, Laufzeiten, Leistungsbeobachtung und Optimierung."
+            },
+            {
+              "id": "amazon-ads-reporting",
+              "title": "Amazon Ads – Book Advertising Reporting",
+              "url": "https://advertising.amazon.com/library/guides/book-advertising-reporting",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon Ads",
+              "note": "Primärquelle zu Impressionen, Klicks, Verkäufen und Berichten im Anzeigenkontext."
+            },
+            {
+              "id": "kdp-orders",
+              "title": "Amazon KDP – Orders Report",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201488550",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Bestellungen, Rückerstattungen und Net Units Sold."
+            },
+            {
+              "id": "kdp-keywords",
+              "title": "Amazon KDP – Make Your Book More Discoverable with Keywords",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201298500",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur fortbestehenden Bedeutung relevanter Keywords."
+            },
+            {
+              "id": "kdp-search",
+              "title": "Amazon KDP – Search Results",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GATLM5TG2NFRXQ89",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Verkaufshistorie, Verfügbarkeit, Alter und Popularität in der Suche."
+            },
+            {
+              "id": "kdp-low-content",
+              "title": "Amazon KDP – Low-Content Books",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GGE5T76TWKA85DJM",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur Definition und zu Einschränkungen von Low-Content-Büchern."
+            },
+            {
+              "id": "kdp-account",
+              "title": "Amazon KDP – Merge Accounts",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200634350",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Kontenzusammenführung und nicht übertragenen Reports, Ads, Zahlungen und A+ Content."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Zweite Fassung eines vorhandenen Wissensbausteins; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics",
+            "kdp-branding-amazon"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_250_v2_recherche",
+              "conclusion": "Neue Fassung präzisiert Packaging, Stop-Regeln, Funnel und Asset-Test, liefert aber keine neue unabhängige Evidenz."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_250_v2_challenge",
+              "conclusion": "Keywords bleiben relevant; Funnel, Low-Content und Asset-Portabilität müssen enger begrenzt werden."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als Revision desselben Videos mit zweiter unveränderter Originalfassung speichern; Analysezahl bleibt unverändert."
+            }
+          ]
         }
       ]
     },
@@ -9931,6 +10200,17 @@
             "kdp-profitable-book-topics/r1",
             "kdp-branding-amazon/r5",
             "kdp-250-buecher/r2"
+          ]
+        },
+        {
+          "id": "t7",
+          "createdAt": "2026-09-25T13:05:00.000Z",
+          "reason": "Zweite HTML-Analyse des 250-Bücher-Videos als präzisierende Revision ohne zusätzliche Evidenz eingeordnet.",
+          "summary": "Die zweite Fassung desselben Videos schärft die operative Kataloglogik: Titel und Cover sind der erste Verkaufsmoment; Testdauer, Budget, Verlustlimit und Erfolgssignale werden vorab definiert; Sichtbarkeit, Klick, Kauf und Rückgabe werden getrennt diagnostiziert. Jede Ursachen-Zuordnung bleibt eine Hypothese. Kundenverhalten ersetzt Keywords und Metadaten nicht. Low-Content kann Produktionszyklen verkürzen, schafft aber keinen automatischen Marktbeleg. Prozesse, Marke, Rechte und Dateien können assetähnlich sein; der KDP-Account samt Reports, Ads und A+ Content ist wegen Übertragungsgrenzen kein frei portables Asset. Da Video und Transkriptquelle identisch sind, bleibt die Zahl unabhängiger Belege unverändert.",
+          "videoRevisionIds": [
+            "kdp-250-buecher/r3",
+            "kdp-profitable-book-topics/r1",
+            "kdp-branding-amazon/r5"
           ]
         }
       ]

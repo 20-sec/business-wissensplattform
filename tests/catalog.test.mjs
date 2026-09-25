@@ -30,7 +30,7 @@ test('Import schützt Originale, erzeugt Prüfimpulse und hängt Revisionen auss
   await mkdir(join(root, 'data'));
   await writeFile(join(root, 'data/catalog.json'), JSON.stringify({ schemaVersion: 1, videos: [], topics: [], reviewQueue: [] }));
   await writeFile(join(root, 'data/content.json'), '{}');
-  const html = join(root, 'sample.html'), meta = join(root, 'meta.json'), review = join(root, 'review.json');
+  const html = join(root, 'sample.html'), meta = join(root, 'meta.json'), review = join(root, 'review.json'), revisedHtml = join(root, 'revised.html');
   const original = '<html><h1>Nur Test</h1><script>throw new Error("untrusted")</script></html>';
   await writeFile(html, original);
   await writeFile(meta, JSON.stringify({ id: 'video-a', title: 'A', categories: ['KI & Automation'], sections: [{category: 'KI & Automation', section: 'Tools und Werkzeuge'}], tags: ['Agenten'], sourceAssessment: 'Ursprüngliches Rating: 8/10' }));
@@ -51,8 +51,11 @@ test('Import schützt Originale, erzeugt Prüfimpulse und hängt Revisionen auss
   const r1 = revision('r1'); r1.relatedVideoIds = ['video-b'];
   await writeFile(review, JSON.stringify(r1)); success(run('review', 'video-a', review));
   assert.notEqual(run('review', 'video-a', review).status, 0);
-  const r2 = revision('r2', 'r1'); await writeFile(review, JSON.stringify(r2)); success(run('review', 'video-a', review));
+  const r2 = revision('r2', 'r1'); await writeFile(review, JSON.stringify(r2)); await writeFile(revisedHtml, '<html><h1>Neue Originalfassung</h1></html>'); success(run('review', 'video-a', review, revisedHtml));
   catalog = await load(); assert.deepEqual(catalog.videos[0].revisions[0], r1); assert.equal(catalog.videos[0].revisions.length, 2); assert.equal(catalog.reviewQueue.length, 1);
+  assert.equal(catalog.videos[0].revisions[1].originalFilename, 'revised.html');
+  assert.equal(await readFile(join(root, 'data/originals', catalog.videos[0].revisions[1].originalHash + '.html'), 'utf8'), '<html><h1>Neue Originalfassung</h1></html>');
+  assert.equal(JSON.parse(await readFile(join(root, 'data/content.json'), 'utf8'))['video-a--r2'], '<html><h1>Neue Originalfassung</h1></html>');
   const bad = revision('r3', 'r2'); bad.relatedVideoIds = ['unknown-video']; await writeFile(review, JSON.stringify(bad)); assert.notEqual(run('review', 'video-a', review).status, 0);
   success(run('validate'));
   assert.equal((await load()).videos[0].revisions.length, 2);

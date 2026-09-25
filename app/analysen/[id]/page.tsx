@@ -10,15 +10,18 @@ export default async function OriginalAnalysis({ params }: { params: Promise<{ i
   const video = catalog.videos.find(v => v.id === id);
   if (!video) notFound();
   const review = video.revisions.at(-1);
+  const originalVersions = [{ key: video.id, filename: video.originalFilename, label: "Originalfassung 1" }, ...video.revisions.filter(r => r.originalHash).map((r, index) => ({ key: `${video.id}--${r.id}`, filename: r.originalFilename!, label: `Originalfassung ${index + 2} · ${r.id}` }))];
+  const currentOriginal = originalVersions.at(-1)!;
   return <main className="original-viewer">
     <nav className="original-toolbar" aria-label="Analyseansichten">
       <a href="/" className="back-link">Zur Bibliothek</a>
-      <span className="original-label">Originalanalyse</span>
+      <span className="original-label">Originalanalyse · {currentOriginal.label}</span>
       <div className="original-actions">
-        <Button variant="outline" asChild><a href={`/api/original/${video.id}`} target="_blank" rel="noreferrer">Original separat öffnen</a></Button>
-        <Button variant="outline" asChild><a href={`/api/original/${video.id}`} download={video.originalFilename}>HTML herunterladen</a></Button>
+        <Button variant="outline" asChild><a href={`/api/original/${currentOriginal.key}`} target="_blank" rel="noreferrer">Aktuelles Original öffnen</a></Button>
+        <Button variant="outline" asChild><a href={`/api/original/${currentOriginal.key}`} download={currentOriginal.filename}>HTML herunterladen</a></Button>
       </div>
     </nav>
+    {originalVersions.length > 1 && <nav className="original-actions" aria-label="Originalfassungen">{originalVersions.map(version => <a key={version.key} href={`/api/original/${version.key}`} target="_blank" rel="noreferrer">{version.label}</a>)}</nav>}
     {review?.keyFacts && <section className="key-facts-band" aria-labelledby="key-facts-title">
       <div className="compact-review">
         <p className="eyebrow">WISSEN AUS ANALYSE &amp; RECHERCHE · {review.id}</p>
@@ -33,7 +36,7 @@ export default async function OriginalAnalysis({ params }: { params: Promise<{ i
         <a href="#kurzpruefung">Zur Kurzprüfung ↓</a>
       </div>
     </section>}
-    <iframe className="original-full-frame" title={video.title} src={`/api/original/${video.id}`} sandbox="" referrerPolicy="no-referrer"/>
+    <iframe className="original-full-frame" title={video.title} src={`/api/original/${currentOriginal.key}`} sandbox="" referrerPolicy="no-referrer"/>
     <section className="compact-review-band" id="kurzpruefung" aria-labelledby="compact-title">
       <div className="compact-review">
       <p className="eyebrow">UNSERE EINSCHÄTZUNG{review ? ` · ${review.id}` : ""}</p>

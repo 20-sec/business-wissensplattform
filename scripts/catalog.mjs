@@ -18,6 +18,10 @@ try {
    for (const v of catalog.videos) {
      const bytes = await readFile(join(data, "originals", v.originalHash + ".html"));
      if (createHash("sha256").update(bytes).digest("hex") !== v.originalHash || originals[v.id] !== bytes.toString("utf8")) throw new Error("Originaldatei oder HTML-Index verändert: " + v.id);
+     for (const r of v.revisions.filter(r => r.originalHash)) {
+       const revisionBytes = await readFile(join(data, "originals", r.originalHash + ".html"));
+       if (createHash("sha256").update(revisionBytes).digest("hex") !== r.originalHash || originals[`${v.id}--${r.id}`] !== revisionBytes.toString("utf8")) throw new Error("Revisionsoriginal verändert: " + v.id + "/" + r.id);
+     }
    }
    console.log(`Gültig: ${catalog.videos.length} Analysen, ${catalog.topics.length} Themen.`);
  } else if (command === "import") {
@@ -49,11 +53,27 @@ try {
    await atomic("content.json", originals); await atomic("catalog.json", catalog);
    console.log(`Importiert: ${record.title}. Originalbewertung übernommen, Gegenprüfung offen.`);
  } else if (command === "review") {
-   const [videoId, revisionPath] = args;
+   const [videoId, revisionPath, htmlPath] = args;
    const video = catalog.videos.find(v => v.id === videoId);
    if (!video || !revisionPath) throw new Error("review <video-id> <revision.json>");
-   const revision = revisionSchema.parse(JSON.parse(await readFile(resolve(revisionPath), "utf8")));
+   const input = JSON.parse(await readFile(resolve(revisionPath), "utf8"));
+   let revisionBytes;
+   if (htmlPath) {
+     revisionBytes = await readFile(resolve(htmlPath));
+     if (revisionBytes.length > 10 * 1024 * 1024) throw new Error("HTML über 10 MB: vor dem Import prüfen");
+     const originalHash = createHash("sha256").update(revisionBytes).digest("hex");
+     if (catalog.videos.some(v => v.originalHash === originalHash || v.revisions.some(r => r.originalHash === originalHash))) throw new Error("Diese HTML-Datei wurde bereits als Original gespeichert.");
+     input.originalHash = originalHash;
+     input.originalFilename = basename(htmlPath);
+   }
+   const revision = revisionSchema.parse(input);
    if (revision.previousId !== (video.revisions.at(-1)?.id ?? null) || video.revisions.some(r => r.id === revision.id)) throw new Error("Revision muss an die letzte Fassung anschließen");
+   if (revisionBytes) {
+     try { await writeFile(join(data, "originals", revision.originalHash + ".html"), revisionBytes, { flag: "wx" }); }
+     catch (e) { if (e.code !== "EEXIST") throw e; const old = await readFile(join(data, "originals", revision.originalHash + ".html")); if (!old.equals(revisionBytes)) throw new Error("Original-Hash-Konflikt"); }
+     originals[`${videoId}--${revision.id}`] = revisionBytes.toString("utf8");
+     await atomic("content.json", originals);
+   }
    video.revisions.push(revision);
    catalog.reviewQueue = catalog.reviewQueue.filter(q => q.videoId !== videoId || !revision.relatedVideoIds.includes(q.triggerVideoId));
    catalogSchema.parse(catalog); await atomic("catalog.json", catalog);
