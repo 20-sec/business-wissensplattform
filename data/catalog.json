@@ -2149,6 +2149,73 @@
               "conclusion": "Angebotsbelege nicht mit Nachfrage verwechseln; epubli nicht pauschal als KDP einordnen; Capybara-Einzeltier von Kombinische trennen. Seiten-/Formatwidersprüche offenhalten. Kein Schluss über Lieferbarkeit in Deutschland."
             }
           ]
+        },
+        {
+          "id": "r8",
+          "createdAt": "2026-09-25T12:05:00.000Z",
+          "previousId": "r7",
+          "reason": "Allgemeines Vier-Tore-Modell auf die bisherigen Mal- und Aktivitätsbuch-Nischen angewendet.",
+          "methodVersion": "1.0",
+          "assessment": "Das neue Validierungsframework verbessert die Prüfung der bisherigen Nischen, stuft aber keine davon wirtschaftlich hoch. Kulturelle Süßigkeiten, Axolotl/Capybara, Hochzeitsaktivitäten, Nationalparks und Highland Cows müssen jeweils durch Nachfrage, relevante Konkurrenz, klare Suchintention und sichtbare Differenzierung geprüft werden. BSR und Reviewzahlen bleiben relative Proxys; vor einer Rangfolge fehlen Verlauf, Amazon.de-Signale, Kosten und Markttest.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Das Vier-Tore-Modell konkretisiert die Prüfung der bisherigen KDP-Nischen, bestätigt aber keine einzelne Nische als profitabel.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die neue Analyse liefert einen strukturierten Screening-Prozess; Amazon beschreibt BSR jedoch nur als relativen, dynamischen Rang.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-bsr"
+              ],
+              "location": "Vergleich mit den fünf bisherigen Nischenhypothesen",
+              "scope": "Methodische Ergänzung ohne wirtschaftliche Heraufstufung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "Profitable Buchthemen auf Amazon KDP finden",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-profitable-book-topics/",
+              "accessedAt": "2026-09-25T12:05:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Allgemeines Screening über Nachfrage, Wettbewerb, Suchintention, Differenzierung und ergänzende Unit Economics."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T12:05:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Grenzen und Dynamik des BSR."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Framework verbessert die Nischenprüfung, bestätigt aber keine einzelne Nische."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "BSR, Reviews, Amazon.de-Daten und Unit Economics bleiben offene Prüfschritte."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Frühere Nischenbewertung methodisch präzisiert, ohne Rangfolge oder Profitabilität zu verändern."
+            }
+          ]
         }
       ]
     },
@@ -3240,6 +3307,82 @@
               "role": "Synthese",
               "name": "Codex",
               "conclusion": "Alte Bewertung nicht heraufgestuft; nur Vergleichsnotiz angehängt."
+            }
+          ]
+        },
+        {
+          "id": "r4",
+          "createdAt": "2026-09-25T12:06:00.000Z",
+          "previousId": "r3",
+          "reason": "Vier-Tore-Screening mit der bestehenden 200-Bücher-Fallstudie und deren internen Berichtsdaten verglichen.",
+          "methodVersion": "1.0",
+          "assessment": "Das neue Screening ergänzt die 200-Bücher-Fallstudie vor der Produktion: Markt- und Suchsignale helfen bei der Themenauswahl. Für die wirtschaftliche Bewertung bleiben interne KDP-Berichte, Werbekosten, Formatmix und Deckungsbeitrag jedoch stärker als externe BSR-Schätzungen. Die Fallstudienzahlen werden durch das Framework weder bestätigt noch ersetzt.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Markt-Screening kann die Themenauswahl verbessern, ersetzt aber keine internen Umsatz-, Werbe- und Kostendaten.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "BSR ist laut Amazon ein relativer Einblick und nicht für exaktes Aktivitätstracking gedacht; echte Wirtschaftlichkeit benötigt Royalty- und Kostendaten.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-bsr",
+                "kdp-royalties"
+              ],
+              "location": "Vergleich von Vorauswahl und KDP-Fallstudiendaten",
+              "scope": "Externe Proxys für Screening, interne Reports für die nachgelagerte Wirtschaftsbewertung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "Profitable Buchthemen auf Amazon KDP finden",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-profitable-book-topics/",
+              "accessedAt": "2026-09-25T12:06:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Allgemeines KDP-Markt-Screening vor Produktion."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T12:06:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "BSR ist relativ und kein exaktes Aktivitätstracking."
+            },
+            {
+              "id": "kdp-royalties",
+              "title": "Amazon KDP – Paperback Royalty",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+              "accessedAt": "2026-09-25T12:06:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Royalty- und Druckkostenlogik als Teil der Wirtschaftsbewertung."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Externe BSR-Signale können interne KDP-Berichte nicht ersetzen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "Screening und Vollkostenrechnung müssen getrennt bleiben."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Fallstudienbewertung bleibt bestehen; Vorauswahlprozess ergänzt."
             }
           ]
         }
@@ -7128,6 +7271,73 @@
               "conclusion": "Branding-Analyse methodisch ergänzt, Evidenzstatus bleibt vorsichtig."
             }
           ]
+        },
+        {
+          "id": "r5",
+          "createdAt": "2026-09-25T12:07:00.000Z",
+          "previousId": "r4",
+          "reason": "Vier-Tore-Modell als vorgeschalteten Markteintrittsfilter für Brand- und Katalogaufbau geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Das neue Framework ergänzt den KDP-Brand- und Katalogaufbau sinnvoll vor dem ersten Titel: Nachfrage, relevante Konkurrenz, Suchintention und Mechanik filtern schwache Themen aus. Nach dem Markteintritt gelten weiterhin die bisherigen Kriterien zu Reihenlogik, Cross-Selling, Ads, Produktseiten und Deckungsbeitrag. Ein gutes Keyword oder Versprechen allein begründet noch keine tragfähige Marke.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Das Vier-Tore-Modell ist ein sinnvoller Markteintrittsfilter vor dem Aufbau eines KDP-Katalogs.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die Prüftore strukturieren Markt- und Positionierungssignale; die anschließende Katalog- und Wirtschaftsbewertung bleibt ein eigener Schritt.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-keywords"
+              ],
+              "location": "Vergleich mit Brand-, Reihen- und Kataloglogik",
+              "scope": "Vorauswahl vor Produktion; keine Bestätigung von Markenprofitabilität."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "Profitable Buchthemen auf Amazon KDP finden",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-profitable-book-topics/",
+              "accessedAt": "2026-09-25T12:07:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Vier-Tore-Modell als Markteintrittsfilter."
+            },
+            {
+              "id": "amazon-keywords",
+              "title": "Amazon KDP – Make Your Book More Discoverable with Keywords",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201298500",
+              "accessedAt": "2026-09-25T12:07:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Suchbegriffen und Relevanz aus Kundensicht."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Screening ergänzt Katalogaufbau als vorgeschalteten Markteintrittsfilter."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "Ein gutes Keyword und eine Mechanik beweisen noch keine Brand- oder Katalogprofitabilität."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Branding-Bewertung bleibt bestehen und erhält einen klareren Vorauswahl-Schritt."
+            }
+          ]
         }
       ]
     },
@@ -8285,6 +8495,82 @@
               "conclusion": "Einordnung als KDP-Portfolio-Denkmodell mit Schnittmenge zu KDP-Branding/Katalogaufbau und den bisherigen KDP-Fallstudien."
             }
           ]
+        },
+        {
+          "id": "r2",
+          "createdAt": "2026-09-25T12:08:00.000Z",
+          "previousId": "r1",
+          "reason": "Vier-Tore-Screening als Konkretisierung der bisherigen Validierung-vor-Produktion-Logik geprüft.",
+          "methodVersion": "1.0",
+          "assessment": "Das neue Framework konkretisiert die Validierung vor Produktion aus der 250-Bücher-Analyse: Nachfrage, relevante Konkurrenz, Suchintention und Mechanik werden vor der Titelerstellung dokumentiert. BSR und Reviews bleiben Proxys. Die echte Lernschleife entsteht erst nach Launch über Impressionen, Klicks, Conversion, Verkäufe, Werbekosten und Deckungsbeitrag. Die hohe Titelzahl wird dadurch weiterhin nicht zum Zielwert.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Das Vier-Tore-Modell konkretisiert die Validierung vor Produktion, ersetzt aber nicht die Lernschleife nach dem Launch.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Markt-Screening und tatsächliche Funnel-/Wirtschaftsdaten beantworten unterschiedliche Fragen und sollten nacheinander eingesetzt werden.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-bsr",
+                "kdp-ads"
+              ],
+              "location": "Vergleich mit Portfolio-Lernen und Funnel-Diagnose",
+              "scope": "Vorauswahl vor Produktion; Validierung durch reale Leistungsdaten nach Veröffentlichung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "Profitable Buchthemen auf Amazon KDP finden",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-profitable-book-topics/",
+              "accessedAt": "2026-09-25T12:08:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Vier-Tore-Screening vor Titelerstellung."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T12:08:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Grenzen des BSR als relativer Aktivitätsindikator."
+            },
+            {
+              "id": "kdp-ads",
+              "title": "Amazon KDP – Advertising for KDP Books",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201499010",
+              "accessedAt": "2026-09-25T12:08:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "CPC-basierte Anzeigen als Teil nachgelagerter Markt- und Wirtschaftsdaten."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Screening konkretisiert die Validierung vor Produktion; reale KDP-Daten bleiben erforderlich."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "BSR und Reviews sind Proxys, keine Ersatzdaten für Launch und Unit Economics."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Portfolio-Denkmodell um einen klaren vorgelagerten Screening-Schritt ergänzt."
+            }
+          ]
         }
       ]
     },
@@ -9149,6 +9435,311 @@
           ]
         }
       ]
+    },
+    {
+      "id": "kdp-profitable-book-topics",
+      "title": "Profitable Buchthemen auf Amazon KDP finden",
+      "sourceUrl": "https://www.youtube.com/watch?v=WrVcnCBuWL8",
+      "channel": "Ken Fornari",
+      "publishedAt": null,
+      "importedAt": "2026-09-25T08:53:17.183Z",
+      "categories": [
+        "KDP-Buchbusiness"
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Strategie"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Tools und Werkzeuge"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "KDP-Marktprüfung",
+        "Themenvalidierung",
+        "BSR-Analyse",
+        "Suchintention",
+        "Wettbewerbsanalyse",
+        "BookBeam",
+        "Unit Economics"
+      ],
+      "summary": "Ein Vier-Tore-Modell prüft Nachfrage, Wettbewerb, Suchintention und Differenzierung vor der Buchproduktion. Als Screening stark; feste BSR- und Review-Grenzen sowie der 5.000-Dollar-Claim sind keine Profitabilitätsbelege.",
+      "originalHash": "2861c668d946ea9b29e7fb89060d1de0ac4e70d02a2f70a9ab6cc000487f554c",
+      "originalFilename": "youtube_report_WrVcnCBuWL8.html",
+      "sourceAssessment": "Brauchbares Markt-Screening mit starkem Fokus auf Suchintention, Konkurrenz und Positionierung. Die Grenzwerte bleiben Heuristiken; für eine Investitionsentscheidung fehlen Unit Economics, Rechteprüfung, Markttest und marktplatzspezifische Daten.",
+      "topicIds": [
+        "kdp-brand-und-katalogaufbau",
+        "kdp-mal-und-aktivitaetsbuch-nischen"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-25T12:00:00.000Z",
+          "previousId": null,
+          "reason": "Fünf Prüfpunkte von Markus bestätigt; mit KDP-Nischen- und Katalogwissen verknüpft.",
+          "methodVersion": "1.0",
+          "assessment": "Das Vier-Tore-Modell aus Nachfrage, Wettbewerb, Suchintention und Differenzierung ist ein starkes Verfahren zur Vorauswahl von Buchthemen. Es beweist jedoch keine Profitabilität. BSR ist ein relativer, dynamischer Aktivitätsindikator; die Schwellen 30.000 BSR sowie 250 oder 500–700 Reviews sind unbelegte Creator-Heuristiken. Der belastbarste Teil ist die Verbindung aus relevanter Suchintention und einer sichtbaren, kaufentscheidenden Mechanik. Für eine Geschäftsentscheidung braucht das Modell ein fünftes Tor: Unit Economics mit Royalty, Druckkosten, Werbung, Produktionsaufwand und Markttest. Der 5.000-Dollar-Claim bleibt unbelegt, und US-Signale müssen für Amazon.de neu geprüft werden.",
+          "keyFacts": [
+            {
+              "label": "Vier Tore filtern Ideen",
+              "fact": "Nachfrage, Wettbewerb, Suchintention und Differenzierung bilden ein schlüssiges Screening vor der Produktion, liefern aber noch keinen Profitabilitätsnachweis.",
+              "implication": "Das Modell für die Vorauswahl nutzen und erst nach einem fünften Wirtschaftscheck produzieren.",
+              "sourceIds": [
+                "original",
+                "research"
+              ]
+            },
+            {
+              "label": "BSR ist kein Umsatzmesser",
+              "fact": "Amazon beschreibt den BSR als relativen Rang aus aktueller und historischer Kundenaktivität. Er kann sich trotz gleicher eigener Aktivität verändern und ist format- sowie kategorieabhängig.",
+              "implication": "Mehrere Titel und BSR-Verläufe im selben Marktplatz und Format beobachten; Momentaufnahmen nicht in Verkäufe umrechnen.",
+              "sourceIds": [
+                "amazon-bsr"
+              ]
+            },
+            {
+              "label": "Grenzwerte sind Heuristiken",
+              "fact": "Für 30.000 BSR sowie 250 oder 500–700 Reviews gibt es keine Amazon-Regel. Reviewzahlen hängen unter anderem von Alter, Verkäufen, Markt und Reichweite ab.",
+              "implication": "Schwellen nur relativ zur konkreten Ergebnisseite lesen und kein automatisches Go oder No-Go daraus ableiten.",
+              "sourceIds": [
+                "original",
+                "research",
+                "challenge"
+              ]
+            },
+            {
+              "label": "Suchpassung plus Mechanik zählt",
+              "fact": "Relevante kaufende Alternativen sind aussagekräftiger als die rohe Trefferzahl. Eine sichtbare Mechanik differenziert nur, wenn sie ein echtes Käuferproblem löst und wahr formuliert ist.",
+              "implication": "Top-Ergebnisse nach Suchpassung und Angebot zerlegen; Mechanik an Rezensionseinwänden und realen Suchdaten prüfen.",
+              "sourceIds": [
+                "amazon-keywords",
+                "amazon-search",
+                "original"
+              ]
+            },
+            {
+              "label": "Das fünfte Tor ist Wirtschaftlichkeit",
+              "fact": "Der 5.000-Dollar-Claim ist nicht unabhängig belegt. Royalty, Druckkosten, CPC, Conversion, Produktionsaufwand und Rechte fehlen im Vier-Tore-Modell.",
+              "implication": "Vor einer positiven Entscheidung Mini-P&L, Break-even-CAC und einen kleinen Markttest ergänzen; Amazon.de separat prüfen.",
+              "sourceIds": [
+                "original",
+                "kdp-royalties",
+                "kdp-ads",
+                "challenge"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Gutes Screening",
+              "text": "Die vier Tore sortieren Ideen sinnvoll vor der Produktion, beweisen aber noch keine Profitabilität."
+            },
+            {
+              "label": "BSR relativ lesen",
+              "text": "BSR zeigt relative Verkaufsaktivität und schwankt mit Markt, Konkurrenz, Zeitraum, Kategorie und Format."
+            },
+            {
+              "label": "Schwellen relativieren",
+              "text": "30.000 BSR und feste Review-Grenzen sind Creator-Heuristiken ohne offizielle Amazon-Grundlage."
+            },
+            {
+              "label": "Käuferproblem prüfen",
+              "text": "Suchpassung und eine echte, sichtbare Lösungsmechanik sind stärker als rohe Trefferzahlen."
+            },
+            {
+              "label": "Mini-P&L ergänzen",
+              "text": "Royalty, Druck, Ads, Produktion, Rechte und ein Markttest entscheiden über Wirtschaftlichkeit – auch separat auf Amazon.de."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Nachfrage, Wettbewerb, Suchintention und Differenzierung sind sinnvolle Prüftore vor der Buchproduktion.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Das Framework trennt mehrere relevante Marktsignale und passt zu Amazons Hinweisen auf Suchrelevanz, Keywords und dynamische Ergebnislisten.",
+              "sourceIds": [
+                "original",
+                "amazon-keywords",
+                "amazon-search"
+              ],
+              "location": "Executive Summary und Vier-Kräfte-Modell",
+              "scope": "Screening und Hypothesenbildung; kein Profitabilitätsnachweis."
+            },
+            {
+              "id": "c2",
+              "text": "Ein BSR von höchstens 30.000 ist ein universeller Nachweis ausreichender Nachfrage.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Amazon definiert keine solche Schwelle. BSR ist relativ, zeitabhängig, format- und kategoriebezogen und nicht für exaktes Aktivitätstracking gedacht.",
+              "sourceIds": [
+                "original",
+                "amazon-bsr",
+                "research"
+              ],
+              "location": "Prüfschritt Nachfrage",
+              "scope": "Als grober Filter im gleichen Markt und Format nutzbar; nicht als universelle Absatzgrenze."
+            },
+            {
+              "id": "c3",
+              "text": "250 beziehungsweise 500–700 Reviews bilden belastbare Wettbewerbsgrenzen.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Amazon nennt keine magischen Review-Schwellen. Reviewzahl ist kumulativ und von Buchalter, Verkäufen, Genre, Markt und Reichweite abhängig.",
+              "sourceIds": [
+                "original",
+                "research",
+                "challenge"
+              ],
+              "location": "Prüfschritt Wettbewerb",
+              "scope": "Nur als relativer Vergleich innerhalb derselben Ergebnisseite verwenden."
+            },
+            {
+              "id": "c4",
+              "text": "Relevante Titel auf den sichtbaren Suchpositionen sind aussagekräftiger als die Gesamtzahl der Suchtreffer.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Amazon beschreibt Suchergebnisse als dynamisch und von Relevanz sowie weiteren Aktivitätssignalen beeinflusst; die rohe Trefferzahl misst keine kaufende Konkurrenz.",
+              "sourceIds": [
+                "amazon-search",
+                "amazon-keywords"
+              ],
+              "location": "Wettbewerb und Suchintention",
+              "scope": "Ergebnisse im korrekten Buchbereich, Marktplatz und Format prüfen, einschließlich Anzeigen."
+            },
+            {
+              "id": "c5",
+              "text": "Eine konkrete Mechanik kann ein Buchangebot sichtbar differenzieren.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Ein klares Wie kann Positionierung und Verständlichkeit verbessern; ob es kaufentscheidend ist, muss mit Leserproblemen, Rezensionen, Such- und Testdaten geprüft werden.",
+              "sourceIds": [
+                "original",
+                "amazon-keywords",
+                "challenge"
+              ],
+              "location": "Differenzierung und Mechanik",
+              "scope": "Keine kosmetische Mikro-Nische oder unbelegtes Ergebnisversprechen."
+            },
+            {
+              "id": "c6",
+              "text": "Das Framework belegt ein Potenzial von mindestens 5.000 US-Dollar pro Monat.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Es fehlen auditierbare ASINs, Zeitreihen und eine Vollkostenrechnung. Umsatz wäre zudem nicht mit Gewinn gleichzusetzen.",
+              "sourceIds": [
+                "original",
+                "kdp-royalties",
+                "kdp-ads",
+                "challenge"
+              ],
+              "location": "Videotitel und Einkommensbeispiele",
+              "scope": "Marketingclaim des Creators, kein Ergebnis der Gegenprüfung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original",
+              "title": "How to Find Profitable Book Topics on Amazon ($5k/month+)",
+              "url": "https://www.youtube.com/watch?v=WrVcnCBuWL8",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Originalvideo und eingereichte Analyse",
+              "note": "Quelle des Vier-Tore-Modells, der Grenzwerte, Toolnennungen und des Einkommensclaims."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur relativen, dynamischen und formatbezogenen Bedeutung des Best Seller Rank."
+            },
+            {
+              "id": "amazon-keywords",
+              "title": "Amazon KDP – Make Your Book More Discoverable with Keywords",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201298500",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu relevanten Suchbegriffen, Kundensprache und Keyword-Prüfung."
+            },
+            {
+              "id": "amazon-search",
+              "title": "Amazon KDP – Search Results",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GPYDJ3SECAVVPNVG",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu dynamischen Suchergebnissen, Relevanz und fehlender Positionsgarantie."
+            },
+            {
+              "id": "kdp-royalties",
+              "title": "Amazon KDP – Paperback Royalty",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle für Royalty-Logik und Druckkosten als notwendige Unit-Economics-Bestandteile."
+            },
+            {
+              "id": "kdp-ads",
+              "title": "Amazon KDP – Advertising for KDP Books",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201499010",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu CPC-basierten Anzeigen als möglichem Kostenbestandteil."
+            },
+            {
+              "id": "research",
+              "title": "Recherche-Agent zur KDP-Themenvalidierung",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Interne Gegenrecherche",
+              "note": "Unabhängige Recherche zu BSR, Review-Schwellen, Suchintention, BookBeam und betroffenen Wissensständen."
+            },
+            {
+              "id": "challenge",
+              "title": "Gegenprüfungs-Agent zur KDP-Themenvalidierung",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Interne Gegenprüfung",
+              "note": "Unabhängige Challenge des Frameworks, der Profitabilitätslogik und der Übertragbarkeit auf Amazon.de."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensbaustein zur systematischen Sammlung und Bewertung von KDP-Geschäftsmodellen; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kleine-profitable-kdp-nischen",
+            "kdp-200-buecher-umsatz-gewinn",
+            "kdp-250-buecher",
+            "kdp-branding-amazon"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Vier-Tore-Screening brauchbar; BSR- und Review-Schwellen sowie 5.000-Dollar-Claim bleiben unbelegt."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "Ein fünftes Tor für Unit Economics, Rechte und Markttest ist erforderlich; Amazon.de separat prüfen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als allgemeines Validierungsframework in bestehende Nischen- und Katalogthemen einordnen; noch kein neues Thema anlegen."
+            }
+          ]
+        }
+      ]
     }
   ],
   "topics": [
@@ -9182,6 +9773,17 @@
           "videoRevisionIds": [
             "kleine-profitable-kdp-nischen/r5",
             "kdp-200-buecher-umsatz-gewinn/r1"
+          ]
+        },
+        {
+          "id": "t4",
+          "createdAt": "2026-09-25T12:11:00.000Z",
+          "reason": "Vier-Tore-Screening als allgemeine Prüfmethode auf die bisherigen Mal- und Aktivitätsbuch-Nischen angewendet.",
+          "summary": "Die bisherigen Nischenhypothesen werden künftig einheitlich durch vier Tore geprüft: mehrere Nachfrageindikatoren, tatsächlich relevante Konkurrenz auf der Ergebnisseite, klare Suchintention und eine sichtbare kaufentscheidende Mechanik. BSR-Momentaufnahmen und fixe Review-Schwellen sind keine Profitabilitätsbelege. Ein fünftes Tor erfasst Verkaufspreis, Royalty, Druckkosten, Werbung, Produktionsaufwand, Rechte und Markttest. Keine der bisherigen Nischen wird dadurch automatisch bestätigt oder neu gerankt; Amazon.de und deutschsprachige Suchbegriffe bleiben separat zu prüfen.",
+          "videoRevisionIds": [
+            "kdp-profitable-book-topics/r1",
+            "kleine-profitable-kdp-nischen/r8",
+            "kdp-200-buecher-umsatz-gewinn/r4"
           ]
         }
       ]
@@ -9318,6 +9920,17 @@
             "kdp-250-buecher/r1",
             "kdp-branding-amazon/r4",
             "kdp-bild-video-reviews/r2"
+          ]
+        },
+        {
+          "id": "t6",
+          "createdAt": "2026-09-25T12:10:00.000Z",
+          "reason": "Allgemeines Vier-Tore-Modell als vorgelagerten Markt- und Themenfilter für den Katalogaufbau ergänzt.",
+          "summary": "Vor Brand- und Katalogaufbau steht nun ein klarer Markteintrittsfilter: Nachfrage, relevante Konkurrenz, Suchintention und sichtbare Differenzierung prüfen. BSR und Reviewzahlen dienen nur als relative Proxys im gleichen Markt, Format und Zeitraum; fixe Grenzwerte sind keine Freigabe. Ein fünftes Tor ergänzt Royalty, Druckkosten, Werbung, Produktionsaufwand, Rechte und einen kleinen Markttest. Nach dem Start bleiben Reihenlogik, Cross-Selling, Funnel-Daten und Deckungsbeitrag die entscheidenden Lernachsen. US-Signale und Creator-Einkommensclaims werden nicht auf Amazon.de übertragen.",
+          "videoRevisionIds": [
+            "kdp-profitable-book-topics/r1",
+            "kdp-branding-amazon/r5",
+            "kdp-250-buecher/r2"
           ]
         }
       ]
