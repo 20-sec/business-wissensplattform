@@ -3385,6 +3385,96 @@
               "conclusion": "Fallstudienbewertung bleibt bestehen; Vorauswahlprozess ergänzt."
             }
           ]
+        },
+        {
+          "id": "r5",
+          "createdAt": "2026-09-25T15:35:00.000Z",
+          "previousId": "r4",
+          "reason": "KDP-Neustart-Analyse auf Überschneidungen geprüft; vorhandenes Urteil bleibt bestehen, Prozess- und Portfolio-Logik wird bestätigt.",
+          "methodVersion": "1.0",
+          "assessment": "Das neue Screening ergänzt die 200-Bücher-Fallstudie vor der Produktion: Markt- und Suchsignale helfen bei der Themenauswahl. Für die wirtschaftliche Bewertung bleiben interne KDP-Berichte, Werbekosten, Formatmix und Deckungsbeitrag jedoch stärker als externe BSR-Schätzungen. Die Fallstudienzahlen werden durch das Framework weder bestätigt noch ersetzt. Die neue KDP-Neustart-Analyse bestätigt diese Prozess- und Lernlogik, liefert jedoch keinen unabhängigen Beleg für Profitabilität oder konkrete Zeit-, Budget-, BSR- und Ertragswerte. Daher bleibt die bisherige Bewertung unverändert.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Markt-Screening kann die Themenauswahl verbessern, ersetzt aber keine internen Umsatz-, Werbe- und Kostendaten.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "BSR ist laut Amazon ein relativer Einblick und nicht für exaktes Aktivitätstracking gedacht; echte Wirtschaftlichkeit benötigt Royalty- und Kostendaten.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-bsr",
+                "kdp-royalties"
+              ],
+              "location": "Vergleich von Vorauswahl und KDP-Fallstudiendaten",
+              "scope": "Externe Proxys für Screening, interne Reports für die nachgelagerte Wirtschaftsbewertung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "Profitable Buchthemen auf Amazon KDP finden",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-profitable-book-topics/",
+              "accessedAt": "2026-09-25T12:06:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Allgemeines KDP-Markt-Screening vor Produktion."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T12:06:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "BSR ist relativ und kein exaktes Aktivitätstracking."
+            },
+            {
+              "id": "kdp-royalties",
+              "title": "Amazon KDP – Paperback Royalty",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+              "accessedAt": "2026-09-25T12:06:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Royalty- und Druckkostenlogik als Teil der Wirtschaftsbewertung."
+            },
+            {
+              "id": "kdp-neustart-video",
+              "title": "Wenn ich heute bei null anfangen müsste: So würde ich 2027 mit Büchern Geld verdienen",
+              "url": "https://www.youtube.com/watch?v=gxZq5izZDCg",
+              "accessedAt": "2026-09-25T15:35:00.000Z",
+              "originGroup": "Nomad Publishing / neues Vergleichsvideo",
+              "note": "Vergleichsquelle zur Marktprüfung, Qualitätsproduktion, Werbung und Portfolio-Lernschleife; keine unabhängige Bestätigung der früheren Creator-Zahlen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics",
+            "kdp-neustart-2027"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Externe BSR-Signale können interne KDP-Berichte nicht ersetzen."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "Screening und Vollkostenrechnung müssen getrennt bleiben."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Fallstudienbewertung bleibt bestehen; Vorauswahlprozess ergänzt."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex – Vergleich 2026-09-25",
+              "conclusion": "Neue Analyse bestätigt den Prozessrahmen, ändert aber das Evidenzurteil der bestehenden Analyse nicht."
+            }
+          ]
         }
       ]
     },
@@ -7338,6 +7428,87 @@
               "conclusion": "Branding-Bewertung bleibt bestehen und erhält einen klareren Vorauswahl-Schritt."
             }
           ]
+        },
+        {
+          "id": "r6",
+          "createdAt": "2026-09-25T15:35:00.000Z",
+          "previousId": "r5",
+          "reason": "KDP-Neustart-Analyse auf Überschneidungen geprüft; vorhandenes Urteil bleibt bestehen, Prozess- und Portfolio-Logik wird bestätigt.",
+          "methodVersion": "1.0",
+          "assessment": "Das neue Framework ergänzt den KDP-Brand- und Katalogaufbau sinnvoll vor dem ersten Titel: Nachfrage, relevante Konkurrenz, Suchintention und Mechanik filtern schwache Themen aus. Nach dem Markteintritt gelten weiterhin die bisherigen Kriterien zu Reihenlogik, Cross-Selling, Ads, Produktseiten und Deckungsbeitrag. Ein gutes Keyword oder Versprechen allein begründet noch keine tragfähige Marke. Die neue KDP-Neustart-Analyse bestätigt diese Prozess- und Lernlogik, liefert jedoch keinen unabhängigen Beleg für Profitabilität oder konkrete Zeit-, Budget-, BSR- und Ertragswerte. Daher bleibt die bisherige Bewertung unverändert.",
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Das Vier-Tore-Modell ist ein sinnvoller Markteintrittsfilter vor dem Aufbau eines KDP-Katalogs.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die Prüftore strukturieren Markt- und Positionierungssignale; die anschließende Katalog- und Wirtschaftsbewertung bleibt ein eigener Schritt.",
+              "sourceIds": [
+                "new-analysis",
+                "amazon-keywords"
+              ],
+              "location": "Vergleich mit Brand-, Reihen- und Kataloglogik",
+              "scope": "Vorauswahl vor Produktion; keine Bestätigung von Markenprofitabilität."
+            }
+          ],
+          "sources": [
+            {
+              "id": "new-analysis",
+              "title": "Profitable Buchthemen auf Amazon KDP finden",
+              "url": "https://20-sec.github.io/business-wissensplattform/analysen/kdp-profitable-book-topics/",
+              "accessedAt": "2026-09-25T12:07:00.000Z",
+              "originGroup": "Verknüpfte Plattformanalyse",
+              "note": "Vier-Tore-Modell als Markteintrittsfilter."
+            },
+            {
+              "id": "amazon-keywords",
+              "title": "Amazon KDP – Make Your Book More Discoverable with Keywords",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201298500",
+              "accessedAt": "2026-09-25T12:07:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Suchbegriffen und Relevanz aus Kundensicht."
+            },
+            {
+              "id": "kdp-neustart-video",
+              "title": "Wenn ich heute bei null anfangen müsste: So würde ich 2027 mit Büchern Geld verdienen",
+              "url": "https://www.youtube.com/watch?v=gxZq5izZDCg",
+              "accessedAt": "2026-09-25T15:35:00.000Z",
+              "originGroup": "Nomad Publishing / neues Vergleichsvideo",
+              "note": "Vergleichsquelle zur Marktprüfung, Qualitätsproduktion, Werbung und Portfolio-Lernschleife; keine unabhängige Bestätigung der früheren Creator-Zahlen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensverdichtung; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics",
+            "kdp-neustart-2027"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Screening ergänzt Katalogaufbau als vorgeschalteten Markteintrittsfilter."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "Ein gutes Keyword und eine Mechanik beweisen noch keine Brand- oder Katalogprofitabilität."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Branding-Bewertung bleibt bestehen und erhält einen klareren Vorauswahl-Schritt."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex – Vergleich 2026-09-25",
+              "conclusion": "Neue Analyse bestätigt den Prozessrahmen, ändert aber das Evidenzurteil der bestehenden Analyse nicht."
+            }
+          ]
         }
       ]
     },
@@ -8840,6 +9011,287 @@
               "conclusion": "Als Revision desselben Videos mit zweiter unveränderter Originalfassung speichern; Analysezahl bleibt unverändert."
             }
           ]
+        },
+        {
+          "id": "r4",
+          "createdAt": "2026-09-25T15:35:00.000Z",
+          "previousId": "r3",
+          "reason": "KDP-Neustart-Analyse auf Überschneidungen geprüft; vorhandenes Urteil bleibt bestehen, Prozess- und Portfolio-Logik wird bestätigt.",
+          "methodVersion": "1.0",
+          "assessment": "Die zweite redaktionelle Fassung verbessert die operative Darstellung des bereits gespeicherten Videos, erhöht aber nicht die Evidenz. Besonders nützlich sind vorab definierte Abbruchkriterien, die getrennte Betrachtung von Sichtbarkeit, Klick, Kauf und Rückgabe sowie die Drei-Monate-Abwesenheitsprobe. Titel und Cover sind ein wichtiger erster Verkaufsmoment. Kundenverhalten ersetzt relevante Keywords und Metadaten jedoch nicht; Amazon veröffentlicht keine vollständige Gewichtung. Der Funnel liefert Diagnosehypothesen, keine eindeutigen Ursachen. Low-Content kann Lernzyklen verkürzen, besitzt aber Plattform- und Differenzierungsgrenzen. Prozesse, Rechte, Dateien und Marke können assetähnlich sein, während der KDP-Account wegen Transfer-, Ads-, Report- und A+-Grenzen kein frei portables Asset ist. Alle Umsatz- und Erfolgszahlen bleiben unbestätigte Aussagen derselben Quelle. Die neue KDP-Neustart-Analyse bestätigt diese Prozess- und Lernlogik, liefert jedoch keinen unabhängigen Beleg für Profitabilität oder konkrete Zeit-, Budget-, BSR- und Ertragswerte. Daher bleibt die bisherige Bewertung unverändert.",
+          "keyFacts": [
+            {
+              "label": "Titel und Cover sind der erste Verkaufsmoment",
+              "fact": "Amazon zeigt Cover als Thumbnail in Suche und Empfehlungen; der Titel ist ein zentrales Suchattribut. Gute Verpackung unterstützt Aufmerksamkeit und Passung, garantiert aber keine Conversion.",
+              "implication": "Titel und Cover als gemeinsame Hypothese testen und anschließend Klick- sowie Kaufsignale getrennt auswerten.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-marketing"
+              ]
+            },
+            {
+              "label": "Abbruchkriterien vorher festlegen",
+              "fact": "Testdauer, Budget, Verlustlimit und Erfolgssignale sind eine sinnvolle Managementregel. Amazon gibt dafür keine universellen Schwellen vor.",
+              "implication": "Stop- und Ausbaukriterien vor dem Test aus Deckungsbeitrag, Budget und gewünschtem Lernwert ableiten.",
+              "sourceIds": [
+                "original-v2",
+                "amazon-ads-testing"
+              ]
+            },
+            {
+              "label": "Funnel liefert Hypothesen",
+              "fact": "Impressionen, Klicks, Verkäufe und Rückerstattungen sind getrennt messbar. Eine schwache Stufe beweist jedoch nicht automatisch eine einzelne Ursache.",
+              "implication": "Pro Funnelstufe mehrere Ursachen testen und Cover, Preis, Suchpassung, Produktseite sowie Inhalt nicht vorschnell gleichsetzen.",
+              "sourceIds": [
+                "amazon-ads-reporting",
+                "kdp-orders"
+              ]
+            },
+            {
+              "label": "Kundenverhalten ergänzt Keywords",
+              "fact": "Amazon nennt Verkaufshistorie und Popularität ebenso wie relevante Keywords, Metadaten und Suchpassung. Eine Rangfolge oder vollständige Gewichtung wird nicht veröffentlicht.",
+              "implication": "Metadaten sauber halten und reale Leistungsdaten nutzen; die beiden Signalgruppen nicht gegeneinander ausspielen.",
+              "sourceIds": [
+                "kdp-keywords",
+                "kdp-search"
+              ]
+            },
+            {
+              "label": "KDP ist nur bedingt ein portables Asset",
+              "fact": "Marke, Rechte, Dateien und Prozesse können Personenabhängigkeit senken. Bücher, Reports, Ads und A+ Content lassen sich zwischen KDP-Konten jedoch nicht reibungslos übertragen.",
+              "implication": "Die Abwesenheitsprobe für Operations nutzen, Verkaufsfähigkeit und Kontenübertragbarkeit aber separat prüfen.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-account"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Verpackung testen",
+              "text": "Titel und Cover sind der erste Verkaufsmoment, aber erst Klick- und Kaufsignale zeigen ihre tatsächliche Wirkung."
+            },
+            {
+              "label": "Stop-Regeln festlegen",
+              "text": "Dauer, Budget, Verlustlimit und Erfolgssignal gehören vor den Test; allgemeine Amazon-Grenzwerte gibt es nicht."
+            },
+            {
+              "label": "Funnel vorsichtig lesen",
+              "text": "Sichtbarkeit, Klick, Kauf und Rückgabe sind Diagnoseachsen; ihre Ursachen müssen jeweils getestet werden."
+            },
+            {
+              "label": "Keywords bleiben relevant",
+              "text": "Kundenverhalten, Verkaufshistorie, Keywords, Metadaten und Suchpassung wirken zusammen; die Gewichtung ist unbekannt."
+            },
+            {
+              "label": "Asset-These begrenzen",
+              "text": "Prozesse und Rechte können assetähnlich sein, der KDP-Account samt Reports, Ads und A+ Content ist nicht frei portabel."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Titel und Cover bilden im Amazon-Kontext den ersten sichtbaren Verkaufsmoment.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "KDP beschreibt das Cover als Thumbnail in Suche und Empfehlungen und den Titel als wichtiges Suchattribut. Eine automatische Conversion folgt daraus nicht.",
+              "sourceIds": [
+                "kdp-marketing",
+                "kdp-metadata"
+              ],
+              "location": "Lektion 2: Titel und Cover sind die Anzeige",
+              "scope": "Funktion und Sichtbarkeit sind gestützt; Wirkung muss je Angebot gemessen werden."
+            },
+            {
+              "id": "c2",
+              "text": "Vorab definierte Testdauer, Budgets und Abbruchkriterien verbessern die Lernlogik.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Amazon Ads unterstützt Budgets, Laufzeiten und Leistungsbeobachtung. Universelle Erfolgs- oder Verlustschwellen existieren nicht und müssen aus den eigenen Unit Economics entstehen.",
+              "sourceIds": [
+                "original-v2",
+                "amazon-ads-testing"
+              ],
+              "location": "Lektion 3: Abbruchkriterien",
+              "scope": "Managementpraxis, keine offizielle KDP-Erfolgsregel."
+            },
+            {
+              "id": "c3",
+              "text": "Sichtbarkeit, Klicks, Käufe und Rückgaben bilden nützliche Diagnoseachsen.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Ads- und KDP-Berichte bilden diese Größen teilweise getrennt ab. Die im Video zugeordneten Ursachen sind jedoch nur Hypothesen und organisch nicht vollständig messbar.",
+              "sourceIds": [
+                "amazon-ads-reporting",
+                "kdp-orders",
+                "original-v2"
+              ],
+              "location": "Diagnose-Logik",
+              "scope": "Messbare Stufen, aber keine eindeutige Kausaldiagnose."
+            },
+            {
+              "id": "c4",
+              "text": "Kundenverhalten schlägt Keywords und macht Metadaten zweitrangig.",
+              "importance": 3,
+              "status": "widerlegt",
+              "rationale": "Amazon nennt relevante Keywords und Metadaten zusammen mit Verkaufshistorie, Popularität und weiteren Faktoren. Eine Rangfolge zugunsten einer Signalgruppe ist nicht veröffentlicht.",
+              "sourceIds": [
+                "kdp-keywords",
+                "kdp-search"
+              ],
+              "location": "Lektion 4: Kundenverhalten schlägt Keyword-Obsession",
+              "scope": "Die Keyword-Obsession ist sinnvoll zu relativieren; Keywords selbst bleiben relevant."
+            },
+            {
+              "id": "c5",
+              "text": "Low-Content ermöglicht schnellere und dauerhaft verteidigbare Markttests.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Einfachere Formate können Produktionszyklen verkürzen. KDP nennt jedoch Einschränkungen und grenzt Puzzle-, Activity- und Malbücher meist von Low-Content ab; Marktnachfrage und Verteidigbarkeit folgen nicht aus dem Format.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-low-content"
+              ],
+              "location": "Lektion 8: schnellstes Lernen",
+              "scope": "Produktionsgeschwindigkeit ist nicht gleich Marktvalidierung oder Wettbewerbsvorteil."
+            },
+            {
+              "id": "c6",
+              "text": "Ein dokumentierter KDP-Betrieb ist ein frei übertragbares und weitgehend personenunabhängiges Asset.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Prozesse, Marke, Dateien und Rechte können Personenabhängigkeit senken. KDP-Konten, einzelne Bücher, Reports, Ads und A+ Content besitzen jedoch erhebliche Übertragungsgrenzen.",
+              "sourceIds": [
+                "original-v2",
+                "kdp-account"
+              ],
+              "location": "Lektion 7 und Drei-Monate-Abwesenheitsprobe",
+              "scope": "Assetähnliche Bausteine ja; reibungslos portables Gesamtgeschäft nein."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original-v2",
+              "title": "Acht Lektionen aus 250 Büchern – zweite Analysefassung",
+              "url": "https://www.youtube.com/watch?v=9ZoUYTutH6E",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Dasselbe Originalvideo und zweite redaktionelle HTML-Fassung",
+              "note": "Keine neue unabhängige Quelle; präzisere Darstellung derselben acht Lektionen."
+            },
+            {
+              "id": "kdp-marketing",
+              "title": "Amazon KDP – Ways to Promote Your Book",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200673650",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur Darstellung des Covers und zu Vermarktungsflächen."
+            },
+            {
+              "id": "kdp-metadata",
+              "title": "Amazon KDP – Metadata Guidelines",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201097560",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Titel, Cover, Metadaten und Series Pages."
+            },
+            {
+              "id": "amazon-ads-testing",
+              "title": "Amazon Ads – Sponsored Products Best Practices",
+              "url": "https://advertising.amazon.com/library/guides/sponsored-products-best-practices",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon Ads",
+              "note": "Primärquelle zu Budgets, Laufzeiten, Leistungsbeobachtung und Optimierung."
+            },
+            {
+              "id": "amazon-ads-reporting",
+              "title": "Amazon Ads – Book Advertising Reporting",
+              "url": "https://advertising.amazon.com/library/guides/book-advertising-reporting",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon Ads",
+              "note": "Primärquelle zu Impressionen, Klicks, Verkäufen und Berichten im Anzeigenkontext."
+            },
+            {
+              "id": "kdp-orders",
+              "title": "Amazon KDP – Orders Report",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201488550",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Bestellungen, Rückerstattungen und Net Units Sold."
+            },
+            {
+              "id": "kdp-keywords",
+              "title": "Amazon KDP – Make Your Book More Discoverable with Keywords",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201298500",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur fortbestehenden Bedeutung relevanter Keywords."
+            },
+            {
+              "id": "kdp-search",
+              "title": "Amazon KDP – Search Results",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GATLM5TG2NFRXQ89",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Verkaufshistorie, Verfügbarkeit, Alter und Popularität in der Suche."
+            },
+            {
+              "id": "kdp-low-content",
+              "title": "Amazon KDP – Low-Content Books",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GGE5T76TWKA85DJM",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur Definition und zu Einschränkungen von Low-Content-Büchern."
+            },
+            {
+              "id": "kdp-account",
+              "title": "Amazon KDP – Merge Accounts",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200634350",
+              "accessedAt": "2026-09-25T13:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Kontenzusammenführung und nicht übertragenen Reports, Ads, Zahlungen und A+ Content."
+            },
+            {
+              "id": "kdp-neustart-video",
+              "title": "Wenn ich heute bei null anfangen müsste: So würde ich 2027 mit Büchern Geld verdienen",
+              "url": "https://www.youtube.com/watch?v=gxZq5izZDCg",
+              "accessedAt": "2026-09-25T15:35:00.000Z",
+              "originGroup": "Nomad Publishing / neues Vergleichsvideo",
+              "note": "Vergleichsquelle zur Marktprüfung, Qualitätsproduktion, Werbung und Portfolio-Lernschleife; keine unabhängige Bestätigung der früheren Creator-Zahlen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Zweite Fassung eines vorhandenen Wissensbausteins; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics",
+            "kdp-branding-amazon",
+            "kdp-neustart-2027"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_250_v2_recherche",
+              "conclusion": "Neue Fassung präzisiert Packaging, Stop-Regeln, Funnel und Asset-Test, liefert aber keine neue unabhängige Evidenz."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_250_v2_challenge",
+              "conclusion": "Keywords bleiben relevant; Funnel, Low-Content und Asset-Portabilität müssen enger begrenzt werden."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als Revision desselben Videos mit zweiter unveränderter Originalfassung speichern; Analysezahl bleibt unverändert."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex – Vergleich 2026-09-25",
+              "conclusion": "Neue Analyse bestätigt den Prozessrahmen, ändert aber das Evidenzurteil der bestehenden Analyse nicht."
+            }
+          ]
         }
       ]
     },
@@ -10007,6 +10459,634 @@
               "conclusion": "Als allgemeines Validierungsframework in bestehende Nischen- und Katalogthemen einordnen; noch kein neues Thema anlegen."
             }
           ]
+        },
+        {
+          "id": "r2",
+          "createdAt": "2026-09-25T15:35:00.000Z",
+          "previousId": "r1",
+          "reason": "KDP-Neustart-Analyse auf Überschneidungen geprüft; vorhandenes Urteil bleibt bestehen, Prozess- und Portfolio-Logik wird bestätigt.",
+          "methodVersion": "1.0",
+          "assessment": "Das Vier-Tore-Modell aus Nachfrage, Wettbewerb, Suchintention und Differenzierung ist ein starkes Verfahren zur Vorauswahl von Buchthemen. Es beweist jedoch keine Profitabilität. BSR ist ein relativer, dynamischer Aktivitätsindikator; die Schwellen 30.000 BSR sowie 250 oder 500–700 Reviews sind unbelegte Creator-Heuristiken. Der belastbarste Teil ist die Verbindung aus relevanter Suchintention und einer sichtbaren, kaufentscheidenden Mechanik. Für eine Geschäftsentscheidung braucht das Modell ein fünftes Tor: Unit Economics mit Royalty, Druckkosten, Werbung, Produktionsaufwand und Markttest. Der 5.000-Dollar-Claim bleibt unbelegt, und US-Signale müssen für Amazon.de neu geprüft werden. Die neue KDP-Neustart-Analyse bestätigt diese Prozess- und Lernlogik, liefert jedoch keinen unabhängigen Beleg für Profitabilität oder konkrete Zeit-, Budget-, BSR- und Ertragswerte. Daher bleibt die bisherige Bewertung unverändert.",
+          "keyFacts": [
+            {
+              "label": "Vier Tore filtern Ideen",
+              "fact": "Nachfrage, Wettbewerb, Suchintention und Differenzierung bilden ein schlüssiges Screening vor der Produktion, liefern aber noch keinen Profitabilitätsnachweis.",
+              "implication": "Das Modell für die Vorauswahl nutzen und erst nach einem fünften Wirtschaftscheck produzieren.",
+              "sourceIds": [
+                "original",
+                "research"
+              ]
+            },
+            {
+              "label": "BSR ist kein Umsatzmesser",
+              "fact": "Amazon beschreibt den BSR als relativen Rang aus aktueller und historischer Kundenaktivität. Er kann sich trotz gleicher eigener Aktivität verändern und ist format- sowie kategorieabhängig.",
+              "implication": "Mehrere Titel und BSR-Verläufe im selben Marktplatz und Format beobachten; Momentaufnahmen nicht in Verkäufe umrechnen.",
+              "sourceIds": [
+                "amazon-bsr"
+              ]
+            },
+            {
+              "label": "Grenzwerte sind Heuristiken",
+              "fact": "Für 30.000 BSR sowie 250 oder 500–700 Reviews gibt es keine Amazon-Regel. Reviewzahlen hängen unter anderem von Alter, Verkäufen, Markt und Reichweite ab.",
+              "implication": "Schwellen nur relativ zur konkreten Ergebnisseite lesen und kein automatisches Go oder No-Go daraus ableiten.",
+              "sourceIds": [
+                "original",
+                "research",
+                "challenge"
+              ]
+            },
+            {
+              "label": "Suchpassung plus Mechanik zählt",
+              "fact": "Relevante kaufende Alternativen sind aussagekräftiger als die rohe Trefferzahl. Eine sichtbare Mechanik differenziert nur, wenn sie ein echtes Käuferproblem löst und wahr formuliert ist.",
+              "implication": "Top-Ergebnisse nach Suchpassung und Angebot zerlegen; Mechanik an Rezensionseinwänden und realen Suchdaten prüfen.",
+              "sourceIds": [
+                "amazon-keywords",
+                "amazon-search",
+                "original"
+              ]
+            },
+            {
+              "label": "Das fünfte Tor ist Wirtschaftlichkeit",
+              "fact": "Der 5.000-Dollar-Claim ist nicht unabhängig belegt. Royalty, Druckkosten, CPC, Conversion, Produktionsaufwand und Rechte fehlen im Vier-Tore-Modell.",
+              "implication": "Vor einer positiven Entscheidung Mini-P&L, Break-even-CAC und einen kleinen Markttest ergänzen; Amazon.de separat prüfen.",
+              "sourceIds": [
+                "original",
+                "kdp-royalties",
+                "kdp-ads",
+                "challenge"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Gutes Screening",
+              "text": "Die vier Tore sortieren Ideen sinnvoll vor der Produktion, beweisen aber noch keine Profitabilität."
+            },
+            {
+              "label": "BSR relativ lesen",
+              "text": "BSR zeigt relative Verkaufsaktivität und schwankt mit Markt, Konkurrenz, Zeitraum, Kategorie und Format."
+            },
+            {
+              "label": "Schwellen relativieren",
+              "text": "30.000 BSR und feste Review-Grenzen sind Creator-Heuristiken ohne offizielle Amazon-Grundlage."
+            },
+            {
+              "label": "Käuferproblem prüfen",
+              "text": "Suchpassung und eine echte, sichtbare Lösungsmechanik sind stärker als rohe Trefferzahlen."
+            },
+            {
+              "label": "Mini-P&L ergänzen",
+              "text": "Royalty, Druck, Ads, Produktion, Rechte und ein Markttest entscheiden über Wirtschaftlichkeit – auch separat auf Amazon.de."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Nachfrage, Wettbewerb, Suchintention und Differenzierung sind sinnvolle Prüftore vor der Buchproduktion.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Das Framework trennt mehrere relevante Marktsignale und passt zu Amazons Hinweisen auf Suchrelevanz, Keywords und dynamische Ergebnislisten.",
+              "sourceIds": [
+                "original",
+                "amazon-keywords",
+                "amazon-search"
+              ],
+              "location": "Executive Summary und Vier-Kräfte-Modell",
+              "scope": "Screening und Hypothesenbildung; kein Profitabilitätsnachweis."
+            },
+            {
+              "id": "c2",
+              "text": "Ein BSR von höchstens 30.000 ist ein universeller Nachweis ausreichender Nachfrage.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Amazon definiert keine solche Schwelle. BSR ist relativ, zeitabhängig, format- und kategoriebezogen und nicht für exaktes Aktivitätstracking gedacht.",
+              "sourceIds": [
+                "original",
+                "amazon-bsr",
+                "research"
+              ],
+              "location": "Prüfschritt Nachfrage",
+              "scope": "Als grober Filter im gleichen Markt und Format nutzbar; nicht als universelle Absatzgrenze."
+            },
+            {
+              "id": "c3",
+              "text": "250 beziehungsweise 500–700 Reviews bilden belastbare Wettbewerbsgrenzen.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Amazon nennt keine magischen Review-Schwellen. Reviewzahl ist kumulativ und von Buchalter, Verkäufen, Genre, Markt und Reichweite abhängig.",
+              "sourceIds": [
+                "original",
+                "research",
+                "challenge"
+              ],
+              "location": "Prüfschritt Wettbewerb",
+              "scope": "Nur als relativer Vergleich innerhalb derselben Ergebnisseite verwenden."
+            },
+            {
+              "id": "c4",
+              "text": "Relevante Titel auf den sichtbaren Suchpositionen sind aussagekräftiger als die Gesamtzahl der Suchtreffer.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Amazon beschreibt Suchergebnisse als dynamisch und von Relevanz sowie weiteren Aktivitätssignalen beeinflusst; die rohe Trefferzahl misst keine kaufende Konkurrenz.",
+              "sourceIds": [
+                "amazon-search",
+                "amazon-keywords"
+              ],
+              "location": "Wettbewerb und Suchintention",
+              "scope": "Ergebnisse im korrekten Buchbereich, Marktplatz und Format prüfen, einschließlich Anzeigen."
+            },
+            {
+              "id": "c5",
+              "text": "Eine konkrete Mechanik kann ein Buchangebot sichtbar differenzieren.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Ein klares Wie kann Positionierung und Verständlichkeit verbessern; ob es kaufentscheidend ist, muss mit Leserproblemen, Rezensionen, Such- und Testdaten geprüft werden.",
+              "sourceIds": [
+                "original",
+                "amazon-keywords",
+                "challenge"
+              ],
+              "location": "Differenzierung und Mechanik",
+              "scope": "Keine kosmetische Mikro-Nische oder unbelegtes Ergebnisversprechen."
+            },
+            {
+              "id": "c6",
+              "text": "Das Framework belegt ein Potenzial von mindestens 5.000 US-Dollar pro Monat.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Es fehlen auditierbare ASINs, Zeitreihen und eine Vollkostenrechnung. Umsatz wäre zudem nicht mit Gewinn gleichzusetzen.",
+              "sourceIds": [
+                "original",
+                "kdp-royalties",
+                "kdp-ads",
+                "challenge"
+              ],
+              "location": "Videotitel und Einkommensbeispiele",
+              "scope": "Marketingclaim des Creators, kein Ergebnis der Gegenprüfung."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original",
+              "title": "How to Find Profitable Book Topics on Amazon ($5k/month+)",
+              "url": "https://www.youtube.com/watch?v=WrVcnCBuWL8",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Originalvideo und eingereichte Analyse",
+              "note": "Quelle des Vier-Tore-Modells, der Grenzwerte, Toolnennungen und des Einkommensclaims."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur relativen, dynamischen und formatbezogenen Bedeutung des Best Seller Rank."
+            },
+            {
+              "id": "amazon-keywords",
+              "title": "Amazon KDP – Make Your Book More Discoverable with Keywords",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201298500",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu relevanten Suchbegriffen, Kundensprache und Keyword-Prüfung."
+            },
+            {
+              "id": "amazon-search",
+              "title": "Amazon KDP – Search Results",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GPYDJ3SECAVVPNVG",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu dynamischen Suchergebnissen, Relevanz und fehlender Positionsgarantie."
+            },
+            {
+              "id": "kdp-royalties",
+              "title": "Amazon KDP – Paperback Royalty",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201834330",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle für Royalty-Logik und Druckkosten als notwendige Unit-Economics-Bestandteile."
+            },
+            {
+              "id": "kdp-ads",
+              "title": "Amazon KDP – Advertising for KDP Books",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201499010",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu CPC-basierten Anzeigen als möglichem Kostenbestandteil."
+            },
+            {
+              "id": "research",
+              "title": "Recherche-Agent zur KDP-Themenvalidierung",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Interne Gegenrecherche",
+              "note": "Unabhängige Recherche zu BSR, Review-Schwellen, Suchintention, BookBeam und betroffenen Wissensständen."
+            },
+            {
+              "id": "challenge",
+              "title": "Gegenprüfungs-Agent zur KDP-Themenvalidierung",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-25T12:00:00.000Z",
+              "originGroup": "Interne Gegenprüfung",
+              "note": "Unabhängige Challenge des Frameworks, der Profitabilitätslogik und der Übertragbarkeit auf Amazon.de."
+            },
+            {
+              "id": "kdp-neustart-video",
+              "title": "Wenn ich heute bei null anfangen müsste: So würde ich 2027 mit Büchern Geld verdienen",
+              "url": "https://www.youtube.com/watch?v=gxZq5izZDCg",
+              "accessedAt": "2026-09-25T15:35:00.000Z",
+              "originGroup": "Nomad Publishing / neues Vergleichsvideo",
+              "note": "Vergleichsquelle zur Marktprüfung, Qualitätsproduktion, Werbung und Portfolio-Lernschleife; keine unabhängige Bestätigung der früheren Creator-Zahlen."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensbaustein zur systematischen Sammlung und Bewertung von KDP-Geschäftsmodellen; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kleine-profitable-kdp-nischen",
+            "kdp-200-buecher-umsatz-gewinn",
+            "kdp-250-buecher",
+            "kdp-branding-amazon",
+            "kdp-neustart-2027"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "kdp_topics_recherche",
+              "conclusion": "Vier-Tore-Screening brauchbar; BSR- und Review-Schwellen sowie 5.000-Dollar-Claim bleiben unbelegt."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "kdp_topics_challenge",
+              "conclusion": "Ein fünftes Tor für Unit Economics, Rechte und Markttest ist erforderlich; Amazon.de separat prüfen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als allgemeines Validierungsframework in bestehende Nischen- und Katalogthemen einordnen; noch kein neues Thema anlegen."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex – Vergleich 2026-09-25",
+              "conclusion": "Neue Analyse bestätigt den Prozessrahmen, ändert aber das Evidenzurteil der bestehenden Analyse nicht."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "kdp-neustart-2027",
+      "title": "KDP-Neustart 2027: Vom Markttest zum Buchportfolio",
+      "sourceUrl": "https://www.youtube.com/watch?v=gxZq5izZDCg",
+      "channel": "Nomad Publishing",
+      "publishedAt": null,
+      "importedAt": "2026-09-25T09:18:53.320Z",
+      "categories": [
+        "KDP-Buchbusiness"
+      ],
+      "sections": [
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Strategie"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Produktion"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Marketing"
+        },
+        {
+          "category": "KDP-Buchbusiness",
+          "section": "Konkrete Anleitungen"
+        }
+      ],
+      "tags": [
+        "KDP-Neustart",
+        "KDP-Marktprüfung",
+        "Ratgeber",
+        "KI-Workflow",
+        "Amazon Ads",
+        "BSR",
+        "Unit Economics",
+        "Portfolioaufbau",
+        "90-Tage-Plan"
+      ],
+      "summary": "Ein nebenberuflicher KDP-Prozess von Marktprüfung und problemlösendem Ratgeber über Qualitätsworkflow, Listing und Werbung bis zum zweiten Titel. Als Lernsystem schlüssig; BSR-, Zeit-, Budget- und Ertragsangaben bleiben Heuristiken.",
+      "originalHash": "18600f66b15cfdc408fa5bf7125fe0fb6fbfb11c1b5bb328d157adf14fc354b7",
+      "originalFilename": "gxZq5izZDCg_kdp_analyse.html",
+      "sourceAssessment": "Die Originalanalyse bewertet den Ablauf als machbar, aber nicht passiv. Sie stärkt Nachfrageprüfung, Qualität, Conversion-Daten und Portfolio-Lernen, relativiert jedoch die BSR-Formel sowie die Annahme, ein einzelner Titel erzeuge mit überschaubarem Aufwand ausreichende Marge.",
+      "topicIds": [
+        "kdp-brand-und-katalogaufbau"
+      ],
+      "revisions": [
+        {
+          "id": "r1",
+          "createdAt": "2026-09-25T15:30:00.000Z",
+          "previousId": null,
+          "reason": "Fünf Prüfpunkte von Markus bestätigt; Recherche, Gegenprüfung und Katalogvergleich eingearbeitet.",
+          "methodVersion": "1.0",
+          "assessment": "Das Video verdichtet einen sinnvollen KDP-Lernprozess: Markt vor Produktion, klarer Leserbedarf, qualitätsgesicherte Erstellung, conversionfähige Produktseite, kontrollierter Werbetest und Ableitung des nächsten Titels. Die belastbare Stärke liegt in der Reihenfolge und in der Portfolio-Lernlogik. Nicht belastbar sind die konkreten Zeit-, Budget- und Ertragsannahmen sowie die Umrechnung eines BSR unter 15.000 in tägliche Verkäufe. Die 90 Tage sind deshalb als Experiment mit Zeitbudget, Verlustlimit und Entscheidungsregeln zu behandeln. Amazon verlangt keine erste Rezension vor dem Werbestart; sinnvoller Startpunkt sind eine tragfähige Produktseite, bekannte Marge und ein kleines Messbudget. KI kann die Produktion beschleunigen, lässt Verantwortung, Rechteprüfung und gegebenenfalls Offenlegung AI-generierter Inhalte aber beim Publisher. Ein Katalog wird erst dann wirtschaftlich stärker, wenn Titel thematisch zusammenpassen und jeder Titel seinen Deckungsbeitrag rechtfertigt.",
+          "keyFacts": [
+            {
+              "label": "Marktprüfung braucht Wirtschaftlichkeit",
+              "fact": "Nachfrage, Konkurrenz, Suchintention und Differenzierung sind sinnvolle Filter. Erst Tantiemen, Druckkosten, Werbung und Produktionsaufwand zeigen, ob daraus ein Business Case wird.",
+              "implication": "Vor der Produktion neben dem Marktscreening eine Mini-P&L und einen Break-even-ACOS festhalten.",
+              "sourceIds": [
+                "original",
+                "amazon-royalties",
+                "amazon-ads",
+                "research",
+                "challenge"
+              ]
+            },
+            {
+              "label": "BSR ist keine Verkaufsformel",
+              "fact": "Amazon beschreibt den BSR als relativen, dynamischen Aktivitätsrang. Die Formel „unter 15.000 gleich zwei Verkäufe täglich“ ist keine offizielle oder stabile Regel.",
+              "implication": "Vergleichbare Titel im selben Marketplace und Format über mehrere Zeitpunkte beobachten und BSR nur als Nachfrage-Proxy nutzen.",
+              "sourceIds": [
+                "original",
+                "amazon-bsr",
+                "research",
+                "challenge"
+              ]
+            },
+            {
+              "label": "90 Tage strukturieren nur das Lernen",
+              "fact": "Für 5–10 Wochenstunden, ein mittleres dreistelliges Budget und Einnahmen nach wenigen Wochen gibt es keinen Plattformbeleg; Auszahlungen folgen Verkäufen zudem zeitversetzt.",
+              "implication": "Verkäufe, Auszahlung und Gewinn getrennt messen und den 90-Tage-Plan mit Zeitbudget, Verlustlimit und Stop-Regeln führen.",
+              "sourceIds": [
+                "original",
+                "amazon-payments",
+                "research",
+                "challenge"
+              ]
+            },
+            {
+              "label": "Qualität ist noch kein Schutz",
+              "fact": "KI kann Entwürfe beschleunigen, während Publisher für Rechte, Richtigkeit und Kundenerfahrung verantwortlich bleiben. Schutz entsteht eher durch Expertise, Marke, Audience und einen kohärenten Katalog.",
+              "implication": "KI-Nutzung dokumentieren, generierte Inhalte korrekt offenlegen und fachliche sowie rechtliche Freigaben getrennt sichern.",
+              "sourceIds": [
+                "original",
+                "amazon-ai",
+                "research",
+                "challenge"
+              ]
+            },
+            {
+              "label": "Buch 1 testet, das Portfolio lernt",
+              "fact": "Mehr Titel erzeugen nur dann einen Portfolioeffekt, wenn die Bücher zusammenpassen und jeder Titel nach Vollkosten bewertet wird. Menge allein belegt keine Profitabilität.",
+              "implication": "Buch 2 nur aus klaren Markt-, Conversion- und Deckungsbeitragssignalen von Buch 1 ableiten.",
+              "sourceIds": [
+                "original",
+                "research",
+                "challenge",
+                "catalog"
+              ]
+            }
+          ],
+          "compactSummary": [
+            {
+              "label": "Wirtschaftlichkeit ergänzen",
+              "text": "Marktsignale sind nur der erste Filter; Tantiemen, Druck, Werbung und Produktionskosten entscheiden über den Business Case."
+            },
+            {
+              "label": "BSR relativ lesen",
+              "text": "Ein Rang unter 15.000 lässt sich nicht verlässlich in zwei tägliche Verkäufe übersetzen."
+            },
+            {
+              "label": "90 Tage als Experiment",
+              "text": "Die Roadmap strukturiert Lernen, garantiert aber weder Verkäufe noch Auszahlung oder Gewinn."
+            },
+            {
+              "label": "Ads ohne Review-Regel",
+              "text": "Eine erste Rezension ist keine Amazon-Voraussetzung; Produktseite, Marge und Messbudget sind die sinnvolleren Startbedingungen."
+            },
+            {
+              "label": "Portfolio gezielt aufbauen",
+              "text": "Buch 2 folgt aus belastbaren Signalen von Buch 1; Titelmenge allein schafft keinen Katalogwert."
+            }
+          ],
+          "claims": [
+            {
+              "id": "c1",
+              "text": "Nachfrageprüfung vor Produktion und ein wiederholbarer Lernprozess senken das Risiko gegenüber einer rein persönlichen Themenwahl.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "Die Aussage ist als Managementprozess plausibel und stimmt mit den bereits geprüften KDP-Marktscreening- und Kataloganalysen überein. Sie garantiert jedoch keinen Markterfolg.",
+              "sourceIds": [
+                "original",
+                "catalog",
+                "research",
+                "challenge"
+              ],
+              "location": "Executive Summary und Entscheidungen 1 bis 7",
+              "scope": "Prozessqualität und Risikoreduktion; kein Profitabilitätsnachweis."
+            },
+            {
+              "id": "c2",
+              "text": "Ein BSR unter 15.000 entspricht ungefähr zwei Verkäufen pro Tag.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Amazon veröffentlicht keine feste Umrechnung. BSR ist relativ, dynamisch, format- und marketplaceabhängig.",
+              "sourceIds": [
+                "original",
+                "amazon-bsr",
+                "research",
+                "challenge"
+              ],
+              "location": "Marktprüfung und Abschnitt „Wo ich widersprechen würde“",
+              "scope": "Allenfalls Creator-Heuristik für ein eng definiertes Vergleichsset."
+            },
+            {
+              "id": "c3",
+              "text": "Ein problemlösender Ratgeber ist wirtschaftlich grundsätzlich stärker als Low- oder No-Content.",
+              "importance": 2,
+              "status": "teilweise gestützt",
+              "rationale": "Ein konkreter Nutzen kann Differenzierung und Preisbereitschaft verbessern. Amazon-Regeln belegen jedoch keinen generellen Profitabilitätsvorteil, und Ratgeber verursachen höhere Qualitäts- und Haftungsanforderungen.",
+              "sourceIds": [
+                "original",
+                "amazon-low-content",
+                "research",
+                "challenge"
+              ],
+              "location": "Entscheidung 2: Problemlösende Bücher",
+              "scope": "Positionierungsthese; je Zielgruppe, Thema und Vollkosten neu prüfen."
+            },
+            {
+              "id": "c4",
+              "text": "KI kann den Produktionsworkflow beschleunigen, ersetzt aber keine menschliche Qualitäts- und Rechteprüfung.",
+              "importance": 3,
+              "status": "gestützt",
+              "rationale": "KDP unterscheidet AI-generierte und AI-assistierte Inhalte, verlangt die Offenlegung generierter Inhalte und belässt die Verantwortung beim Publisher.",
+              "sourceIds": [
+                "original",
+                "amazon-ai",
+                "research"
+              ],
+              "location": "Entscheidung 3: Publisher-Qualität",
+              "scope": "Regelstand am 25. September 2026; fachliche Aussagen benötigen eigene Prüfung."
+            },
+            {
+              "id": "c5",
+              "text": "Amazon Ads sollten erst nach der ersten Rezension gestartet werden.",
+              "importance": 2,
+              "status": "offen",
+              "rationale": "Amazon nennt keine erste Rezension als Voraussetzung und beschreibt Werbung auch für Launch und Post-Launch. Die Empfehlung ist eine mögliche Conversion-Heuristik.",
+              "sourceIds": [
+                "original",
+                "amazon-ads",
+                "research",
+                "challenge"
+              ],
+              "location": "Entscheidung 6 und 90-Tage-Plan",
+              "scope": "Startentscheidung besser an Retail Readiness, Marge und Testdesign knüpfen."
+            },
+            {
+              "id": "c6",
+              "text": "Ein 90-Tage-Plan mit 5–10 Stunden pro Woche und mittlerem dreistelligem Budget kann erste Einnahmen erzeugen.",
+              "importance": 3,
+              "status": "offen",
+              "rationale": "Zeit, Budget und Ergebnis sind nicht unabhängig belegt. Zudem erfolgen KDP-Auszahlungen gewöhnlich etwa 60 Tage nach Monatsende.",
+              "sourceIds": [
+                "original",
+                "amazon-payments",
+                "research",
+                "challenge"
+              ],
+              "location": "Executive Summary und 90-Tage-Plan",
+              "scope": "Projektplan, keine Ergebnisprognose; Verkauf, Auszahlung und Gewinn getrennt betrachten."
+            },
+            {
+              "id": "c7",
+              "text": "Der Aufbau mehrerer aufeinander bezogener Titel verbessert den Lern- und Katalogwert.",
+              "importance": 3,
+              "status": "teilweise gestützt",
+              "rationale": "Mehr Datenpunkte, Cross-Selling und wiederverwendbare Prozesse können den Katalog stärken. Jeder Titel kann zugleich Sunk Costs erzeugen und bleibt dem Amazon-Plattformrisiko ausgesetzt.",
+              "sourceIds": [
+                "original",
+                "catalog",
+                "challenge"
+              ],
+              "location": "Entscheidung 7 und Gesamteinschätzung",
+              "scope": "Nur bei thematischer Kohärenz und positivem oder bewusst begrenztem Deckungsbeitrag."
+            }
+          ],
+          "sources": [
+            {
+              "id": "original",
+              "title": "Wenn ich heute bei null anfangen müsste: So würde ich 2027 mit Büchern Geld verdienen",
+              "url": "https://www.youtube.com/watch?v=gxZq5izZDCg",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Originalvideo und eingereichte Analyse",
+              "note": "Quelle des siebenstufigen Vorgehens, der Zeit-, Budget-, BSR- und 90-Tage-Aussagen."
+            },
+            {
+              "id": "amazon-bsr",
+              "title": "Amazon KDP – Sales Ranking",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G201648140",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur relativen und dynamischen Bedeutung des Best Seller Rank."
+            },
+            {
+              "id": "amazon-low-content",
+              "title": "Amazon KDP – Low-Content Books",
+              "url": "https://kdp.amazon.com/en_US/help/topic/GGE5T76TWKA85DJM",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur Definition und zu Einschränkungen von Low-Content-Büchern."
+            },
+            {
+              "id": "amazon-ai",
+              "title": "Amazon KDP – Content Guidelines",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G200672390",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zur Offenlegung AI-generierter Inhalte und Verantwortung des Publishers."
+            },
+            {
+              "id": "amazon-ads",
+              "title": "Amazon Ads – Sponsored Products guide for authors",
+              "url": "https://advertising.amazon.com/library/guides/authors-guide-to-sponsored-products",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Amazon Ads",
+              "note": "Primärquelle zu möglichen Werbephasen; keine erste Rezension als Startvoraussetzung."
+            },
+            {
+              "id": "amazon-royalties",
+              "title": "Amazon KDP – Paperback Royalty",
+              "url": "https://kdp.amazon.com/de_DE/help/topic/G201834330",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zu Tantiemensatz und Druckkosten auf Amazon.de."
+            },
+            {
+              "id": "amazon-payments",
+              "title": "Amazon KDP – When will I get paid?",
+              "url": "https://kdp.amazon.com/en_US/help/topic/G202187870",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Amazon KDP",
+              "note": "Primärquelle zum üblichen zeitlichen Abstand zwischen Verkaufsmonat und Auszahlung."
+            },
+            {
+              "id": "research",
+              "title": "Recherche-Agent zum KDP-Neustart-Modell",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Interne Gegenrecherche",
+              "note": "Aktuelle Prüfung der BSR-, KI-, Ads-, Zeit-, Budget- und Portfolioaussagen."
+            },
+            {
+              "id": "challenge",
+              "title": "Gegenprüfungs-Agent zum KDP-Neustart-Modell",
+              "url": "https://20-sec.github.io/business-wissensplattform/",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Interne Gegenprüfung",
+              "note": "Unabhängige Challenge der wirtschaftlichen Logik und der Creator-Heuristiken."
+            },
+            {
+              "id": "catalog",
+              "title": "Bestehende KDP-Prüfstände der Wissensplattform",
+              "url": "https://20-sec.github.io/business-wissensplattform/uebersicht/",
+              "accessedAt": "2026-09-25T15:30:00.000Z",
+              "originGroup": "Interne Wissensbasis",
+              "note": "Vergleich mit KDP-Nischenvalidierung, 200-/250-Bücher-Fallstudien und Marken-/Katalogaufbau."
+            }
+          ],
+          "personalRelevance": {
+            "rating": null,
+            "rationale": "Wissensbaustein für die Sammlung und Verdichtung von KDP-Geschäftsmodellen; kein persönlicher Umsetzungsauftrag.",
+            "confirmedByMarkus": true
+          },
+          "questions": [],
+          "relatedVideoIds": [
+            "kdp-profitable-book-topics",
+            "kdp-250-buecher",
+            "kdp-branding-amazon",
+            "kdp-200-buecher-umsatz-gewinn"
+          ],
+          "reviewers": [
+            {
+              "role": "Recherche",
+              "name": "gx_kdp_recherche",
+              "conclusion": "Prozesslogik brauchbar; feste BSR-, Zeit-, Budget- und Einkommensannahmen nicht validiert."
+            },
+            {
+              "role": "Gegenprüfung",
+              "name": "gx_kdp_challenge",
+              "conclusion": "90 Tage als Experiment, Ads nach Retail Readiness und Portfolio nur mit Titel-Deckungsbeiträgen bewerten."
+            },
+            {
+              "role": "Synthese",
+              "name": "Codex",
+              "conclusion": "Als Verdichtung des KDP-Marktscreening- und Katalogsystems speichern; keine neue Kategorie erforderlich."
+            }
+          ]
         }
       ]
     }
@@ -10211,6 +11291,19 @@
             "kdp-250-buecher/r3",
             "kdp-profitable-book-topics/r1",
             "kdp-branding-amazon/r5"
+          ]
+        },
+        {
+          "id": "t8",
+          "createdAt": "2026-09-25T15:40:00.000Z",
+          "reason": "KDP-Neustart-Modell als kompakte 90-Tage-Lernschleife mit wirtschaftlichen Leitplanken ergänzt.",
+          "summary": "Das neue Video verdichtet die vorhandene KDP-Kataloglogik zu einer Abfolge aus Marktscreening, problemlösendem Qualitätsprodukt, conversionfähiger Produktseite, kontrolliertem Werbetest und Ableitung des nächsten Titels. Als Arbeitsprozess ist diese Reihenfolge tragfähig. BSR unter 15.000, 5–10 Wochenstunden, mittleres dreistelliges Budget und erste Einnahmen nach wenigen Wochen bleiben Creator-Heuristiken. Die 90 Tage werden deshalb als Experiment mit Mini-P&L, Zeitbudget, Verlustlimit und Stop-Regeln geführt. Eine erste Rezension ist keine Amazon-Voraussetzung für Ads; Retail Readiness, Marge und Messbudget sind die stärkeren Startbedingungen. Portfolioeffekte zählen nur bei thematischer Kohärenz und titelbezogenem Deckungsbeitrag.",
+          "videoRevisionIds": [
+            "kdp-neustart-2027/r1",
+            "kdp-profitable-book-topics/r2",
+            "kdp-250-buecher/r4",
+            "kdp-branding-amazon/r6",
+            "kdp-200-buecher-umsatz-gewinn/r5"
           ]
         }
       ]
